@@ -1,0 +1,7474 @@
+{
+  "units": [
+    {
+      "id": 1,
+      "title": "Tus primeras palabras",
+      "en": "Hello, world!",
+      "icon": "👋",
+      "goal": "Saludar, despedirte, pedir que repitan y deletrear tu nombre.",
+      "vocab": [
+        {
+          "en": "hello",
+          "es": "hola",
+          "icon": "👋"
+        },
+        {
+          "en": "goodbye",
+          "es": "adiós",
+          "icon": "👋"
+        },
+        {
+          "en": "please",
+          "es": "por favor",
+          "icon": "🙏"
+        },
+        {
+          "en": "thank you",
+          "es": "gracias",
+          "icon": "💛"
+        },
+        {
+          "en": "sorry",
+          "es": "lo siento",
+          "icon": "💬"
+        },
+        {
+          "en": "yes",
+          "es": "sí",
+          "icon": "✅"
+        },
+        {
+          "en": "no",
+          "es": "no",
+          "icon": "❌"
+        },
+        {
+          "en": "name",
+          "es": "nombre",
+          "icon": "🏷️"
+        },
+        {
+          "en": "morning",
+          "es": "mañana",
+          "icon": "🌅"
+        },
+        {
+          "en": "afternoon",
+          "es": "tarde",
+          "icon": "☀️"
+        },
+        {
+          "en": "evening",
+          "es": "tarde-noche",
+          "icon": "🌇"
+        },
+        {
+          "en": "night",
+          "es": "noche",
+          "icon": "🌙"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Saluda según el momento",
+          "text": "Hello y Hi sirven para saludar. Usa Good morning por la mañana, Good afternoon por la tarde y Good evening al llegar por la tarde-noche. Good night se utiliza al despedirse para ir a dormir. Para preguntar cómo está alguien, usa How are you?; una respuesta sencilla es Fine, thanks.",
+          "pattern": "Hello! / How are you?",
+          "examples": [
+            "Hello! My name is Ana.",
+            "Good morning, Ben.",
+            "I am fine, thank you."
+          ],
+          "tip": "Good night no suele ser el saludo al llegar."
+        },
+        {
+          "title": "Preséntate y deletrea",
+          "text": "My name is… e I am… permiten decir tu nombre. Para pedir el nombre: What is your name? Para deletrear: How do you spell it? Las letras se pronuncian con sus nombres ingleses; escucha el abecedario en la biblioteca. En inglés se escribe I siempre en mayúscula.",
+          "pattern": "My name is + nombre",
+          "examples": [
+            "My name is Leo.",
+            "I am Sara.",
+            "How do you spell your name?"
+          ],
+          "tip": "La letra E se llama /iː/ y la I se llama /aɪ/: no tienen el mismo nombre que en español."
+        },
+        {
+          "title": "Pide ayuda desde el primer día",
+          "text": "No necesitas entender todo para participar. Usa Sorry, I do not understand cuando algo no esté claro. Can you repeat that, please? pide una repetición. What does… mean? pregunta el significado. Practica estas frases completas para poder usarlas sin traducir palabra por palabra.",
+          "pattern": "Can you repeat that, please?",
+          "examples": [
+            "Please speak slowly.",
+            "I do not understand.",
+            "What does hello mean?"
+          ],
+          "tip": "Añade please para formular una petición cortés."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Llegas a clase a las 9 de la mañana. Dices…",
+          "answer": "Good morning!",
+          "options": [
+            "Good morning!",
+            "Good night!",
+            "Goodbye!"
+          ],
+          "why": "Good morning es el saludo de la mañana."
+        },
+        {
+          "prompt": "¿Cómo preguntas «¿Cómo estás?»?",
+          "answer": "How are you?",
+          "options": [
+            "How are you?",
+            "What is it?",
+            "Who is she?"
+          ],
+          "why": "How are you? pregunta cómo se encuentra alguien."
+        },
+        {
+          "prompt": "Completa: My ___ is Ana.",
+          "answer": "name",
+          "options": [
+            "name",
+            "night",
+            "please"
+          ],
+          "why": "My name is… introduce tu nombre."
+        },
+        {
+          "prompt": "¿Qué frase pide deletrear?",
+          "answer": "How do you spell it?",
+          "options": [
+            "How do you spell it?",
+            "How old are you?",
+            "Where are you?"
+          ],
+          "why": "Spell significa deletrear."
+        },
+        {
+          "prompt": "No has entendido. Elige la frase útil.",
+          "answer": "Can you repeat that, please?",
+          "options": [
+            "Can you repeat that, please?",
+            "Good evening!",
+            "My name is Ben."
+          ],
+          "why": "Repeat significa repetir."
+        },
+        {
+          "prompt": "Al irte a dormir, dices…",
+          "answer": "Good night!",
+          "options": [
+            "Good night!",
+            "Good afternoon!",
+            "Good morning!"
+          ],
+          "why": "Good night se usa como despedida nocturna."
+        }
+      ],
+      "story": "Hello! My name is Ana. I am a student. This is my first English class. My teacher is Ben. I say, “Good morning, Ben!” He says, “Hello, Ana. How are you?” I am fine, but I do not understand one word. I say, “Can you repeat that, please?”",
+      "reading": [
+        {
+          "prompt": "¿Cómo se llama la alumna?",
+          "answer": "Ana",
+          "options": [
+            "Ana",
+            "Ben",
+            "Sara"
+          ],
+          "why": "El texto empieza con My name is Ana."
+        },
+        {
+          "prompt": "¿Qué pide Ana?",
+          "answer": "Que repitan",
+          "options": [
+            "Que repitan",
+            "Un libro nuevo",
+            "La hora"
+          ],
+          "why": "Ana pregunta Can you repeat that, please?"
+        }
+      ],
+      "dialogue": [
+        [
+          "Ben",
+          "Hello! What is your name?"
+        ],
+        [
+          "You",
+          "My name is Ana."
+        ],
+        [
+          "Ben",
+          "How do you spell it?"
+        ],
+        [
+          "You",
+          "A, N, A."
+        ],
+        [
+          "Ben",
+          "Nice to meet you!"
+        ],
+        [
+          "You",
+          "Nice to meet you, too!"
+        ]
+      ],
+      "writing": "Escribe un saludo, tu nombre y una petición para que hablen despacio. Usa 3 frases.",
+      "model": "Hello! My name is Luis. Please speak slowly."
+    },
+    {
+      "id": 2,
+      "title": "Quién eres",
+      "en": "Meet me",
+      "icon": "🪪",
+      "goal": "Usar los pronombres y el verbo be para presentarte y hacer preguntas.",
+      "vocab": [
+        {
+          "en": "I",
+          "es": "yo",
+          "icon": "🙋"
+        },
+        {
+          "en": "you",
+          "es": "tú / ustedes",
+          "icon": "🫵"
+        },
+        {
+          "en": "he",
+          "es": "él",
+          "icon": "👨"
+        },
+        {
+          "en": "she",
+          "es": "ella",
+          "icon": "👩"
+        },
+        {
+          "en": "it",
+          "es": "ello / eso",
+          "icon": "📦"
+        },
+        {
+          "en": "we",
+          "es": "nosotros",
+          "icon": "👥"
+        },
+        {
+          "en": "they",
+          "es": "ellos",
+          "icon": "👥"
+        },
+        {
+          "en": "student",
+          "es": "estudiante",
+          "icon": "🎒"
+        },
+        {
+          "en": "teacher",
+          "es": "docente",
+          "icon": "🧑‍🏫"
+        },
+        {
+          "en": "friend",
+          "es": "amigo/a",
+          "icon": "🤝"
+        },
+        {
+          "en": "happy",
+          "es": "feliz",
+          "icon": "😊"
+        },
+        {
+          "en": "tired",
+          "es": "cansado/a",
+          "icon": "🥱"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Be: ser y estar",
+          "text": "Be cambia con el sujeto: I am; you/we/they are; he/she/it is. En inglés normalmente necesitas escribir el sujeto, aunque en español puedas omitirlo. It se usa para cosas y animales cuando no se especifica su sexo. El contexto decide si be significa ser o estar.",
+          "pattern": "I am · you/we/they are · he/she/it is",
+          "examples": [
+            "I am a student.",
+            "She is happy.",
+            "We are friends."
+          ],
+          "tip": "No digas I is ni She are."
+        },
+        {
+          "title": "Negación y formas cortas",
+          "text": "Para negar, añade not después de am, is o are. Al hablar se usan contracciones: I am → I’m, she is → she’s, we are → we’re. Is not puede ser isn’t; are not, aren’t. I’m not es la contracción habitual con I.",
+          "pattern": "Sujeto + am/is/are + not",
+          "examples": [
+            "I am not tired.",
+            "He is not a teacher.",
+            "They are not students."
+          ],
+          "tip": "She’s puede significar she is; el apóstrofo sustituye letras."
+        },
+        {
+          "title": "Preguntas y respuestas breves",
+          "text": "Coloca am, is o are antes del sujeto para preguntar. Responde con Yes/No + pronombre + be, sin repetir toda la frase. Las preguntas abiertas añaden una palabra interrogativa al inicio: Who is she? pregunta la identidad.",
+          "pattern": "Are you…? / Is she…?",
+          "examples": [
+            "Are you a student?",
+            "Yes, I am.",
+            "No, she is not."
+          ],
+          "tip": "En una respuesta afirmativa breve, usa Yes, I am; no Yes, I’m."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I ___ a student.",
+          "answer": "am",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "why": "Con I se usa am."
+        },
+        {
+          "prompt": "They ___ happy.",
+          "answer": "are",
+          "options": [
+            "are",
+            "am",
+            "is"
+          ],
+          "why": "Con they se usa are."
+        },
+        {
+          "prompt": "She ___ not tired.",
+          "answer": "is",
+          "options": [
+            "is",
+            "are",
+            "am"
+          ],
+          "why": "La negación conserva is después de she."
+        },
+        {
+          "prompt": "¿Cuál significa «No somos docentes»?",
+          "answer": "We are not teachers.",
+          "options": [
+            "We are not teachers.",
+            "We not are teachers.",
+            "We is not teachers."
+          ],
+          "why": "Not va después de are."
+        },
+        {
+          "prompt": "Orden correcto para preguntar:",
+          "answer": "Are you a student?",
+          "options": [
+            "Are you a student?",
+            "You are a student?",
+            "Are a student you?"
+          ],
+          "why": "En la pregunta neutra se invierte are y you."
+        },
+        {
+          "prompt": "Are you happy? — Yes, ___.",
+          "answer": "I am",
+          "options": [
+            "I am",
+            "I is",
+            "I’m"
+          ],
+          "why": "La respuesta afirmativa breve no termina en una contracción."
+        }
+      ],
+      "story": "My name is Leo. I am a student. My friend is Sara. She is a student, too. Our teacher is Mr Green. He is very nice. We are in class today. Sara is happy. I am tired, but I am ready to learn. We are not teachers. We are students.",
+      "reading": [
+        {
+          "prompt": "¿Quién es Mr Green?",
+          "answer": "El docente",
+          "options": [
+            "El docente",
+            "El hermano de Leo",
+            "Un estudiante"
+          ],
+          "why": "Our teacher is Mr Green."
+        },
+        {
+          "prompt": "¿Cómo se siente Leo?",
+          "answer": "Cansado",
+          "options": [
+            "Cansado",
+            "Enojado",
+            "Enfermo"
+          ],
+          "why": "Leo dice I am tired."
+        }
+      ],
+      "dialogue": [
+        [
+          "Sara",
+          "Hi! Are you a student?"
+        ],
+        [
+          "You",
+          "Yes, I am."
+        ],
+        [
+          "Sara",
+          "Is your teacher nice?"
+        ],
+        [
+          "You",
+          "Yes, she is."
+        ],
+        [
+          "Sara",
+          "Are you tired?"
+        ],
+        [
+          "You",
+          "No, I am not."
+        ]
+      ],
+      "writing": "Escribe 4 frases: quién eres, cómo estás, quién es un amigo y una negación.",
+      "model": "I am a student. I am happy. My friend is Rosa. She is not a teacher."
+    },
+    {
+      "id": 3,
+      "title": "Tu mundo y tus datos",
+      "en": "Where are you from?",
+      "icon": "🌎",
+      "goal": "Decir tu país, edad, número de teléfono y datos personales.",
+      "vocab": [
+        {
+          "en": "country",
+          "es": "país",
+          "icon": "🌎"
+        },
+        {
+          "en": "city",
+          "es": "ciudad",
+          "icon": "🏙️"
+        },
+        {
+          "en": "Peru",
+          "es": "Perú",
+          "icon": "🇵🇪"
+        },
+        {
+          "en": "Peruvian",
+          "es": "peruano/a",
+          "icon": "🇵🇪"
+        },
+        {
+          "en": "England",
+          "es": "Inglaterra",
+          "icon": "🏴"
+        },
+        {
+          "en": "English",
+          "es": "inglés/a",
+          "icon": "📘"
+        },
+        {
+          "en": "Spain",
+          "es": "España",
+          "icon": "🇪🇸"
+        },
+        {
+          "en": "Spanish",
+          "es": "español/a",
+          "icon": "🇪🇸"
+        },
+        {
+          "en": "age",
+          "es": "edad",
+          "icon": "🎂"
+        },
+        {
+          "en": "phone",
+          "es": "teléfono",
+          "icon": "📱"
+        },
+        {
+          "en": "number",
+          "es": "número",
+          "icon": "🔢"
+        },
+        {
+          "en": "address",
+          "es": "dirección",
+          "icon": "🏠"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Origen y nacionalidad",
+          "text": "Where are you from? pregunta el lugar de origen. Responde I am from + país o ciudad. También puedes decir I am + nacionalidad. Los nombres de países, idiomas y nacionalidades empiezan con mayúscula. No se usa a delante de una nacionalidad adjetiva: I am Peruvian.",
+          "pattern": "I am from Peru. / I am Peruvian.",
+          "examples": [
+            "She is from Spain.",
+            "He is English.",
+            "We are from Lima."
+          ],
+          "tip": "I am from Peru y I am Peruvian comunican ideas relacionadas con estructuras distintas."
+        },
+        {
+          "title": "Edad y números",
+          "text": "Para decir la edad se usa be, no have: I am eighteen years old. How old are you? pregunta la edad. Aprende primero del 0 al 20 y luego las decenas. Al escribir 21–99 que no sean decenas exactas, se usa guion: twenty-one. Escucha todos los números en la biblioteca.",
+          "pattern": "How old are you? / I am + número",
+          "examples": [
+            "I am twenty years old.",
+            "She is thirty-one.",
+            "He is eighteen."
+          ],
+          "tip": "Thirteen y thirty son diferentes: escucha la sílaba fuerte y la terminación."
+        },
+        {
+          "title": "Datos de contacto",
+          "text": "What is your phone number? pide tu teléfono. Normalmente se dicen los dígitos uno por uno. En un correo, @ se lee at y el punto se lee dot. Para practicar, utiliza los datos ficticios del curso. Las preguntas con what permiten obtener nombre, dirección o número.",
+          "pattern": "What is your + dato?",
+          "examples": [
+            "What is your address?",
+            "My phone number is five five five, one two three.",
+            "My email is ana at example dot com."
+          ],
+          "tip": "Zero es cero; también oirás oh en números de teléfono."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I am ___ Peru.",
+          "answer": "from",
+          "options": [
+            "from",
+            "at",
+            "of"
+          ],
+          "why": "From expresa origen."
+        },
+        {
+          "prompt": "She is from Spain. She is ___.",
+          "answer": "Spanish",
+          "options": [
+            "Spanish",
+            "Spain",
+            "Spaining"
+          ],
+          "why": "Spanish es la nacionalidad."
+        },
+        {
+          "prompt": "¿Cómo dices que tienes 20 años?",
+          "answer": "I am twenty.",
+          "options": [
+            "I am twenty.",
+            "I have twenty.",
+            "I are twenty."
+          ],
+          "why": "La edad se expresa con be."
+        },
+        {
+          "prompt": "¿Qué número es thirty?",
+          "answer": "30",
+          "options": [
+            "30",
+            "13",
+            "3"
+          ],
+          "why": "Thirty = treinta; thirteen = trece."
+        },
+        {
+          "prompt": "Para pedir un teléfono preguntas…",
+          "answer": "What is your phone number?",
+          "options": [
+            "What is your phone number?",
+            "Who is your number?",
+            "How old is your phone?"
+          ],
+          "why": "What is your phone number? pide ese dato."
+        },
+        {
+          "prompt": "En un correo, @ se lee…",
+          "answer": "at",
+          "options": [
+            "at",
+            "dot",
+            "and"
+          ],
+          "why": "At corresponde a @; dot corresponde al punto."
+        }
+      ],
+      "story": "Hello! I am Maya. I am twenty years old. I am from Lima, in Peru. I am Peruvian. My friend Tom is from England. He is twenty-one. We are students at a language school. My email is maya@example.com. This is a practice address, not my real email.",
+      "reading": [
+        {
+          "prompt": "¿Cuántos años tiene Maya?",
+          "answer": "20",
+          "options": [
+            "20",
+            "21",
+            "12"
+          ],
+          "why": "Maya dice I am twenty years old."
+        },
+        {
+          "prompt": "¿De dónde es Tom?",
+          "answer": "De Inglaterra",
+          "options": [
+            "De Inglaterra",
+            "De España",
+            "De Perú"
+          ],
+          "why": "Tom is from England."
+        }
+      ],
+      "dialogue": [
+        [
+          "Teacher",
+          "Where are you from?"
+        ],
+        [
+          "You",
+          "I am from Peru."
+        ],
+        [
+          "Teacher",
+          "How old are you?"
+        ],
+        [
+          "You",
+          "I am twenty years old."
+        ],
+        [
+          "Teacher",
+          "What is your email address?"
+        ],
+        [
+          "You",
+          "It is ana at example dot com."
+        ]
+      ],
+      "writing": "Crea una ficha ficticia: nombre, país, nacionalidad y edad. No escribas datos privados.",
+      "model": "My name is Ana. I am from Peru. I am Peruvian. I am twenty years old."
+    },
+    {
+      "id": 4,
+      "title": "Las cosas que te rodean",
+      "en": "This is my world",
+      "icon": "🎒",
+      "goal": "Nombrar objetos, usar a/an, formar plurales y señalar cosas.",
+      "vocab": [
+        {
+          "en": "book",
+          "es": "libro",
+          "icon": "📘"
+        },
+        {
+          "en": "pen",
+          "es": "lapicero",
+          "icon": "🖊️"
+        },
+        {
+          "en": "pencil",
+          "es": "lápiz",
+          "icon": "✏️"
+        },
+        {
+          "en": "bag",
+          "es": "mochila / bolso",
+          "icon": "🎒"
+        },
+        {
+          "en": "desk",
+          "es": "escritorio",
+          "icon": "🪑"
+        },
+        {
+          "en": "chair",
+          "es": "silla",
+          "icon": "🪑"
+        },
+        {
+          "en": "window",
+          "es": "ventana",
+          "icon": "🪟"
+        },
+        {
+          "en": "door",
+          "es": "puerta",
+          "icon": "🚪"
+        },
+        {
+          "en": "apple",
+          "es": "manzana",
+          "icon": "🍎"
+        },
+        {
+          "en": "umbrella",
+          "es": "paraguas",
+          "icon": "☂️"
+        },
+        {
+          "en": "watch",
+          "es": "reloj de pulsera",
+          "icon": "⌚"
+        },
+        {
+          "en": "box",
+          "es": "caja",
+          "icon": "📦"
+        }
+      ],
+      "rules": [
+        {
+          "title": "A, an y the",
+          "text": "Usa a/an con un sustantivo contable singular cuando introduces algo: a book. A va antes de sonido consonante y an antes de sonido vocal: an apple. El sonido importa más que la letra: a university, an hour. The señala algo identificado por las personas que hablan.",
+          "pattern": "a book · an apple · the book",
+          "examples": [
+            "This is a pen.",
+            "It is an umbrella.",
+            "The pen is blue."
+          ],
+          "tip": "En plural no uses a/an: books, no a books."
+        },
+        {
+          "title": "Uno y varios",
+          "text": "La mayoría de plurales añade -s: books. Añade -es tras s, sh, ch, x: boxes, watches. Con consonante + y, cambia y por ies: city → cities. Algunos son irregulares: person → people, child → children, man → men, woman → women.",
+          "pattern": "one book → two books",
+          "examples": [
+            "I have two pens.",
+            "There are three boxes.",
+            "Two children are here."
+          ],
+          "tip": "El plural de person es people en el uso cotidiano."
+        },
+        {
+          "title": "This, that, these y those",
+          "text": "This señala una cosa cercana; that, una lejana. These y those son sus plurales. Combina this/that con is y these/those con are. Puedes señalar un objeto con What is this? o preguntar por varios con What are these?",
+          "pattern": "this/that is · these/those are",
+          "examples": [
+            "This is a book.",
+            "That is a door.",
+            "These are my pens."
+          ],
+          "tip": "These suena /ðiːz/; this tiene vocal corta /ðɪs/."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "It is ___ apple.",
+          "answer": "an",
+          "options": [
+            "an",
+            "a",
+            "two"
+          ],
+          "why": "Apple empieza con sonido vocal."
+        },
+        {
+          "prompt": "This is ___ book.",
+          "answer": "a",
+          "options": [
+            "a",
+            "an",
+            "three"
+          ],
+          "why": "Book empieza con sonido consonante."
+        },
+        {
+          "prompt": "El plural de box es…",
+          "answer": "boxes",
+          "options": [
+            "boxes",
+            "boxs",
+            "boxies"
+          ],
+          "why": "Se añade -es después de x."
+        },
+        {
+          "prompt": "El plural cotidiano de child es…",
+          "answer": "children",
+          "options": [
+            "children",
+            "childs",
+            "childes"
+          ],
+          "why": "Children es un plural irregular."
+        },
+        {
+          "prompt": "___ are my pens.",
+          "answer": "These",
+          "options": [
+            "These",
+            "This",
+            "That"
+          ],
+          "why": "These es plural y concuerda con are."
+        },
+        {
+          "prompt": "Para una cosa cercana:",
+          "answer": "This is a book.",
+          "options": [
+            "This is a book.",
+            "These is a book.",
+            "Those is a book."
+          ],
+          "why": "This señala una sola cosa cercana."
+        }
+      ],
+      "story": "This is my classroom. There is a big window and a blue door. My bag is on my desk. I have a book, a pen and an apple. The book is green. These are my pencils. Those are my teacher’s books. There are two boxes next to the door.",
+      "reading": [
+        {
+          "prompt": "¿De qué color es la puerta?",
+          "answer": "Azul",
+          "options": [
+            "Azul",
+            "Verde",
+            "Roja"
+          ],
+          "why": "A blue door significa una puerta azul."
+        },
+        {
+          "prompt": "¿Cuántas cajas hay?",
+          "answer": "Dos",
+          "options": [
+            "Dos",
+            "Tres",
+            "Una"
+          ],
+          "why": "There are two boxes."
+        }
+      ],
+      "dialogue": [
+        [
+          "Teacher",
+          "What is this?"
+        ],
+        [
+          "You",
+          "It is a book."
+        ],
+        [
+          "Teacher",
+          "And what are these?"
+        ],
+        [
+          "You",
+          "They are pencils."
+        ],
+        [
+          "Teacher",
+          "Is that your bag?"
+        ],
+        [
+          "You",
+          "Yes, it is."
+        ]
+      ],
+      "writing": "Describe 4 objetos: usa a, an, this y these al menos una vez.",
+      "model": "This is a book. It is a red book. That is an umbrella. These are my pens."
+    },
+    {
+      "id": 5,
+      "title": "Familia y personas",
+      "en": "My people",
+      "icon": "👨‍👩‍👧",
+      "goal": "Presentar a tu familia y expresar de quién es algo.",
+      "vocab": [
+        {
+          "en": "mother",
+          "es": "madre",
+          "icon": "👩"
+        },
+        {
+          "en": "father",
+          "es": "padre",
+          "icon": "👨"
+        },
+        {
+          "en": "sister",
+          "es": "hermana",
+          "icon": "👧"
+        },
+        {
+          "en": "brother",
+          "es": "hermano",
+          "icon": "👦"
+        },
+        {
+          "en": "parents",
+          "es": "padres",
+          "icon": "👪"
+        },
+        {
+          "en": "daughter",
+          "es": "hija",
+          "icon": "👧"
+        },
+        {
+          "en": "son",
+          "es": "hijo",
+          "icon": "👦"
+        },
+        {
+          "en": "grandmother",
+          "es": "abuela",
+          "icon": "👵"
+        },
+        {
+          "en": "grandfather",
+          "es": "abuelo",
+          "icon": "👴"
+        },
+        {
+          "en": "cousin",
+          "es": "primo/a",
+          "icon": "🧑"
+        },
+        {
+          "en": "husband",
+          "es": "esposo",
+          "icon": "👨"
+        },
+        {
+          "en": "wife",
+          "es": "esposa",
+          "icon": "👩"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Adjetivos posesivos",
+          "text": "Los posesivos van delante del sustantivo: my, your, his, her, its, our, their. La forma depende de quien posee: Ana’s book → her book. No cambia según el número de objetos: my book y my books. His se refiere a un poseedor masculino; her, femenino.",
+          "pattern": "my · your · his · her · its · our · their",
+          "examples": [
+            "This is my sister.",
+            "His name is Leo.",
+            "Their parents are here."
+          ],
+          "tip": "Her brother significa el hermano de ella, no una hermana."
+        },
+        {
+          "title": "Posesión con apóstrofo",
+          "text": "Añade ’s a una persona para expresar posesión: Anna’s bag. Con un plural que termina en s, coloca solo apóstrofo: my parents’ house. Whose pregunta de quién es algo. Diferencia who is (quién es) y whose (de quién).",
+          "pattern": "persona + ’s + cosa",
+          "examples": [
+            "This is Sara’s brother.",
+            "That is my father’s car.",
+            "Whose bag is this?"
+          ],
+          "tip": "Its es posesivo; it’s significa it is o it has."
+        },
+        {
+          "title": "Describe relaciones familiares",
+          "text": "Usa be para identificar parentescos y and para unir ideas. Puedes decir My mother is a teacher and my father is a driver. Para una ocupación singular, normalmente necesitas a/an: She is a doctor. Parents significa padre y madre, no parientes en general.",
+          "pattern": "My + familiar + is + a/an + profesión",
+          "examples": [
+            "My sister is a student.",
+            "Our mother is a doctor.",
+            "His brother is a teacher."
+          ],
+          "tip": "Family puede incluir a las personas que tú consideras tu familia."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Ana has a brother. ___ brother is Leo.",
+          "answer": "Her",
+          "options": [
+            "Her",
+            "His",
+            "Their"
+          ],
+          "why": "El poseedor es Ana, por eso her."
+        },
+        {
+          "prompt": "We are students. ___ teacher is Ben.",
+          "answer": "Our",
+          "options": [
+            "Our",
+            "Their",
+            "His"
+          ],
+          "why": "Our es el posesivo que corresponde a we."
+        },
+        {
+          "prompt": "El bolso de Sara es…",
+          "answer": "Sara’s bag",
+          "options": [
+            "Sara’s bag",
+            "Sara bag’s",
+            "Saras bag"
+          ],
+          "why": "El apóstrofo y s se añaden a Sara."
+        },
+        {
+          "prompt": "¿Qué pregunta significa «¿De quién es este libro?»?",
+          "answer": "Whose book is this?",
+          "options": [
+            "Whose book is this?",
+            "Who book is this?",
+            "Who is this book?"
+          ],
+          "why": "Whose pregunta por el poseedor."
+        },
+        {
+          "prompt": "My mother is ___ doctor.",
+          "answer": "a",
+          "options": [
+            "a",
+            "an",
+            "two"
+          ],
+          "why": "Doctor necesita a porque es una ocupación contable singular."
+        },
+        {
+          "prompt": "Parents significa…",
+          "answer": "padres",
+          "options": [
+            "padres",
+            "primos",
+            "parientes en general"
+          ],
+          "why": "Parents se refiere a padre y madre."
+        }
+      ],
+      "story": "My family is small. My mother’s name is Rosa. She is a doctor. My father is a cook. His name is Daniel. I have one sister. Her name is Eva and she is a student. Our grandmother lives near us. My cousin’s name is Alex. We are good friends.",
+      "reading": [
+        {
+          "prompt": "¿Qué profesión tiene Rosa?",
+          "answer": "Médica",
+          "options": [
+            "Médica",
+            "Cocinera",
+            "Docente"
+          ],
+          "why": "She is a doctor."
+        },
+        {
+          "prompt": "¿Quién es Eva?",
+          "answer": "La hermana",
+          "options": [
+            "La hermana",
+            "La prima",
+            "La abuela"
+          ],
+          "why": "I have one sister. Her name is Eva."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "Who is she?"
+        ],
+        [
+          "You",
+          "She is my sister."
+        ],
+        [
+          "Friend",
+          "What is her name?"
+        ],
+        [
+          "You",
+          "Her name is Eva."
+        ],
+        [
+          "Friend",
+          "Is this Eva’s book?"
+        ],
+        [
+          "You",
+          "Yes, it is her book."
+        ]
+      ],
+      "writing": "Presenta una familia real o imaginaria en 4 frases. Usa my, his o her y una posesión con ’s.",
+      "model": "My mother is Rosa. Her job is interesting. My brother’s name is Leo. His bag is blue."
+    },
+    {
+      "id": 6,
+      "title": "Describe a alguien",
+      "en": "People and colours",
+      "icon": "🎨",
+      "goal": "Describir aspecto, personalidad y pertenencias con have y have got.",
+      "vocab": [
+        {
+          "en": "big",
+          "es": "grande",
+          "icon": "🐘"
+        },
+        {
+          "en": "small",
+          "es": "pequeño/a",
+          "icon": "🐭"
+        },
+        {
+          "en": "tall",
+          "es": "alto/a",
+          "icon": "🧍"
+        },
+        {
+          "en": "short",
+          "es": "bajo/a / corto/a",
+          "icon": "📏"
+        },
+        {
+          "en": "young",
+          "es": "joven",
+          "icon": "🧑"
+        },
+        {
+          "en": "old",
+          "es": "mayor / viejo/a",
+          "icon": "👴"
+        },
+        {
+          "en": "kind",
+          "es": "amable",
+          "icon": "💛"
+        },
+        {
+          "en": "friendly",
+          "es": "amistoso/a",
+          "icon": "🤝"
+        },
+        {
+          "en": "hair",
+          "es": "cabello",
+          "icon": "💇"
+        },
+        {
+          "en": "eyes",
+          "es": "ojos",
+          "icon": "👀"
+        },
+        {
+          "en": "blue",
+          "es": "azul",
+          "icon": "🔵"
+        },
+        {
+          "en": "red",
+          "es": "rojo",
+          "icon": "🔴"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Adjetivos en inglés",
+          "text": "Los adjetivos suelen ir antes del sustantivo: a small bag. También pueden ir después de be: The bag is small. No llevan plural ni cambian por género: two red bags. Very intensifica: very tall. Describe a las personas con respeto y usando información relevante.",
+          "pattern": "adjetivo + sustantivo / be + adjetivo",
+          "examples": [
+            "She is very friendly.",
+            "He has blue eyes.",
+            "They are kind people."
+          ],
+          "tip": "No añadas -s a red en red books."
+        },
+        {
+          "title": "Have y has",
+          "text": "Usa have con I/you/we/they y has con he/she/it para posesión y rasgos. En la forma con do, las preguntas son Do you have…? / Does she have…? y las negaciones don’t have / doesn’t have. Tras does se usa have, no has.",
+          "pattern": "I have · she has",
+          "examples": [
+            "I have brown hair.",
+            "She has green eyes.",
+            "He does not have a car."
+          ],
+          "tip": "Hair es normalmente incontable cuando hablamos del cabello en conjunto."
+        },
+        {
+          "title": "Have got",
+          "text": "Have got es otra forma frecuente de expresar posesión, especialmente en inglés británico. Usa have/has got; pregunta Have you got…? y niega haven’t/hasn’t got. No mezcles sus estructuras: Do you have…? o Have you got…? son correctas.",
+          "pattern": "Have you got…? / She has got…",
+          "examples": [
+            "I have got a blue bag.",
+            "Has she got a bike?",
+            "He has not got a car."
+          ],
+          "tip": "I have a bike y I have got a bike significan lo mismo aquí."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Elige la descripción correcta.",
+          "answer": "two red bags",
+          "options": [
+            "two red bags",
+            "two reds bags",
+            "two bags reds"
+          ],
+          "why": "El adjetivo va antes del nombre y no se pluraliza."
+        },
+        {
+          "prompt": "She ___ very kind.",
+          "answer": "is",
+          "options": [
+            "is",
+            "has",
+            "have"
+          ],
+          "why": "Kind es una cualidad: usamos be."
+        },
+        {
+          "prompt": "He ___ brown eyes.",
+          "answer": "has",
+          "options": [
+            "has",
+            "have",
+            "is"
+          ],
+          "why": "Con he se usa has para un rasgo que posee."
+        },
+        {
+          "prompt": "Does she ___ a bike?",
+          "answer": "have",
+          "options": [
+            "have",
+            "has",
+            "having"
+          ],
+          "why": "Tras does va la forma base have."
+        },
+        {
+          "prompt": "___ you got a pen?",
+          "answer": "Have",
+          "options": [
+            "Have",
+            "Do",
+            "Are"
+          ],
+          "why": "La pregunta con have got empieza con Have."
+        },
+        {
+          "prompt": "He ___ got a car.",
+          "answer": "has not",
+          "options": [
+            "has not",
+            "have not",
+            "does not"
+          ],
+          "why": "Con he: has not got."
+        }
+      ],
+      "story": "My friend Emma is very kind. She is tall and has brown hair. Her eyes are green. She has a small red bag and a blue bike. Her brother Max is short. He has got a black dog. Emma and Max are friendly. They like meeting new people.",
+      "reading": [
+        {
+          "prompt": "¿De qué color son los ojos de Emma?",
+          "answer": "Verdes",
+          "options": [
+            "Verdes",
+            "Azules",
+            "Marrones"
+          ],
+          "why": "Her eyes are green."
+        },
+        {
+          "prompt": "¿Qué tiene Max?",
+          "answer": "Un perro negro",
+          "options": [
+            "Un perro negro",
+            "Una bicicleta roja",
+            "Un gato blanco"
+          ],
+          "why": "He has got a black dog."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What is your friend like?"
+        ],
+        [
+          "You",
+          "She is very friendly."
+        ],
+        [
+          "Friend",
+          "Has she got a bike?"
+        ],
+        [
+          "You",
+          "Yes, she has."
+        ],
+        [
+          "Friend",
+          "What colour is it?"
+        ],
+        [
+          "You",
+          "It is blue."
+        ]
+      ],
+      "writing": "Describe a una persona imaginaria con be y have. Añade dos colores y una cualidad.",
+      "model": "Mia is friendly. She has brown hair. She has a blue bag. Her bike is red."
+    },
+    {
+      "id": 7,
+      "title": "Tu casa",
+      "en": "Home, sweet home",
+      "icon": "🏠",
+      "goal": "Decir qué hay en casa y dónde están los objetos.",
+      "vocab": [
+        {
+          "en": "house",
+          "es": "casa",
+          "icon": "🏠"
+        },
+        {
+          "en": "flat",
+          "es": "departamento",
+          "icon": "🏢"
+        },
+        {
+          "en": "bedroom",
+          "es": "dormitorio",
+          "icon": "🛏️"
+        },
+        {
+          "en": "bathroom",
+          "es": "baño",
+          "icon": "🛁"
+        },
+        {
+          "en": "kitchen",
+          "es": "cocina",
+          "icon": "🍳"
+        },
+        {
+          "en": "living room",
+          "es": "sala",
+          "icon": "🛋️"
+        },
+        {
+          "en": "garden",
+          "es": "jardín",
+          "icon": "🌳"
+        },
+        {
+          "en": "bed",
+          "es": "cama",
+          "icon": "🛏️"
+        },
+        {
+          "en": "table",
+          "es": "mesa",
+          "icon": "🍽️"
+        },
+        {
+          "en": "sofa",
+          "es": "sofá",
+          "icon": "🛋️"
+        },
+        {
+          "en": "lamp",
+          "es": "lámpara",
+          "icon": "💡"
+        },
+        {
+          "en": "fridge",
+          "es": "refrigeradora",
+          "icon": "🧊"
+        }
+      ],
+      "rules": [
+        {
+          "title": "There is y there are",
+          "text": "There is indica que existe una cosa; there are, varias. Para negar: there isn’t / there aren’t. No confundir con it is: There is a bed introduce una cama; It is blue describe esa cama. En singular también puedes contraer there is a there’s.",
+          "pattern": "There is + singular / There are + plural",
+          "examples": [
+            "There is a bed.",
+            "There are two windows.",
+            "There is not a garden."
+          ],
+          "tip": "En inglés no se usa have para decir «hay» en este contexto."
+        },
+        {
+          "title": "Pregunta qué hay",
+          "text": "Invierte is/are y there: Is there a kitchen? Are there two bedrooms? Responde Yes, there is / No, there isn’t. How many + nombre plural + are there? pregunta una cantidad. En una respuesta breve no se contrae there is afirmativo.",
+          "pattern": "Is there…? / How many… are there?",
+          "examples": [
+            "Is there a bathroom?",
+            "Yes, there is.",
+            "How many chairs are there?"
+          ],
+          "tip": "How many se usa con nombres que puedes contar."
+        },
+        {
+          "title": "Ubicación",
+          "text": "In significa dentro; on, sobre una superficie; under, debajo; next to, al lado; between, entre dos referencias; behind, detrás; in front of, delante. Usa be para ubicar algo conocido: The book is on the table.",
+          "pattern": "The + objeto + is + lugar",
+          "examples": [
+            "The lamp is next to the bed.",
+            "The bag is under the table.",
+            "The garden is behind the house."
+          ],
+          "tip": "On implica normalmente contacto con una superficie."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "There ___ a sofa.",
+          "answer": "is",
+          "options": [
+            "is",
+            "are",
+            "have"
+          ],
+          "why": "Sofa es singular: there is."
+        },
+        {
+          "prompt": "There ___ two bedrooms.",
+          "answer": "are",
+          "options": [
+            "are",
+            "is",
+            "has"
+          ],
+          "why": "Two bedrooms es plural."
+        },
+        {
+          "prompt": "___ there a garden?",
+          "answer": "Is",
+          "options": [
+            "Is",
+            "Are",
+            "Does"
+          ],
+          "why": "Se invierte Is y there."
+        },
+        {
+          "prompt": "How ___ windows are there?",
+          "answer": "many",
+          "options": [
+            "many",
+            "much",
+            "old"
+          ],
+          "why": "Windows es contable y plural."
+        },
+        {
+          "prompt": "Under significa…",
+          "answer": "debajo de",
+          "options": [
+            "debajo de",
+            "encima de",
+            "dentro de"
+          ],
+          "why": "Under expresa posición debajo."
+        },
+        {
+          "prompt": "The lamp is next ___ the bed.",
+          "answer": "to",
+          "options": [
+            "to",
+            "in",
+            "on"
+          ],
+          "why": "La expresión es next to."
+        }
+      ],
+      "story": "I live in a small flat. There are two bedrooms and one bathroom. The kitchen is next to the living room. In my bedroom, there is a bed, a desk and a lamp. The lamp is on the desk. My bag is under the chair. There is no garden, but there is a park near my home.",
+      "reading": [
+        {
+          "prompt": "¿Cuántos dormitorios hay?",
+          "answer": "Dos",
+          "options": [
+            "Dos",
+            "Uno",
+            "Tres"
+          ],
+          "why": "There are two bedrooms."
+        },
+        {
+          "prompt": "¿Dónde está la mochila?",
+          "answer": "Debajo de la silla",
+          "options": [
+            "Debajo de la silla",
+            "Sobre la mesa",
+            "Al lado de la cama"
+          ],
+          "why": "My bag is under the chair."
+        }
+      ],
+      "dialogue": [
+        [
+          "Visitor",
+          "Is there a kitchen?"
+        ],
+        [
+          "You",
+          "Yes, there is."
+        ],
+        [
+          "Visitor",
+          "How many bedrooms are there?"
+        ],
+        [
+          "You",
+          "There are two bedrooms."
+        ],
+        [
+          "Visitor",
+          "Where is your bag?"
+        ],
+        [
+          "You",
+          "It is under the chair."
+        ]
+      ],
+      "writing": "Describe una habitación con 2 frases de there is/are y 2 de ubicación.",
+      "model": "There is a bed. There are two windows. The lamp is on the desk. My bag is under the chair."
+    },
+    {
+      "id": 8,
+      "title": "Un día en tu vida",
+      "en": "Everyday routines",
+      "icon": "⏰",
+      "goal": "Contar hábitos usando el presente simple afirmativo.",
+      "vocab": [
+        {
+          "en": "wake up",
+          "es": "despertarse",
+          "icon": "⏰"
+        },
+        {
+          "en": "get up",
+          "es": "levantarse",
+          "icon": "🛏️"
+        },
+        {
+          "en": "have breakfast",
+          "es": "desayunar",
+          "icon": "🥣"
+        },
+        {
+          "en": "go to school",
+          "es": "ir a la escuela",
+          "icon": "🎒"
+        },
+        {
+          "en": "work",
+          "es": "trabajar",
+          "icon": "💼"
+        },
+        {
+          "en": "study",
+          "es": "estudiar",
+          "icon": "📚"
+        },
+        {
+          "en": "have lunch",
+          "es": "almorzar",
+          "icon": "🍲"
+        },
+        {
+          "en": "go home",
+          "es": "ir a casa",
+          "icon": "🏠"
+        },
+        {
+          "en": "cook",
+          "es": "cocinar",
+          "icon": "🍳"
+        },
+        {
+          "en": "read",
+          "es": "leer",
+          "icon": "📖"
+        },
+        {
+          "en": "sleep",
+          "es": "dormir",
+          "icon": "😴"
+        },
+        {
+          "en": "walk",
+          "es": "caminar",
+          "icon": "🚶"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Hábitos con presente simple",
+          "text": "Usa el presente simple para rutinas, hechos y situaciones habituales. Con I/you/we/they, utiliza el verbo base: I work. Añade información de tiempo como every day. En inglés se mantiene el sujeto: I study English, no solo study English como frase declarativa completa.",
+          "pattern": "I/you/we/they + verbo",
+          "examples": [
+            "I get up at seven.",
+            "We study English every day.",
+            "They work in a shop."
+          ],
+          "tip": "I am study es incorrecto para describir un hábito."
+        },
+        {
+          "title": "He, she, it: la tercera persona",
+          "text": "Con he/she/it añade -s al verbo. Usa -es después de ch, sh, s, x y en go/do: watches, goes, does. Si acaba en consonante + y, cambia a -ies: studies. Have cambia a has. Con vocal + y solo añade s: plays.",
+          "pattern": "She works · he goes · she studies",
+          "examples": [
+            "She works in a school.",
+            "He watches TV at night.",
+            "Mia studies English."
+          ],
+          "tip": "No omitas la -s: She work debe ser She works."
+        },
+        {
+          "title": "Ordena tu día",
+          "text": "Conecta acciones con first, then y after that. In the morning/afternoon/evening sitúa una acción en una parte del día; at night significa por la noche. At + hora expresa un momento exacto. Go home no lleva to antes de home.",
+          "pattern": "First… Then… After that…",
+          "examples": [
+            "First, I have breakfast.",
+            "Then, I go to school.",
+            "I go home at five."
+          ],
+          "tip": "Have breakfast no suele llevar a ni the para hablar de la comida habitual."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I ___ English every day.",
+          "answer": "study",
+          "options": [
+            "study",
+            "am study",
+            "studies"
+          ],
+          "why": "Con I se usa el verbo base en presente simple."
+        },
+        {
+          "prompt": "They ___ in a shop.",
+          "answer": "work",
+          "options": [
+            "work",
+            "works",
+            "is work"
+          ],
+          "why": "Con they se usa work."
+        },
+        {
+          "prompt": "She ___ to school.",
+          "answer": "goes",
+          "options": [
+            "goes",
+            "go",
+            "going"
+          ],
+          "why": "La tercera persona de go es goes."
+        },
+        {
+          "prompt": "He ___ English.",
+          "answer": "studies",
+          "options": [
+            "studies",
+            "studys",
+            "study"
+          ],
+          "why": "Consonante + y cambia a -ies."
+        },
+        {
+          "prompt": "I go ___ at five.",
+          "answer": "home",
+          "options": [
+            "home",
+            "to home",
+            "at home"
+          ],
+          "why": "La expresión de movimiento es go home."
+        },
+        {
+          "prompt": "Por la noche se dice…",
+          "answer": "at night",
+          "options": [
+            "at night",
+            "in night",
+            "on night"
+          ],
+          "why": "La expresión fija es at night."
+        }
+      ],
+      "story": "Mia is a student. She gets up at seven and has breakfast at half past seven. She goes to school by bus. At school, she studies English and maths. She goes home at four. Then she reads a book. Her brother cooks dinner. They eat together and go to bed at ten.",
+      "reading": [
+        {
+          "prompt": "¿Cómo va Mia a la escuela?",
+          "answer": "En bus",
+          "options": [
+            "En bus",
+            "A pie",
+            "En bicicleta"
+          ],
+          "why": "She goes to school by bus."
+        },
+        {
+          "prompt": "¿Quién prepara la cena?",
+          "answer": "Su hermano",
+          "options": [
+            "Su hermano",
+            "Mia",
+            "Su madre"
+          ],
+          "why": "Her brother cooks dinner."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What do you do in the morning?"
+        ],
+        [
+          "You",
+          "I get up at seven."
+        ],
+        [
+          "Friend",
+          "And then?"
+        ],
+        [
+          "You",
+          "I have breakfast and go to school."
+        ],
+        [
+          "Friend",
+          "What does your sister do?"
+        ],
+        [
+          "You",
+          "She works in a shop."
+        ]
+      ],
+      "writing": "Escribe 5 acciones de tu día y una sobre otra persona. Usa then y una hora.",
+      "model": "I get up at seven. I have breakfast. Then I go to school. I study English. I go home at four. My sister works in a shop."
+    },
+    {
+      "id": 9,
+      "title": "Preguntar y responder",
+      "en": "Ask me anything",
+      "icon": "❓",
+      "goal": "Hacer preguntas sobre hábitos y expresar lo que no haces.",
+      "vocab": [
+        {
+          "en": "what",
+          "es": "qué",
+          "icon": "❓"
+        },
+        {
+          "en": "where",
+          "es": "dónde",
+          "icon": "📍"
+        },
+        {
+          "en": "when",
+          "es": "cuándo",
+          "icon": "📅"
+        },
+        {
+          "en": "who",
+          "es": "quién",
+          "icon": "👤"
+        },
+        {
+          "en": "why",
+          "es": "por qué",
+          "icon": "💭"
+        },
+        {
+          "en": "how",
+          "es": "cómo",
+          "icon": "⚙️"
+        },
+        {
+          "en": "live",
+          "es": "vivir",
+          "icon": "🏠"
+        },
+        {
+          "en": "speak",
+          "es": "hablar",
+          "icon": "🗣️"
+        },
+        {
+          "en": "like",
+          "es": "gustar",
+          "icon": "💛"
+        },
+        {
+          "en": "need",
+          "es": "necesitar",
+          "icon": "🧰"
+        },
+        {
+          "en": "want",
+          "es": "querer",
+          "icon": "✨"
+        },
+        {
+          "en": "job",
+          "es": "trabajo / empleo",
+          "icon": "💼"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Don’t y doesn’t",
+          "text": "Para negar el presente simple usa do not (don’t) con I/you/we/they y does not (doesn’t) con he/she/it. Después va el verbo base: She doesn’t work. La -s de la tercera persona ya está representada por does. Be es diferente: She isn’t tired.",
+          "pattern": "Sujeto + don’t/doesn’t + verbo base",
+          "examples": [
+            "I do not drink coffee.",
+            "She does not work here.",
+            "They do not live in London."
+          ],
+          "tip": "She doesn’t works es incorrecto: escribe doesn’t work."
+        },
+        {
+          "title": "Do y does en preguntas",
+          "text": "Empieza con Do/Does, añade el sujeto y el verbo base. Las respuestas breves son Yes, I do / No, I don’t y Yes, she does / No, she doesn’t. No uses do con preguntas de be: Are you happy?, no Do you are happy?",
+          "pattern": "Do/Does + sujeto + verbo?",
+          "examples": [
+            "Do you speak English?",
+            "Does he live here?",
+            "Yes, he does."
+          ],
+          "tip": "Does she study? conserva study sin -s."
+        },
+        {
+          "title": "Preguntas con información",
+          "text": "Pon what, where, when, why o how antes de do/does. Where pregunta lugar; when, tiempo; why, motivo; how, manera. What do you do? normalmente pregunta por ocupación. Para responder a why puedes usar because y una razón sencilla.",
+          "pattern": "Where + do/does + sujeto + verbo?",
+          "examples": [
+            "Where do you live?",
+            "What does she do?",
+            "I study English because I like it."
+          ],
+          "tip": "Who is your teacher? usa be porque pregunta identidad."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "She does not ___ here.",
+          "answer": "work",
+          "options": [
+            "work",
+            "works",
+            "working"
+          ],
+          "why": "Tras does not va la forma base."
+        },
+        {
+          "prompt": "They ___ like coffee.",
+          "answer": "do not",
+          "options": [
+            "do not",
+            "does not",
+            "are not"
+          ],
+          "why": "Con they usamos do not."
+        },
+        {
+          "prompt": "___ he speak English?",
+          "answer": "Does",
+          "options": [
+            "Does",
+            "Do",
+            "Is"
+          ],
+          "why": "He requiere Does para preguntar por speak."
+        },
+        {
+          "prompt": "Do you live here? — Yes, ___.",
+          "answer": "I do",
+          "options": [
+            "I do",
+            "I am",
+            "I does"
+          ],
+          "why": "La respuesta retoma do."
+        },
+        {
+          "prompt": "___ do you live? — In Lima.",
+          "answer": "Where",
+          "options": [
+            "Where",
+            "When",
+            "Why"
+          ],
+          "why": "In Lima es un lugar, por eso Where."
+        },
+        {
+          "prompt": "Why do you study? — ___ I like English.",
+          "answer": "Because",
+          "options": [
+            "Because",
+            "Where",
+            "Who"
+          ],
+          "why": "Because introduce la razón."
+        }
+      ],
+      "story": "Ben works in a café. He does not work on Sundays. He lives near the café and walks to work. He speaks English and Spanish. His friend Ana does not live near him. She takes the bus. They study together because they want to speak English at work.",
+      "reading": [
+        {
+          "prompt": "¿Trabaja Ben los domingos?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Sí",
+            "Solo de noche"
+          ],
+          "why": "He does not work on Sundays."
+        },
+        {
+          "prompt": "¿Por qué estudian inglés?",
+          "answer": "Para hablarlo en el trabajo",
+          "options": [
+            "Para hablarlo en el trabajo",
+            "Para comprar un bus",
+            "Para enseñar matemáticas"
+          ],
+          "why": "They want to speak English at work."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "Where do you live?"
+        ],
+        [
+          "You",
+          "I live in Lima."
+        ],
+        [
+          "Friend",
+          "Do you work?"
+        ],
+        [
+          "You",
+          "No, I do not. I am a student."
+        ],
+        [
+          "Friend",
+          "Why do you study English?"
+        ],
+        [
+          "You",
+          "Because I like languages."
+        ]
+      ],
+      "writing": "Escribe 3 preguntas sobre hábitos y sus respuestas. Añade una negación.",
+      "model": "Where do you live? I live in Lima. Do you work? No, I do not. What do you study? I study English."
+    },
+    {
+      "id": 10,
+      "title": "Tiempo y frecuencia",
+      "en": "Make time",
+      "icon": "📅",
+      "goal": "Decir la hora, fechas y frecuencia de tus actividades.",
+      "vocab": [
+        {
+          "en": "Monday",
+          "es": "lunes",
+          "icon": "📅"
+        },
+        {
+          "en": "Tuesday",
+          "es": "martes",
+          "icon": "📅"
+        },
+        {
+          "en": "Wednesday",
+          "es": "miércoles",
+          "icon": "📅"
+        },
+        {
+          "en": "Thursday",
+          "es": "jueves",
+          "icon": "📅"
+        },
+        {
+          "en": "Friday",
+          "es": "viernes",
+          "icon": "📅"
+        },
+        {
+          "en": "Saturday",
+          "es": "sábado",
+          "icon": "📅"
+        },
+        {
+          "en": "Sunday",
+          "es": "domingo",
+          "icon": "📅"
+        },
+        {
+          "en": "always",
+          "es": "siempre",
+          "icon": "🔁"
+        },
+        {
+          "en": "usually",
+          "es": "normalmente",
+          "icon": "🗓️"
+        },
+        {
+          "en": "sometimes",
+          "es": "a veces",
+          "icon": "⏳"
+        },
+        {
+          "en": "never",
+          "es": "nunca",
+          "icon": "🚫"
+        },
+        {
+          "en": "birthday",
+          "es": "cumpleaños",
+          "icon": "🎂"
+        }
+      ],
+      "rules": [
+        {
+          "title": "La hora",
+          "text": "What time is it? pregunta la hora. Puedes leer 7:30 como seven thirty o half past seven. 7:15 es seven fifteen / a quarter past seven. 7:45 es seven forty-five / a quarter to eight. At seven indica a las siete. O’clock se usa con horas en punto.",
+          "pattern": "It is + hora / at + hora",
+          "examples": [
+            "It is eight o’clock.",
+            "It is half past six.",
+            "The class starts at nine."
+          ],
+          "tip": "Quarter to nombra la hora siguiente."
+        },
+        {
+          "title": "Días, meses y fechas",
+          "text": "Usa on con días y fechas, in con meses y años, at con horas: on Monday, in June, at two. Los días y meses llevan mayúscula. Para fechas se usan ordinales: first, second, third, fourth. June 3 se lee June the third o the third of June.",
+          "pattern": "on Monday · in June · at two",
+          "examples": [
+            "My birthday is in May.",
+            "The lesson is on Friday.",
+            "We meet at ten."
+          ],
+          "tip": "In the morning, pero on Monday morning porque se trata de un día concreto."
+        },
+        {
+          "title": "Frecuencia",
+          "text": "Always, usually, often, sometimes y never indican frecuencia aproximada. Generalmente van antes del verbo principal y después de be: I usually walk; She is always happy. Never ya tiene sentido negativo: I never smoke, sin don’t. Every day, once a week y twice a month expresan periodos.",
+          "pattern": "sujeto + usually + verbo",
+          "examples": [
+            "I always have breakfast.",
+            "He is never late.",
+            "We study twice a week."
+          ],
+          "tip": "How often? pregunta con qué frecuencia haces algo."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "7:30 es…",
+          "answer": "half past seven",
+          "options": [
+            "half past seven",
+            "a quarter to seven",
+            "seven thirteen"
+          ],
+          "why": "Half past significa treinta minutos después."
+        },
+        {
+          "prompt": "The class starts ___ nine.",
+          "answer": "at",
+          "options": [
+            "at",
+            "in",
+            "on"
+          ],
+          "why": "At se usa con horas."
+        },
+        {
+          "prompt": "My birthday is ___ May.",
+          "answer": "in",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "why": "In se usa con meses."
+        },
+        {
+          "prompt": "We meet ___ Monday.",
+          "answer": "on",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "why": "On se usa con días."
+        },
+        {
+          "prompt": "Orden correcto:",
+          "answer": "She is always happy.",
+          "options": [
+            "She is always happy.",
+            "She always is happy.",
+            "Always she happy is."
+          ],
+          "why": "La posición neutra del adverbio es después de be."
+        },
+        {
+          "prompt": "Twice a week significa…",
+          "answer": "dos veces por semana",
+          "options": [
+            "dos veces por semana",
+            "cada dos semanas",
+            "dos semanas"
+          ],
+          "why": "Twice significa dos veces."
+        }
+      ],
+      "story": "My English class is on Tuesday and Thursday. It starts at six o’clock and finishes at seven. I usually arrive early. On Saturday, I study at home in the morning. I sometimes listen to English on the bus. My birthday is in November. I always have a small party with my family.",
+      "reading": [
+        {
+          "prompt": "¿A qué hora empieza la clase?",
+          "answer": "A las seis",
+          "options": [
+            "A las seis",
+            "A las siete",
+            "A las ocho"
+          ],
+          "why": "It starts at six o’clock."
+        },
+        {
+          "prompt": "¿En qué mes es el cumpleaños?",
+          "answer": "Noviembre",
+          "options": [
+            "Noviembre",
+            "Septiembre",
+            "Mayo"
+          ],
+          "why": "My birthday is in November."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What time is the class?"
+        ],
+        [
+          "You",
+          "It is at six o’clock."
+        ],
+        [
+          "Friend",
+          "How often do you study?"
+        ],
+        [
+          "You",
+          "I study every day."
+        ],
+        [
+          "Friend",
+          "When is your birthday?"
+        ],
+        [
+          "You",
+          "It is in November."
+        ]
+      ],
+      "writing": "Escribe tu horario de una semana con on, in, at y dos adverbios de frecuencia.",
+      "model": "I study on Monday. My class is at six. I usually read in the evening. I sometimes study on Sunday."
+    },
+    {
+      "id": 11,
+      "title": "Gustos y habilidades",
+      "en": "Things I love",
+      "icon": "🎸",
+      "goal": "Expresar gustos, habilidades y usar pronombres de objeto.",
+      "vocab": [
+        {
+          "en": "music",
+          "es": "música",
+          "icon": "🎵"
+        },
+        {
+          "en": "football",
+          "es": "fútbol",
+          "icon": "⚽"
+        },
+        {
+          "en": "swim",
+          "es": "nadar",
+          "icon": "🏊"
+        },
+        {
+          "en": "dance",
+          "es": "bailar",
+          "icon": "💃"
+        },
+        {
+          "en": "sing",
+          "es": "cantar",
+          "icon": "🎤"
+        },
+        {
+          "en": "run",
+          "es": "correr",
+          "icon": "🏃"
+        },
+        {
+          "en": "draw",
+          "es": "dibujar",
+          "icon": "🎨"
+        },
+        {
+          "en": "play",
+          "es": "jugar / tocar",
+          "icon": "🎮"
+        },
+        {
+          "en": "guitar",
+          "es": "guitarra",
+          "icon": "🎸"
+        },
+        {
+          "en": "film",
+          "es": "película",
+          "icon": "🎬"
+        },
+        {
+          "en": "listen",
+          "es": "escuchar",
+          "icon": "🎧"
+        },
+        {
+          "en": "help",
+          "es": "ayudar",
+          "icon": "🤝"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Like, love y enjoy",
+          "text": "Para expresar gustos usa like/love + sustantivo o verbo en -ing: I like music; I love dancing. Enjoy también va seguido de -ing: enjoy reading. Para negar, usa don’t/doesn’t. No traduzcas la estructura de gustar palabra por palabra: el sujeto es quien siente el gusto.",
+          "pattern": "I like + nombre / verbo-ing",
+          "examples": [
+            "I like football.",
+            "She loves dancing.",
+            "We enjoy reading."
+          ],
+          "tip": "Listen necesita to: listen to music."
+        },
+        {
+          "title": "Can y can’t",
+          "text": "Can expresa capacidad. No cambia con he/she y va seguido del verbo base sin to. Pregunta Can you swim? y responde Yes, I can. La negación es cannot o can’t. También puedes usar Can I…? para pedir permiso de manera sencilla.",
+          "pattern": "sujeto + can + verbo base",
+          "examples": [
+            "I can swim.",
+            "She can play the guitar.",
+            "He cannot sing."
+          ],
+          "tip": "She cans y can to swim son incorrectos."
+        },
+        {
+          "title": "Me, you, him, her, it, us, them",
+          "text": "Los pronombres de objeto reciben la acción o van tras una preposición: Help me; I like it; with them. Diferencia sujeto y objeto: She helps him. He plays football; I play with him. Los objetos no cambian la forma de can.",
+          "pattern": "verbo/preposición + pronombre de objeto",
+          "examples": [
+            "Can you help me?",
+            "I like it.",
+            "We play with them."
+          ],
+          "tip": "Us significa a nosotros; our es posesivo y necesita un nombre después."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I enjoy ___.",
+          "answer": "reading",
+          "options": [
+            "reading",
+            "read",
+            "to reading"
+          ],
+          "why": "Enjoy va seguido de la forma -ing."
+        },
+        {
+          "prompt": "I listen ___ music.",
+          "answer": "to",
+          "options": [
+            "to",
+            "at",
+            "on"
+          ],
+          "why": "La combinación es listen to."
+        },
+        {
+          "prompt": "She can ___ the guitar.",
+          "answer": "play",
+          "options": [
+            "play",
+            "plays",
+            "to play"
+          ],
+          "why": "Después de can usamos verbo base sin to."
+        },
+        {
+          "prompt": "Can you swim? — Yes, ___.",
+          "answer": "I can",
+          "options": [
+            "I can",
+            "I do",
+            "I am"
+          ],
+          "why": "La respuesta breve retoma can."
+        },
+        {
+          "prompt": "Can you help ___?",
+          "answer": "me",
+          "options": [
+            "me",
+            "I",
+            "my"
+          ],
+          "why": "Help necesita pronombre de objeto."
+        },
+        {
+          "prompt": "I play with ___.",
+          "answer": "them",
+          "options": [
+            "them",
+            "they",
+            "their"
+          ],
+          "why": "Después de with se usa them."
+        }
+      ],
+      "story": "I love music. I can play the guitar, but I cannot sing well. My friend Sara loves singing. We practise together on Saturdays. She helps me with songs. I help her with the guitar. We also like football. Our friends play in the park, and we sometimes play with them.",
+      "reading": [
+        {
+          "prompt": "¿Qué instrumento toca la persona?",
+          "answer": "La guitarra",
+          "options": [
+            "La guitarra",
+            "El piano",
+            "El violín"
+          ],
+          "why": "I can play the guitar."
+        },
+        {
+          "prompt": "¿Cuándo practican juntos?",
+          "answer": "Los sábados",
+          "options": [
+            "Los sábados",
+            "Los lunes",
+            "Cada mañana"
+          ],
+          "why": "We practise together on Saturdays."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What do you like doing?"
+        ],
+        [
+          "You",
+          "I like listening to music."
+        ],
+        [
+          "Friend",
+          "Can you play the guitar?"
+        ],
+        [
+          "You",
+          "Yes, I can."
+        ],
+        [
+          "Friend",
+          "Can you help me?"
+        ],
+        [
+          "You",
+          "Of course!"
+        ]
+      ],
+      "writing": "Escribe 2 gustos, 2 habilidades y una cosa que no puedes hacer todavía.",
+      "model": "I like music. I love reading. I can swim. I can cook. I cannot play the guitar yet."
+    },
+    {
+      "id": 12,
+      "title": "Comida y cantidades",
+      "en": "What is in the fridge?",
+      "icon": "🥑",
+      "goal": "Hablar de alimentos y distinguir cantidades contables e incontables.",
+      "vocab": [
+        {
+          "en": "bread",
+          "es": "pan",
+          "icon": "🍞"
+        },
+        {
+          "en": "rice",
+          "es": "arroz",
+          "icon": "🍚"
+        },
+        {
+          "en": "water",
+          "es": "agua",
+          "icon": "💧"
+        },
+        {
+          "en": "milk",
+          "es": "leche",
+          "icon": "🥛"
+        },
+        {
+          "en": "egg",
+          "es": "huevo",
+          "icon": "🥚"
+        },
+        {
+          "en": "cheese",
+          "es": "queso",
+          "icon": "🧀"
+        },
+        {
+          "en": "chicken",
+          "es": "pollo",
+          "icon": "🍗"
+        },
+        {
+          "en": "fish",
+          "es": "pescado",
+          "icon": "🐟"
+        },
+        {
+          "en": "banana",
+          "es": "plátano",
+          "icon": "🍌"
+        },
+        {
+          "en": "orange",
+          "es": "naranja",
+          "icon": "🍊"
+        },
+        {
+          "en": "potato",
+          "es": "papa",
+          "icon": "🥔"
+        },
+        {
+          "en": "tomato",
+          "es": "tomate",
+          "icon": "🍅"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Contables e incontables",
+          "text": "Los contables admiten números y plural: one egg, two eggs. Los incontables no suelen contarse directamente: water, rice, milk, bread. Para contar porciones usa a glass of water o a slice of bread. Chicken puede ser un animal contable o carne incontable; aquí lo usamos como alimento.",
+          "pattern": "an egg / some rice / a glass of water",
+          "examples": [
+            "I have two eggs.",
+            "There is some milk.",
+            "I want a slice of bread."
+          ],
+          "tip": "No digas a bread para una porción: a piece/slice of bread."
+        },
+        {
+          "title": "Some y any",
+          "text": "Usa some normalmente en afirmativas con plurales o incontables. Any aparece normalmente en negativas y preguntas: Do you have any eggs? También se usa some en ofrecimientos y peticiones cuando se espera una respuesta positiva: Would you like some water?",
+          "pattern": "some en afirmativas · any en preguntas/negativas",
+          "examples": [
+            "There are some apples.",
+            "There is not any milk.",
+            "Are there any eggs?"
+          ],
+          "tip": "Some no se limita a plural: some water también es correcto."
+        },
+        {
+          "title": "How much y how many",
+          "text": "How many va con contables plurales; how much, con incontables. Many y much siguen la misma diferencia. A lot of funciona con ambos. Para un número pequeño usa a few eggs; para una cantidad pequeña, a little milk.",
+          "pattern": "How many eggs? / How much water?",
+          "examples": [
+            "How many bananas do you want?",
+            "How much rice do we need?",
+            "We have a lot of apples."
+          ],
+          "tip": "How much también se utiliza para preguntar un precio."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Elige la expresión correcta.",
+          "answer": "a glass of water",
+          "options": [
+            "a glass of water",
+            "a water glass of",
+            "three waters rice"
+          ],
+          "why": "Glass permite contar una porción de agua."
+        },
+        {
+          "prompt": "¿Cuál es normalmente incontable?",
+          "answer": "rice",
+          "options": [
+            "rice",
+            "egg",
+            "apple"
+          ],
+          "why": "Rice se trata como incontable."
+        },
+        {
+          "prompt": "There are ___ apples.",
+          "answer": "some",
+          "options": [
+            "some",
+            "any not",
+            "a"
+          ],
+          "why": "Some funciona en afirmativas plurales."
+        },
+        {
+          "prompt": "There is not ___ milk.",
+          "answer": "any",
+          "options": [
+            "any",
+            "a",
+            "many"
+          ],
+          "why": "En una negativa con milk se usa any."
+        },
+        {
+          "prompt": "How ___ eggs do you need?",
+          "answer": "many",
+          "options": [
+            "many",
+            "much",
+            "a lot"
+          ],
+          "why": "Eggs es contable plural."
+        },
+        {
+          "prompt": "How ___ rice do you want?",
+          "answer": "much",
+          "options": [
+            "much",
+            "many",
+            "few"
+          ],
+          "why": "Rice es incontable."
+        }
+      ],
+      "story": "We are making lunch. There are some eggs and tomatoes in the fridge. There is some cheese, but there is not any milk. We need rice and chicken. There are three bananas on the table. I want a glass of water. My sister wants some orange juice. We do not need any bread today.",
+      "reading": [
+        {
+          "prompt": "¿Qué falta en la refrigeradora?",
+          "answer": "Leche",
+          "options": [
+            "Leche",
+            "Queso",
+            "Huevos"
+          ],
+          "why": "There is not any milk."
+        },
+        {
+          "prompt": "¿Cuántos plátanos hay?",
+          "answer": "Tres",
+          "options": [
+            "Tres",
+            "Dos",
+            "Cuatro"
+          ],
+          "why": "There are three bananas."
+        }
+      ],
+      "dialogue": [
+        [
+          "Cook",
+          "Are there any eggs?"
+        ],
+        [
+          "You",
+          "Yes, there are some eggs."
+        ],
+        [
+          "Cook",
+          "How many do we need?"
+        ],
+        [
+          "You",
+          "We need two."
+        ],
+        [
+          "Cook",
+          "Is there any milk?"
+        ],
+        [
+          "You",
+          "No, there is not."
+        ]
+      ],
+      "writing": "Escribe una lista de compras en frases: dos cantidades contables y dos incontables.",
+      "model": "We need three eggs and two tomatoes. We need some rice and a bottle of water."
+    },
+    {
+      "id": 13,
+      "title": "En una cafetería",
+      "en": "A table for two",
+      "icon": "☕",
+      "goal": "Pedir comida, expresar preferencias y solicitar la cuenta.",
+      "vocab": [
+        {
+          "en": "menu",
+          "es": "menú / carta",
+          "icon": "📋"
+        },
+        {
+          "en": "coffee",
+          "es": "café",
+          "icon": "☕"
+        },
+        {
+          "en": "tea",
+          "es": "té",
+          "icon": "🍵"
+        },
+        {
+          "en": "juice",
+          "es": "jugo",
+          "icon": "🧃"
+        },
+        {
+          "en": "sandwich",
+          "es": "sándwich",
+          "icon": "🥪"
+        },
+        {
+          "en": "salad",
+          "es": "ensalada",
+          "icon": "🥗"
+        },
+        {
+          "en": "soup",
+          "es": "sopa",
+          "icon": "🍲"
+        },
+        {
+          "en": "bill",
+          "es": "cuenta",
+          "icon": "🧾"
+        },
+        {
+          "en": "cup",
+          "es": "taza",
+          "icon": "☕"
+        },
+        {
+          "en": "glass",
+          "es": "vaso",
+          "icon": "🥛"
+        },
+        {
+          "en": "hungry",
+          "es": "con hambre",
+          "icon": "😋"
+        },
+        {
+          "en": "thirsty",
+          "es": "con sed",
+          "icon": "💧"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Pide con cortesía",
+          "text": "I would like… es una manera cortés de pedir; se contrae I’d like. Can I have…? es otra opción frecuente. Añade please. Para preguntar por una mesa, usa A table for two, please. Want es gramaticalmente correcto, pero puede sonar más directo al pedir.",
+          "pattern": "I would like + comida/bebida",
+          "examples": [
+            "I would like a coffee, please.",
+            "Can I have the menu?",
+            "A table for two, please."
+          ],
+          "tip": "I’d like significa I would like, no I like."
+        },
+        {
+          "title": "Gusto habitual o deseo ahora",
+          "text": "I like tea expresa un gusto general; I’d like tea expresa lo que quieres en este momento. Would you like…? ofrece algo. Puedes responder Yes, please / No, thank you. Para añadir una elección usa and; para alternativas, or.",
+          "pattern": "Do you like…? / Would you like…?",
+          "examples": [
+            "I like coffee.",
+            "I would like some tea now.",
+            "Would you like a sandwich?"
+          ],
+          "tip": "Do you like soup? y Would you like soup? no preguntan exactamente lo mismo."
+        },
+        {
+          "title": "Termina la compra",
+          "text": "Pregunta How much is it? por el precio total o Can I have the bill, please? por la cuenta. Is service included? pregunta si incluye servicio. To eat here o to take away indica si consumirás allí o para llevar. En Estados Unidos también se oye to go.",
+          "pattern": "Can I have the bill, please?",
+          "examples": [
+            "How much is the sandwich?",
+            "To take away, please.",
+            "Here you are."
+          ],
+          "tip": "I am hungry/thirsty usa be, no have."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Petición cortés:",
+          "answer": "I would like a tea, please.",
+          "options": [
+            "I would like a tea, please.",
+            "I like yesterday tea.",
+            "I am like tea."
+          ],
+          "why": "Would like expresa un deseo o pedido cortés."
+        },
+        {
+          "prompt": "Para pedir la carta:",
+          "answer": "Can I have the menu?",
+          "options": [
+            "Can I have the menu?",
+            "Can I am menu?",
+            "Do menu have?"
+          ],
+          "why": "Can I have…? sirve para pedir."
+        },
+        {
+          "prompt": "Un gusto general se expresa con…",
+          "answer": "I like coffee.",
+          "options": [
+            "I like coffee.",
+            "I would like a coffee now.",
+            "I am a coffee."
+          ],
+          "why": "I like comunica una preferencia habitual."
+        },
+        {
+          "prompt": "Would you like some water? —",
+          "answer": "Yes, please.",
+          "options": [
+            "Yes, please.",
+            "Yes, I water.",
+            "Yes, I like yesterday."
+          ],
+          "why": "Yes, please acepta el ofrecimiento."
+        },
+        {
+          "prompt": "¿Cómo pides la cuenta?",
+          "answer": "Can I have the bill, please?",
+          "options": [
+            "Can I have the bill, please?",
+            "Can I have the kitchen?",
+            "Where is my name?"
+          ],
+          "why": "Bill es la cuenta."
+        },
+        {
+          "prompt": "Tengo sed:",
+          "answer": "I am thirsty.",
+          "options": [
+            "I am thirsty.",
+            "I have thirsty.",
+            "I thirsty am have."
+          ],
+          "why": "Thirsty es adjetivo y se usa con be."
+        }
+      ],
+      "story": "Anna is in a café. She is hungry and thirsty. She orders a cheese sandwich and a glass of orange juice. The sandwich is four pounds and the juice is two pounds. She sits at a table near the window. After lunch, she asks for the bill. The total is six pounds.",
+      "reading": [
+        {
+          "prompt": "¿Qué pide Anna para beber?",
+          "answer": "Jugo de naranja",
+          "options": [
+            "Jugo de naranja",
+            "Café",
+            "Agua"
+          ],
+          "why": "A glass of orange juice."
+        },
+        {
+          "prompt": "¿Cuánto paga en total?",
+          "answer": "Seis libras",
+          "options": [
+            "Seis libras",
+            "Cuatro libras",
+            "Dos libras"
+          ],
+          "why": "Four plus two is six."
+        }
+      ],
+      "dialogue": [
+        [
+          "Waiter",
+          "Hello. What would you like?"
+        ],
+        [
+          "You",
+          "A sandwich and a tea, please."
+        ],
+        [
+          "Waiter",
+          "To eat here or take away?"
+        ],
+        [
+          "You",
+          "To eat here, please."
+        ],
+        [
+          "Waiter",
+          "Anything else?"
+        ],
+        [
+          "You",
+          "No, thank you."
+        ]
+      ],
+      "writing": "Escribe un pedido con dos productos, una pregunta de precio y una despedida.",
+      "model": "I would like a sandwich and a tea, please. How much is it? Thank you. Goodbye!"
+    },
+    {
+      "id": 14,
+      "title": "De compras",
+      "en": "Find your favourite",
+      "icon": "🛍️",
+      "goal": "Preguntar precios, tallas y comparar objetos de forma sencilla.",
+      "vocab": [
+        {
+          "en": "shop",
+          "es": "tienda",
+          "icon": "🏪"
+        },
+        {
+          "en": "price",
+          "es": "precio",
+          "icon": "🏷️"
+        },
+        {
+          "en": "money",
+          "es": "dinero",
+          "icon": "💵"
+        },
+        {
+          "en": "cheap",
+          "es": "barato/a",
+          "icon": "🪙"
+        },
+        {
+          "en": "expensive",
+          "es": "caro/a",
+          "icon": "💎"
+        },
+        {
+          "en": "shirt",
+          "es": "camisa",
+          "icon": "👕"
+        },
+        {
+          "en": "trousers",
+          "es": "pantalón",
+          "icon": "👖"
+        },
+        {
+          "en": "shoes",
+          "es": "zapatos",
+          "icon": "👟"
+        },
+        {
+          "en": "dress",
+          "es": "vestido",
+          "icon": "👗"
+        },
+        {
+          "en": "size",
+          "es": "talla / tamaño",
+          "icon": "📏"
+        },
+        {
+          "en": "buy",
+          "es": "comprar",
+          "icon": "🛒"
+        },
+        {
+          "en": "pay",
+          "es": "pagar",
+          "icon": "💳"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Precios y cantidades",
+          "text": "How much is this shirt? pregunta por un objeto; How much are these shoes? por varios. Responde It is… / They are… Un precio como £12.50 puede decirse twelve pounds fifty. Trousers y shoes se usan habitualmente en plural.",
+          "pattern": "How much is…? / How much are…?",
+          "examples": [
+            "How much is this bag?",
+            "How much are these shoes?",
+            "They are twenty pounds."
+          ],
+          "tip": "El verbo concuerda con el objeto: shoes → are."
+        },
+        {
+          "title": "Elegir talla y color",
+          "text": "What size do you need? pregunta la talla. Small, medium y large son tamaños comunes. Can I try it on? pide probar una prenda; con shoes/trousers usa them. Do you have it in blue? pide otro color. El objeto se coloca entre try y on cuando es pronombre.",
+          "pattern": "Can I try it/them on?",
+          "examples": [
+            "I need a medium.",
+            "Do you have it in red?",
+            "Can I try them on?"
+          ],
+          "tip": "It sustituye una cosa; them, varias o nombres gramaticalmente plurales."
+        },
+        {
+          "title": "Comparaciones sencillas",
+          "text": "Para comparar, muchos adjetivos cortos añaden -er: cheaper, smaller. Usa than para introducir el segundo elemento. Big duplica g: bigger. Expensive utiliza more expensive. Good cambia a better. Esta es una introducción; primero domina las frases de compra.",
+          "pattern": "A is cheaper than B.",
+          "examples": [
+            "This bag is smaller.",
+            "The red shirt is cheaper than the blue one.",
+            "These shoes are more expensive."
+          ],
+          "tip": "No combines more y -er: cheaper, no more cheaper."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "How much ___ these shoes?",
+          "answer": "are",
+          "options": [
+            "are",
+            "is",
+            "does"
+          ],
+          "why": "Shoes es plural."
+        },
+        {
+          "prompt": "How much ___ this bag?",
+          "answer": "is",
+          "options": [
+            "is",
+            "are",
+            "do"
+          ],
+          "why": "Bag es singular."
+        },
+        {
+          "prompt": "Para probarte unos zapatos:",
+          "answer": "Can I try them on?",
+          "options": [
+            "Can I try them on?",
+            "Can I try it on?",
+            "Can I try they on?"
+          ],
+          "why": "Shoes se sustituye con them."
+        },
+        {
+          "prompt": "Medium significa…",
+          "answer": "mediano",
+          "options": [
+            "mediano",
+            "grande",
+            "pequeño"
+          ],
+          "why": "Medium es la talla intermedia."
+        },
+        {
+          "prompt": "This bag is cheaper ___ that bag.",
+          "answer": "than",
+          "options": [
+            "than",
+            "that",
+            "from"
+          ],
+          "why": "Than introduce el segundo término de una comparación."
+        },
+        {
+          "prompt": "Comparativo de expensive:",
+          "answer": "more expensive",
+          "options": [
+            "more expensive",
+            "expensiver",
+            "more expensiver"
+          ],
+          "why": "Los adjetivos largos como expensive usan more."
+        }
+      ],
+      "story": "Leo needs new shoes. In the shop, he sees a black pair for thirty pounds and a blue pair for twenty pounds. The blue shoes are cheaper. He tries them on, but they are too small. The assistant brings a larger size. Leo likes them and pays by card.",
+      "reading": [
+        {
+          "prompt": "¿Qué zapatos son más baratos?",
+          "answer": "Los azules",
+          "options": [
+            "Los azules",
+            "Los negros",
+            "Cuestan igual"
+          ],
+          "why": "Blue shoes cuestan veinte y black shoes treinta."
+        },
+        {
+          "prompt": "¿Cómo paga Leo?",
+          "answer": "Con tarjeta",
+          "options": [
+            "Con tarjeta",
+            "En efectivo",
+            "No compra"
+          ],
+          "why": "He pays by card."
+        }
+      ],
+      "dialogue": [
+        [
+          "Assistant",
+          "Can I help you?"
+        ],
+        [
+          "You",
+          "Yes. How much are these shoes?"
+        ],
+        [
+          "Assistant",
+          "They are twenty pounds."
+        ],
+        [
+          "You",
+          "Can I try them on?"
+        ],
+        [
+          "Assistant",
+          "What size do you need?"
+        ],
+        [
+          "You",
+          "Size forty, please."
+        ]
+      ],
+      "writing": "Escribe un diálogo corto para comprar una camiseta. Incluye precio, talla y color.",
+      "model": "How much is this shirt? It is ten pounds. I need a medium. Do you have it in blue?"
+    },
+    {
+      "id": 15,
+      "title": "Por la ciudad",
+      "en": "Around town",
+      "icon": "🗺️",
+      "goal": "Ubicar lugares y comprender indicaciones sencillas.",
+      "vocab": [
+        {
+          "en": "bank",
+          "es": "banco",
+          "icon": "🏦"
+        },
+        {
+          "en": "supermarket",
+          "es": "supermercado",
+          "icon": "🛒"
+        },
+        {
+          "en": "hospital",
+          "es": "hospital",
+          "icon": "🏥"
+        },
+        {
+          "en": "school",
+          "es": "escuela",
+          "icon": "🏫"
+        },
+        {
+          "en": "park",
+          "es": "parque",
+          "icon": "🌳"
+        },
+        {
+          "en": "station",
+          "es": "estación",
+          "icon": "🚉"
+        },
+        {
+          "en": "library",
+          "es": "biblioteca",
+          "icon": "📚"
+        },
+        {
+          "en": "museum",
+          "es": "museo",
+          "icon": "🏛️"
+        },
+        {
+          "en": "street",
+          "es": "calle",
+          "icon": "🛣️"
+        },
+        {
+          "en": "left",
+          "es": "izquierda",
+          "icon": "⬅️"
+        },
+        {
+          "en": "right",
+          "es": "derecha",
+          "icon": "➡️"
+        },
+        {
+          "en": "straight",
+          "es": "recto",
+          "icon": "⬆️"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Pregunta por un lugar",
+          "text": "Where is the…? pregunta la ubicación de un sitio conocido. Is there a… near here? pregunta si existe alguno cerca. Excuse me permite llamar la atención cortésmente. Usa next to, opposite y between para situar lugares. Opposite significa enfrente de.",
+          "pattern": "Excuse me, where is the station?",
+          "examples": [
+            "Is there a bank near here?",
+            "The library is opposite the park.",
+            "The café is between the bank and the shop."
+          ],
+          "tip": "Library es biblioteca; una librería es bookshop."
+        },
+        {
+          "title": "Indicaciones con imperativo",
+          "text": "El imperativo usa el verbo base sin sujeto: Go straight, Turn left, Stop. Para negar usa Don’t + verbo: Don’t turn right. Añade please cuando corresponda. Instrucciones cortas y puntos de referencia ayudan a entender el camino.",
+          "pattern": "Go straight. Turn left.",
+          "examples": [
+            "Go straight and turn right.",
+            "Cross the street.",
+            "Do not turn left."
+          ],
+          "tip": "No uses to al inicio del imperativo: Go, no To go."
+        },
+        {
+          "title": "Sigue una ruta",
+          "text": "On your left/right significa a tu izquierda/derecha. At the traffic lights indica en el semáforo. Go past the bank significa pasa el banco. First y then ordenan pasos. Practica primero sin velocidad y después escucha la secuencia sin leerla.",
+          "pattern": "First… Then… It is on your left.",
+          "examples": [
+            "Turn right at the bank.",
+            "Go past the park.",
+            "The station is on your left."
+          ],
+          "tip": "Right puede ser derecha o correcto; el contexto decide."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Una biblioteca es una…",
+          "answer": "library",
+          "options": [
+            "library",
+            "bookshop",
+            "bank"
+          ],
+          "why": "Library = biblioteca; bookshop = librería."
+        },
+        {
+          "prompt": "Para preguntar si hay un banco cerca:",
+          "answer": "Is there a bank near here?",
+          "options": [
+            "Is there a bank near here?",
+            "Are you a bank?",
+            "Does here bank?"
+          ],
+          "why": "Is there…? pregunta si existe un lugar."
+        },
+        {
+          "prompt": "Imperativo correcto:",
+          "answer": "Turn left.",
+          "options": [
+            "Turn left.",
+            "To turn left.",
+            "You turning left."
+          ],
+          "why": "El imperativo usa verbo base."
+        },
+        {
+          "prompt": "Negación de Go:",
+          "answer": "Do not go.",
+          "options": [
+            "Do not go.",
+            "Not to going.",
+            "Does not goes."
+          ],
+          "why": "La forma negativa es don’t + verbo base."
+        },
+        {
+          "prompt": "On your right significa…",
+          "answer": "a tu derecha",
+          "options": [
+            "a tu derecha",
+            "a tu izquierda",
+            "detrás de ti"
+          ],
+          "why": "Right indica la derecha."
+        },
+        {
+          "prompt": "Opposite significa…",
+          "answer": "enfrente de",
+          "options": [
+            "enfrente de",
+            "dentro de",
+            "debajo de"
+          ],
+          "why": "Opposite describe una posición enfrente."
+        }
+      ],
+      "story": "The station is on Green Street. There is a café opposite the station. The bank is next to the café. To get to the library from the station, go straight and turn left at the bank. The library is on your right, between a small shop and the park.",
+      "reading": [
+        {
+          "prompt": "¿Qué está enfrente de la estación?",
+          "answer": "Un café",
+          "options": [
+            "Un café",
+            "La biblioteca",
+            "Un hospital"
+          ],
+          "why": "There is a café opposite the station."
+        },
+        {
+          "prompt": "¿Dónde debes girar a la izquierda?",
+          "answer": "En el banco",
+          "options": [
+            "En el banco",
+            "En el parque",
+            "En la biblioteca"
+          ],
+          "why": "Turn left at the bank."
+        }
+      ],
+      "dialogue": [
+        [
+          "You",
+          "Excuse me. Where is the library?"
+        ],
+        [
+          "Local",
+          "Go straight and turn left."
+        ],
+        [
+          "You",
+          "Is it near the bank?"
+        ],
+        [
+          "Local",
+          "Yes. It is opposite the bank."
+        ],
+        [
+          "You",
+          "Thank you very much."
+        ],
+        [
+          "Local",
+          "You are welcome."
+        ]
+      ],
+      "writing": "Escribe 3 indicaciones y la ubicación de un lugar imaginario.",
+      "model": "Go straight. Turn left at the bank. Cross the street. The café is on your right."
+    },
+    {
+      "id": 16,
+      "title": "Viajes y transporte",
+      "en": "Let’s go",
+      "icon": "🚌",
+      "goal": "Comprar un billete y comprender horarios y mensajes de viaje.",
+      "vocab": [
+        {
+          "en": "bus",
+          "es": "bus",
+          "icon": "🚌"
+        },
+        {
+          "en": "train",
+          "es": "tren",
+          "icon": "🚆"
+        },
+        {
+          "en": "plane",
+          "es": "avión",
+          "icon": "✈️"
+        },
+        {
+          "en": "car",
+          "es": "auto",
+          "icon": "🚗"
+        },
+        {
+          "en": "bike",
+          "es": "bicicleta",
+          "icon": "🚲"
+        },
+        {
+          "en": "ticket",
+          "es": "boleto",
+          "icon": "🎫"
+        },
+        {
+          "en": "airport",
+          "es": "aeropuerto",
+          "icon": "🛫"
+        },
+        {
+          "en": "platform",
+          "es": "andén",
+          "icon": "🚉"
+        },
+        {
+          "en": "single",
+          "es": "solo ida",
+          "icon": "🎟️"
+        },
+        {
+          "en": "return",
+          "es": "ida y vuelta",
+          "icon": "🔁"
+        },
+        {
+          "en": "leave",
+          "es": "salir / partir",
+          "icon": "🧳"
+        },
+        {
+          "en": "arrive",
+          "es": "llegar",
+          "icon": "📍"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Cómo te desplazas",
+          "text": "Usa by + medio sin artículo para describir transporte: by bus, by train, by car. Para caminar, on foot. Take the bus y ride a bike describen acciones. Get on/off se usa con bus y train; get in/out of, con car o taxi.",
+          "pattern": "by bus · by train · on foot",
+          "examples": [
+            "I go to school by bus.",
+            "She goes to work on foot.",
+            "We take the train."
+          ],
+          "tip": "By foot no es la expresión habitual: se dice on foot."
+        },
+        {
+          "title": "Billetes y horarios",
+          "text": "A single ticket es solo ida; a return ticket, ida y vuelta en inglés británico. What time does the train leave? pregunta la salida. Where does it leave from? pregunta el punto de partida. Los horarios se expresan normalmente en presente simple.",
+          "pattern": "A return ticket to…, please.",
+          "examples": [
+            "What time does the bus leave?",
+            "It leaves at nine.",
+            "Which platform is it?"
+          ],
+          "tip": "Leave es partir; arrive es llegar."
+        },
+        {
+          "title": "Reservas básicas",
+          "text": "I have a reservation informa de una reserva. My name is… ayuda a identificarla. Para un hotel: a room for one night; para tren, a ticket to Oxford. No añadas información privada real en ejercicios. Usa los nombres y datos de ejemplo.",
+          "pattern": "I have a reservation.",
+          "examples": [
+            "A room for two nights, please.",
+            "I have a ticket to London.",
+            "Where is the bus stop?"
+          ],
+          "tip": "For indica duración en a room for two nights; to indica destino."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I go to school ___ bus.",
+          "answer": "by",
+          "options": [
+            "by",
+            "on a by",
+            "with by"
+          ],
+          "why": "By + medio de transporte no lleva artículo."
+        },
+        {
+          "prompt": "Caminar se expresa como…",
+          "answer": "on foot",
+          "options": [
+            "on foot",
+            "by foot",
+            "in foot"
+          ],
+          "why": "On foot es la expresión habitual."
+        },
+        {
+          "prompt": "Un billete de ida y vuelta es…",
+          "answer": "a return ticket",
+          "options": [
+            "a return ticket",
+            "a single ticket",
+            "a one-way room"
+          ],
+          "why": "Return indica ida y vuelta."
+        },
+        {
+          "prompt": "What time ___ the train leave?",
+          "answer": "does",
+          "options": [
+            "does",
+            "is",
+            "do"
+          ],
+          "why": "Train es singular: does + verbo base."
+        },
+        {
+          "prompt": "I have a ___.",
+          "answer": "reservation",
+          "options": [
+            "reservation",
+            "reserve rooming",
+            "reserved have"
+          ],
+          "why": "Reservation es el sustantivo reserva."
+        },
+        {
+          "prompt": "A ticket ___ London, please.",
+          "answer": "to",
+          "options": [
+            "to",
+            "at",
+            "on"
+          ],
+          "why": "To introduce el destino."
+        }
+      ],
+      "story": "Ana is at the station. She wants a return ticket to Oxford. The train leaves at nine thirty from platform three. It arrives at ten fifteen. The ticket costs eighteen pounds. Ana has a small bag. She buys the ticket and waits on platform three. She does not need a taxi.",
+      "reading": [
+        {
+          "prompt": "¿De qué andén sale el tren?",
+          "answer": "Del tres",
+          "options": [
+            "Del tres",
+            "Del dos",
+            "Del cinco"
+          ],
+          "why": "From platform three."
+        },
+        {
+          "prompt": "¿A qué hora llega?",
+          "answer": "10:15",
+          "options": [
+            "10:15",
+            "9:30",
+            "10:30"
+          ],
+          "why": "It arrives at ten fifteen."
+        }
+      ],
+      "dialogue": [
+        [
+          "Clerk",
+          "Where would you like to go?"
+        ],
+        [
+          "You",
+          "A return ticket to Oxford, please."
+        ],
+        [
+          "Clerk",
+          "That is eighteen pounds."
+        ],
+        [
+          "You",
+          "What time does the train leave?"
+        ],
+        [
+          "Clerk",
+          "At nine thirty."
+        ],
+        [
+          "You",
+          "Which platform is it?"
+        ]
+      ],
+      "writing": "Escribe un pedido de billete, una pregunta de horario y cómo llegas a la estación.",
+      "model": "A return ticket to Oxford, please. What time does the train leave? I go to the station by bus."
+    },
+    {
+      "id": 17,
+      "title": "Lo que pasa ahora",
+      "en": "Right now",
+      "icon": "📸",
+      "goal": "Describir acciones en curso y distinguirlas de los hábitos.",
+      "vocab": [
+        {
+          "en": "now",
+          "es": "ahora",
+          "icon": "⏱️"
+        },
+        {
+          "en": "today",
+          "es": "hoy",
+          "icon": "📅"
+        },
+        {
+          "en": "read",
+          "es": "leer",
+          "icon": "📖"
+        },
+        {
+          "en": "write",
+          "es": "escribir",
+          "icon": "✍️"
+        },
+        {
+          "en": "eat",
+          "es": "comer",
+          "icon": "🍽️"
+        },
+        {
+          "en": "drink",
+          "es": "beber",
+          "icon": "🥤"
+        },
+        {
+          "en": "talk",
+          "es": "conversar",
+          "icon": "💬"
+        },
+        {
+          "en": "sit",
+          "es": "sentarse / estar sentado",
+          "icon": "🪑"
+        },
+        {
+          "en": "stand",
+          "es": "estar de pie",
+          "icon": "🧍"
+        },
+        {
+          "en": "wait",
+          "es": "esperar",
+          "icon": "⌛"
+        },
+        {
+          "en": "watch",
+          "es": "mirar",
+          "icon": "👀"
+        },
+        {
+          "en": "wear",
+          "es": "llevar puesto",
+          "icon": "👕"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Presente continuo",
+          "text": "Para una acción en curso combina am/is/are con verbo en -ing. Las dos partes son necesarias: She is reading. Para negar, añade not después de be. Now y at the moment suelen indicar el momento actual. El continuo también puede describir situaciones temporales.",
+          "pattern": "sujeto + am/is/are + verbo-ing",
+          "examples": [
+            "I am reading now.",
+            "She is drinking water.",
+            "They are not sleeping."
+          ],
+          "tip": "I reading y I am read están incompletas para esta estructura."
+        },
+        {
+          "title": "Forma -ing y preguntas",
+          "text": "La mayoría añade -ing: play → playing. Quita la e final muda: write → writing. Algunos verbos cortos duplican consonante: sit → sitting, run → running. Para preguntar, invierte be y sujeto: Are you studying? What are you doing?",
+          "pattern": "What + am/is/are + sujeto + doing?",
+          "examples": [
+            "Are you listening?",
+            "What is he writing?",
+            "We are sitting here."
+          ],
+          "tip": "Make → making, no makeing."
+        },
+        {
+          "title": "Habitualmente o ahora",
+          "text": "El presente simple describe hábitos: I walk every day. El continuo describe lo que ocurre ahora: I am walking now. Be cambia según el sujeto en el continuo; la -s se usa en la tercera persona del simple. Verbos como like y want normalmente van en simple.",
+          "pattern": "every day → simple · now → continuo",
+          "examples": [
+            "She works every day.",
+            "She is working now.",
+            "I like this song."
+          ],
+          "tip": "Para expresar un gusto, usa I like, no I am liking en este nivel."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "She ___ reading now.",
+          "answer": "is",
+          "options": [
+            "is",
+            "does",
+            "has"
+          ],
+          "why": "El continuo necesita be + -ing."
+        },
+        {
+          "prompt": "They are not ___.",
+          "answer": "sleeping",
+          "options": [
+            "sleeping",
+            "sleep",
+            "sleeps"
+          ],
+          "why": "Después de are not en el continuo va -ing."
+        },
+        {
+          "prompt": "La forma -ing de write es…",
+          "answer": "writing",
+          "options": [
+            "writing",
+            "writeing",
+            "writting"
+          ],
+          "why": "Se elimina la e final."
+        },
+        {
+          "prompt": "___ you listening?",
+          "answer": "Are",
+          "options": [
+            "Are",
+            "Do",
+            "Have"
+          ],
+          "why": "Pregunta del continuo: Are you listening?"
+        },
+        {
+          "prompt": "She ___ every day.",
+          "answer": "works",
+          "options": [
+            "works",
+            "is work",
+            "working"
+          ],
+          "why": "Every day indica un hábito."
+        },
+        {
+          "prompt": "Now, she ___ dinner.",
+          "answer": "is cooking",
+          "options": [
+            "is cooking",
+            "cooks every day",
+            "cook"
+          ],
+          "why": "Now señala una acción en curso."
+        }
+      ],
+      "story": "It is Saturday afternoon. My family is at home. My mother usually works on Saturdays, but today she is reading. My father is cooking dinner. My sister is writing a message. I am listening to music. We usually eat at seven, but today we are eating at six.",
+      "reading": [
+        {
+          "prompt": "¿Qué hace hoy la madre?",
+          "answer": "Lee",
+          "options": [
+            "Lee",
+            "Trabaja",
+            "Cocina"
+          ],
+          "why": "Today she is reading."
+        },
+        {
+          "prompt": "¿A qué hora comen hoy?",
+          "answer": "A las seis",
+          "options": [
+            "A las seis",
+            "A las siete",
+            "A las ocho"
+          ],
+          "why": "Today we are eating at six."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What are you doing?"
+        ],
+        [
+          "You",
+          "I am studying English."
+        ],
+        [
+          "Friend",
+          "Is your sister studying, too?"
+        ],
+        [
+          "You",
+          "No, she is watching TV."
+        ],
+        [
+          "Friend",
+          "Do you study every day?"
+        ],
+        [
+          "You",
+          "Yes, I do."
+        ]
+      ],
+      "writing": "Escribe 3 cosas que ocurren ahora y 2 hábitos. Usa now y every day.",
+      "model": "I am reading now. My sister is cooking. My brother is sleeping. I study every day. We usually eat at seven."
+    },
+    {
+      "id": 18,
+      "title": "Clima y ropa",
+      "en": "Rain or shine",
+      "icon": "🌦️",
+      "goal": "Hablar del tiempo y elegir ropa adecuada.",
+      "vocab": [
+        {
+          "en": "sunny",
+          "es": "soleado",
+          "icon": "☀️"
+        },
+        {
+          "en": "rainy",
+          "es": "lluvioso",
+          "icon": "🌧️"
+        },
+        {
+          "en": "cloudy",
+          "es": "nublado",
+          "icon": "☁️"
+        },
+        {
+          "en": "windy",
+          "es": "ventoso",
+          "icon": "🌬️"
+        },
+        {
+          "en": "hot",
+          "es": "caluroso / caliente",
+          "icon": "🥵"
+        },
+        {
+          "en": "cold",
+          "es": "frío",
+          "icon": "🥶"
+        },
+        {
+          "en": "warm",
+          "es": "templado / cálido",
+          "icon": "🌤️"
+        },
+        {
+          "en": "coat",
+          "es": "abrigo",
+          "icon": "🧥"
+        },
+        {
+          "en": "hat",
+          "es": "sombrero",
+          "icon": "👒"
+        },
+        {
+          "en": "boots",
+          "es": "botas",
+          "icon": "🥾"
+        },
+        {
+          "en": "summer",
+          "es": "verano",
+          "icon": "🏖️"
+        },
+        {
+          "en": "winter",
+          "es": "invierno",
+          "icon": "❄️"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Habla del clima",
+          "text": "Usa it como sujeto: It is sunny, It is cold. What is the weather like? pregunta por el clima. It is raining describe lluvia en este momento; It rains a lot describe una característica habitual. Weather se trata como incontable.",
+          "pattern": "It is + adjetivo / It is raining",
+          "examples": [
+            "It is sunny today.",
+            "It is very cold.",
+            "It is raining now."
+          ],
+          "tip": "No omitas it: Is cold no es una oración afirmativa completa."
+        },
+        {
+          "title": "Ropa y acciones",
+          "text": "Wear describe llevar una prenda puesta: She is wearing a coat. Put on describe ponérsela; take off, quitársela. Para decir lo que llevas ahora, usa continuo. Clothes es plural y no se usa normalmente como a clothes. A piece of clothing significa una prenda.",
+          "pattern": "I am wearing + prenda",
+          "examples": [
+            "I am wearing a blue shirt.",
+            "Put on your coat.",
+            "Take off your hat."
+          ],
+          "tip": "Wear no significa comprar: I buy shoes y I wear shoes son acciones diferentes."
+        },
+        {
+          "title": "Estaciones y razones",
+          "text": "Las estaciones son spring, summer, autumn/fall y winter. Usa in con ellas: in winter. Conecta el clima y la ropa con because: I wear a coat because it is cold. But introduce contraste: It is sunny, but it is cold.",
+          "pattern": "in summer / because / but",
+          "examples": [
+            "It is hot in summer.",
+            "I wear boots because it is raining.",
+            "It is sunny, but it is cold."
+          ],
+          "tip": "Autumn es frecuente en inglés británico; fall en estadounidense."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "___ is cold today.",
+          "answer": "It",
+          "options": [
+            "It",
+            "There",
+            "He weather"
+          ],
+          "why": "El clima se expresa con el sujeto it."
+        },
+        {
+          "prompt": "Está lloviendo ahora:",
+          "answer": "It is raining.",
+          "options": [
+            "It is raining.",
+            "It rains every day.",
+            "It raining is have."
+          ],
+          "why": "La acción actual usa presente continuo."
+        },
+        {
+          "prompt": "She is ___ a coat.",
+          "answer": "wearing",
+          "options": [
+            "wearing",
+            "buy",
+            "wear"
+          ],
+          "why": "Después de is va wearing para una acción actual."
+        },
+        {
+          "prompt": "Ponerse un abrigo es…",
+          "answer": "put on a coat",
+          "options": [
+            "put on a coat",
+            "wear off a coat",
+            "take a coat off on"
+          ],
+          "why": "Put on describe la acción de ponérselo."
+        },
+        {
+          "prompt": "It is hot ___ summer.",
+          "answer": "in",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "why": "In se usa con estaciones."
+        },
+        {
+          "prompt": "I wear a coat ___ it is cold.",
+          "answer": "because",
+          "options": [
+            "because",
+            "but hot",
+            "where"
+          ],
+          "why": "Because introduce la razón."
+        }
+      ],
+      "story": "It is winter in London. Today it is cold and windy, but it is not raining. Tom is wearing a warm coat, a hat and boots. He is walking to the library. His friend Ana is in Lima. It is summer there. She is wearing a T-shirt and sunglasses.",
+      "reading": [
+        {
+          "prompt": "¿Está lloviendo en Londres?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Sí",
+            "Solo en la biblioteca"
+          ],
+          "why": "It is not raining."
+        },
+        {
+          "prompt": "¿Qué estación es en Lima?",
+          "answer": "Verano",
+          "options": [
+            "Verano",
+            "Invierno",
+            "Otoño"
+          ],
+          "why": "It is summer there."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What is the weather like?"
+        ],
+        [
+          "You",
+          "It is cold and windy."
+        ],
+        [
+          "Friend",
+          "What are you wearing?"
+        ],
+        [
+          "You",
+          "I am wearing a coat."
+        ],
+        [
+          "Friend",
+          "Is it raining?"
+        ],
+        [
+          "You",
+          "No, it is not."
+        ]
+      ],
+      "writing": "Describe el clima y la ropa de dos lugares imaginarios. Usa because o but.",
+      "model": "It is cold in London. I am wearing a coat because it is windy. It is hot in Lima. My friend is wearing a T-shirt."
+    },
+    {
+      "id": 19,
+      "title": "Cómo te sientes",
+      "en": "Take care",
+      "icon": "🩺",
+      "goal": "Nombrar partes del cuerpo, expresar molestias y pedir ayuda básica.",
+      "vocab": [
+        {
+          "en": "head",
+          "es": "cabeza",
+          "icon": "🙂"
+        },
+        {
+          "en": "hand",
+          "es": "mano",
+          "icon": "✋"
+        },
+        {
+          "en": "arm",
+          "es": "brazo",
+          "icon": "💪"
+        },
+        {
+          "en": "leg",
+          "es": "pierna",
+          "icon": "🦵"
+        },
+        {
+          "en": "foot",
+          "es": "pie",
+          "icon": "🦶"
+        },
+        {
+          "en": "back",
+          "es": "espalda",
+          "icon": "🧍"
+        },
+        {
+          "en": "tooth",
+          "es": "diente",
+          "icon": "🦷"
+        },
+        {
+          "en": "stomach",
+          "es": "estómago",
+          "icon": "🧍"
+        },
+        {
+          "en": "headache",
+          "es": "dolor de cabeza",
+          "icon": "🤕"
+        },
+        {
+          "en": "doctor",
+          "es": "médico/a",
+          "icon": "🧑‍⚕️"
+        },
+        {
+          "en": "ill",
+          "es": "enfermo/a",
+          "icon": "🤒"
+        },
+        {
+          "en": "better",
+          "es": "mejor",
+          "icon": "🙂"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Cuerpo y plurales",
+          "text": "Aprende head, arm, hand, leg, foot y tooth en frases. Algunos plurales son irregulares: foot → feet, tooth → teeth. Usa posesivos para señalar partes de tu cuerpo: my hand, her arm. My back hurts expresa que duele la espalda.",
+          "pattern": "my + parte del cuerpo",
+          "examples": [
+            "My hand hurts.",
+            "I have two feet.",
+            "Brush your teeth."
+          ],
+          "tip": "Feet es plural; no foots."
+        },
+        {
+          "title": "Expresa una molestia",
+          "text": "Para algunas molestias usa have: I have a headache; para estados, be: I am ill, I am tired. I feel better indica mejoría. What is the matter? pregunta qué pasa. Estas frases sirven para comunicar una necesidad, no para diagnosticar enfermedades.",
+          "pattern": "I have a headache. / I feel ill.",
+          "examples": [
+            "I have a stomach ache.",
+            "I am not well.",
+            "I need a doctor."
+          ],
+          "tip": "No todas las molestias usan la misma construcción; aprende la frase completa."
+        },
+        {
+          "title": "Peticiones e instrucciones",
+          "text": "Can you help me? y Please call a doctor permiten pedir ayuda. El imperativo da una instrucción: Sit down, please. Para una prohibición sencilla usa don’t: Don’t run. Must se puede reconocer en avisos obligatorios: You must stop.",
+          "pattern": "Please + verbo / Don’t + verbo",
+          "examples": [
+            "Please help me.",
+            "Sit down, please.",
+            "Do not run here."
+          ],
+          "tip": "En una emergencia real, busca ayuda local; el curso solo practica el idioma."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Plural de foot:",
+          "answer": "feet",
+          "options": [
+            "feet",
+            "foots",
+            "feets"
+          ],
+          "why": "Foot tiene plural irregular feet."
+        },
+        {
+          "prompt": "Plural de tooth:",
+          "answer": "teeth",
+          "options": [
+            "teeth",
+            "tooths",
+            "toothes"
+          ],
+          "why": "Tooth cambia a teeth."
+        },
+        {
+          "prompt": "I ___ a headache.",
+          "answer": "have",
+          "options": [
+            "have",
+            "am",
+            "do"
+          ],
+          "why": "La expresión es have a headache."
+        },
+        {
+          "prompt": "No me encuentro bien:",
+          "answer": "I am not well.",
+          "options": [
+            "I am not well.",
+            "I have not well.",
+            "I not well have."
+          ],
+          "why": "Well se usa aquí después de be."
+        },
+        {
+          "prompt": "Petición de ayuda:",
+          "answer": "Can you help me?",
+          "options": [
+            "Can you help me?",
+            "Can you helps I?",
+            "Do help my?"
+          ],
+          "why": "Can + verbo base y me como objeto."
+        },
+        {
+          "prompt": "No corras aquí:",
+          "answer": "Do not run here.",
+          "options": [
+            "Do not run here.",
+            "Not running you here.",
+            "Do not runs here."
+          ],
+          "why": "Imperativo negativo: do not + verbo base."
+        }
+      ],
+      "story": "Sam is at school. He does not feel well. He has a headache and he is tired. He tells his teacher, “I am not well. Can you help me?” The teacher calls his parent. Sam sits in a quiet room and waits. His parent arrives and takes him home.",
+      "reading": [
+        {
+          "prompt": "¿Qué molestia tiene Sam?",
+          "answer": "Dolor de cabeza",
+          "options": [
+            "Dolor de cabeza",
+            "Dolor de muela",
+            "Dolor de pie"
+          ],
+          "why": "He has a headache."
+        },
+        {
+          "prompt": "¿A quién le pide ayuda primero?",
+          "answer": "A su docente",
+          "options": [
+            "A su docente",
+            "Al conductor",
+            "A su primo"
+          ],
+          "why": "He tells his teacher."
+        }
+      ],
+      "dialogue": [
+        [
+          "Teacher",
+          "What is the matter?"
+        ],
+        [
+          "You",
+          "I have a headache."
+        ],
+        [
+          "Teacher",
+          "Are you tired?"
+        ],
+        [
+          "You",
+          "Yes, I am."
+        ],
+        [
+          "Teacher",
+          "Please sit down."
+        ],
+        [
+          "You",
+          "Can you call my parent, please?"
+        ]
+      ],
+      "writing": "Escribe una molestia, cómo te sientes y una petición de ayuda. Usa un ejemplo ficticio.",
+      "model": "I have a headache. I am tired. Can you help me, please?"
+    },
+    {
+      "id": 20,
+      "title": "Ayer y antes",
+      "en": "Yesterday",
+      "icon": "🕰️",
+      "goal": "Hablar de lugares y estados pasados con was y were.",
+      "vocab": [
+        {
+          "en": "yesterday",
+          "es": "ayer",
+          "icon": "📆"
+        },
+        {
+          "en": "last night",
+          "es": "anoche",
+          "icon": "🌙"
+        },
+        {
+          "en": "last week",
+          "es": "la semana pasada",
+          "icon": "🗓️"
+        },
+        {
+          "en": "ago",
+          "es": "hace",
+          "icon": "⌛"
+        },
+        {
+          "en": "busy",
+          "es": "ocupado/a",
+          "icon": "💼"
+        },
+        {
+          "en": "free",
+          "es": "libre",
+          "icon": "🕊️"
+        },
+        {
+          "en": "late",
+          "es": "tarde / retrasado",
+          "icon": "⏰"
+        },
+        {
+          "en": "early",
+          "es": "temprano",
+          "icon": "🌅"
+        },
+        {
+          "en": "party",
+          "es": "fiesta",
+          "icon": "🎉"
+        },
+        {
+          "en": "weekend",
+          "es": "fin de semana",
+          "icon": "🏖️"
+        },
+        {
+          "en": "at home",
+          "es": "en casa",
+          "icon": "🏠"
+        },
+        {
+          "en": "at school",
+          "es": "en la escuela",
+          "icon": "🏫"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Pasado de be",
+          "text": "Was y were son las formas pasadas de be. Usa was con I/he/she/it y were con you/we/they. Hablan de identidad, ubicación o estado en un momento pasado. Añade yesterday o last week para situar la frase. Es una introducción al pasado para situaciones cotidianas.",
+          "pattern": "I/he/she/it was · you/we/they were",
+          "examples": [
+            "I was at home yesterday.",
+            "They were happy.",
+            "She was tired last night."
+          ],
+          "tip": "En pasado I usa was, no am."
+        },
+        {
+          "title": "Niega y pregunta",
+          "text": "Añade not para negar: wasn’t, weren’t. Para preguntar, coloca was/were antes del sujeto. Las respuestas breves siguen la misma forma: Yes, I was; No, they weren’t. No necesitas did con was o were.",
+          "pattern": "Was she…? / Were you…?",
+          "examples": [
+            "Were you at school?",
+            "No, I was not.",
+            "They were not late."
+          ],
+          "tip": "Did you were? es incorrecto; usa Were you?"
+        },
+        {
+          "title": "Expresiones de pasado",
+          "text": "Yesterday, last night/week/month y two days ago ubican acontecimientos. Ago va después de la duración. No uses on delante de last Monday ni yesterday. Before y after permiten ordenar momentos sencillos sin cambiar la estructura principal.",
+          "pattern": "last + periodo / cantidad + ago",
+          "examples": [
+            "I was busy last week.",
+            "She was here two days ago.",
+            "We were at home yesterday."
+          ],
+          "tip": "Two days ago significa hace dos días; no dentro de dos días."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I ___ at home yesterday.",
+          "answer": "was",
+          "options": [
+            "was",
+            "were",
+            "am yesterday"
+          ],
+          "why": "Con I, pasado de be: was."
+        },
+        {
+          "prompt": "They ___ happy last night.",
+          "answer": "were",
+          "options": [
+            "were",
+            "was",
+            "are yesterday"
+          ],
+          "why": "Con they se usa were."
+        },
+        {
+          "prompt": "___ you at school yesterday?",
+          "answer": "Were",
+          "options": [
+            "Were",
+            "Was",
+            "Did were"
+          ],
+          "why": "Se invierte were y you."
+        },
+        {
+          "prompt": "She ___ not late.",
+          "answer": "was",
+          "options": [
+            "was",
+            "were",
+            "did"
+          ],
+          "why": "La negación es was not."
+        },
+        {
+          "prompt": "Hace dos días:",
+          "answer": "two days ago",
+          "options": [
+            "two days ago",
+            "ago two days",
+            "two days next"
+          ],
+          "why": "Ago va después del periodo."
+        },
+        {
+          "prompt": "Expresión correcta:",
+          "answer": "last Monday",
+          "options": [
+            "last Monday",
+            "on last Monday",
+            "in yesterday"
+          ],
+          "why": "Last Monday no lleva on."
+        }
+      ],
+      "story": "Yesterday was Sunday. I was at home in the morning. My parents were in the garden. In the afternoon, we were at my cousin’s birthday party. The food was good and the music was great. My brother was not there because he was at work. We were home at nine.",
+      "reading": [
+        {
+          "prompt": "¿Qué día fue ayer?",
+          "answer": "Domingo",
+          "options": [
+            "Domingo",
+            "Sábado",
+            "Lunes"
+          ],
+          "why": "Yesterday was Sunday."
+        },
+        {
+          "prompt": "¿Por qué no estaba el hermano?",
+          "answer": "Estaba trabajando",
+          "options": [
+            "Estaba trabajando",
+            "Estaba en el jardín",
+            "Estaba viajando"
+          ],
+          "why": "He was at work."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "Where were you yesterday?"
+        ],
+        [
+          "You",
+          "I was at home."
+        ],
+        [
+          "Friend",
+          "Were your parents there?"
+        ],
+        [
+          "You",
+          "Yes, they were."
+        ],
+        [
+          "Friend",
+          "Was it a good day?"
+        ],
+        [
+          "You",
+          "Yes, it was."
+        ]
+      ],
+      "writing": "Escribe 4 frases sobre un día pasado. Usa was, were y una negación.",
+      "model": "I was at home yesterday. My friends were at the park. I was tired. I was not at school."
+    },
+    {
+      "id": 21,
+      "title": "Cuenta algo que pasó",
+      "en": "A simple story",
+      "icon": "📖",
+      "goal": "Contar acciones pasadas frecuentes con verbos regulares e irregulares.",
+      "vocab": [
+        {
+          "en": "visited",
+          "es": "visitó / visité",
+          "icon": "🏠"
+        },
+        {
+          "en": "played",
+          "es": "jugó / jugué",
+          "icon": "⚽"
+        },
+        {
+          "en": "watched",
+          "es": "miró / miré",
+          "icon": "📺"
+        },
+        {
+          "en": "worked",
+          "es": "trabajó / trabajé",
+          "icon": "💼"
+        },
+        {
+          "en": "went",
+          "es": "fue / fui",
+          "icon": "🚶"
+        },
+        {
+          "en": "had",
+          "es": "tuvo / tuve",
+          "icon": "🍽️"
+        },
+        {
+          "en": "ate",
+          "es": "comió / comí",
+          "icon": "🍎"
+        },
+        {
+          "en": "saw",
+          "es": "vio / vi",
+          "icon": "👀"
+        },
+        {
+          "en": "bought",
+          "es": "compró / compré",
+          "icon": "🛒"
+        },
+        {
+          "en": "came",
+          "es": "vino / vine",
+          "icon": "🏡"
+        },
+        {
+          "en": "met",
+          "es": "conoció / conocí",
+          "icon": "🤝"
+        },
+        {
+          "en": "did",
+          "es": "hizo / hice",
+          "icon": "✅"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Verbos regulares",
+          "text": "Para acciones terminadas en pasado, muchos verbos añaden -ed: work → worked. Si termina en e, añade d: live → lived. Con consonante + y, cambia a -ied: study → studied. La forma es igual para todos los sujetos. Empieza con historias muy cortas y tiempo explícito.",
+          "pattern": "sujeto + verbo pasado",
+          "examples": [
+            "I visited my friend yesterday.",
+            "She watched a film.",
+            "We studied English."
+          ],
+          "tip": "La -ed no siempre añade una sílaba: worked /t/, played /d/, wanted /ɪd/."
+        },
+        {
+          "title": "Irregulares frecuentes",
+          "text": "Algunos verbos cambian sin una regla única: go → went, have → had, eat → ate, see → saw, buy → bought, do → did. Aprende pares dentro de frases, no solo como listas. No añadas -ed a una forma irregular: went, no goed.",
+          "pattern": "go → went · have → had",
+          "examples": [
+            "I went to the park.",
+            "She had lunch at home.",
+            "We saw a film."
+          ],
+          "tip": "I had breakfast significa desayuné; no implica posesión literal de desayuno."
+        },
+        {
+          "title": "Did y didn’t",
+          "text": "Pregunta con Did + sujeto + verbo base. Niega con didn’t + verbo base. El pasado ya lo expresa did: Did you go?, no Did you went? Be mantiene su propia estructura: Were you there? Esta unidad es una introducción que se ampliará en A2.",
+          "pattern": "Did you go? / I did not go.",
+          "examples": [
+            "Did you visit your friend?",
+            "I did not buy a ticket.",
+            "Yes, I did."
+          ],
+          "tip": "No mezcles didn’t y verbo pasado."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Pasado de study:",
+          "answer": "studied",
+          "options": [
+            "studied",
+            "studyed",
+            "studying"
+          ],
+          "why": "Consonante + y cambia a -ied."
+        },
+        {
+          "prompt": "Yesterday, she ___ a film.",
+          "answer": "watched",
+          "options": [
+            "watched",
+            "watch",
+            "watches"
+          ],
+          "why": "Una acción acabada ayer usa pasado."
+        },
+        {
+          "prompt": "Pasado de go:",
+          "answer": "went",
+          "options": [
+            "went",
+            "goed",
+            "goes"
+          ],
+          "why": "Go es irregular: went."
+        },
+        {
+          "prompt": "We ___ lunch at home yesterday.",
+          "answer": "had",
+          "options": [
+            "had",
+            "have",
+            "has"
+          ],
+          "why": "Have cambia a had."
+        },
+        {
+          "prompt": "Did you ___ to the park?",
+          "answer": "go",
+          "options": [
+            "go",
+            "went",
+            "goes"
+          ],
+          "why": "Después de did usamos verbo base."
+        },
+        {
+          "prompt": "I did not ___ a ticket.",
+          "answer": "buy",
+          "options": [
+            "buy",
+            "bought",
+            "buyed"
+          ],
+          "why": "Did not ya marca el pasado."
+        }
+      ],
+      "story": "Last Saturday, Ana visited her grandmother. She went by bus. They had lunch together and watched a film. In the afternoon, Ana helped in the garden. She did not buy anything. She came home at six and studied English for twenty minutes. It was a good day.",
+      "reading": [
+        {
+          "prompt": "¿A quién visitó Ana?",
+          "answer": "A su abuela",
+          "options": [
+            "A su abuela",
+            "A su docente",
+            "A su prima"
+          ],
+          "why": "Ana visited her grandmother."
+        },
+        {
+          "prompt": "¿Compró algo?",
+          "answer": "No",
+          "options": [
+            "No",
+            "Sí, un libro",
+            "Sí, flores"
+          ],
+          "why": "She did not buy anything."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "What did you do yesterday?"
+        ],
+        [
+          "You",
+          "I visited my grandmother."
+        ],
+        [
+          "Friend",
+          "Did you go by bus?"
+        ],
+        [
+          "You",
+          "Yes, I did."
+        ],
+        [
+          "Friend",
+          "Did you buy anything?"
+        ],
+        [
+          "You",
+          "No, I did not."
+        ]
+      ],
+      "writing": "Cuenta 4 acciones de ayer. Usa un verbo regular, uno irregular y una negación.",
+      "model": "I visited my friend. We went to the park. We had lunch. I did not buy anything."
+    },
+    {
+      "id": 22,
+      "title": "Planes e invitaciones",
+      "en": "See you soon",
+      "icon": "🗓️",
+      "goal": "Expresar planes sencillos, invitar y acordar un encuentro.",
+      "vocab": [
+        {
+          "en": "tomorrow",
+          "es": "mañana",
+          "icon": "🌅"
+        },
+        {
+          "en": "next week",
+          "es": "la próxima semana",
+          "icon": "🗓️"
+        },
+        {
+          "en": "tonight",
+          "es": "esta noche",
+          "icon": "🌙"
+        },
+        {
+          "en": "plan",
+          "es": "plan",
+          "icon": "📝"
+        },
+        {
+          "en": "meet",
+          "es": "encontrarse",
+          "icon": "🤝"
+        },
+        {
+          "en": "visit",
+          "es": "visitar",
+          "icon": "🏠"
+        },
+        {
+          "en": "travel",
+          "es": "viajar",
+          "icon": "🧳"
+        },
+        {
+          "en": "cinema",
+          "es": "cine",
+          "icon": "🎬"
+        },
+        {
+          "en": "together",
+          "es": "juntos",
+          "icon": "👥"
+        },
+        {
+          "en": "idea",
+          "es": "idea",
+          "icon": "💡"
+        },
+        {
+          "en": "sure",
+          "es": "claro / seguro",
+          "icon": "✅"
+        },
+        {
+          "en": "sorry",
+          "es": "lo siento",
+          "icon": "💬"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Planes con going to",
+          "text": "Para una intención decidida usa be + going to + verbo base. Be cambia según el sujeto: I am going to study; she is going to travel. Para negar, añade not después de be. La expresión no siempre indica desplazamiento físico.",
+          "pattern": "am/is/are + going to + verbo",
+          "examples": [
+            "I am going to study tonight.",
+            "She is going to visit her aunt.",
+            "We are not going to travel."
+          ],
+          "tip": "No omitas be: I going to no es correcto."
+        },
+        {
+          "title": "Pregunta por planes",
+          "text": "Invierte be y sujeto: Are you going to cook? Añade what/where/when para información. Puedes responder con be en una respuesta breve: Yes, I am. Tomorrow es mañana y next week es la próxima semana, sin preposición previa.",
+          "pattern": "What are you going to do?",
+          "examples": [
+            "Are you going to study?",
+            "When is she going to travel?",
+            "I am going to call you tomorrow."
+          ],
+          "tip": "Tomorrow no significa morning; morning es la parte inicial del día."
+        },
+        {
+          "title": "Invita y acuerda",
+          "text": "Let’s + verbo propone hacer algo juntos: Let’s meet. Would you like to…? invita cortésmente. Respuestas útiles: Yes, I’d love to; Sorry, I can’t. Usa at para la hora y on para el día. Si rechazas, puedes ofrecer otra fecha.",
+          "pattern": "Let’s meet at six.",
+          "examples": [
+            "Would you like to come?",
+            "Yes, I would love to.",
+            "Sorry, I cannot. How about Sunday?"
+          ],
+          "tip": "Después de Let’s no pongas to: Let’s go."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I ___ going to study.",
+          "answer": "am",
+          "options": [
+            "am",
+            "do",
+            "have"
+          ],
+          "why": "Going to necesita be."
+        },
+        {
+          "prompt": "She is going to ___ tomorrow.",
+          "answer": "travel",
+          "options": [
+            "travel",
+            "travels",
+            "travelled"
+          ],
+          "why": "Después de going to va verbo base."
+        },
+        {
+          "prompt": "___ you going to cook?",
+          "answer": "Are",
+          "options": [
+            "Are",
+            "Do",
+            "Have"
+          ],
+          "why": "La pregunta invierte be y sujeto."
+        },
+        {
+          "prompt": "La próxima semana:",
+          "answer": "next week",
+          "options": [
+            "next week",
+            "last week",
+            "yesterday week"
+          ],
+          "why": "Next indica el periodo siguiente."
+        },
+        {
+          "prompt": "Propuesta correcta:",
+          "answer": "Let’s meet at six.",
+          "options": [
+            "Let’s meet at six.",
+            "Let’s to meet at six.",
+            "Let’s meeting at six."
+          ],
+          "why": "Let’s + verbo base."
+        },
+        {
+          "prompt": "Aceptación cortés de una invitación:",
+          "answer": "Yes, I would love to.",
+          "options": [
+            "Yes, I would love to.",
+            "Yes, I was yesterday.",
+            "No, I does."
+          ],
+          "why": "Would love to acepta de forma amable."
+        }
+      ],
+      "story": "Tomorrow is Saturday. Sara is going to visit the museum with Leo. They are going to meet at the station at ten. They are not going to drive. They are going to take the bus. After the museum, they are going to have lunch in a café. Their friend Mia cannot come.",
+      "reading": [
+        {
+          "prompt": "¿Dónde van a encontrarse?",
+          "answer": "En la estación",
+          "options": [
+            "En la estación",
+            "En el museo",
+            "En el café"
+          ],
+          "why": "They are going to meet at the station."
+        },
+        {
+          "prompt": "¿Cómo van a ir?",
+          "answer": "En bus",
+          "options": [
+            "En bus",
+            "En auto",
+            "En tren"
+          ],
+          "why": "They are going to take the bus."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "Would you like to go to the cinema?"
+        ],
+        [
+          "You",
+          "Yes, I would love to."
+        ],
+        [
+          "Friend",
+          "Are you free on Saturday?"
+        ],
+        [
+          "You",
+          "Yes, I am."
+        ],
+        [
+          "Friend",
+          "Let’s meet at six."
+        ],
+        [
+          "You",
+          "Great! See you then."
+        ]
+      ],
+      "writing": "Escribe 3 planes para el fin de semana y una invitación con lugar y hora.",
+      "model": "I am going to study. I am going to visit my friend. We are going to cook. Would you like to come on Sunday at six?"
+    },
+    {
+      "id": 23,
+      "title": "Mensajes que conectan",
+      "en": "You have a message",
+      "icon": "💌",
+      "goal": "Leer avisos y escribir mensajes personales breves y claros.",
+      "vocab": [
+        {
+          "en": "message",
+          "es": "mensaje",
+          "icon": "💬"
+        },
+        {
+          "en": "email",
+          "es": "correo electrónico",
+          "icon": "📧"
+        },
+        {
+          "en": "dear",
+          "es": "querido/a (saludo)",
+          "icon": "💌"
+        },
+        {
+          "en": "thanks",
+          "es": "gracias",
+          "icon": "🙏"
+        },
+        {
+          "en": "and",
+          "es": "y",
+          "icon": "➕"
+        },
+        {
+          "en": "but",
+          "es": "pero",
+          "icon": "↔️"
+        },
+        {
+          "en": "because",
+          "es": "porque",
+          "icon": "💭"
+        },
+        {
+          "en": "or",
+          "es": "o",
+          "icon": "🔀"
+        },
+        {
+          "en": "open",
+          "es": "abierto",
+          "icon": "🔓"
+        },
+        {
+          "en": "closed",
+          "es": "cerrado",
+          "icon": "🔒"
+        },
+        {
+          "en": "start",
+          "es": "empezar",
+          "icon": "▶️"
+        },
+        {
+          "en": "finish",
+          "es": "terminar",
+          "icon": "🏁"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Conecta tus frases",
+          "text": "And añade información; but introduce contraste; because explica un motivo; or presenta alternativas. Usa frases cortas y una idea clara en cada una. No necesitas palabras difíciles para escribir bien en A1. Primero decide qué información necesita la otra persona.",
+          "pattern": "idea + and/but/because/or + idea",
+          "examples": [
+            "I like tea and coffee.",
+            "I can come, but I am busy today.",
+            "I study because I want to travel."
+          ],
+          "tip": "Because introduce una razón; but introduce una diferencia o contraste."
+        },
+        {
+          "title": "Un mensaje sencillo",
+          "text": "Un correo corto puede tener saludo, motivo, dos detalles y despedida. Hi + nombre es informal; Dear + nombre también es posible. Usa mayúscula en I, nombres, días y países. Termina frases con punto y preguntas con signo ?. No hay signo de apertura en inglés.",
+          "pattern": "Hi… / mensaje / See you soon, …",
+          "examples": [
+            "Hi Ana! How are you?",
+            "The class starts at six on Monday.",
+            "See you soon, Leo."
+          ],
+          "tip": "Its y it’s, your y you’re no son intercambiables."
+        },
+        {
+          "title": "Lee para una tarea",
+          "text": "En un aviso, busca primero quién, qué, dónde y cuándo. No hace falta traducir cada palabra. Abierto/cerrado, horas y fechas suelen ser la información útil. Después lee otra vez para confirmar. Un mensaje debe responder a todos los puntos que te piden.",
+          "pattern": "Who? What? Where? When?",
+          "examples": [
+            "The library is closed on Sunday.",
+            "Please bring your book.",
+            "Meet me outside the station."
+          ],
+          "tip": "Closed on Sunday significa cerrado el domingo, no que cierra todos los días a una hora."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "I like tea ___ coffee.",
+          "answer": "and",
+          "options": [
+            "and",
+            "because of",
+            "where"
+          ],
+          "why": "And añade otra cosa que te gusta."
+        },
+        {
+          "prompt": "I am tired ___ I want to study.",
+          "answer": "but",
+          "options": [
+            "but",
+            "or where",
+            "because of"
+          ],
+          "why": "But presenta contraste."
+        },
+        {
+          "prompt": "Elige la escritura correcta.",
+          "answer": "I am from Peru.",
+          "options": [
+            "I am from Peru.",
+            "i am from peru.",
+            "i Am from peru."
+          ],
+          "why": "I y Peru llevan mayúscula."
+        },
+        {
+          "prompt": "Despedida apropiada para un amigo:",
+          "answer": "See you soon!",
+          "options": [
+            "See you soon!",
+            "What is this?",
+            "Closed on Sunday."
+          ],
+          "why": "See you soon es una despedida."
+        },
+        {
+          "prompt": "Closed on Sunday significa…",
+          "answer": "Cerrado el domingo",
+          "options": [
+            "Cerrado el domingo",
+            "Abierto el domingo",
+            "Cierra a las seis"
+          ],
+          "why": "Closed significa cerrado."
+        },
+        {
+          "prompt": "Para buscar la hora en un aviso preguntas…",
+          "answer": "When?",
+          "options": [
+            "When?",
+            "Who?",
+            "Why?"
+          ],
+          "why": "When se refiere al tiempo."
+        }
+      ],
+      "story": "Hi Leo! Our English class is in Room 4 on Monday. It starts at six and finishes at seven. Please bring your book and a pen. The café next to the school is closed, but there is a small shop opposite the station. We can meet there at five thirty. See you soon! Ana",
+      "reading": [
+        {
+          "prompt": "¿En qué aula es la clase?",
+          "answer": "En el aula 4",
+          "options": [
+            "En el aula 4",
+            "En el aula 6",
+            "En el aula 7"
+          ],
+          "why": "The class is in Room 4."
+        },
+        {
+          "prompt": "¿A qué hora propone encontrarse Ana?",
+          "answer": "5:30",
+          "options": [
+            "5:30",
+            "6:00",
+            "7:00"
+          ],
+          "why": "We can meet there at five thirty."
+        }
+      ],
+      "dialogue": [
+        [
+          "Friend",
+          "Can you send me the address?"
+        ],
+        [
+          "You",
+          "Yes. It is ten Green Street."
+        ],
+        [
+          "Friend",
+          "What time does the class start?"
+        ],
+        [
+          "You",
+          "It starts at six."
+        ],
+        [
+          "Friend",
+          "Do I need a book?"
+        ],
+        [
+          "You",
+          "Yes. Please bring a book and a pen."
+        ]
+      ],
+      "writing": "Escribe un mensaje de 35–50 palabras invitando a un amigo. Incluye actividad, día, hora y lugar.",
+      "model": "Hi Ana! Would you like to study with me on Saturday? We can meet at the library at ten. Please bring your English book. After that, we can have lunch in the café. See you soon! Leo"
+    },
+    {
+      "id": 24,
+      "title": "Tu primera aventura",
+      "en": "Ready for the real world",
+      "icon": "🏆",
+      "goal": "Combinar lo aprendido para desenvolverte en situaciones básicas.",
+      "vocab": [
+        {
+          "en": "understand",
+          "es": "entender",
+          "icon": "💡"
+        },
+        {
+          "en": "repeat",
+          "es": "repetir",
+          "icon": "🔁"
+        },
+        {
+          "en": "slowly",
+          "es": "despacio",
+          "icon": "🐢"
+        },
+        {
+          "en": "again",
+          "es": "otra vez",
+          "icon": "🔄"
+        },
+        {
+          "en": "learn",
+          "es": "aprender",
+          "icon": "📚"
+        },
+        {
+          "en": "practise",
+          "es": "practicar",
+          "icon": "🎯"
+        },
+        {
+          "en": "question",
+          "es": "pregunta",
+          "icon": "❓"
+        },
+        {
+          "en": "answer",
+          "es": "respuesta",
+          "icon": "💬"
+        },
+        {
+          "en": "ready",
+          "es": "listo/a",
+          "icon": "✅"
+        },
+        {
+          "en": "together",
+          "es": "juntos",
+          "icon": "🤝"
+        },
+        {
+          "en": "welcome",
+          "es": "bienvenido/a",
+          "icon": "👋"
+        },
+        {
+          "en": "well done",
+          "es": "bien hecho",
+          "icon": "🌟"
+        }
+      ],
+      "rules": [
+        {
+          "title": "Preséntate con confianza",
+          "text": "Combina nombre, origen, ocupación, familia y gustos. El objetivo A1 es comunicar información cotidiana sencilla, aunque necesites pausas y ayuda. Usa frases que dominas. Si olvidas una palabra, pide ayuda con What does… mean? o How do you say… in English?",
+          "pattern": "nombre + origen + actividad + gusto",
+          "examples": [
+            "I am Ana and I am from Peru.",
+            "I study English and I like music.",
+            "I can speak a little English."
+          ],
+          "tip": "Una frase breve y clara es mejor que una muy compleja que no puedes explicar."
+        },
+        {
+          "title": "Resuelve una necesidad",
+          "text": "Para pedir comida, comprar un billete o preguntar una dirección, identifica tu objetivo. Abre con Hello o Excuse me, formula la petición y confirma la información. Repite la hora, el precio o el lugar si no estás seguro. Cierra con Thank you.",
+          "pattern": "saludo + petición + confirmación",
+          "examples": [
+            "A ticket to Oxford, please.",
+            "Is that platform three?",
+            "Can you say that again, please?"
+          ],
+          "tip": "Confirmar información también es comunicarse bien."
+        },
+        {
+          "title": "Comprueba lo que puedes hacer",
+          "text": "Antes de avanzar, verifica si puedes presentarte, comprender mensajes cortos, preguntar datos, escribir un texto sencillo y participar si la otra persona habla despacio. Los tests del curso son orientativos. Repite las partes difíciles y utiliza el repaso espaciado. Completar pantallas no equivale a una certificación oficial.",
+          "pattern": "practica · recibe feedback · repasa",
+          "examples": [
+            "I can introduce myself.",
+            "I can ask for directions.",
+            "I can write a short message."
+          ],
+          "tip": "Haz el examen final sin consultar respuestas y vuelve a practicar los errores."
+        }
+      ],
+      "questions": [
+        {
+          "prompt": "Presentación correcta:",
+          "answer": "I am from Peru and I like music.",
+          "options": [
+            "I am from Peru and I like music.",
+            "I have from Peru and likes music.",
+            "I from Peru am like musics."
+          ],
+          "why": "Be para origen y like con sujeto I."
+        },
+        {
+          "prompt": "Pedir repetición:",
+          "answer": "Can you say that again, please?",
+          "options": [
+            "Can you say that again, please?",
+            "Do you again is?",
+            "What repeat was name?"
+          ],
+          "why": "Can you + verbo base forma una petición clara."
+        },
+        {
+          "prompt": "Confirmar un precio:",
+          "answer": "Is that six pounds?",
+          "options": [
+            "Is that six pounds?",
+            "Are that six pound?",
+            "Do that is six?"
+          ],
+          "why": "That es singular: Is that…?"
+        },
+        {
+          "prompt": "Pedir un billete:",
+          "answer": "A ticket to Oxford, please.",
+          "options": [
+            "A ticket to Oxford, please.",
+            "A ticket at go Oxford.",
+            "An tickets Oxford."
+          ],
+          "why": "Ticket es singular y to indica destino."
+        },
+        {
+          "prompt": "Para contar un hábito:",
+          "answer": "I study every day.",
+          "options": [
+            "I study every day.",
+            "I studied now yesterday every.",
+            "I am study every day."
+          ],
+          "why": "El presente simple describe hábitos."
+        },
+        {
+          "prompt": "¿Qué demuestra terminar este curso?",
+          "answer": "Práctica y resultados orientativos",
+          "options": [
+            "Práctica y resultados orientativos",
+            "Un certificado oficial de Cambridge",
+            "Dominio perfecto garantizado"
+          ],
+          "why": "El curso no emite una certificación oficial ni garantiza un resultado."
+        }
+      ],
+      "story": "Hello! My name is Ana and I am from Peru. I am visiting a new town. Today I am going to the museum. I ask a woman for directions. She speaks slowly and helps me. After the museum, I have lunch in a café. I order a sandwich and some water. In the evening, I write a short message to my family. I can use my English!",
+      "reading": [
+        {
+          "prompt": "¿A dónde va Ana hoy?",
+          "answer": "Al museo",
+          "options": [
+            "Al museo",
+            "A la escuela",
+            "Al aeropuerto"
+          ],
+          "why": "Today I am going to the museum."
+        },
+        {
+          "prompt": "¿Qué hace por la noche?",
+          "answer": "Escribe a su familia",
+          "options": [
+            "Escribe a su familia",
+            "Compra zapatos",
+            "Toma un tren"
+          ],
+          "why": "She writes a short message to her family."
+        }
+      ],
+      "dialogue": [
+        [
+          "Local",
+          "Hello! Can I help you?"
+        ],
+        [
+          "You",
+          "Yes. Where is the museum?"
+        ],
+        [
+          "Local",
+          "Go straight and turn left."
+        ],
+        [
+          "You",
+          "Can you repeat that slowly, please?"
+        ],
+        [
+          "Local",
+          "Go straight. Then turn left."
+        ],
+        [
+          "You",
+          "Thank you very much!"
+        ]
+      ],
+      "writing": "Escribe una presentación de 50–70 palabras con origen, familia, rutina, gustos y un plan. Después léela en voz alta.",
+      "model": "Hello! My name is Ana and I am from Peru. I live with my family in Lima. I study every morning and I like listening to music. I can swim, but I cannot play the guitar. On Saturday, I am going to visit my friend. We are going to cook together. I am happy to learn English."
+    }
+  ],
+  "extra": {
+    "alphabet": [
+      [
+        "A",
+        "/eɪ/"
+      ],
+      [
+        "B",
+        "/biː/"
+      ],
+      [
+        "C",
+        "/siː/"
+      ],
+      [
+        "D",
+        "/diː/"
+      ],
+      [
+        "E",
+        "/iː/"
+      ],
+      [
+        "F",
+        "/ef/"
+      ],
+      [
+        "G",
+        "/dʒiː/"
+      ],
+      [
+        "H",
+        "/eɪtʃ/"
+      ],
+      [
+        "I",
+        "/aɪ/"
+      ],
+      [
+        "J",
+        "/dʒeɪ/"
+      ],
+      [
+        "K",
+        "/keɪ/"
+      ],
+      [
+        "L",
+        "/el/"
+      ],
+      [
+        "M",
+        "/em/"
+      ],
+      [
+        "N",
+        "/en/"
+      ],
+      [
+        "O",
+        "/əʊ/"
+      ],
+      [
+        "P",
+        "/piː/"
+      ],
+      [
+        "Q",
+        "/kjuː/"
+      ],
+      [
+        "R",
+        "/ɑː/"
+      ],
+      [
+        "S",
+        "/es/"
+      ],
+      [
+        "T",
+        "/tiː/"
+      ],
+      [
+        "U",
+        "/juː/"
+      ],
+      [
+        "V",
+        "/viː/"
+      ],
+      [
+        "W",
+        "/ˈdʌbəljuː/"
+      ],
+      [
+        "X",
+        "/eks/"
+      ],
+      [
+        "Y",
+        "/waɪ/"
+      ],
+      [
+        "Z",
+        "/zed/"
+      ]
+    ],
+    "numbers": [
+      [
+        0,
+        "zero"
+      ],
+      [
+        1,
+        "one"
+      ],
+      [
+        2,
+        "two"
+      ],
+      [
+        3,
+        "three"
+      ],
+      [
+        4,
+        "four"
+      ],
+      [
+        5,
+        "five"
+      ],
+      [
+        6,
+        "six"
+      ],
+      [
+        7,
+        "seven"
+      ],
+      [
+        8,
+        "eight"
+      ],
+      [
+        9,
+        "nine"
+      ],
+      [
+        10,
+        "ten"
+      ],
+      [
+        11,
+        "eleven"
+      ],
+      [
+        12,
+        "twelve"
+      ],
+      [
+        13,
+        "thirteen"
+      ],
+      [
+        14,
+        "fourteen"
+      ],
+      [
+        15,
+        "fifteen"
+      ],
+      [
+        16,
+        "sixteen"
+      ],
+      [
+        17,
+        "seventeen"
+      ],
+      [
+        18,
+        "eighteen"
+      ],
+      [
+        19,
+        "nineteen"
+      ],
+      [
+        20,
+        "twenty"
+      ],
+      [
+        30,
+        "thirty"
+      ],
+      [
+        40,
+        "forty"
+      ],
+      [
+        50,
+        "fifty"
+      ],
+      [
+        60,
+        "sixty"
+      ],
+      [
+        70,
+        "seventy"
+      ],
+      [
+        80,
+        "eighty"
+      ],
+      [
+        90,
+        "ninety"
+      ],
+      [
+        100,
+        "one hundred"
+      ],
+      [
+        1000,
+        "one thousand"
+      ]
+    ],
+    "months": [
+      [
+        "January",
+        "enero"
+      ],
+      [
+        "February",
+        "febrero"
+      ],
+      [
+        "March",
+        "marzo"
+      ],
+      [
+        "April",
+        "abril"
+      ],
+      [
+        "May",
+        "mayo"
+      ],
+      [
+        "June",
+        "junio"
+      ],
+      [
+        "July",
+        "julio"
+      ],
+      [
+        "August",
+        "agosto"
+      ],
+      [
+        "September",
+        "septiembre"
+      ],
+      [
+        "October",
+        "octubre"
+      ],
+      [
+        "November",
+        "noviembre"
+      ],
+      [
+        "December",
+        "diciembre"
+      ]
+    ],
+    "ordinals": [
+      [
+        "first",
+        "primero"
+      ],
+      [
+        "second",
+        "segundo"
+      ],
+      [
+        "third",
+        "tercero"
+      ],
+      [
+        "fourth",
+        "cuarto"
+      ],
+      [
+        "fifth",
+        "quinto"
+      ],
+      [
+        "sixth",
+        "sexto"
+      ],
+      [
+        "seventh",
+        "séptimo"
+      ],
+      [
+        "eighth",
+        "octavo"
+      ],
+      [
+        "ninth",
+        "noveno"
+      ],
+      [
+        "tenth",
+        "décimo"
+      ],
+      [
+        "eleventh",
+        "undécimo"
+      ],
+      [
+        "twelfth",
+        "duodécimo"
+      ],
+      [
+        "twentieth",
+        "vigésimo"
+      ],
+      [
+        "twenty-first",
+        "vigésimo primero"
+      ],
+      [
+        "thirtieth",
+        "trigésimo"
+      ]
+    ],
+    "colours": [
+      [
+        "green",
+        "verde",
+        "🟢"
+      ],
+      [
+        "yellow",
+        "amarillo",
+        "🟡"
+      ],
+      [
+        "black",
+        "negro",
+        "⚫"
+      ],
+      [
+        "white",
+        "blanco",
+        "⚪"
+      ],
+      [
+        "orange",
+        "naranja",
+        "🟠"
+      ],
+      [
+        "purple",
+        "morado",
+        "🟣"
+      ],
+      [
+        "brown",
+        "marrón",
+        "🟤"
+      ],
+      [
+        "pink",
+        "rosado",
+        "🌸"
+      ],
+      [
+        "grey",
+        "gris",
+        "🩶"
+      ]
+    ],
+    "jobs": [
+      [
+        "doctor",
+        "médico/a",
+        "🩺"
+      ],
+      [
+        "nurse",
+        "enfermero/a",
+        "🏥"
+      ],
+      [
+        "driver",
+        "conductor/a",
+        "🚗"
+      ],
+      [
+        "cook",
+        "cocinero/a",
+        "👩‍🍳"
+      ],
+      [
+        "farmer",
+        "agricultor/a",
+        "🌾"
+      ],
+      [
+        "engineer",
+        "ingeniero/a",
+        "⚙️"
+      ],
+      [
+        "artist",
+        "artista",
+        "🎨"
+      ],
+      [
+        "police officer",
+        "policía",
+        "👮"
+      ],
+      [
+        "shop assistant",
+        "dependiente/a",
+        "🛍️"
+      ],
+      [
+        "waiter",
+        "camarero",
+        "🍽️"
+      ]
+    ],
+    "animals": [
+      [
+        "dog",
+        "perro",
+        "🐕"
+      ],
+      [
+        "cat",
+        "gato",
+        "🐈"
+      ],
+      [
+        "bird",
+        "ave",
+        "🐦"
+      ],
+      [
+        "horse",
+        "caballo",
+        "🐎"
+      ],
+      [
+        "cow",
+        "vaca",
+        "🐄"
+      ],
+      [
+        "sheep",
+        "oveja",
+        "🐑"
+      ],
+      [
+        "rabbit",
+        "conejo",
+        "🐇"
+      ],
+      [
+        "elephant",
+        "elefante",
+        "🐘"
+      ],
+      [
+        "lion",
+        "león",
+        "🦁"
+      ],
+      [
+        "fish",
+        "pez",
+        "🐟"
+      ]
+    ],
+    "pronunciation": [
+      [
+        "/iː/ y /ɪ/",
+        "sheep / ship",
+        "La primera vocal suele ser más larga y tensa. La segunda es más breve y relajada. No las reemplaces siempre por la i española.",
+        "sheep",
+        "ship"
+      ],
+      [
+        "/æ/ y /ʌ/",
+        "cat / cut",
+        "Para /æ/, abre la boca hacia una a adelantada. /ʌ/ es más central. Escucha primero; no necesitas dominar símbolos para practicar.",
+        "cat",
+        "cut"
+      ],
+      [
+        "/b/ y /v/",
+        "berry / very",
+        "Para /b/, junta ambos labios; para /v/, acerca los dientes superiores al labio inferior y deja salir aire con voz.",
+        "berry",
+        "very"
+      ],
+      [
+        "/θ/ y /ð/",
+        "think / this",
+        "Acerca suavemente la lengua a los dientes. /θ/ no lleva vibración de voz; /ð/ sí. No muerdas con fuerza.",
+        "think",
+        "this"
+      ],
+      [
+        "/h/ inicial",
+        "house / hour",
+        "House empieza con una salida de aire suave. En hour la h es muda. Escuchar la palabra completa ayuda a elegir a/an.",
+        "house",
+        "hour"
+      ],
+      [
+        "Consonantes finales",
+        "book / books",
+        "Conserva el sonido final. Books termina con /ks/; no añadas una e al final. Los plurales pueden terminar en /s/, /z/ o /ɪz/.",
+        "book",
+        "books"
+      ],
+      [
+        "-ed en pasado",
+        "worked / wanted",
+        "Worked termina con /t/ sin sílaba extra. Wanted termina con /ɪd/ y añade una sílaba. Played termina con /d/.",
+        "worked",
+        "wanted"
+      ],
+      [
+        "Ritmo de la frase",
+        "I would like a cup of tea.",
+        "Da más fuerza a las palabras que aportan información. Las palabras cortas como a y of suelen sonar débiles. Imita una frase corta y luego repítela sin mirar.",
+        "I would like a cup of tea.",
+        "Can you help me, please?"
+      ]
+    ],
+    "checklist": [
+      "Puedo presentarme y decir de dónde soy.",
+      "Puedo preguntar y dar datos personales sencillos.",
+      "Puedo hablar de mi familia, casa y rutina.",
+      "Puedo entender precios, horas y fechas hablados despacio.",
+      "Puedo pedir comida, un billete y una dirección.",
+      "Puedo leer avisos y mensajes breves.",
+      "Puedo escribir una presentación y una invitación corta.",
+      "Puedo pedir que repitan y participar con ayuda."
+    ],
+    "resources": [
+      [
+        "British Council",
+        "Curso y práctica por destrezas",
+        "Materiales A1 de lectura, escucha, escritura y conversación. Algunas ofertas de clases son de pago; los ejercicios enlazados se consultan gratis.",
+        "https://learnenglish.britishcouncil.org/level/understand-your-level/a1-elementary",
+        "BC"
+      ],
+      [
+        "Cambridge English",
+        "Actividades de nivel básico",
+        "Actividades oficiales gratuitas filtradas como Basic (A1–A2). Elige las más sencillas; el filtro también contiene contenido A2.",
+        "https://www.cambridgeenglish.org/learning-english/activities-for-learners/?level=basic",
+        "CE"
+      ],
+      [
+        "Cambridge English",
+        "A1 Movers: preparación",
+        "Recursos oficiales de preparación, muestras y vocabulario ilustrado orientados a niños. Útiles como complemento visual, no como único programa para adultos.",
+        "https://www.cambridgeenglish.org/exams-and-tests/qualifications/young-learners/paper/movers/preparation/",
+        "A1"
+      ],
+      [
+        "Cambridge English",
+        "Libro ilustrado gratuito: A1 Movers",
+        "PDF oficial de vocabulario ilustrado, pensado para niños. Ábrelo o descárgalo desde Cambridge; se enlaza como complemento y no se redistribuye dentro de este curso.",
+        "https://www.cambridgeenglish.org/Images/351850-a1-movers-wordlist-picture-book.pdf",
+        "PDF"
+      ],
+      [
+        "Consejo de Europa",
+        "Qué significa A1",
+        "Descriptores y marco de referencia. A1 se define por lo que puedes hacer con el idioma, no por terminar un número fijo de lecciones.",
+        "https://www.coe.int/en/web/common-european-framework-reference-languages/level-descriptions",
+        "CEFR"
+      ],
+      [
+        "Association for Psychological Science",
+        "Cómo estudiar para recordar",
+        "Revisión de técnicas de aprendizaje: práctica de recuperación y sesiones distribuidas en el tiempo. El curso utiliza ambos principios.",
+        "https://www.psychologicalscience.org/news/releases/which-study-strategies-make-the-grade.html",
+        "APS"
+      ]
+    ],
+    "packs": {
+      "Verbos de cada día": [
+        [
+          "ask",
+          "preguntar",
+          "❓"
+        ],
+        [
+          "answer",
+          "responder",
+          "💬"
+        ],
+        [
+          "begin",
+          "empezar",
+          "▶️"
+        ],
+        [
+          "bring",
+          "traer",
+          "🎒"
+        ],
+        [
+          "call",
+          "llamar",
+          "📞"
+        ],
+        [
+          "clean",
+          "limpiar",
+          "🧹"
+        ],
+        [
+          "close",
+          "cerrar",
+          "🚪"
+        ],
+        [
+          "come",
+          "venir",
+          "🚶"
+        ],
+        [
+          "cut",
+          "cortar",
+          "✂️"
+        ],
+        [
+          "do",
+          "hacer",
+          "✅"
+        ],
+        [
+          "drive",
+          "conducir",
+          "🚗"
+        ],
+        [
+          "drink",
+          "beber",
+          "🥤"
+        ],
+        [
+          "eat",
+          "comer",
+          "🍽️"
+        ],
+        [
+          "find",
+          "encontrar",
+          "🔎"
+        ],
+        [
+          "give",
+          "dar",
+          "🎁"
+        ],
+        [
+          "get",
+          "obtener / llegar",
+          "📦"
+        ],
+        [
+          "hear",
+          "oír",
+          "👂"
+        ],
+        [
+          "know",
+          "saber / conocer",
+          "💡"
+        ],
+        [
+          "look",
+          "mirar",
+          "👀"
+        ],
+        [
+          "make",
+          "hacer / fabricar",
+          "🛠️"
+        ],
+        [
+          "open",
+          "abrir",
+          "🔓"
+        ],
+        [
+          "put",
+          "poner",
+          "📦"
+        ],
+        [
+          "say",
+          "decir",
+          "💬"
+        ],
+        [
+          "see",
+          "ver",
+          "👁️"
+        ],
+        [
+          "send",
+          "enviar",
+          "📨"
+        ],
+        [
+          "show",
+          "mostrar",
+          "👆"
+        ],
+        [
+          "take",
+          "tomar / llevar",
+          "✋"
+        ],
+        [
+          "tell",
+          "decir / contar",
+          "🗣️"
+        ],
+        [
+          "think",
+          "pensar",
+          "💭"
+        ],
+        [
+          "try",
+          "intentar",
+          "🎯"
+        ],
+        [
+          "use",
+          "usar",
+          "🧰"
+        ],
+        [
+          "wash",
+          "lavar",
+          "🧼"
+        ],
+        [
+          "watch",
+          "mirar",
+          "📺"
+        ],
+        [
+          "wait",
+          "esperar",
+          "⌛"
+        ],
+        [
+          "wear",
+          "llevar puesto",
+          "👕"
+        ]
+      ],
+      "Personas y relaciones": [
+        [
+          "baby",
+          "bebé",
+          "👶"
+        ],
+        [
+          "boy",
+          "niño",
+          "👦"
+        ],
+        [
+          "girl",
+          "niña",
+          "👧"
+        ],
+        [
+          "child",
+          "niño/a",
+          "🧒"
+        ],
+        [
+          "children",
+          "niños/as",
+          "👧"
+        ],
+        [
+          "man",
+          "hombre",
+          "👨"
+        ],
+        [
+          "woman",
+          "mujer",
+          "👩"
+        ],
+        [
+          "people",
+          "personas",
+          "👥"
+        ],
+        [
+          "person",
+          "persona",
+          "👤"
+        ],
+        [
+          "aunt",
+          "tía",
+          "👩"
+        ],
+        [
+          "uncle",
+          "tío",
+          "👨"
+        ],
+        [
+          "grandparents",
+          "abuelos",
+          "👵"
+        ],
+        [
+          "neighbour",
+          "vecino/a",
+          "🏘️"
+        ],
+        [
+          "guest",
+          "invitado/a",
+          "🎉"
+        ],
+        [
+          "partner",
+          "pareja / compañero/a",
+          "🤝"
+        ],
+        [
+          "family",
+          "familia",
+          "👪"
+        ],
+        [
+          "adult",
+          "adulto/a",
+          "🧑"
+        ],
+        [
+          "teenager",
+          "adolescente",
+          "🧑"
+        ],
+        [
+          "married",
+          "casado/a",
+          "💍"
+        ],
+        [
+          "single",
+          "soltero/a",
+          "🧍"
+        ]
+      ],
+      "Casa y objetos": [
+        [
+          "room",
+          "habitación",
+          "🚪"
+        ],
+        [
+          "floor",
+          "piso / suelo",
+          "🏠"
+        ],
+        [
+          "wall",
+          "pared",
+          "🧱"
+        ],
+        [
+          "roof",
+          "techo",
+          "🏠"
+        ],
+        [
+          "stairs",
+          "escaleras",
+          "🪜"
+        ],
+        [
+          "mirror",
+          "espejo",
+          "🪞"
+        ],
+        [
+          "shower",
+          "ducha",
+          "🚿"
+        ],
+        [
+          "bath",
+          "bañera / baño",
+          "🛁"
+        ],
+        [
+          "toilet",
+          "inodoro / baño",
+          "🚽"
+        ],
+        [
+          "towel",
+          "toalla",
+          "🧻"
+        ],
+        [
+          "key",
+          "llave",
+          "🔑"
+        ],
+        [
+          "clock",
+          "reloj",
+          "🕰️"
+        ],
+        [
+          "picture",
+          "imagen / cuadro",
+          "🖼️"
+        ],
+        [
+          "computer",
+          "computadora",
+          "💻"
+        ],
+        [
+          "television",
+          "televisión",
+          "📺"
+        ],
+        [
+          "radio",
+          "radio",
+          "📻"
+        ],
+        [
+          "cupboard",
+          "armario",
+          "🚪"
+        ],
+        [
+          "shelf",
+          "estante",
+          "📚"
+        ],
+        [
+          "pillow",
+          "almohada",
+          "🛏️"
+        ],
+        [
+          "blanket",
+          "manta",
+          "🛏️"
+        ],
+        [
+          "plate",
+          "plato",
+          "🍽️"
+        ],
+        [
+          "spoon",
+          "cuchara",
+          "🥄"
+        ],
+        [
+          "fork",
+          "tenedor",
+          "🍴"
+        ],
+        [
+          "knife",
+          "cuchillo",
+          "🔪"
+        ],
+        [
+          "bottle",
+          "botella",
+          "🍼"
+        ],
+        [
+          "kettle",
+          "hervidor",
+          "🫖"
+        ]
+      ],
+      "Más alimentos": [
+        [
+          "breakfast",
+          "desayuno",
+          "🥣"
+        ],
+        [
+          "lunch",
+          "almuerzo",
+          "🍲"
+        ],
+        [
+          "dinner",
+          "cena",
+          "🍽️"
+        ],
+        [
+          "meal",
+          "comida (ocasión)",
+          "🍽️"
+        ],
+        [
+          "food",
+          "comida",
+          "🥗"
+        ],
+        [
+          "fruit",
+          "fruta",
+          "🍎"
+        ],
+        [
+          "vegetable",
+          "verdura",
+          "🥕"
+        ],
+        [
+          "carrot",
+          "zanahoria",
+          "🥕"
+        ],
+        [
+          "onion",
+          "cebolla",
+          "🧅"
+        ],
+        [
+          "pea",
+          "arveja",
+          "🫛"
+        ],
+        [
+          "bean",
+          "frijol",
+          "🫘"
+        ],
+        [
+          "lemon",
+          "limón",
+          "🍋"
+        ],
+        [
+          "grape",
+          "uva",
+          "🍇"
+        ],
+        [
+          "strawberry",
+          "fresa",
+          "🍓"
+        ],
+        [
+          "pear",
+          "pera",
+          "🍐"
+        ],
+        [
+          "pineapple",
+          "piña",
+          "🍍"
+        ],
+        [
+          "butter",
+          "mantequilla",
+          "🧈"
+        ],
+        [
+          "yogurt",
+          "yogur",
+          "🥛"
+        ],
+        [
+          "meat",
+          "carne",
+          "🥩"
+        ],
+        [
+          "beef",
+          "carne de res",
+          "🥩"
+        ],
+        [
+          "pasta",
+          "pasta",
+          "🍝"
+        ],
+        [
+          "pizza",
+          "pizza",
+          "🍕"
+        ],
+        [
+          "cake",
+          "pastel",
+          "🍰"
+        ],
+        [
+          "biscuit",
+          "galleta",
+          "🍪"
+        ],
+        [
+          "chocolate",
+          "chocolate",
+          "🍫"
+        ],
+        [
+          "ice cream",
+          "helado",
+          "🍦"
+        ],
+        [
+          "sugar",
+          "azúcar",
+          "🍬"
+        ],
+        [
+          "salt",
+          "sal",
+          "🧂"
+        ],
+        [
+          "pepper",
+          "pimienta",
+          "🧂"
+        ]
+      ],
+      "Ropa y accesorios": [
+        [
+          "T-shirt",
+          "camiseta",
+          "👕"
+        ],
+        [
+          "skirt",
+          "falda",
+          "👗"
+        ],
+        [
+          "jacket",
+          "chaqueta",
+          "🧥"
+        ],
+        [
+          "sweater",
+          "suéter",
+          "🧶"
+        ],
+        [
+          "jumper",
+          "jersey / suéter",
+          "🧶"
+        ],
+        [
+          "jeans",
+          "jeans",
+          "👖"
+        ],
+        [
+          "shorts",
+          "pantalones cortos",
+          "🩳"
+        ],
+        [
+          "socks",
+          "medias / calcetines",
+          "🧦"
+        ],
+        [
+          "scarf",
+          "bufanda",
+          "🧣"
+        ],
+        [
+          "gloves",
+          "guantes",
+          "🧤"
+        ],
+        [
+          "cap",
+          "gorra",
+          "🧢"
+        ],
+        [
+          "sunglasses",
+          "lentes de sol",
+          "🕶️"
+        ],
+        [
+          "glasses",
+          "gafas",
+          "👓"
+        ],
+        [
+          "belt",
+          "cinturón",
+          "👖"
+        ],
+        [
+          "ring",
+          "anillo",
+          "💍"
+        ],
+        [
+          "pocket",
+          "bolsillo",
+          "👖"
+        ]
+      ],
+      "Adjetivos útiles": [
+        [
+          "good",
+          "bueno/a",
+          "👍"
+        ],
+        [
+          "bad",
+          "malo/a",
+          "👎"
+        ],
+        [
+          "new",
+          "nuevo/a",
+          "✨"
+        ],
+        [
+          "long",
+          "largo/a",
+          "📏"
+        ],
+        [
+          "beautiful",
+          "bonito/a",
+          "🌸"
+        ],
+        [
+          "nice",
+          "agradable",
+          "😊"
+        ],
+        [
+          "easy",
+          "fácil",
+          "✅"
+        ],
+        [
+          "difficult",
+          "difícil",
+          "🧩"
+        ],
+        [
+          "fast",
+          "rápido/a",
+          "⚡"
+        ],
+        [
+          "slow",
+          "lento/a",
+          "🐢"
+        ],
+        [
+          "strong",
+          "fuerte",
+          "💪"
+        ],
+        [
+          "weak",
+          "débil",
+          "🪶"
+        ],
+        [
+          "rich",
+          "rico/a (dinero)",
+          "💰"
+        ],
+        [
+          "poor",
+          "pobre",
+          "🪙"
+        ],
+        [
+          "clean",
+          "limpio/a",
+          "🧼"
+        ],
+        [
+          "dirty",
+          "sucio/a",
+          "🧹"
+        ],
+        [
+          "full",
+          "lleno/a",
+          "🥛"
+        ],
+        [
+          "empty",
+          "vacío/a",
+          "🥛"
+        ],
+        [
+          "right",
+          "correcto/a",
+          "✅"
+        ],
+        [
+          "wrong",
+          "incorrecto/a",
+          "❌"
+        ],
+        [
+          "safe",
+          "seguro/a",
+          "🛡️"
+        ],
+        [
+          "dangerous",
+          "peligroso/a",
+          "⚠️"
+        ],
+        [
+          "interesting",
+          "interesante",
+          "💡"
+        ],
+        [
+          "boring",
+          "aburrido/a",
+          "🥱"
+        ],
+        [
+          "important",
+          "importante",
+          "⭐"
+        ],
+        [
+          "different",
+          "diferente",
+          "🔀"
+        ],
+        [
+          "same",
+          "mismo/a",
+          "🟰"
+        ],
+        [
+          "quiet",
+          "tranquilo/a / silencioso/a",
+          "🤫"
+        ],
+        [
+          "loud",
+          "ruidoso/a",
+          "📢"
+        ]
+      ],
+      "Sentimientos": [
+        [
+          "sad",
+          "triste",
+          "😔"
+        ],
+        [
+          "angry",
+          "enojado/a",
+          "😠"
+        ],
+        [
+          "afraid",
+          "asustado/a",
+          "😨"
+        ],
+        [
+          "excited",
+          "emocionado/a",
+          "🤩"
+        ],
+        [
+          "bored",
+          "aburrido/a (estado)",
+          "🥱"
+        ],
+        [
+          "worried",
+          "preocupado/a",
+          "😟"
+        ],
+        [
+          "fine",
+          "bien",
+          "🙂"
+        ],
+        [
+          "well",
+          "bien (salud)",
+          "🙂"
+        ],
+        [
+          "sick",
+          "enfermo/a",
+          "🤒"
+        ],
+        [
+          "comfortable",
+          "cómodo/a",
+          "🛋️"
+        ],
+        [
+          "surprised",
+          "sorprendido/a",
+          "😮"
+        ],
+        [
+          "sleepy",
+          "con sueño",
+          "😴"
+        ]
+      ],
+      "Naturaleza y lugares": [
+        [
+          "beach",
+          "playa",
+          "🏖️"
+        ],
+        [
+          "sea",
+          "mar",
+          "🌊"
+        ],
+        [
+          "river",
+          "río",
+          "🏞️"
+        ],
+        [
+          "lake",
+          "lago",
+          "🏞️"
+        ],
+        [
+          "mountain",
+          "montaña",
+          "⛰️"
+        ],
+        [
+          "forest",
+          "bosque",
+          "🌲"
+        ],
+        [
+          "tree",
+          "árbol",
+          "🌳"
+        ],
+        [
+          "flower",
+          "flor",
+          "🌸"
+        ],
+        [
+          "grass",
+          "césped",
+          "🌱"
+        ],
+        [
+          "sun",
+          "sol",
+          "☀️"
+        ],
+        [
+          "moon",
+          "luna",
+          "🌙"
+        ],
+        [
+          "star",
+          "estrella",
+          "⭐"
+        ],
+        [
+          "sky",
+          "cielo",
+          "🌌"
+        ],
+        [
+          "rain",
+          "lluvia",
+          "🌧️"
+        ],
+        [
+          "snow",
+          "nieve",
+          "❄️"
+        ],
+        [
+          "wind",
+          "viento",
+          "🌬️"
+        ],
+        [
+          "weather",
+          "clima",
+          "🌦️"
+        ],
+        [
+          "spring",
+          "primavera",
+          "🌷"
+        ],
+        [
+          "autumn",
+          "otoño",
+          "🍂"
+        ],
+        [
+          "fall",
+          "otoño (EE. UU.)",
+          "🍂"
+        ],
+        [
+          "village",
+          "pueblo",
+          "🏘️"
+        ],
+        [
+          "town",
+          "población / ciudad pequeña",
+          "🏘️"
+        ],
+        [
+          "road",
+          "carretera",
+          "🛣️"
+        ],
+        [
+          "bridge",
+          "puente",
+          "🌉"
+        ]
+      ],
+      "Tiempo y calendario": [
+        [
+          "day",
+          "día",
+          "📅"
+        ],
+        [
+          "week",
+          "semana",
+          "🗓️"
+        ],
+        [
+          "month",
+          "mes",
+          "📆"
+        ],
+        [
+          "year",
+          "año",
+          "📅"
+        ],
+        [
+          "hour",
+          "hora",
+          "🕐"
+        ],
+        [
+          "minute",
+          "minuto",
+          "⏱️"
+        ],
+        [
+          "second",
+          "segundo (tiempo)",
+          "⏱️"
+        ],
+        [
+          "time",
+          "tiempo / hora",
+          "🕰️"
+        ],
+        [
+          "date",
+          "fecha",
+          "📅"
+        ],
+        [
+          "every day",
+          "cada día",
+          "🔁"
+        ],
+        [
+          "often",
+          "a menudo",
+          "🔁"
+        ],
+        [
+          "once",
+          "una vez",
+          "☝️"
+        ],
+        [
+          "twice",
+          "dos veces",
+          "✌️"
+        ],
+        [
+          "before",
+          "antes",
+          "⏮️"
+        ],
+        [
+          "after",
+          "después",
+          "⏭️"
+        ],
+        [
+          "first",
+          "primero",
+          "🥇"
+        ],
+        [
+          "then",
+          "luego",
+          "⏩"
+        ],
+        [
+          "soon",
+          "pronto",
+          "⌛"
+        ],
+        [
+          "later",
+          "más tarde",
+          "🕑"
+        ]
+      ],
+      "Escuela y aprendizaje": [
+        [
+          "lesson",
+          "lección",
+          "📘"
+        ],
+        [
+          "class",
+          "clase",
+          "🧑‍🏫"
+        ],
+        [
+          "classroom",
+          "aula",
+          "🏫"
+        ],
+        [
+          "homework",
+          "tarea",
+          "📝"
+        ],
+        [
+          "exercise",
+          "ejercicio",
+          "✍️"
+        ],
+        [
+          "test",
+          "prueba",
+          "📋"
+        ],
+        [
+          "exam",
+          "examen",
+          "📄"
+        ],
+        [
+          "word",
+          "palabra",
+          "💬"
+        ],
+        [
+          "sentence",
+          "oración",
+          "📝"
+        ],
+        [
+          "letter",
+          "letra / carta",
+          "🔤"
+        ],
+        [
+          "language",
+          "idioma",
+          "🌍"
+        ],
+        [
+          "English",
+          "inglés (idioma)",
+          "📘"
+        ],
+        [
+          "dictionary",
+          "diccionario",
+          "📖"
+        ],
+        [
+          "page",
+          "página",
+          "📄"
+        ],
+        [
+          "paper",
+          "papel",
+          "📃"
+        ],
+        [
+          "ruler",
+          "regla",
+          "📏"
+        ],
+        [
+          "rubber",
+          "borrador (británico)",
+          "🧽"
+        ],
+        [
+          "eraser",
+          "borrador (EE. UU.)",
+          "🧽"
+        ],
+        [
+          "board",
+          "pizarra",
+          "🟩"
+        ]
+      ],
+      "Ciudad y servicios": [
+        [
+          "hotel",
+          "hotel",
+          "🏨"
+        ],
+        [
+          "restaurant",
+          "restaurante",
+          "🍽️"
+        ],
+        [
+          "café",
+          "cafetería",
+          "☕"
+        ],
+        [
+          "cinema",
+          "cine",
+          "🎬"
+        ],
+        [
+          "theatre",
+          "teatro",
+          "🎭"
+        ],
+        [
+          "post office",
+          "oficina de correos",
+          "🏤"
+        ],
+        [
+          "police station",
+          "comisaría",
+          "👮"
+        ],
+        [
+          "pharmacy",
+          "farmacia",
+          "💊"
+        ],
+        [
+          "bookshop",
+          "librería",
+          "📚"
+        ],
+        [
+          "bakery",
+          "panadería",
+          "🥐"
+        ],
+        [
+          "bus stop",
+          "paradero",
+          "🚏"
+        ],
+        [
+          "traffic lights",
+          "semáforo",
+          "🚦"
+        ],
+        [
+          "swimming pool",
+          "piscina",
+          "🏊"
+        ],
+        [
+          "sports centre",
+          "centro deportivo",
+          "🏟️"
+        ],
+        [
+          "car park",
+          "estacionamiento",
+          "🅿️"
+        ],
+        [
+          "entrance",
+          "entrada",
+          "🚪"
+        ],
+        [
+          "exit",
+          "salida",
+          "🚪"
+        ],
+        [
+          "upstairs",
+          "arriba (planta superior)",
+          "⬆️"
+        ],
+        [
+          "downstairs",
+          "abajo (planta inferior)",
+          "⬇️"
+        ]
+      ],
+      "Ocio y deportes": [
+        [
+          "hobby",
+          "pasatiempo",
+          "🎯"
+        ],
+        [
+          "sport",
+          "deporte",
+          "🏅"
+        ],
+        [
+          "tennis",
+          "tenis",
+          "🎾"
+        ],
+        [
+          "basketball",
+          "básquetbol",
+          "🏀"
+        ],
+        [
+          "volleyball",
+          "vóleibol",
+          "🏐"
+        ],
+        [
+          "swimming",
+          "natación",
+          "🏊"
+        ],
+        [
+          "cycling",
+          "ciclismo",
+          "🚴"
+        ],
+        [
+          "game",
+          "juego",
+          "🎮"
+        ],
+        [
+          "song",
+          "canción",
+          "🎵"
+        ],
+        [
+          "piano",
+          "piano",
+          "🎹"
+        ],
+        [
+          "photo",
+          "foto",
+          "📷"
+        ],
+        [
+          "camera",
+          "cámara",
+          "📸"
+        ],
+        [
+          "holiday",
+          "vacaciones",
+          "🏖️"
+        ],
+        [
+          "trip",
+          "viaje",
+          "🧳"
+        ],
+        [
+          "dance",
+          "baile",
+          "💃"
+        ],
+        [
+          "concert",
+          "concierto",
+          "🎶"
+        ]
+      ],
+      "Cuerpo y cuidado": [
+        [
+          "face",
+          "cara",
+          "🙂"
+        ],
+        [
+          "ear",
+          "oreja",
+          "👂"
+        ],
+        [
+          "nose",
+          "nariz",
+          "👃"
+        ],
+        [
+          "mouth",
+          "boca",
+          "👄"
+        ],
+        [
+          "neck",
+          "cuello",
+          "🧣"
+        ],
+        [
+          "shoulder",
+          "hombro",
+          "🧍"
+        ],
+        [
+          "finger",
+          "dedo de la mano",
+          "👆"
+        ],
+        [
+          "knee",
+          "rodilla",
+          "🦵"
+        ],
+        [
+          "feet",
+          "pies",
+          "🦶"
+        ],
+        [
+          "teeth",
+          "dientes",
+          "🦷"
+        ],
+        [
+          "heart",
+          "corazón",
+          "❤️"
+        ],
+        [
+          "soap",
+          "jabón",
+          "🧼"
+        ],
+        [
+          "toothbrush",
+          "cepillo de dientes",
+          "🪥"
+        ],
+        [
+          "medicine",
+          "medicina",
+          "💊"
+        ]
+      ],
+      "Países e idiomas": [
+        [
+          "Brazil",
+          "Brasil",
+          "🇧🇷"
+        ],
+        [
+          "Brazilian",
+          "brasileño/a",
+          "🇧🇷"
+        ],
+        [
+          "Mexico",
+          "México",
+          "🇲🇽"
+        ],
+        [
+          "Mexican",
+          "mexicano/a",
+          "🇲🇽"
+        ],
+        [
+          "France",
+          "Francia",
+          "🇫🇷"
+        ],
+        [
+          "French",
+          "francés/a",
+          "🇫🇷"
+        ],
+        [
+          "Germany",
+          "Alemania",
+          "🇩🇪"
+        ],
+        [
+          "German",
+          "alemán/alemana",
+          "🇩🇪"
+        ],
+        [
+          "Italy",
+          "Italia",
+          "🇮🇹"
+        ],
+        [
+          "Italian",
+          "italiano/a",
+          "🇮🇹"
+        ],
+        [
+          "Japan",
+          "Japón",
+          "🇯🇵"
+        ],
+        [
+          "Japanese",
+          "japonés/japonesa",
+          "🇯🇵"
+        ],
+        [
+          "China",
+          "China",
+          "🇨🇳"
+        ],
+        [
+          "Chinese",
+          "chino/a",
+          "🇨🇳"
+        ],
+        [
+          "the United States",
+          "Estados Unidos",
+          "🇺🇸"
+        ],
+        [
+          "American",
+          "estadounidense",
+          "🇺🇸"
+        ],
+        [
+          "Canada",
+          "Canadá",
+          "🇨🇦"
+        ],
+        [
+          "Canadian",
+          "canadiense",
+          "🇨🇦"
+        ]
+      ],
+      "Palabras pequeñas, grandes usos": [
+        [
+          "here",
+          "aquí",
+          "📍"
+        ],
+        [
+          "there",
+          "allí",
+          "📍"
+        ],
+        [
+          "near",
+          "cerca",
+          "📍"
+        ],
+        [
+          "far",
+          "lejos",
+          "🔭"
+        ],
+        [
+          "inside",
+          "dentro",
+          "📦"
+        ],
+        [
+          "outside",
+          "fuera",
+          "🌳"
+        ],
+        [
+          "up",
+          "arriba",
+          "⬆️"
+        ],
+        [
+          "down",
+          "abajo",
+          "⬇️"
+        ],
+        [
+          "under",
+          "debajo de",
+          "⬇️"
+        ],
+        [
+          "behind",
+          "detrás de",
+          "🧍"
+        ],
+        [
+          "between",
+          "entre",
+          "↔️"
+        ],
+        [
+          "opposite",
+          "enfrente de",
+          "↔️"
+        ],
+        [
+          "next to",
+          "al lado de",
+          "🧍"
+        ],
+        [
+          "in front of",
+          "delante de",
+          "🧍"
+        ],
+        [
+          "with",
+          "con",
+          "🤝"
+        ],
+        [
+          "without",
+          "sin",
+          "🚫"
+        ],
+        [
+          "all",
+          "todo/a",
+          "🌐"
+        ],
+        [
+          "another",
+          "otro/a",
+          "➕"
+        ],
+        [
+          "only",
+          "solo / solamente",
+          "☝️"
+        ],
+        [
+          "very",
+          "muy",
+          "✨"
+        ],
+        [
+          "really",
+          "realmente / muy",
+          "✨"
+        ],
+        [
+          "also",
+          "también",
+          "➕"
+        ],
+        [
+          "too",
+          "también / demasiado",
+          "➕"
+        ],
+        [
+          "much",
+          "mucho (incontable)",
+          "📏"
+        ],
+        [
+          "many",
+          "muchos (contable)",
+          "🔢"
+        ],
+        [
+          "some",
+          "algo de / algunos",
+          "🧺"
+        ],
+        [
+          "any",
+          "algo de / ningún (según contexto)",
+          "🧺"
+        ],
+        [
+          "a few",
+          "unos pocos",
+          "🪙"
+        ],
+        [
+          "a little",
+          "un poco",
+          "🥛"
+        ]
+      ]
+    }
+  }
+}

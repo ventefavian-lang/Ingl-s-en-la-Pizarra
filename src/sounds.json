@@ -1,0 +1,794 @@
+[
+  {
+    "id": "iy",
+    "ipa": "iː",
+    "group": "Vocales",
+    "place": "front-high",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "spread",
+    "tip": "Parte anterior alta, sin tocar el paladar; labios extendidos sin tensión.",
+    "examples": [
+      "see",
+      "green"
+    ],
+    "pair": [
+      "ship",
+      "sheep"
+    ]
+  },
+  {
+    "id": "ih",
+    "ipa": "ɪ",
+    "group": "Vocales",
+    "place": "front-mid-high",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Parte anterior algo más baja y relajada que en /iː/. No es solo una vocal más corta.",
+    "examples": [
+      "sit",
+      "ship"
+    ],
+    "pair": [
+      "ship",
+      "sheep"
+    ]
+  },
+  {
+    "id": "eh",
+    "ipa": "e",
+    "group": "Vocales",
+    "place": "front-mid",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Parte anterior a media altura; mandíbula moderadamente abierta. También se transcribe /ɛ/.",
+    "examples": [
+      "bed",
+      "red"
+    ],
+    "pair": [
+      "bed",
+      "bad"
+    ]
+  },
+  {
+    "id": "ae",
+    "ipa": "æ",
+    "group": "Vocales",
+    "place": "front-low",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "open",
+    "tip": "Baja la mandíbula y mantén la lengua adelantada; compara con /e/ sin convertirla en una a española idéntica.",
+    "examples": [
+      "cat",
+      "black"
+    ],
+    "pair": [
+      "bed",
+      "bad"
+    ]
+  },
+  {
+    "id": "aa",
+    "ipa": "ɑː",
+    "group": "Vocales",
+    "place": "back-low",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "open",
+    "tip": "Lengua baja y hacia atrás; labios sin redondear. El ejemplo británico no tiene una r final pronunciada aislado.",
+    "examples": [
+      "car",
+      "father"
+    ],
+    "pair": [
+      "cart",
+      "cut"
+    ]
+  },
+  {
+    "id": "lot",
+    "ipa": "ɒ",
+    "group": "Vocales",
+    "place": "back-low",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Lengua baja y posterior; labios redondeados. Esta vocal británica puede corresponder a otras vocales en acentos estadounidenses.",
+    "examples": [
+      "hot",
+      "clock"
+    ],
+    "pair": [
+      "cot",
+      "caught"
+    ]
+  },
+  {
+    "id": "ao",
+    "ipa": "ɔː",
+    "group": "Vocales",
+    "place": "back-mid",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Parte posterior a media altura y labios redondeados. Su contraste con otras vocales depende del acento.",
+    "examples": [
+      "thought",
+      "law"
+    ],
+    "pair": [
+      "cot",
+      "caught"
+    ]
+  },
+  {
+    "id": "uh",
+    "ipa": "ʊ",
+    "group": "Vocales",
+    "place": "back-mid-high",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Lengua posterior relativamente alta, con redondeo relajado. No la distingas de /uː/ solo por duración.",
+    "examples": [
+      "book",
+      "good"
+    ],
+    "pair": [
+      "full",
+      "fool"
+    ]
+  },
+  {
+    "id": "uw",
+    "ipa": "uː",
+    "group": "Vocales",
+    "place": "back-high",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Lengua alta y labios redondeados; en muchos acentos la lengua se adelanta algo. Mantén la salida de aire libre.",
+    "examples": [
+      "blue",
+      "food"
+    ],
+    "pair": [
+      "full",
+      "fool"
+    ]
+  },
+  {
+    "id": "ah",
+    "ipa": "ʌ",
+    "group": "Vocales",
+    "place": "central-low",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Lengua central y relativamente baja, labios relajados. Practica en sílabas acentuadas como cup.",
+    "examples": [
+      "cup",
+      "love"
+    ],
+    "pair": [
+      "cap",
+      "cup"
+    ]
+  },
+  {
+    "id": "ergb",
+    "ipa": "ɜː",
+    "group": "Vocales",
+    "place": "central-mid",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Lengua central, mandíbula moderadamente abierta. En el modelo británico de bird no se articula una r separada.",
+    "examples": [
+      "bird",
+      "work"
+    ],
+    "pair": [
+      "bed",
+      "bird"
+    ]
+  },
+  {
+    "id": "ax",
+    "ipa": "ə",
+    "group": "Vocales",
+    "place": "central-mid",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Relaja lengua y labios: vocal central de sílabas débiles. Su calidad puede variar por los sonidos vecinos.",
+    "examples": [
+      "about",
+      "teacher"
+    ],
+    "pair": [
+      "a",
+      "ah"
+    ]
+  },
+  {
+    "id": "ey",
+    "ipa": "eɪ",
+    "group": "Diptongos",
+    "place": "eh>ih",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Desliza desde una posición anterior media hacia una anterior más alta; una sola sílaba, sin corte.",
+    "examples": [
+      "day",
+      "face"
+    ],
+    "pair": [
+      "late",
+      "let"
+    ]
+  },
+  {
+    "id": "ay",
+    "ipa": "aɪ",
+    "group": "Diptongos",
+    "place": "ae>ih",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "open",
+    "tip": "Empieza abierto y desplaza la lengua hacia una vocal anterior alta; la mandíbula se cierra un poco.",
+    "examples": [
+      "time",
+      "my"
+    ],
+    "pair": [
+      "ride",
+      "red"
+    ]
+  },
+  {
+    "id": "oy",
+    "ipa": "ɔɪ",
+    "group": "Diptongos",
+    "place": "ao>ih",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Empieza atrás con labios redondeados y termina hacia delante, reduciendo el redondeo.",
+    "examples": [
+      "boy",
+      "choice"
+    ],
+    "pair": [
+      "boy",
+      "buy"
+    ]
+  },
+  {
+    "id": "owgb",
+    "ipa": "əʊ",
+    "group": "Diptongos",
+    "place": "ax>uh",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Desde una posición central desliza hacia atrás y arriba, redondeando los labios. En EE. UU. suele representarse /oʊ/.",
+    "examples": [
+      "go",
+      "home"
+    ],
+    "pair": [
+      "coat",
+      "cot"
+    ]
+  },
+  {
+    "id": "aw",
+    "ipa": "aʊ",
+    "group": "Diptongos",
+    "place": "aa>uh",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "open",
+    "tip": "Empieza con boca abierta y termina más cerrada con labios redondeados, dentro de una sílaba.",
+    "examples": [
+      "now",
+      "mouth"
+    ],
+    "pair": [
+      "now",
+      "no"
+    ]
+  },
+  {
+    "id": "ia",
+    "ipa": "ɪə",
+    "group": "Diptongos",
+    "place": "ih>ax",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "En este modelo tradicional británico pasa de anterior alta a central. Algunos hablantes usan una vocal más estable.",
+    "examples": [
+      "near",
+      "here"
+    ],
+    "pair": [
+      "near",
+      "knee"
+    ]
+  },
+  {
+    "id": "ea",
+    "ipa": "eə",
+    "group": "Diptongos",
+    "place": "eh>ax",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Desde anterior media hacia central; muchos acentos británicos actuales realizan una vocal larga sin gran deslizamiento.",
+    "examples": [
+      "hair",
+      "care"
+    ],
+    "pair": [
+      "hair",
+      "her"
+    ]
+  },
+  {
+    "id": "ua",
+    "ipa": "ʊə",
+    "group": "Diptongos",
+    "place": "uh>ax",
+    "manner": "vowel",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Desde posterior alta relajada hacia central. Este diptongo tradicional varía mucho y a menudo se fusiona con /ɔː/.",
+    "examples": [
+      "pure",
+      "tour"
+    ],
+    "pair": [
+      "tour",
+      "two"
+    ]
+  },
+  {
+    "id": "p",
+    "ipa": "p",
+    "group": "Consonantes",
+    "place": "bilabial",
+    "manner": "stop",
+    "voiced": false,
+    "lip": "closed",
+    "tip": "Cierra ambos labios y suelta el aire brevemente; sin vibración de garganta. En inicio de sílaba acentuada suele haber aspiración.",
+    "examples": [
+      "pen",
+      "happy"
+    ],
+    "pair": [
+      "pat",
+      "bat"
+    ]
+  },
+  {
+    "id": "b",
+    "ipa": "b",
+    "group": "Consonantes",
+    "place": "bilabial",
+    "manner": "stop",
+    "voiced": true,
+    "lip": "closed",
+    "tip": "Cierra ambos labios y ábrelos con una liberación breve; contrasta la sonoridad con /p/.",
+    "examples": [
+      "book",
+      "baby"
+    ],
+    "pair": [
+      "pat",
+      "bat"
+    ]
+  },
+  {
+    "id": "t",
+    "ipa": "t",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "stop",
+    "voiced": false,
+    "lip": "neutral",
+    "tip": "La punta o lámina de la lengua toca la zona tras los dientes superiores y libera el aire; sin voz. Varía entre acentos y contextos.",
+    "examples": [
+      "tea",
+      "town"
+    ],
+    "pair": [
+      "tie",
+      "die"
+    ]
+  },
+  {
+    "id": "d",
+    "ipa": "d",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "stop",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Forma un cierre tras los dientes superiores y libera con voz. No es necesariamente la d suave española entre vocales.",
+    "examples": [
+      "day",
+      "ready"
+    ],
+    "pair": [
+      "tie",
+      "die"
+    ]
+  },
+  {
+    "id": "k",
+    "ipa": "k",
+    "group": "Consonantes",
+    "place": "velar",
+    "manner": "stop",
+    "voiced": false,
+    "lip": "neutral",
+    "tip": "Eleva la parte posterior de la lengua hasta el paladar blando; libera el cierre sin voz.",
+    "examples": [
+      "key",
+      "back"
+    ],
+    "pair": [
+      "coat",
+      "goat"
+    ]
+  },
+  {
+    "id": "g",
+    "ipa": "g",
+    "group": "Consonantes",
+    "place": "velar",
+    "manner": "stop",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Parte posterior contra el paladar blando y liberación con voz. No añadas una vocal al final.",
+    "examples": [
+      "go",
+      "bag"
+    ],
+    "pair": [
+      "coat",
+      "goat"
+    ]
+  },
+  {
+    "id": "f",
+    "ipa": "f",
+    "group": "Consonantes",
+    "place": "labiodental",
+    "manner": "fricative",
+    "voiced": false,
+    "lip": "teeth",
+    "tip": "Acerca los dientes superiores al labio inferior y deja pasar aire continuo; sin vibración de garganta.",
+    "examples": [
+      "food",
+      "coffee"
+    ],
+    "pair": [
+      "fan",
+      "van"
+    ]
+  },
+  {
+    "id": "v",
+    "ipa": "v",
+    "group": "Consonantes",
+    "place": "labiodental",
+    "manner": "fricative",
+    "voiced": true,
+    "lip": "teeth",
+    "tip": "Misma zona que /f/, pero con vibración de voz. Evita cerrar ambos labios como para /b/.",
+    "examples": [
+      "very",
+      "seven"
+    ],
+    "pair": [
+      "fan",
+      "van"
+    ]
+  },
+  {
+    "id": "th",
+    "ipa": "θ",
+    "group": "Consonantes",
+    "place": "dental",
+    "manner": "fricative",
+    "voiced": false,
+    "lip": "dental",
+    "tip": "Acerca suavemente la punta de la lengua a los dientes o entre ellos; deja escapar aire sin voz y sin morder.",
+    "examples": [
+      "think",
+      "bath"
+    ],
+    "pair": [
+      "thin",
+      "sin"
+    ]
+  },
+  {
+    "id": "dh",
+    "ipa": "ð",
+    "group": "Consonantes",
+    "place": "dental",
+    "manner": "fricative",
+    "voiced": true,
+    "lip": "dental",
+    "tip": "Como /θ/, pero activa la voz. La lengua no necesita sobresalir mucho; mantén un paso estrecho para el aire.",
+    "examples": [
+      "this",
+      "mother"
+    ],
+    "pair": [
+      "then",
+      "den"
+    ]
+  },
+  {
+    "id": "s",
+    "ipa": "s",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "fricative",
+    "voiced": false,
+    "lip": "neutral",
+    "tip": "Crea un surco estrecho cerca de la zona alveolar, sin cierre completo; aire continuo sin voz.",
+    "examples": [
+      "see",
+      "bus"
+    ],
+    "pair": [
+      "sip",
+      "zip"
+    ]
+  },
+  {
+    "id": "z",
+    "ipa": "z",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "fricative",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Mantén el paso estrecho de /s/ y añade voz. Practica sin transformarlo en una sílaba extra.",
+    "examples": [
+      "zoo",
+      "busy"
+    ],
+    "pair": [
+      "sip",
+      "zip"
+    ]
+  },
+  {
+    "id": "sh",
+    "ipa": "ʃ",
+    "group": "Consonantes",
+    "place": "postalveolar",
+    "manner": "fricative",
+    "voiced": false,
+    "lip": "round",
+    "tip": "Lámina de la lengua algo más atrás que para /s/ y labios ligeramente redondeados; aire continuo sin voz.",
+    "examples": [
+      "she",
+      "fish"
+    ],
+    "pair": [
+      "sip",
+      "ship"
+    ]
+  },
+  {
+    "id": "zh",
+    "ipa": "ʒ",
+    "group": "Consonantes",
+    "place": "postalveolar",
+    "manner": "fricative",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Usa una posición parecida a /ʃ/ con vibración de voz; no añadas el cierre inicial de /dʒ/.",
+    "examples": [
+      "measure",
+      "vision"
+    ],
+    "pair": [
+      "pressure",
+      "pleasure"
+    ]
+  },
+  {
+    "id": "ch",
+    "ipa": "tʃ",
+    "group": "Consonantes",
+    "place": "postalveolar",
+    "manner": "affricate",
+    "voiced": false,
+    "lip": "round",
+    "tip": "Empieza con un cierre breve y libera hacia una fricción parecida a /ʃ/, como un solo sonido.",
+    "examples": [
+      "chair",
+      "watch"
+    ],
+    "pair": [
+      "cheap",
+      "jeep"
+    ]
+  },
+  {
+    "id": "jh",
+    "ipa": "dʒ",
+    "group": "Consonantes",
+    "place": "postalveolar",
+    "manner": "affricate",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Cierre breve seguido de fricción, con voz; compáralo con /tʃ/. Evita reducirlo solo a /ʒ/.",
+    "examples": [
+      "job",
+      "bridge"
+    ],
+    "pair": [
+      "cheap",
+      "jeep"
+    ]
+  },
+  {
+    "id": "m",
+    "ipa": "m",
+    "group": "Consonantes",
+    "place": "bilabial",
+    "manner": "nasal",
+    "voiced": true,
+    "lip": "closed",
+    "tip": "Cierra los labios y deja resonar el aire por la nariz con voz; no sueltes una vocal extra al final.",
+    "examples": [
+      "man",
+      "summer"
+    ],
+    "pair": [
+      "sum",
+      "sun"
+    ]
+  },
+  {
+    "id": "n",
+    "ipa": "n",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "nasal",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "Apoya la lengua tras los dientes superiores; el aire sale por la nariz con voz.",
+    "examples": [
+      "no",
+      "dinner"
+    ],
+    "pair": [
+      "sin",
+      "sing"
+    ]
+  },
+  {
+    "id": "ng",
+    "ipa": "ŋ",
+    "group": "Consonantes",
+    "place": "velar",
+    "manner": "nasal",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "La parte posterior de la lengua toca el paladar blando; el aire sale por la nariz. En sing no añadas /g/.",
+    "examples": [
+      "sing",
+      "long"
+    ],
+    "pair": [
+      "sin",
+      "sing"
+    ]
+  },
+  {
+    "id": "h",
+    "ipa": "h",
+    "group": "Consonantes",
+    "place": "glottal",
+    "manner": "fricative",
+    "voiced": false,
+    "lip": "open",
+    "tip": "Deja pasar aire por la garganta sin cierre oral fuerte; prepara ya la vocal que viene. No lo conviertas en la j española intensa.",
+    "examples": [
+      "hat",
+      "behind"
+    ],
+    "pair": [
+      "heat",
+      "eat"
+    ]
+  },
+  {
+    "id": "l",
+    "ipa": "l",
+    "group": "Consonantes",
+    "place": "alveolar",
+    "manner": "lateral",
+    "voiced": true,
+    "lip": "neutral",
+    "tip": "La punta toca la zona alveolar y el aire pasa por los lados. Al final de sílaba la parte posterior suele elevarse: l oscura.",
+    "examples": [
+      "leg",
+      "feel"
+    ],
+    "pair": [
+      "light",
+      "right"
+    ]
+  },
+  {
+    "id": "r",
+    "ipa": "r",
+    "group": "Consonantes",
+    "place": "approximant",
+    "manner": "approximant",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Para la aproximante /ɹ/, acerca o agrupa la lengua sin tocar el paladar con la punta. Puede usarse una forma agrupada o algo curvada; no vibra como la rr española.",
+    "examples": [
+      "red",
+      "rural"
+    ],
+    "pair": [
+      "light",
+      "right"
+    ]
+  },
+  {
+    "id": "w",
+    "ipa": "w",
+    "group": "Consonantes",
+    "place": "back-high",
+    "manner": "approximant",
+    "voiced": true,
+    "lip": "round",
+    "tip": "Redondea los labios y eleva la parte posterior de la lengua; desliza enseguida hacia la vocal siguiente.",
+    "examples": [
+      "we",
+      "away"
+    ],
+    "pair": [
+      "west",
+      "vest"
+    ]
+  },
+  {
+    "id": "y",
+    "ipa": "j",
+    "group": "Consonantes",
+    "place": "front-high",
+    "manner": "approximant",
+    "voiced": true,
+    "lip": "spread",
+    "tip": "Eleva la parte anterior de la lengua sin contacto completo y pasa a la vocal siguiente; no añadas fricción fuerte.",
+    "examples": [
+      "yes",
+      "yellow"
+    ],
+    "pair": [
+      "yet",
+      "jet"
+    ]
+  }
+]

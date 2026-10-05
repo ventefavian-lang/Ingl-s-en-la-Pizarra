@@ -1,0 +1,50 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function owner(uid) { return request.auth != null && request.auth.uid == uid; }
+  function validProgress(p) {
+   return p is map
+    && p.keys().hasAll(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
+    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
+    && p.version == 1
+    && p.completed is map && p.completed.size() <= 72
+    && p.activity is map && p.activity.size() <= 3660
+    && p.errors is map && p.errors.size() <= 600
+    && p.vocab is map && p.vocab.size() <= 1000
+    && p.writing is map && p.writing.size() <= 24
+    && p.checks is list && p.checks.size() <= 50
+    && p.speech is list && p.speech.size() <= 100
+    && p.exam is list && p.exam.size() <= 12
+    && p.xp is int && p.xp >= 0 && p.xp <= 1000000
+    && p.goal in [5,10,15,20]
+    && p.accent in ['en-US','en-GB']
+    && p.name is string && p.name.size() <= 30;
+  }
+  function validDocument(d, courseId) {
+   return d.keys().hasAll(['schemaVersion','courseId','epoch','revision','progress','appliedWrites','updatedAt'])
+    && d.keys().hasOnly(['schemaVersion','courseId','epoch','revision','progress','appliedWrites','updatedAt'])
+    && d.schemaVersion == 1 && d.courseId == courseId
+    && d.epoch is int && d.epoch >= 0
+    && d.revision is int && d.revision >= 1
+    && d.appliedWrites is list && d.appliedWrites.size() >= 1 && d.appliedWrites.size() <= 100
+    && d.updatedAt == request.time
+    && validProgress(d.progress);
+  }
+  match /users/{uid}/courses/{courseId} {
+   allow get: if owner(uid) && courseId in ['a1','a2','b1'];
+   allow list: if false;
+   allow create: if owner(uid) && courseId in ['a1','a2','b1']
+    && validDocument(request.resource.data, courseId)
+    && request.resource.data.revision == 1
+    && request.resource.data.epoch in [0,1];
+   allow update: if owner(uid) && courseId in ['a1','a2','b1']
+    && validDocument(request.resource.data, courseId)
+    && request.resource.data.revision == resource.data.revision + 1
+    && request.resource.data.epoch in [resource.data.epoch,resource.data.epoch + 1];
+   // El borrado de progreso escribe un estado vacío y cambia epoch, para que
+   // otro dispositivo antiguo no vuelva a subir el avance borrado.
+   allow delete: if false;
+  }
+  match /{document=**} { allow read, write: if false; }
+ }
+}

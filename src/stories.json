@@ -1,0 +1,344 @@
+[
+  {
+    "id": 0,
+    "level": "a1",
+    "title": "Una mañana distinta",
+    "lines": [
+      {
+        "en": "I am Ana and I live near a park.",
+        "es": "Soy Ana y vivo cerca de un parque."
+      },
+      {
+        "en": "Every morning, I walk to school with my brother.",
+        "es": "Cada mañana camino al colegio con mi hermano."
+      },
+      {
+        "en": "Today it is raining, so we take the bus.",
+        "es": "Hoy llueve, así que tomamos el autobús."
+      },
+      {
+        "en": "The bus is full, but we find two seats.",
+        "es": "El autobús está lleno, pero encontramos dos asientos."
+      },
+      {
+        "en": "My brother has a red bag and a blue umbrella.",
+        "es": "Mi hermano tiene una mochila roja y un paraguas azul."
+      },
+      {
+        "en": "We arrive at school at eight.",
+        "es": "Llegamos al colegio a las ocho."
+      }
+    ],
+    "question": "¿Por qué toman el autobús?",
+    "answer": "Porque llueve.",
+    "options": [
+      "Porque está cerca.",
+      "Porque llueve.",
+      "Porque no van al colegio."
+    ]
+  },
+  {
+    "id": 1,
+    "level": "a1",
+    "title": "En el café",
+    "lines": [
+      {
+        "en": "I would like a sandwich, please.",
+        "es": "Quisiera un sándwich, por favor."
+      },
+      {
+        "en": "The woman at the café asks me about my drink.",
+        "es": "La mujer del café me pregunta por mi bebida."
+      },
+      {
+        "en": "I choose water because I am thirsty.",
+        "es": "Elijo agua porque tengo sed."
+      },
+      {
+        "en": "My friend wants tea and a small cake.",
+        "es": "Mi amigo quiere té y un pastel pequeño."
+      },
+      {
+        "en": "We sit at a table near the window.",
+        "es": "Nos sentamos en una mesa cerca de la ventana."
+      },
+      {
+        "en": "The food is good and the café is quiet.",
+        "es": "La comida está buena y el café es tranquilo."
+      }
+    ],
+    "question": "¿Qué bebida elige quien cuenta la historia?",
+    "answer": "Agua.",
+    "options": [
+      "Té.",
+      "Agua.",
+      "Café."
+    ]
+  },
+  {
+    "id": 2,
+    "level": "a1",
+    "title": "Un libro para Leo",
+    "lines": [
+      {
+        "en": "Leo likes books about animals.",
+        "es": "A Leo le gustan los libros sobre animales."
+      },
+      {
+        "en": "Today is his birthday.",
+        "es": "Hoy es su cumpleaños."
+      },
+      {
+        "en": "I go to a shop with my sister.",
+        "es": "Voy a una tienda con mi hermana."
+      },
+      {
+        "en": "We find a book with pictures of birds.",
+        "es": "Encontramos un libro con imágenes de pájaros."
+      },
+      {
+        "en": "It is not expensive, and we buy it.",
+        "es": "No es caro y lo compramos."
+      },
+      {
+        "en": "Leo is happy and reads it after dinner.",
+        "es": "Leo está contento y lo lee después de cenar."
+      }
+    ],
+    "question": "¿Sobre qué es el libro?",
+    "answer": "Pájaros.",
+    "options": [
+      "Trenes.",
+      "Pájaros.",
+      "Comida."
+    ]
+  },
+  {
+    "id": 3,
+    "level": "a2",
+    "title": "La mochila olvidada",
+    "lines": [
+      {
+        "en": "Last Saturday, I visited my cousin in another town.",
+        "es": "El sábado pasado visité a mi primo en otro pueblo."
+      },
+      {
+        "en": "While I was waiting for the bus, I bought a bottle of water.",
+        "es": "Mientras esperaba el autobús compré una botella de agua."
+      },
+      {
+        "en": "I left my backpack on a chair outside the shop.",
+        "es": "Dejé mi mochila en una silla fuera de la tienda."
+      },
+      {
+        "en": "The shop assistant called me before the bus arrived.",
+        "es": "El dependiente me llamó antes de que llegara el autobús."
+      },
+      {
+        "en": "I went back quickly and thanked him.",
+        "es": "Volví deprisa y le di las gracias."
+      },
+      {
+        "en": "Next time, I am going to check my things before leaving.",
+        "es": "La próxima vez voy a revisar mis cosas antes de salir."
+      }
+    ],
+    "question": "¿Quién ayudó a recuperar la mochila?",
+    "answer": "El dependiente.",
+    "options": [
+      "El primo.",
+      "El dependiente.",
+      "El conductor."
+    ]
+  },
+  {
+    "id": 4,
+    "level": "a2",
+    "title": "Una nueva actividad",
+    "lines": [
+      {
+        "en": "My friend has joined a photography club.",
+        "es": "Mi amiga se ha unido a un club de fotografía."
+      },
+      {
+        "en": "She invited me to go with her last week.",
+        "es": "Me invitó a ir con ella la semana pasada."
+      },
+      {
+        "en": "I had never used a camera like hers before.",
+        "es": "Nunca antes había usado una cámara como la suya."
+      },
+      {
+        "en": "The teacher showed us how to take pictures in low light.",
+        "es": "El profesor nos enseñó a sacar fotos con poca luz."
+      },
+      {
+        "en": "My first photos were dark, but the later ones were better.",
+        "es": "Mis primeras fotos estaban oscuras, pero las siguientes salieron mejor."
+      },
+      {
+        "en": "I would like to go again because I enjoyed learning with other people.",
+        "es": "Me gustaría volver porque disfruté aprendiendo con otras personas."
+      }
+    ],
+    "question": "¿Por qué quiere volver?",
+    "answer": "Disfrutó aprendiendo en grupo.",
+    "options": [
+      "Ya es profesor de fotografía.",
+      "Disfrutó aprendiendo en grupo.",
+      "Quiere vender la cámara."
+    ]
+  },
+  {
+    "id": 5,
+    "level": "a2",
+    "title": "El viaje del domingo",
+    "lines": [
+      {
+        "en": "We are planning to visit the coast on Sunday.",
+        "es": "Estamos planeando visitar la costa el domingo."
+      },
+      {
+        "en": "The train is more expensive than the bus, but it is faster.",
+        "es": "El tren es más caro que el autobús, pero es más rápido."
+      },
+      {
+        "en": "We have decided to leave early and come back before dinner.",
+        "es": "Hemos decidido salir temprano y volver antes de cenar."
+      },
+      {
+        "en": "If it rains, we will visit the small museum near the beach.",
+        "es": "Si llueve visitaremos el pequeño museo cerca de la playa."
+      },
+      {
+        "en": "My sister is going to bring some sandwiches.",
+        "es": "Mi hermana va a llevar unos sándwiches."
+      },
+      {
+        "en": "We have not bought the tickets yet.",
+        "es": "Todavía no hemos comprado los billetes."
+      }
+    ],
+    "question": "¿Qué harán si llueve?",
+    "answer": "Visitar un museo.",
+    "options": [
+      "Volver inmediatamente.",
+      "Visitar un museo.",
+      "Comprar una cámara."
+    ]
+  },
+  {
+    "id": 6,
+    "level": "b1",
+    "title": "La reparación",
+    "lines": [
+      {
+        "en": "When our community centre received some old computers, several people assumed they were useless.",
+        "es": "Cuando nuestro centro comunitario recibió unos ordenadores viejos, varias personas dieron por hecho que eran inútiles."
+      },
+      {
+        "en": "However, a volunteer suggested checking them before buying new equipment.",
+        "es": "Sin embargo, un voluntario sugirió revisarlos antes de comprar equipo nuevo."
+      },
+      {
+        "en": "She discovered that most of the machines only needed small repairs.",
+        "es": "Descubrió que la mayoría de los equipos solo necesitaban reparaciones pequeñas."
+      },
+      {
+        "en": "We have been using the repaired computers for two months, and they have helped many residents complete online forms.",
+        "es": "Llevamos dos meses usando los ordenadores reparados y han ayudado a muchos vecinos a completar formularios en línea."
+      },
+      {
+        "en": "Although they are slower than new models, they are suitable for our current needs.",
+        "es": "Aunque son más lentos que los modelos nuevos, son adecuados para nuestras necesidades actuales."
+      },
+      {
+        "en": "If we receive more donations, we will improve the room rather than replace everything immediately.",
+        "es": "Si recibimos más donaciones mejoraremos la sala en lugar de sustituir todo inmediatamente."
+      }
+    ],
+    "question": "¿Por qué conservaron los ordenadores?",
+    "answer": "Reparados cubrían sus necesidades.",
+    "options": [
+      "Eran más rápidos que todos los nuevos.",
+      "Reparados cubrían sus necesidades.",
+      "Nadie sabía usarlos."
+    ]
+  },
+  {
+    "id": 7,
+    "level": "b1",
+    "title": "Una decisión compartida",
+    "lines": [
+      {
+        "en": "Our class disagreed about how to spend the money from a charity event.",
+        "es": "Nuestra clase no se ponía de acuerdo sobre cómo gastar el dinero de un evento benéfico."
+      },
+      {
+        "en": "Some students wanted sports equipment, whereas others preferred books for the reading corner.",
+        "es": "Algunos querían material deportivo, mientras que otros preferían libros para el rincón de lectura."
+      },
+      {
+        "en": "Instead of voting immediately, we asked each group to explain its priorities.",
+        "es": "En lugar de votar inmediatamente, pedimos a cada grupo que explicara sus prioridades."
+      },
+      {
+        "en": "We realised that we could buy second-hand equipment and still afford a few new books.",
+        "es": "Nos dimos cuenta de que podíamos comprar material de segunda mano y aún permitirnos algunos libros nuevos."
+      },
+      {
+        "en": "The discussion took longer, but more people felt that their opinions had been considered.",
+        "es": "La discusión tardó más, pero más personas sintieron que se habían tenido en cuenta sus opiniones."
+      },
+      {
+        "en": "Next time, I would collect suggestions before the meeting so that everyone has time to prepare.",
+        "es": "La próxima vez recogería sugerencias antes de la reunión para que todos tengan tiempo de prepararse."
+      }
+    ],
+    "question": "¿Qué permitió atender ambos intereses?",
+    "answer": "Comprar material de segunda mano.",
+    "options": [
+      "Ignorar los libros.",
+      "Comprar material de segunda mano.",
+      "Gastar todo en material nuevo."
+    ]
+  },
+  {
+    "id": 8,
+    "level": "b1",
+    "title": "Comprobar antes de compartir",
+    "lines": [
+      {
+        "en": "I was about to share a warning about a closed road when I noticed that the photograph looked familiar.",
+        "es": "Estaba a punto de compartir un aviso sobre una carretera cerrada cuando noté que la fotografía me resultaba familiar."
+      },
+      {
+        "en": "After searching for the original article, I discovered that it had been published two years earlier.",
+        "es": "Tras buscar el artículo original descubrí que se había publicado dos años antes."
+      },
+      {
+        "en": "The current notice said that only a short section would close the following morning.",
+        "es": "El aviso actual decía que solo un tramo corto cerraría a la mañana siguiente."
+      },
+      {
+        "en": "I sent the updated information to our group and explained why the old image was misleading.",
+        "es": "Envié la información actualizada a nuestro grupo y expliqué por qué la imagen antigua resultaba engañosa."
+      },
+      {
+        "en": "A neighbour thanked me because she had been planning to cancel an important appointment.",
+        "es": "Una vecina me dio las gracias porque pensaba cancelar una cita importante."
+      },
+      {
+        "en": "Since then, I have tried to check the source and date before passing on information.",
+        "es": "Desde entonces he intentado comprobar la fuente y la fecha antes de transmitir información."
+      }
+    ],
+    "question": "¿Qué hizo antes de reenviar?",
+    "answer": "Comprobar la fuente y la fecha.",
+    "options": [
+      "Borrar todos los mensajes.",
+      "Comprobar la fuente y la fecha.",
+      "Cancelar la cita de su vecina."
+    ]
+  }
+]

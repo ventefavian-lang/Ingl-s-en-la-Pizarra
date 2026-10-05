@@ -1,0 +1,32 @@
+import a1 from './course.json';
+import a2 from './course-a2.json';
+import b1 from './course-b1.json';
+import {bootCourse as bootB1} from './course-engine-b1.js';
+import {bootCourse as bootA2} from './course-engine-a2.js';
+import './course-a2.css';
+const requested=new URLSearchParams(location.search).get('level');
+const courseId=['a1','a2','b1'].includes(requested)?requested:'a1';
+const course={a1,a2,b1}[courseId];
+import './course.css';
+import './account.css';
+import './lab.css';
+import {AccountStore} from './account-store.js';
+import {createFirebaseAdapter} from './firebase-adapter.js';
+import {bootCourse} from './course-engine.js';
+window.COURSE=course;
+let adapter=null;
+try{adapter=createFirebaseAdapter(window.FIREBASE_CONFIG,courseId);}catch{console.warn('No se pudo iniciar el servicio de cuentas. Revisa la configuración pública de Firebase.');}
+let storage;let persistent=true;
+try{storage=window.localStorage;}catch{persistent=false;const cache=new Map();storage={getItem:k=>cache.get(k)||null,setItem:(k,v)=>cache.set(k,v)};}
+const store=new AccountStore({adapter,storage,courseId});
+if(!persistent)store.localAvailable=false;
+({a1:bootCourse,a2:bootA2,b1:bootB1}[courseId])(store);store.start();
+let lastFocus=0;
+const syncWhenVisible=()=>{if(!document.hidden&&Date.now()-lastFocus>5000){lastFocus=Date.now();void store.sync();}};
+window.addEventListener('online',()=>void store.sync());
+window.addEventListener('focus',syncWhenVisible);
+document.addEventListener('visibilitychange',syncWhenVisible);
+window.addEventListener('pagehide',()=>{void store.sync();});
+
+document.addEventListener('click',async e=>{const button=e.target.closest('[data-level]');if(!button||button.dataset.level===courseId)return;button.disabled=true;await store.sync();const target=new URL(location.href);target.searchParams.set('level',button.dataset.level);target.hash='home';location.href=target.href;});
+import './word-links.js';
