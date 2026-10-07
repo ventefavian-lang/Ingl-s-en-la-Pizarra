@@ -66,6 +66,36 @@
           "en": "skill",
           "es": "habilidad",
           "icon": "🌱"
+        },
+        {
+          "en": "reliable",
+          "es": "fiable",
+          "icon": "📖"
+        },
+        {
+          "en": "arrangement",
+          "es": "organización acordada",
+          "icon": "📖"
+        },
+        {
+          "en": "review",
+          "es": "repasar",
+          "icon": "📖"
+        },
+        {
+          "en": "rather than",
+          "es": "en vez de",
+          "icon": "📖"
+        },
+        {
+          "en": "crowded",
+          "es": "lleno de gente",
+          "icon": "📖"
+        },
+        {
+          "en": "commute",
+          "es": "trayecto habitual",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -319,6 +349,36 @@
           "en": "fortunately",
           "es": "afortunadamente",
           "icon": "🚆"
+        },
+        {
+          "en": "folder",
+          "es": "carpeta",
+          "icon": "📖"
+        },
+        {
+          "en": "coach",
+          "es": "entrenador/a",
+          "icon": "📖"
+        },
+        {
+          "en": "venue",
+          "es": "lugar del evento",
+          "icon": "📖"
+        },
+        {
+          "en": "unreadable",
+          "es": "ilegible",
+          "icon": "📖"
+        },
+        {
+          "en": "essential",
+          "es": "esencial",
+          "icon": "📖"
+        },
+        {
+          "en": "access",
+          "es": "acceder a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -572,6 +632,36 @@
           "en": "yet",
           "es": "todavía o ya en preguntas",
           "icon": "🧭"
+        },
+        {
+          "en": "coordinator",
+          "es": "coordinador/a",
+          "icon": "📖"
+        },
+        {
+          "en": "suitable",
+          "es": "adecuado/a",
+          "icon": "📖"
+        },
+        {
+          "en": "role",
+          "es": "función o puesto",
+          "icon": "📖"
+        },
+        {
+          "en": "contribute",
+          "es": "aportar",
+          "icon": "📖"
+        },
+        {
+          "en": "identify",
+          "es": "identificar",
+          "icon": "📖"
+        },
+        {
+          "en": "experienced",
+          "es": "con experiencia",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -825,6 +915,36 @@
           "en": "ongoing",
           "es": "en curso",
           "icon": "⏳"
+        },
+        {
+          "en": "audio guide",
+          "es": "audioguía",
+          "icon": "📖"
+        },
+        {
+          "en": "editing",
+          "es": "editando",
+          "icon": "📖"
+        },
+        {
+          "en": "historical",
+          "es": "histórico/a",
+          "icon": "📖"
+        },
+        {
+          "en": "remaining",
+          "es": "pendiente",
+          "icon": "📖"
+        },
+        {
+          "en": "obstacle",
+          "es": "obstáculo",
+          "icon": "📖"
+        },
+        {
+          "en": "progress",
+          "es": "avance",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1078,6 +1198,36 @@
           "en": "gradually",
           "es": "gradualmente",
           "icon": "🏘️"
+        },
+        {
+          "en": "exhausting",
+          "es": "agotador/a",
+          "icon": "📖"
+        },
+        {
+          "en": "familiar",
+          "es": "conocido/a",
+          "icon": "📖"
+        },
+        {
+          "en": "appreciate",
+          "es": "valorar",
+          "icon": "📖"
+        },
+        {
+          "en": "convenient",
+          "es": "práctico/a",
+          "icon": "📖"
+        },
+        {
+          "en": "effort",
+          "es": "esfuerzo",
+          "icon": "📖"
+        },
+        {
+          "en": "all at once",
+          "es": "de golpe",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1331,6 +1481,36 @@
           "en": "alternative",
           "es": "alternativa",
           "icon": "📅"
+        },
+        {
+          "en": "workshop",
+          "es": "taller",
+          "icon": "📖"
+        },
+        {
+          "en": "dispatched",
+          "es": "enviado",
+          "icon": "📖"
+        },
+        {
+          "en": "attendance",
+          "es": "asistencia",
+          "icon": "📖"
+        },
+        {
+          "en": "deadline",
+          "es": "plazo",
+          "icon": "📖"
+        },
+        {
+          "en": "registrations",
+          "es": "inscripciones",
+          "icon": "📖"
+        },
+        {
+          "en": "confirmed",
+          "es": "confirmado/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1584,6 +1764,26 @@
           "en": "depend on",
           "es": "depender de",
           "icon": "🌦️"
+        },
+        {
+          "en": "severe",
+          "es": "intenso/a o grave",
+          "icon": "📖"
+        },
+        {
+          "en": "participants",
+          "es": "participantes",
+          "icon": "📖"
+        },
+        {
+          "en": "adjusts",
+          "es": "ajusta",
+          "icon": "📖"
+        },
+        {
+          "en": "applies",
+          "es": "se aplica",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1837,6 +2037,36 @@
           "en": "realistic",
           "es": "realista",
           "icon": "💭"
+        },
+        {
+          "en": "budget",
+          "es": "presupuesto",
+          "icon": "📖"
+        },
+        {
+          "en": "staffing",
+          "es": "dotación de personal",
+          "icon": "📖"
+        },
+        {
+          "en": "priorities",
+          "es": "prioridades",
+          "icon": "📖"
+        },
+        {
+          "en": "proposal",
+          "es": "propuesta",
+          "icon": "📖"
+        },
+        {
+          "en": "investigate",
+          "es": "investigar",
+          "icon": "📖"
+        },
+        {
+          "en": "definitely",
+          "es": "sin duda",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2090,6 +2320,31 @@
           "en": "protect",
           "es": "proteger",
           "icon": "📋"
+        },
+        {
+          "en": "briefing",
+          "es": "reunión de instrucciones",
+          "icon": "📖"
+        },
+        {
+          "en": "shift",
+          "es": "turno",
+          "icon": "📖"
+        },
+        {
+          "en": "walkway",
+          "es": "zona de paso",
+          "icon": "📖"
+        },
+        {
+          "en": "matching",
+          "es": "iguales o coordinados",
+          "icon": "📖"
+        },
+        {
+          "en": "upset",
+          "es": "alterado/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2343,6 +2598,36 @@
           "en": "unlikely",
           "es": "poco probable",
           "icon": "🔎"
+        },
+        {
+          "en": "rehearsal",
+          "es": "ensayo",
+          "icon": "📖"
+        },
+        {
+          "en": "corridor",
+          "es": "pasillo",
+          "icon": "📖"
+        },
+        {
+          "en": "by mistake",
+          "es": "por error",
+          "icon": "📖"
+        },
+        {
+          "en": "assumption",
+          "es": "suposición",
+          "icon": "📖"
+        },
+        {
+          "en": "unfair",
+          "es": "injusto/a",
+          "icon": "📖"
+        },
+        {
+          "en": "conclusion",
+          "es": "conclusión",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2596,6 +2881,36 @@
           "en": "report",
           "es": "informar",
           "icon": "♻️"
+        },
+        {
+          "en": "damage",
+          "es": "daños",
+          "icon": "📖"
+        },
+        {
+          "en": "replacements",
+          "es": "repuestos",
+          "icon": "📖"
+        },
+        {
+          "en": "brakes",
+          "es": "frenos",
+          "icon": "📖"
+        },
+        {
+          "en": "tyres",
+          "es": "neumáticos",
+          "icon": "📖"
+        },
+        {
+          "en": "frame",
+          "es": "cuadro de bicicleta",
+          "icon": "📖"
+        },
+        {
+          "en": "trained",
+          "es": "capacitado/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2849,6 +3164,36 @@
           "en": "the day before",
           "es": "el día anterior",
           "icon": "💬"
+        },
+        {
+          "en": "absent",
+          "es": "ausente",
+          "icon": "📖"
+        },
+        {
+          "en": "reusable",
+          "es": "reutilizable",
+          "icon": "📖"
+        },
+        {
+          "en": "draft",
+          "es": "borrador",
+          "icon": "📖"
+        },
+        {
+          "en": "venue",
+          "es": "recinto",
+          "icon": "📖"
+        },
+        {
+          "en": "point of view",
+          "es": "punto de vista",
+          "icon": "📖"
+        },
+        {
+          "en": "clarify",
+          "es": "aclarar",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3102,6 +3447,36 @@
           "en": "local",
           "es": "local",
           "icon": "🏙️"
+        },
+        {
+          "en": "residents",
+          "es": "residentes",
+          "icon": "📖"
+        },
+        {
+          "en": "accounts",
+          "es": "relatos",
+          "icon": "📖"
+        },
+        {
+          "en": "bakery",
+          "es": "panadería",
+          "icon": "📖"
+        },
+        {
+          "en": "clause",
+          "es": "cláusula",
+          "icon": "📖"
+        },
+        {
+          "en": "newcomer",
+          "es": "recién llegado/a",
+          "icon": "📖"
+        },
+        {
+          "en": "relevant",
+          "es": "pertinente",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3355,6 +3730,31 @@
           "en": "effort",
           "es": "esfuerzo",
           "icon": "🎯"
+        },
+        {
+          "en": "labels",
+          "es": "etiquetas",
+          "icon": "📖"
+        },
+        {
+          "en": "font",
+          "es": "tipo de letra",
+          "icon": "📖"
+        },
+        {
+          "en": "display",
+          "es": "exposición",
+          "icon": "📖"
+        },
+        {
+          "en": "permanently",
+          "es": "permanentemente",
+          "icon": "📖"
+        },
+        {
+          "en": "pattern",
+          "es": "estructura",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3608,6 +4008,36 @@
           "en": "priority",
           "es": "prioridad",
           "icon": "⚖️"
+        },
+        {
+          "en": "venue",
+          "es": "recinto",
+          "icon": "📖"
+        },
+        {
+          "en": "requirements",
+          "es": "requisitos",
+          "icon": "📖"
+        },
+        {
+          "en": "accessibility",
+          "es": "accesibilidad",
+          "icon": "📖"
+        },
+        {
+          "en": "equipment",
+          "es": "equipo",
+          "icon": "📖"
+        },
+        {
+          "en": "optional",
+          "es": "opcional",
+          "icon": "📖"
+        },
+        {
+          "en": "suit",
+          "es": "ser adecuado para",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3861,6 +4291,36 @@
           "en": "resource",
           "es": "recurso",
           "icon": "🧺"
+        },
+        {
+          "en": "donation",
+          "es": "donación",
+          "icon": "📖"
+        },
+        {
+          "en": "committee",
+          "es": "comité",
+          "icon": "📖"
+        },
+        {
+          "en": "bulb",
+          "es": "bombilla",
+          "icon": "📖"
+        },
+        {
+          "en": "allocated",
+          "es": "asignado",
+          "icon": "📖"
+        },
+        {
+          "en": "resources",
+          "es": "recursos",
+          "icon": "📖"
+        },
+        {
+          "en": "priority",
+          "es": "prioridad",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4114,6 +4574,36 @@
           "en": "conclusion",
           "es": "conclusión",
           "icon": "🔗"
+        },
+        {
+          "en": "arrangement",
+          "es": "forma de organización",
+          "icon": "📖"
+        },
+        {
+          "en": "edits",
+          "es": "correcciones",
+          "icon": "📖"
+        },
+        {
+          "en": "disagreement",
+          "es": "desacuerdo",
+          "icon": "📖"
+        },
+        {
+          "en": "agenda",
+          "es": "orden del día",
+          "icon": "📖"
+        },
+        {
+          "en": "evidence",
+          "es": "evidencia",
+          "icon": "📖"
+        },
+        {
+          "en": "proposal",
+          "es": "propuesta",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4367,6 +4857,31 @@
           "en": "alternative",
           "es": "alternativa",
           "icon": "🧳"
+        },
+        {
+          "en": "connecting",
+          "es": "de conexión",
+          "icon": "📖"
+        },
+        {
+          "en": "accepted",
+          "es": "aceptado",
+          "icon": "📖"
+        },
+        {
+          "en": "constraint",
+          "es": "limitación",
+          "icon": "📖"
+        },
+        {
+          "en": "priorities",
+          "es": "prioridades",
+          "icon": "📖"
+        },
+        {
+          "en": "practical",
+          "es": "práctico",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4620,6 +5135,31 @@
           "en": "satisfied",
           "es": "satisfecho/a",
           "icon": "📦"
+        },
+        {
+          "en": "cracked",
+          "es": "agrietado",
+          "icon": "📖"
+        },
+        {
+          "en": "fault",
+          "es": "defecto",
+          "icon": "📖"
+        },
+        {
+          "en": "replacement",
+          "es": "repuesto",
+          "icon": "📖"
+        },
+        {
+          "en": "dispatched",
+          "es": "enviado",
+          "icon": "📖"
+        },
+        {
+          "en": "following week",
+          "es": "semana siguiente",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4873,6 +5413,31 @@
           "en": "available",
           "es": "disponible",
           "icon": "💼"
+        },
+        {
+          "en": "applicant",
+          "es": "candidato/a",
+          "icon": "📖"
+        },
+        {
+          "en": "deadline",
+          "es": "plazo",
+          "icon": "📖"
+        },
+        {
+          "en": "ambitious",
+          "es": "ambicioso/a",
+          "icon": "📖"
+        },
+        {
+          "en": "contribution",
+          "es": "aportación",
+          "icon": "📖"
+        },
+        {
+          "en": "coordinator",
+          "es": "coordinador/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -5126,6 +5691,26 @@
           "en": "original",
           "es": "original",
           "icon": "📱"
+        },
+        {
+          "en": "claimed",
+          "es": "afirmaba",
+          "icon": "📖"
+        },
+        {
+          "en": "temporary",
+          "es": "temporal",
+          "icon": "📖"
+        },
+        {
+          "en": "notice",
+          "es": "aviso",
+          "icon": "📖"
+        },
+        {
+          "en": "deliberately",
+          "es": "deliberadamente",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -5379,6 +5964,36 @@
           "en": "solution",
           "es": "solución",
           "icon": "🤝"
+        },
+        {
+          "en": "outline",
+          "es": "esquema",
+          "icon": "📖"
+        },
+        {
+          "en": "concerned",
+          "es": "preocupado/a",
+          "icon": "📖"
+        },
+        {
+          "en": "accuracy",
+          "es": "precisión",
+          "icon": "📖"
+        },
+        {
+          "en": "flexibility",
+          "es": "flexibilidad",
+          "icon": "📖"
+        },
+        {
+          "en": "unexpected",
+          "es": "inesperado/a",
+          "icon": "📖"
+        },
+        {
+          "en": "essential",
+          "es": "imprescindible",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -5632,6 +6247,36 @@
           "en": "suitable",
           "es": "apropiado",
           "icon": "🎭"
+        },
+        {
+          "en": "household",
+          "es": "doméstico/a",
+          "icon": "📖"
+        },
+        {
+          "en": "accounts",
+          "es": "relatos",
+          "icon": "📖"
+        },
+        {
+          "en": "labels",
+          "es": "cartelas o etiquetas",
+          "icon": "📖"
+        },
+        {
+          "en": "pace",
+          "es": "ritmo",
+          "icon": "📖"
+        },
+        {
+          "en": "guided tour",
+          "es": "visita guiada",
+          "icon": "📖"
+        },
+        {
+          "en": "suits",
+          "es": "se adapta a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -5885,6 +6530,26 @@
           "en": "independently",
           "es": "de forma independiente",
           "icon": "🏁"
+        },
+        {
+          "en": "exchange",
+          "es": "intercambio",
+          "icon": "📖"
+        },
+        {
+          "en": "arrangements",
+          "es": "preparativos",
+          "icon": "📖"
+        },
+        {
+          "en": "objections",
+          "es": "objeciones",
+          "icon": "📖"
+        },
+        {
+          "en": "confident",
+          "es": "con confianza",
+          "icon": "📖"
         }
       ],
       "rules": [

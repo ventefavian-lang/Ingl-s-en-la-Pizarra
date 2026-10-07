@@ -1,11 +1,11 @@
 {
   "name": "hello-english",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
-    "test": "node tests/progress.test.js",
+    "test": "node --test tests/*.test.js",
     "serve": "python3 -m http.server 8085 -d public"
   },
   "dependencies": {

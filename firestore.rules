@@ -5,13 +5,15 @@ service cloud.firestore {
   function validProgress(p) {
    return p is map
     && p.keys().hasAll(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
-    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
+    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','study','studyDrafts','checks','speech','exam','xp','goal','accent','name'])
     && p.version == 1
     && p.completed is map && p.completed.size() <= 72
     && p.activity is map && p.activity.size() <= 3660
     && p.errors is map && p.errors.size() <= 600
     && p.vocab is map && p.vocab.size() <= 1000
     && p.writing is map && p.writing.size() <= 24
+    && (!('study' in p) || (p.study is map && p.study.size() <= 288))
+    && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 120))
     && p.checks is list && p.checks.size() <= 50
     && p.speech is list && p.speech.size() <= 100
     && p.exam is list && p.exam.size() <= 12
@@ -39,6 +41,9 @@ service cloud.firestore {
     && request.resource.data.epoch in [0,1];
    allow update: if owner(uid) && courseId in ['a1','a2','b1']
     && validDocument(request.resource.data, courseId)
+    // Un cliente anterior no puede borrar campos de talleres que ya existen.
+    && (!('study' in resource.data.progress) || ('study' in request.resource.data.progress))
+    && (!('studyDrafts' in resource.data.progress) || ('studyDrafts' in request.resource.data.progress))
     && request.resource.data.revision == resource.data.revision + 1
     && request.resource.data.epoch in [resource.data.epoch,resource.data.epoch + 1];
    // El borrado de progreso escribe un estado vacío y cambia epoch, para que

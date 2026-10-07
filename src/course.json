@@ -66,6 +66,36 @@
           "en": "night",
           "es": "noche",
           "icon": "🌙"
+        },
+        {
+          "en": "club",
+          "es": "club",
+          "icon": "📖"
+        },
+        {
+          "en": "first day",
+          "es": "primer día",
+          "icon": "📖"
+        },
+        {
+          "en": "card",
+          "es": "tarjeta",
+          "icon": "📖"
+        },
+        {
+          "en": "writes",
+          "es": "escribe",
+          "icon": "📖"
+        },
+        {
+          "en": "at the end",
+          "es": "al final",
+          "icon": "📖"
+        },
+        {
+          "en": "tomorrow",
+          "es": "mañana",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -283,6 +313,26 @@
           "en": "tired",
           "es": "cansado/a",
           "icon": "🥱"
+        },
+        {
+          "en": "classroom",
+          "es": "aula",
+          "icon": "📖"
+        },
+        {
+          "en": "visitors",
+          "es": "visitantes",
+          "icon": "📖"
+        },
+        {
+          "en": "ready",
+          "es": "listo/a",
+          "icon": "📖"
+        },
+        {
+          "en": "late",
+          "es": "tarde (con retraso)",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -500,6 +550,36 @@
           "en": "address",
           "es": "dirección",
           "icon": "🏠"
+        },
+        {
+          "en": "form",
+          "es": "formulario",
+          "icon": "📖"
+        },
+        {
+          "en": "desk",
+          "es": "mostrador o escritorio",
+          "icon": "📖"
+        },
+        {
+          "en": "building",
+          "es": "edificio",
+          "icon": "📖"
+        },
+        {
+          "en": "shows",
+          "es": "muestra",
+          "icon": "📖"
+        },
+        {
+          "en": "room",
+          "es": "aula o habitación",
+          "icon": "📖"
+        },
+        {
+          "en": "spell",
+          "es": "deletrear",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -717,6 +797,36 @@
           "en": "box",
           "es": "caja",
           "icon": "📦"
+        },
+        {
+          "en": "art room",
+          "es": "aula de arte",
+          "icon": "📖"
+        },
+        {
+          "en": "in the middle",
+          "es": "en el centro",
+          "icon": "📖"
+        },
+        {
+          "en": "near",
+          "es": "cerca de",
+          "icon": "📖"
+        },
+        {
+          "en": "boxes",
+          "es": "cajas",
+          "icon": "📖"
+        },
+        {
+          "en": "owl",
+          "es": "búho",
+          "icon": "📖"
+        },
+        {
+          "en": "put",
+          "es": "poner",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -934,6 +1044,26 @@
           "en": "wife",
           "es": "esposa",
           "icon": "👩"
+        },
+        {
+          "en": "photo",
+          "es": "foto",
+          "icon": "📖"
+        },
+        {
+          "en": "next to",
+          "es": "al lado de",
+          "icon": "📖"
+        },
+        {
+          "en": "uncle",
+          "es": "tío",
+          "icon": "📖"
+        },
+        {
+          "en": "everyone",
+          "es": "todos",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1151,6 +1281,36 @@
           "en": "red",
           "es": "rojo",
           "icon": "🔴"
+        },
+        {
+          "en": "looking for",
+          "es": "buscando",
+          "icon": "📖"
+        },
+        {
+          "en": "station",
+          "es": "estación",
+          "icon": "📖"
+        },
+        {
+          "en": "curly",
+          "es": "rizado/a",
+          "icon": "📖"
+        },
+        {
+          "en": "coat",
+          "es": "abrigo",
+          "icon": "📖"
+        },
+        {
+          "en": "together",
+          "es": "juntos",
+          "icon": "📖"
+        },
+        {
+          "en": "bus stop",
+          "es": "parada de autobús",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1368,6 +1528,31 @@
           "en": "fridge",
           "es": "refrigeradora",
           "icon": "🧊"
+        },
+        {
+          "en": "bright",
+          "es": "luminoso/a",
+          "icon": "📖"
+        },
+        {
+          "en": "in front of",
+          "es": "delante de",
+          "icon": "📖"
+        },
+        {
+          "en": "under",
+          "es": "debajo de",
+          "icon": "📖"
+        },
+        {
+          "en": "yet",
+          "es": "todavía",
+          "icon": "📖"
+        },
+        {
+          "en": "between",
+          "es": "entre dos referencias",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1585,6 +1770,36 @@
           "en": "walk",
           "es": "caminar",
           "icon": "🚶"
+        },
+        {
+          "en": "shelves",
+          "es": "estantes",
+          "icon": "📖"
+        },
+        {
+          "en": "customers",
+          "es": "clientes",
+          "icon": "📖"
+        },
+        {
+          "en": "finishes",
+          "es": "termina",
+          "icon": "📖"
+        },
+        {
+          "en": "then",
+          "es": "después",
+          "icon": "📖"
+        },
+        {
+          "en": "finally",
+          "es": "finalmente",
+          "icon": "📖"
+        },
+        {
+          "en": "closed",
+          "es": "cerrado/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -1802,6 +2017,36 @@
           "en": "job",
           "es": "trabajo / empleo",
           "icon": "💼"
+        },
+        {
+          "en": "joins",
+          "es": "se incorpora a",
+          "icon": "📖"
+        },
+        {
+          "en": "another",
+          "es": "otro/a",
+          "icon": "📖"
+        },
+        {
+          "en": "both",
+          "es": "ambos",
+          "icon": "📖"
+        },
+        {
+          "en": "after school",
+          "es": "después de clase",
+          "icon": "📖"
+        },
+        {
+          "en": "sing",
+          "es": "cantar",
+          "icon": "📖"
+        },
+        {
+          "en": "every day",
+          "es": "todos los días",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2019,6 +2264,36 @@
           "en": "birthday",
           "es": "cumpleaños",
           "icon": "🎂"
+        },
+        {
+          "en": "timetable",
+          "es": "horario",
+          "icon": "📖"
+        },
+        {
+          "en": "half past",
+          "es": "y media",
+          "icon": "📖"
+        },
+        {
+          "en": "a quarter to",
+          "es": "menos cuarto",
+          "icon": "📖"
+        },
+        {
+          "en": "early",
+          "es": "temprano",
+          "icon": "📖"
+        },
+        {
+          "en": "slow",
+          "es": "lento/a",
+          "icon": "📖"
+        },
+        {
+          "en": "leave",
+          "es": "salir",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2236,6 +2511,31 @@
           "en": "help",
           "es": "ayudar",
           "icon": "🤝"
+        },
+        {
+          "en": "practise",
+          "es": "practicar",
+          "icon": "📖"
+        },
+        {
+          "en": "nervous",
+          "es": "nervioso/a",
+          "icon": "📖"
+        },
+        {
+          "en": "sharing",
+          "es": "compartir",
+          "icon": "📖"
+        },
+        {
+          "en": "even when",
+          "es": "incluso cuando",
+          "icon": "📖"
+        },
+        {
+          "en": "listen to",
+          "es": "escuchar a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2453,6 +2753,31 @@
           "en": "tomato",
           "es": "tomate",
           "icon": "🍅"
+        },
+        {
+          "en": "fridge",
+          "es": "refrigerador",
+          "icon": "📖"
+        },
+        {
+          "en": "cup",
+          "es": "taza",
+          "icon": "📖"
+        },
+        {
+          "en": "recipe",
+          "es": "receta",
+          "icon": "📖"
+        },
+        {
+          "en": "shopping list",
+          "es": "lista de compras",
+          "icon": "📖"
+        },
+        {
+          "en": "carry",
+          "es": "llevar o cargar",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2670,6 +2995,26 @@
           "en": "thirsty",
           "es": "con sed",
           "icon": "💧"
+        },
+        {
+          "en": "server",
+          "es": "persona que atiende",
+          "icon": "📖"
+        },
+        {
+          "en": "for here",
+          "es": "para tomar aquí",
+          "icon": "📖"
+        },
+        {
+          "en": "to take away",
+          "es": "para llevar",
+          "icon": "📖"
+        },
+        {
+          "en": "leaving",
+          "es": "saliendo",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -2887,6 +3232,31 @@
           "en": "pay",
           "es": "pagar",
           "icon": "💳"
+        },
+        {
+          "en": "tries it on",
+          "es": "se lo prueba",
+          "icon": "📖"
+        },
+        {
+          "en": "warmer",
+          "es": "más cálido/a",
+          "icon": "📖"
+        },
+        {
+          "en": "chooses",
+          "es": "elige",
+          "icon": "📖"
+        },
+        {
+          "en": "receipt",
+          "es": "recibo",
+          "icon": "📖"
+        },
+        {
+          "en": "by card",
+          "es": "con tarjeta",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3104,6 +3474,36 @@
           "en": "straight",
           "es": "recto",
           "icon": "⬆️"
+        },
+        {
+          "en": "go straight",
+          "es": "sigue recto",
+          "icon": "📖"
+        },
+        {
+          "en": "along",
+          "es": "a lo largo de",
+          "icon": "📖"
+        },
+        {
+          "en": "turn right",
+          "es": "gira a la derecha",
+          "icon": "📖"
+        },
+        {
+          "en": "past",
+          "es": "más allá de",
+          "icon": "📖"
+        },
+        {
+          "en": "opposite",
+          "es": "enfrente de",
+          "icon": "📖"
+        },
+        {
+          "en": "inside",
+          "es": "dentro",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3321,6 +3721,36 @@
           "en": "arrive",
           "es": "llegar",
           "icon": "📍"
+        },
+        {
+          "en": "return ticket",
+          "es": "billete de ida y vuelta",
+          "icon": "📖"
+        },
+        {
+          "en": "on foot",
+          "es": "a pie",
+          "icon": "📖"
+        },
+        {
+          "en": "leaves",
+          "es": "sale",
+          "icon": "📖"
+        },
+        {
+          "en": "waits",
+          "es": "espera",
+          "icon": "📖"
+        },
+        {
+          "en": "getting on",
+          "es": "subir a un vehículo",
+          "icon": "📖"
+        },
+        {
+          "en": "sits",
+          "es": "se sienta",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3538,6 +3968,36 @@
           "en": "wear",
           "es": "llevar puesto",
           "icon": "👕"
+        },
+        {
+          "en": "setting the table",
+          "es": "poniendo la mesa",
+          "icon": "📖"
+        },
+        {
+          "en": "sleeping",
+          "es": "durmiendo",
+          "icon": "📖"
+        },
+        {
+          "en": "rings",
+          "es": "suena",
+          "icon": "📖"
+        },
+        {
+          "en": "getting ready",
+          "es": "preparando",
+          "icon": "📖"
+        },
+        {
+          "en": "plate",
+          "es": "plato",
+          "icon": "📖"
+        },
+        {
+          "en": "outside",
+          "es": "fuera",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3755,6 +4215,31 @@
           "en": "winter",
           "es": "invierno",
           "icon": "❄️"
+        },
+        {
+          "en": "scarf",
+          "es": "bufanda",
+          "icon": "📖"
+        },
+        {
+          "en": "umbrella",
+          "es": "paraguas",
+          "icon": "📖"
+        },
+        {
+          "en": "clouds",
+          "es": "nubes",
+          "icon": "📖"
+        },
+        {
+          "en": "surprised",
+          "es": "sorprendido/a",
+          "icon": "📖"
+        },
+        {
+          "en": "beach",
+          "es": "playa",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -3972,6 +4457,36 @@
           "en": "better",
           "es": "mejor",
           "icon": "🙂"
+        },
+        {
+          "en": "shade",
+          "es": "sombra",
+          "icon": "📖"
+        },
+        {
+          "en": "thirsty",
+          "es": "con sed",
+          "icon": "📖"
+        },
+        {
+          "en": "bottle",
+          "es": "botella",
+          "icon": "📖"
+        },
+        {
+          "en": "just",
+          "es": "solo o simplemente",
+          "icon": "📖"
+        },
+        {
+          "en": "continue",
+          "es": "continuar",
+          "icon": "📖"
+        },
+        {
+          "en": "more slowly",
+          "es": "más despacio",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4189,6 +4704,36 @@
           "en": "at school",
           "es": "en la escuela",
           "icon": "🏫"
+        },
+        {
+          "en": "at first",
+          "es": "al principio",
+          "icon": "📖"
+        },
+        {
+          "en": "flowers",
+          "es": "flores",
+          "icon": "📖"
+        },
+        {
+          "en": "later",
+          "es": "más tarde",
+          "icon": "📖"
+        },
+        {
+          "en": "quiet",
+          "es": "tranquilo/a o silencioso/a",
+          "icon": "📖"
+        },
+        {
+          "en": "lovely",
+          "es": "bonito/a",
+          "icon": "📖"
+        },
+        {
+          "en": "again",
+          "es": "otra vez",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4406,6 +4951,31 @@
           "en": "did",
           "es": "hizo / hice",
           "icon": "✅"
+        },
+        {
+          "en": "stayed",
+          "es": "se quedaron",
+          "icon": "📖"
+        },
+        {
+          "en": "stopped",
+          "es": "paró",
+          "icon": "📖"
+        },
+        {
+          "en": "took",
+          "es": "tomé (el transporte)",
+          "icon": "📖"
+        },
+        {
+          "en": "sent",
+          "es": "envió",
+          "icon": "📖"
+        },
+        {
+          "en": "enjoyed",
+          "es": "disfruté",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4623,6 +5193,36 @@
           "en": "sorry",
           "es": "lo siento",
           "icon": "💬"
+        },
+        {
+          "en": "possible",
+          "es": "posible",
+          "icon": "📖"
+        },
+        {
+          "en": "agree",
+          "es": "acordar",
+          "icon": "📖"
+        },
+        {
+          "en": "outside",
+          "es": "fuera de",
+          "icon": "📖"
+        },
+        {
+          "en": "bring",
+          "es": "traer",
+          "icon": "📖"
+        },
+        {
+          "en": "check",
+          "es": "comprobar",
+          "icon": "📖"
+        },
+        {
+          "en": "excited",
+          "es": "ilusionado/a",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -4840,6 +5440,36 @@
           "en": "finish",
           "es": "terminar",
           "icon": "🏁"
+        },
+        {
+          "en": "instead",
+          "es": "en su lugar",
+          "icon": "📖"
+        },
+        {
+          "en": "half an hour",
+          "es": "media hora",
+          "icon": "📖"
+        },
+        {
+          "en": "homework",
+          "es": "tarea",
+          "icon": "📖"
+        },
+        {
+          "en": "instead of",
+          "es": "en lugar de",
+          "icon": "📖"
+        },
+        {
+          "en": "until",
+          "es": "hasta",
+          "icon": "📖"
+        },
+        {
+          "en": "before",
+          "es": "antes de",
+          "icon": "📖"
         }
       ],
       "rules": [
@@ -5057,6 +5687,36 @@
           "en": "well done",
           "es": "bien hecho",
           "icon": "🌟"
+        },
+        {
+          "en": "host",
+          "es": "persona anfitriona",
+          "icon": "📖"
+        },
+        {
+          "en": "directions",
+          "es": "indicaciones",
+          "icon": "📖"
+        },
+        {
+          "en": "mistakes",
+          "es": "errores",
+          "icon": "📖"
+        },
+        {
+          "en": "still",
+          "es": "todavía",
+          "icon": "📖"
+        },
+        {
+          "en": "need",
+          "es": "necesitar",
+          "icon": "📖"
+        },
+        {
+          "en": "explain",
+          "es": "explicar",
+          "icon": "📖"
         }
       ],
       "rules": [

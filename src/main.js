@@ -10,6 +10,7 @@ const course={a1,a2,b1}[courseId];
 import './course.css';
 import './account.css';
 import './lab.css';
+import './study.css';
 import {AccountStore} from './account-store.js';
 import {createFirebaseAdapter} from './firebase-adapter.js';
 import {bootCourse} from './course-engine.js';

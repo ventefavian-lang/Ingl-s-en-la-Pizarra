@@ -33,3 +33,19 @@ Es una ilustración 2D aproximada con pasos articulatorios. No usa cámara, no o
 - Web Speech API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API
 
 Los enlaces permiten ampliar la práctica y no implican afiliación. Las explicaciones y figuras de esta página son material original de apoyo, no material clínico ni una herramienta de diagnóstico.
+
+## Ampliación de esta edición
+
+La referencia nueva aportada por el usuario es un mapa de vocales. Se creó un gráfico vectorial original con selección de sonidos, ejes de altura/posición y trayectorias de diptongos, conectado con una boca interactiva. No se copió la marca ni la imagen del material de referencia.
+
+Cada unidad tiene ahora seis etapas de taller, explicaciones ampliadas, un caso original, vocabulario de apoyo, práctica estructurada y un proyecto de transferencia. Las nuevas rondas reutilizan algunos modelos de la unidad desde tareas diferentes; no se presentan como miles de explicaciones independientes.
+
+La recuperación espaciada y alternar modelos con práctica se apoyan en recomendaciones generales de aprendizaje. Los intervalos 1/3/7/14/30 son decisiones de diseño orientativas, no una pauta óptima demostrada para cada estudiante. El 80% es un criterio de práctica, no equivalencia con una certificación MCER.
+
+Referencias adicionales:
+
+- Institute of Education Sciences, práctica distribuida, recuperación y ejemplos resueltos: https://ies.ed.gov/ncee/wwc/PracticeGuide/1
+- International Phonetic Association, clasificación y símbolos vocálicos: https://www.internationalphoneticassociation.org/content/ipa-vowels
+- Consejo de Europa, descriptores de capacidades: https://www.coe.int/en/web/common-european-framework-reference-languages/cefr-descriptors
+
+El mapa muestra posiciones cualitativas aproximadas, no medidas acústicas de formantes. Las variantes róticas estadounidenses y el inventario británico tradicional se distinguen en la interfaz. Las trayectorias y el dibujo no intentan representar todas las variantes individuales.

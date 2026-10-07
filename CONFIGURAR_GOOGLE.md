@@ -1,4 +1,4 @@
-> Actualización A1 + A2 + B1: utiliza el mismo proyecto Firebase. Conserva tu configuración web y publica las reglas nuevas de este ZIP, que permiten los tres niveles. No borres los documentos de A1.
+> Actualización A1 + A2 + B1: utiliza el mismo proyecto Firebase. Conserva tu configuración web y publica las reglas nuevas de este ZIP, que permiten los tres niveles y los campos de talleres y borradores. No borres los documentos de A1.
 
 # Activar Google y guardar progreso
 
@@ -52,7 +52,7 @@ No necesitas pedir acceso a Gmail, Drive ni otros servicios. La página solicita
 5. Copia **todo** el contenido de `firestore.rules` incluido en este proyecto y reemplaza las reglas iniciales.
 6. Pulsa **Publish/Publicar**.
 
-No necesitas crear colecciones ni documentos a mano. La página los crea con la primera sincronización de cada usuario. El documento de progreso es `users/{uid}/courses/a1`. Una cuenta solo puede acceder a su propio documento.
+No necesitas crear colecciones ni documentos a mano. La página los crea con la primera sincronización de cada usuario. Los documentos de progreso son `users/{uid}/courses/a1`, `users/{uid}/courses/a2` y `users/{uid}/courses/b1`. Una cuenta solo puede acceder a su propio documento.
 
 Subir `firestore.rules` a GitHub **no publica las reglas en Firebase**: debes realizar el paso anterior en su consola. También existe una opción para desarrolladores con Firebase CLI, pero no es necesaria para estos pasos.
 

@@ -1,44 +1,53 @@
-# Actualizar A1 + A2 a A1 + A2 + B1 con pronunciación
+# Actualizar tu página con GitHub Desktop
 
-Este ZIP contiene el proyecto completo. No lo combines manualmente con los antiguos archivos del A2 independiente.
+Este ZIP es el proyecto completo. No subas el ZIP como un archivo a tu página.
 
-1. Descomprime el ZIP.
-2. Si Google ya funcionaba en tu página, copia el contenido de tu actual `public/firebase-config.js` al archivo del nuevo proyecto. El entregado viene vacío para usar tu propio Firebase.
-3. Abre tu repositorio de GitHub. En la raíz, pulsa **Add file → Upload files** y arrastra el contenido descomprimido, con sus carpetas. No subas el ZIP ni la carpeta exterior: `package.json` y `netlify.toml` deben quedar en la raíz.
-4. Revisa y guarda los cambios. Si trabajas en una rama, intégrala en la rama que publica tu sitio. No subas `node_modules` ni claves privadas o cuentas de servicio.
-5. Si usas Netlify conectado al repositorio, espera a que termine el despliegue: `npm run build`, carpeta `public`, directorio base vacío.
-6. En el **mismo proyecto Firebase**, abre **Firestore Database → Reglas** y publica el contenido del nuevo `firestore.rules`. Esta versión permite A1, A2 y B1. No borres la base de datos ni los documentos anteriores.
-7. Abre tu enlace habitual. Comprueba los tres botones de nivel y entra en **Laboratorio**. Completa una lección B1 y revisa que A1/A2 mantienen sus avances.
+## Antes de reemplazar archivos
 
-Si aún no has configurado Google, sigue `CONFIGURAR_GOOGLE.md`. Puedes estudiar como invitado mientras tanto.
+1. En tu página actual, exporta el progreso de cada nivel que quieras conservar desde **Mi progreso → Exportar progreso**.
+2. Si Google ya funciona, guarda una copia de tu archivo **public/firebase-config.js**. El ZIP incluye una configuración vacía: necesitas conservar la tuya.
+3. Si utilizas Firebase, publica el contenido del nuevo **firestore.rules** en **Firestore Database → Reglas** de tu mismo proyecto. Las reglas admiten el progreso anterior y los nuevos talleres. Subirlas a GitHub no las publica en Firebase.
+
+## Copiar, confirmar y enviar
+
+1. Descomprime el ZIP en una carpeta temporal.
+2. Abre **GitHub Desktop** y selecciona tu repositorio. Si aún no está descargado, usa **File → Clone repository** y elige el repositorio de tu cuenta.
+3. Pulsa **Repository → Show in Explorer** para abrir su carpeta en Windows.
+4. Copia el contenido descomprimido dentro de esa carpeta. Acepta reemplazar los archivos del proyecto. En la raíz deben quedar `package.json`, `netlify.toml`, `src` y `public`, sin una carpeta adicional que los envuelva.
+5. Restaura tu configuración en **public/firebase-config.js** si ya habías conectado Google.
+6. Regresa a GitHub Desktop. Verás los archivos modificados y nuevos. Escribe un resumen como **Ampliar A1 a B1 y mejorar pronunciación**.
+7. Pulsa **Commit to main** (o el nombre de tu rama) y después **Push origin**. Si Netlify publica otra rama, integra los cambios en esa rama.
+8. Si Netlify ya está conectado a ese repositorio, espera a que termine el despliegue. Ajustes: `npm run build`, carpeta `public`, base vacía.
+
+No copies `node_modules`, claves privadas ni cuentas de servicio. Mantén el mismo dominio si quieres conservar directamente el progreso de invitado de ese navegador.
+
+## Comprobar la actualización
+
+- Abre tu enlace habitual y recarga la página; cierra pestañas antiguas del curso.
+- En **Voz y sonidos**, comprueba el mapa de vocales, las vistas de la boca y los 44 sonidos.
+- En **Talleres completos**, abre una unidad y escribe un borrador. Cambia de página y vuelve: debe mantenerse.
+- Comprueba que A1, A2 y B1 siguen teniendo avances separados.
+- Si Google está configurado, espera a que indique sincronización y verifica el borrador desde otro dispositivo con la misma cuenta.
 
 ## Enlaces directos
 
-Añade a la dirección de tu página:
+Añade a tu dominio:
 
-- `?level=b1#home`: inicio B1.
-- `?level=b1#lab`: sonidos y boca animada.
-- `?level=a1#lab/stories`: historias con traducción A1.
-- `?level=a2#lab/method`: rutina de práctica A2.
+- `?level=a1#lab`: boca y mapa interactivos.
+- `?level=a1#study`: talleres A1.
+- `?level=a2#study`: talleres A2.
+- `?level=b1#study`: talleres B1.
+- `?level=b1#study/14/read`: lectura ampliada de la unidad 14 de B1.
 
-## Conservación de datos
+## Problemas frecuentes
 
-A1 sigue usando `users/UID/courses/a1`; A2, `users/UID/courses/a2`; B1 utiliza `users/UID/courses/b1`. Cada nivel tiene su propia copia local, exportación, resultados e historial de voz.
-
-Mantén el mismo dominio para conservar al invitado. Si cambias de dominio, exporta desde Mi progreso antes e importa la copia en el mismo nivel después. Las copias de un nivel no se importan en otro.
-
-Si cambias de nivel sin conexión, vuelve al nivel que tenía cambios pendientes cuando recuperes internet. La página no los presenta como sincronizados hasta que se confirme el envío.
-
-## Si algo falla
-
-| Situación | Comprobación |
+| Problema | Qué comprobar |
 | --- | --- |
-| Google desactivado | Completa y conserva `public/firebase-config.js`. |
-| A1/A2 guardan, pero B1 no | Publica las nuevas reglas de Firestore. |
-| Falta el diccionario | Comprueba `public/assets/pronunciation-us.js`. |
-| El micrófono no funciona al abrir el archivo | Prueba la página publicada con HTTPS o usa localhost; permite el micrófono. |
-| No hay voz inglesa | Revisa las voces disponibles en navegador/sistema o usa otro navegador compatible. |
-| La palabra tiene variantes | Elige la que corresponde al contexto; el diccionario no resuelve homógrafos automáticamente. |
-| Palabra desconocida o cifra | Se permite escucharla, pero no se inventa una secuencia fonética. Prueba escribir los números como palabras. |
+| Google no está activado | Completa tu configuración siguiendo CONFIGURAR_GOOGLE.md. |
+| Entra con Google pero no guarda talleres | Publica las reglas nuevas en Firebase y recarga la página. |
+| El invitado perdió el avance al cambiar de dominio | Importa la copia exportada en el nivel correspondiente. |
+| No se ven los cambios | Revisa que hiciste Push origin y que Netlify terminó el despliegue de la rama correcta. |
+| El micrófono no funciona al abrir un archivo | Usa el enlace HTTPS publicado o localhost y permite el micrófono. |
+| Falta la articulación de una palabra | Una palabra desconocida se marca; no se inventan sus sonidos. |
 
-Fuentes de publicación: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository · https://docs.netlify.com/start/quickstarts/deploy-from-repository/ · https://firebase.google.com/docs/firestore/security/get-started
+Documentación: https://docs.github.com/en/desktop/making-changes-in-a-branch/committing-and-reviewing-changes-to-your-project-in-github-desktop · https://docs.netlify.com/start/quickstarts/deploy-from-repository/
