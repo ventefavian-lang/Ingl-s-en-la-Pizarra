@@ -1,72 +1,50 @@
-# Hello English — A1, A2 y B1 · Edición 4
+# Hello English — A1, A2, B1 y B2 · Edición 5
 
-Abre **EMPIEZA_AQUI.html**. Esta entrega contiene el proyecto completo para GitHub y Netlify, con la boca rediseñada y los talleres ampliados. Para actualizar, sigue **ACTUALIZAR_GITHUB.md**.
+**Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
 
-## Qué contiene
+## Contenido
 
-| Nivel | Unidades | Lecciones base | Ejercicios de las lecciones base | Talleres ampliados |
-| --- | ---: | ---: | ---: | ---: |
-| A1 | 24 | 72 | 504 | 24 |
-| A2 | 24 | 72 | 576 | 24 |
-| B1 | 24 | 72 | 576 | 24 |
+| Nivel | Unidades | Lecciones base | Talleres de seis etapas | Actividades del nuevo banco |
+|---|---:|---:|---:|---:|
+| A1 | 24 | 72 | 24 | 2.567 |
+| A2 | 24 | 72 | 24 | 2.753 |
+| B1 | 24 | 72 | 24 | 2.731 |
+| B2 | 24 | 72 | 24 | 4.019 |
 
-Los 72 talleres añaden 216 explicaciones ampliadas, 72 lecturas originales nuevas con preguntas y apoyo de vocabulario, 72 proyectos, situaciones de conversación y cuatro rondas de práctica por unidad. Se conservan las lecturas, los diálogos, las tarjetas, los exámenes y las nueve historias bilingües anteriores.
+El banco ofrece modalidades distintas sobre vocabulario y estructuras del curso; su tamaño no cuenta conceptos nuevos ni repeticiones realizadas. Consulta el alcance y los temas B2 en **[TEMARIO_B2.md](TEMARIO_B2.md)**.
 
-Cada taller tiene seis etapas:
+Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las lecciones incorporan contexto antes de la explicación y tareas de transferencia después.
 
-1. **Comprender:** explicación, modelos, contraste y ejemplo propio.
-2. **Construir:** elegir significado, ordenar frases, recuperar vocabulario y dictado del caso nuevo.
-3. **Leer:** idea principal, evidencia, preguntas y reconstrucción sin texto.
-4. **Escuchar:** comprensión sin transcripción, comprobación y práctica por intervenciones.
-5. **Expresarte:** tres situaciones de conversación, proyecto escrito y autoevaluación.
-6. **Recordar:** recuperación mezclada y repasos posteriores con intervalos orientativos de 1, 3, 7, 14 y 30 días.
+Al pasar el cursor, enfocar o tocar palabras de los textos aparece ayuda de traducción. El vocabulario aún no marcado como recordado aparece en violeta. Las pruebas mantienen ocultas las ayudas que revelarían respuestas.
 
-El calendario se cuenta desde cada repaso válido. Las repeticiones anticipadas no adelantan la fecha. Las rondas usan el primer intento sin pistas; el 80% permite registrar una ronda superada. Los proyectos se registran como práctica con autoevaluación, no como una nota automática de gramática. No se bloquea el acceso a contenidos ni se promete un número de días para dominar un nivel.
+El laboratorio conserva el mapa articulatorio, las vistas frontal y lateral, el diccionario de pronunciación y la comparación de transcripción. Añade muestras sintéticas incluidas para las 44 fichas, recorridos automáticos animados y un botón para ocultar el diagrama. El porcentaje compara palabras reconocidas, no precisión fonética. Las posiciones del dibujo son aproximadas.
 
-Las lecciones base y los talleres muestran avances distintos. Se guardan notas, respuestas y borradores por nivel. Las respuestas abiertas se comparan con referencias y criterios; no hay un tutor generativo.
+## Guardado y publicación
 
-## Pronunciación y boca interactiva
+Se puede estudiar como invitado. Para cuentas, conserva tu Firebase y publica las reglas actualizadas. Configura también la exención de índices indicada en **PUBLICAR_PASO_A_PASO.md**. Si Google no estaba configurado, la guía original **CONFIGURAR_GOOGLE.md** explica su activación.
 
-- Mapa vocálico interactivo con referencia estadounidense y británica tradicional: altura y posición de la lengua; trayectorias de diptongos.
-- Boca vectorial original con labios, dientes, lengua sombreada y vistas frontal, lateral o ambas.
-- Controles de fase, pausa, movimiento lento, sonido anterior/siguiente y capas de lengua, aire y etiquetas.
-- Seis partes explorables: lengua, labios, paladar, dientes, aire y voz.
-- Catálogo tradicional de 44 sonidos, todos con instrucciones, ejemplos, errores frecuentes y práctica guiada.
-- Analizador de palabras y frases con 124 082 entradas de CMUdict estadounidense. Las variantes se eligen; lo desconocido se marca sin inventar una transcripción.
-- Lectura normal/lenta, comparación de palabras reconocidas y grabación temporal para escucharte.
+Los avances y borradores se guardan por nivel. El reconocimiento de voz depende del navegador y puede enviar audio a su proveedor; la grabación de autoescucha permanece en la pestaña y se puede descargar. No se guardan grabaciones en Firebase.
 
-La boca es una ilustración didáctica 2D aproximada. No reconstruye tu boca ni sincroniza exactamente los fonemas con el audio del navegador. Los acentos pueden diferir del dibujo y del diccionario. **El porcentaje de voz compara palabras transcritas: no evalúa fonemas ni acento.**
+El proyecto no necesita una API de IA de pago. Las redacciones tienen modelos y autoevaluación, sin inventar una calificación automática. Los servicios de alojamiento y cuentas tienen sus propios límites; el código no activa facturación.
 
-## Google y conservación del progreso
-
-Puedes estudiar como invitado. Para guardar en una cuenta, configura tu propio Firebase siguiendo **CONFIGURAR_GOOGLE.md**. Los alumnos solo pulsan Google; no introducen claves ni crean proyectos.
-
-Al actualizar, conserva `public/firebase-config.js` y publica el nuevo `firestore.rules` en el mismo proyecto Firebase. Las reglas aceptan los nuevos campos de talleres. Las rutas A1, A2 y B1 se mantienen. Si una pestaña muy antigua intenta borrar campos nuevos, la escritura se rechaza: recarga la página.
-
-Los borradores se guardan como texto dentro del progreso. No se guarda audio en Firebase. El reconocimiento puede enviar audio al proveedor del navegador; la grabación de autoescucha permanece temporalmente en la pestaña.
-
-No se requiere una API de IA. El código no activa facturación. El alojamiento y Firebase tienen planes y límites propios; no se promete uso ilimitado gratuito.
-
-## Ejecutar y publicar
-
-Node 22 o superior:
+Con Node 22:
 
 ```sh
 npm ci
-npm run build
 npm test
+npm run build
 npm run serve
 ```
 
-`serve` necesita Python 3 y abre http://localhost:8085. La carpeta `public` ya incluye la compilación. Abrir `public/index.html` permite probar como invitado; Google y el micrófono requieren HTTPS o localhost y un navegador compatible.
+Abre `http://localhost:8085`. Netlify usa `npm run build` y publica `public`, según el archivo `netlify.toml` que ya existe en tu proyecto.
 
-En Netlify conectado a GitHub: comando **npm run build**, carpeta publicada **public**, directorio base **vacío**. No se ha publicado automáticamente en una cuenta externa.
+## Material y atribución
 
-## Archivos principales
+- [METODO_B2.md](METODO_B2.md): cómo trabajar el material y qué miden las actividades.
+- [TEMARIO_B2.md](TEMARIO_B2.md): contenido detallado y alcance.
+- [DICCIONARIO_LICENCIA.md](DICCIONARIO_LICENCIA.md): FreeDict/WikDict y la licencia CC BY-SA 3.0 de la adaptación del diccionario.
+- `CMUDICT_LICENSE.txt`: licencia del diccionario de pronunciación ya incluido.
+- `public/assets/phonemes/README.md`: origen de las muestras sintéticas.
+- [VERIFICACION_B2.md](VERIFICACION_B2.md): comprobaciones y límites de la validación.
 
-- Contenido base: `src/course.json`, `src/course-a2.json`, `src/course-b1.json`.
-- Talleres: `src/deep-course.json`, `src/study.js`, `src/study.css`, `src/study-memory.js`.
-- Boca y mapa: `src/mouth-art.js`, `src/lab.js`, `src/lab.css`, `src/sounds.json`, `src/sound-coaching.js`.
-- Generación reproducible del contenido ampliado: `python3 scripts/expand_course.py`. No hace falta ejecutarla para publicar; el contenido ya está incluido.
-- Diccionario: `public/assets/pronunciation-us.js`, con licencia `CMUDICT_LICENSE.txt`.
-- Verificación: `PRUEBAS.md`. Método y fuentes: `METODOS_Y_FUENTES.md`.
+El contenido B2 original se puede editar en los JSON de `src` o regenerar desde los ocho archivos Python de `scripts/b2`, usando `python3 scripts/b2/build_content.py`. El generador solo utiliza la biblioteca estándar de Python.

@@ -340,5 +340,119 @@
       "Comprobar la fuente y la fecha.",
       "Cancelar la cita de su vecina."
     ]
+  },
+  {
+    "id": 9,
+    "level": "b2",
+    "title": "Un titular incompleto",
+    "lines": [
+      {
+        "en": "By the time the headline reached our group, hundreds of people had already shared it.",
+        "es": "Cuando el titular llegó a nuestro grupo, cientos de personas ya lo habían compartido."
+      },
+      {
+        "en": "It claimed that the local library would close, although the attached notice referred only to one room.",
+        "es": "Afirmaba que la biblioteca cerraría, aunque el aviso adjunto se refería solo a una sala."
+      },
+      {
+        "en": "Had we read the date carefully, we would have noticed that the notice was several months old.",
+        "es": "Si hubiéramos leído la fecha con atención, habríamos notado que el aviso tenía varios meses."
+      },
+      {
+        "en": "Rather than blame the person who posted it, we checked the library website together.",
+        "es": "En lugar de culpar a quien lo publicó, consultamos juntos la web de la biblioteca."
+      },
+      {
+        "en": "A newer update explained that the repairs had been completed ahead of schedule.",
+        "es": "Un aviso más reciente explicaba que las reparaciones habían terminado antes de lo previsto."
+      },
+      {
+        "en": "We shared the correction, making clear which part of the original claim was unsupported.",
+        "es": "Compartimos la corrección y aclaramos qué parte de la afirmación original carecía de respaldo."
+      }
+    ],
+    "question": "¿Qué cambió su interpretación?",
+    "answer": "Comprobar el alcance y la fecha del aviso.",
+    "options": [
+      "Que mucha gente lo compartiera.",
+      "Comprobar el alcance y la fecha del aviso.",
+      "Que el titular fuera breve."
+    ]
+  },
+  {
+    "id": 10,
+    "level": "b2",
+    "title": "Un acuerdo con condiciones",
+    "lines": [
+      {
+        "en": "The team had been negotiating for an hour when Nia suggested separating needs from preferences.",
+        "es": "El equipo llevaba una hora negociando cuando Nia sugirió separar necesidades de preferencias."
+      },
+      {
+        "en": "One group needed a quiet room, whereas the other preferred to meet close to the entrance.",
+        "es": "Un grupo necesitaba una sala tranquila, mientras que el otro prefería reunirse cerca de la entrada."
+      },
+      {
+        "en": "Both requirements could be met, provided that the smaller room was available after six.",
+        "es": "Se podían satisfacer ambos requisitos siempre que la sala pequeña estuviera disponible después de las seis."
+      },
+      {
+        "en": "The manager agreed to reserve it on a trial basis instead of making a permanent commitment.",
+        "es": "El encargado aceptó reservarla a modo de prueba en lugar de comprometerse de forma permanente."
+      },
+      {
+        "en": "By the following month, they would have collected enough feedback to review the arrangement.",
+        "es": "Para el mes siguiente habrían reunido suficientes comentarios para revisar el acuerdo."
+      },
+      {
+        "en": "What mattered most was that everyone understood what had been agreed and what remained uncertain.",
+        "es": "Lo más importante era que todos entendieran lo acordado y lo que seguía siendo incierto."
+      }
+    ],
+    "question": "¿Qué permite la prueba temporal?",
+    "answer": "Evaluar el acuerdo antes de hacerlo permanente.",
+    "options": [
+      "Evitar recoger opiniones.",
+      "Evaluar el acuerdo antes de hacerlo permanente.",
+      "Prometer que no habrá cambios."
+    ]
+  },
+  {
+    "id": 11,
+    "level": "b2",
+    "title": "Una reseña que ayuda",
+    "lines": [
+      {
+        "en": "I had been looking forward to the exhibition, so I was disappointed by the crowded entrance.",
+        "es": "Esperaba con ilusión la exposición, así que me decepcionó la entrada abarrotada."
+      },
+      {
+        "en": "Once inside, however, I found a collection of interviews that changed my view of the neighbourhood.",
+        "es": "Una vez dentro encontré, sin embargo, entrevistas que cambiaron mi visión del barrio."
+      },
+      {
+        "en": "The most memorable stories were told by residents whose experiences rarely appear in guidebooks.",
+        "es": "Las historias más memorables eran de vecinos cuyas experiencias apenas aparecen en las guías."
+      },
+      {
+        "en": "Although the final section felt rushed, the exhibition gave visitors plenty to discuss.",
+        "es": "Aunque la sección final parecía apresurada, la exposición daba mucho que comentar."
+      },
+      {
+        "en": "I would recommend booking an early session if you prefer to explore at your own pace.",
+        "es": "Recomendaría reservar una sesión temprana si prefieres explorar a tu ritmo."
+      },
+      {
+        "en": "A useful review should explain who might enjoy an experience, rather than simply announce that it is good.",
+        "es": "Una reseña útil debe explicar a quién podría gustarle la experiencia, en vez de limitarse a decir que es buena."
+      }
+    ],
+    "question": "¿Qué hace útil la recomendación?",
+    "answer": "Relaciona la experiencia con las preferencias del visitante.",
+    "options": [
+      "Solo dice que todo fue perfecto.",
+      "Relaciona la experiencia con las preferencias del visitante.",
+      "Oculta la dificultad de la entrada."
+    ]
   }
 ]

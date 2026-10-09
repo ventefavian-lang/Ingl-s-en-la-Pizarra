@@ -1,4 +1,4 @@
-> Actualización A1 + A2 + B1: utiliza el mismo proyecto Firebase. Conserva tu configuración web y publica las reglas nuevas de este ZIP, que permiten los tres niveles y los campos de talleres y borradores. No borres los documentos de A1.
+> Proyecto completo A1 + A2 + B1 + B2: utiliza el mismo proyecto Firebase. Conserva tu configuración web y publica las reglas nuevas de este ZIP, que permiten los cuatro niveles y los campos de talleres y borradores. No borres los documentos de A1.
 
 # Activar Google y guardar progreso
 
@@ -52,9 +52,15 @@ No necesitas pedir acceso a Gmail, Drive ni otros servicios. La página solicita
 5. Copia **todo** el contenido de `firestore.rules` incluido en este proyecto y reemplaza las reglas iniciales.
 6. Pulsa **Publish/Publicar**.
 
-No necesitas crear colecciones ni documentos a mano. La página los crea con la primera sincronización de cada usuario. Los documentos de progreso son `users/{uid}/courses/a1`, `users/{uid}/courses/a2` y `users/{uid}/courses/b1`. Una cuenta solo puede acceder a su propio documento.
+No necesitas crear colecciones ni documentos a mano. La página los crea con la primera sincronización de cada usuario. Los documentos de progreso son `users/{uid}/courses/a1`, `users/{uid}/courses/a2`, `users/{uid}/courses/b1` y `users/{uid}/courses/b2`. Una cuenta solo puede acceder a su propio documento.
 
 Subir `firestore.rules` a GitHub **no publica las reglas en Firebase**: debes realizar el paso anterior en su consola. También existe una opción para desarrolladores con Firebase CLI, pero no es necesaria para estos pasos.
+
+## 4.1. Excluir el mapa de progreso de los índices
+
+En **Firestore Database → Indexes → Single field → Add exemption**, usa el ID de colección `courses` y el campo `progress`. Desactiva la indexación de ese campo (ascendente, descendente y arrays si aparecen). La exención del mapa se aplica a sus subcampos. Esta aplicación lee documentos por su ruta y no necesita índices de cada respuesta o borrador.
+
+Si ya usas Firebase CLI: `firebase deploy --only firestore:rules,firestore:indexes --project TU_ID_DE_PROYECTO`. Los archivos `firestore.rules` y `firestore.indexes.json` están incluidos. Referencia: https://firebase.google.com/docs/firestore/query-data/index-overview#single-field_index_exemptions
 
 ## 5. Publicar y probar
 

@@ -1,8 +1,9 @@
+import {recordAutomaticEvents} from './practice-memory.js';
 import {freshProgress,cleanProgress,clone,equal,mergeProgress,readRecord,hasLearning} from './progress.js';
 export class AccountStore {
  constructor({adapter=null,storage,courseId='a1',delay=1800,id=()=>globalThis.crypto.randomUUID()}) {
   this.courseId=courseId;this.adapter=adapter;this.storage=storage;this.delay=delay;this.id=id;this.user=null;this.scope='guest';this.seq=0;this.listeners=new Set();this.status=adapter?'connecting':'not-configured';this.message='';this.localAvailable=true;this.record=readRecord(storage,this.key());this.running=null;this.timer=null;
-  try{if(!storage.getItem(this.key())){const old=JSON.parse(storage.getItem('hello-'+this.courseId+'-v1')||'null');if(old && (this.courseId==='a1'?old.version===1:this.courseId==='a2'?old.version===2&&old.course==='A2':old.version===3&&old.course==='B1'))this.record.state=cleanProgress(old);}}catch{this.localAvailable=false;}
+  try{if(!storage.getItem(this.key())){const old=JSON.parse(storage.getItem('hello-'+this.courseId+'-v1')||'null');if(old && (this.courseId==='a1'?old.version===1:this.courseId==='a2'?old.version===2&&old.course==='A2':this.courseId==='b1'?old.version===3&&old.course==='B1':false))this.record.state=cleanProgress(old);}}catch{this.localAvailable=false;}
   this.persist();
  }
  key(scope=this.scope){return 'hello-english:'+this.courseId+':'+scope;}
@@ -16,7 +17,7 @@ export class AccountStore {
   const token=++this.seq;clearTimeout(this.timer);this.running=null;this.user=user;this.scope=user?user.uid:'guest';this.record=readRecord(this.storage,this.key());this.message='';this.status=user?'loading':(this.adapter?'guest':'not-configured');this.emit('scope');
   if(user)await this.sync(token);
  }
- save(progress){this.record.state=cleanProgress(progress);this.record.dirty=this.user?!equal(this.record.state,this.record.base):false;this.persist();this.message='';this.status=this.user?(this.record.dirty?'pending':'saved'):(this.adapter?'guest':'not-configured');this.emit('local');if(this.user)this.schedule();}
+ save(progress){this.record.state=recordAutomaticEvents(this.record.state,cleanProgress(progress));this.record.dirty=this.user?!equal(this.record.state,this.record.base):false;this.persist();this.message='';this.status=this.user?(this.record.dirty?'pending':'saved'):(this.adapter?'guest':'not-configured');this.emit('local');if(this.user)this.schedule();}
  schedule(){clearTimeout(this.timer);if(this.user)this.timer=setTimeout(()=>this.sync(),this.delay);}
  async login(){if(!this.adapter){this.message='El acceso con Google todavía no está activado en esta página. Puedes estudiar como invitado.';this.emit();return false;}try{this.status='signing-in';this.message='';this.emit();await this.adapter.signIn();return true;}catch(e){this.status=this.user?'error':'guest';this.message=this.explain(e);this.emit();return false;}}
  async logout(){clearTimeout(this.timer);if(!this.user)return true;const token=this.seq,uid=this.user.uid;await this.sync();if(token!==this.seq||this.user?.uid!==uid)return false;if(this.record.dirty){this.message='Todavía hay cambios pendientes. Conéctate y pulsa Sincronizar antes de cerrar sesión, o descarga una copia de tu progreso.';this.status='error';this.emit();return false;}try{await this.adapter.signOut();return true;}catch(e){this.message=this.explain(e);this.emit();return false;}}

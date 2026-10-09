@@ -1,0 +1,18 @@
+HELLO ENGLISH COMPLETO: A1 + A2 + B1 + B2
+
+1. Extrae todo el ZIP.
+2. Abre EMPIEZA_AQUI.html haciendo doble clic.
+3. Para actualizar tu página, sigue PUBLICAR_PASO_A_PASO.md.
+
+Puedes copiar todo el contenido de esta carpeta a la carpeta de tu repositorio.
+Incluye el proyecto entero. No necesitas ningún ZIP anterior.
+
+SI YA FUNCIONA GOOGLE EN TU PÁGINA:
+Guarda tu public/firebase-config.js actual antes de copiar.
+Después vuelve a poner ese archivo en la misma ubicación.
+La configuración incluida aquí es una plantilla vacía.
+Publica también las nuevas reglas de Firebase siguiendo la guía.
+
+No subas solo el ZIP: primero descomprímelo.
+En GitHub Desktop: copiar archivos -> Commit -> Push origin.
+Netlify: comando npm run build; carpeta public.

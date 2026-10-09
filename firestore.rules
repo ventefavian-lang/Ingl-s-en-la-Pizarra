@@ -5,7 +5,7 @@ service cloud.firestore {
   function validProgress(p) {
    return p is map
     && p.keys().hasAll(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
-    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','study','studyDrafts','checks','speech','exam','xp','goal','accent','name'])
+    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','study','studyDrafts','workbook','portfolio','lexicon','studyLog','checks','speech','exam','xp','goal','accent','name'])
     && p.version == 1
     && p.completed is map && p.completed.size() <= 72
     && p.activity is map && p.activity.size() <= 3660
@@ -14,6 +14,10 @@ service cloud.firestore {
     && p.writing is map && p.writing.size() <= 24
     && (!('study' in p) || (p.study is map && p.study.size() <= 288))
     && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 120))
+    && (!('workbook' in p) || (p.workbook is map && p.workbook.size() <= 6500))
+    && (!('portfolio' in p) || (p.portfolio is map && p.portfolio.size() <= 72))
+    && (!('lexicon' in p) || (p.lexicon is map && p.lexicon.size() <= 3000))
+    && (!('studyLog' in p) || (p.studyLog is list && p.studyLog.size() <= 200))
     && p.checks is list && p.checks.size() <= 50
     && p.speech is list && p.speech.size() <= 100
     && p.exam is list && p.exam.size() <= 12
@@ -33,17 +37,21 @@ service cloud.firestore {
     && validProgress(d.progress);
   }
   match /users/{uid}/courses/{courseId} {
-   allow get: if owner(uid) && courseId in ['a1','a2','b1'];
+   allow get: if owner(uid) && courseId in ['a1','a2','b1','b2'];
    allow list: if false;
-   allow create: if owner(uid) && courseId in ['a1','a2','b1']
+   allow create: if owner(uid) && courseId in ['a1','a2','b1','b2']
     && validDocument(request.resource.data, courseId)
     && request.resource.data.revision == 1
     && request.resource.data.epoch in [0,1];
-   allow update: if owner(uid) && courseId in ['a1','a2','b1']
+   allow update: if owner(uid) && courseId in ['a1','a2','b1','b2']
     && validDocument(request.resource.data, courseId)
     // Un cliente anterior no puede borrar campos de talleres que ya existen.
     && (!('study' in resource.data.progress) || ('study' in request.resource.data.progress))
     && (!('studyDrafts' in resource.data.progress) || ('studyDrafts' in request.resource.data.progress))
+    && (!('workbook' in resource.data.progress) || ('workbook' in request.resource.data.progress))
+    && (!('portfolio' in resource.data.progress) || ('portfolio' in request.resource.data.progress))
+    && (!('lexicon' in resource.data.progress) || ('lexicon' in request.resource.data.progress))
+    && (!('studyLog' in resource.data.progress) || ('studyLog' in request.resource.data.progress))
     && request.resource.data.revision == resource.data.revision + 1
     && request.resource.data.epoch in [resource.data.epoch,resource.data.epoch + 1];
    // El borrado de progreso escribe un estado vacío y cambia epoch, para que
