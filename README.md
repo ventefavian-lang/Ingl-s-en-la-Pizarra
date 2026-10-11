@@ -1,6 +1,12 @@
-# Hello English — A1, A2, B1 y B2 · Edición 5
+# Hello English — A1, A2, B1 y B2 · Edición 6
 
 **Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
+
+## La página empieza con historias
+
+La pantalla inicial muestra **24 historias y 48 escenas de A1 a B2**, con personajes e ilustraciones originales. Cada escena sigue seis pasos: comprender el diálogo, explorar expresiones, responder en contexto, hablar, ensayar decisiones y crear una versión propia. Incluye 384 intervenciones bilingües, 144 expresiones explicadas y 96 opciones con respuesta del personaje.
+
+Escucha con traducción, sin traducción o sin texto. Practica tu papel, graba tu voz, guarda borradores y vuelve a recuperar las expresiones con repasos espaciados. El historial registra esta práctica por separado de los ejercicios de gramática. Consulta **[CONVERSACIONES.md](CONVERSACIONES.md)**.
 
 ## Contenido
 

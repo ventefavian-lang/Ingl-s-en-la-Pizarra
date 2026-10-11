@@ -18,3 +18,8 @@ Las pruebas de interfaz y emulador se ejecutaron durante el desarrollo. El ZIP i
 No se ha iniciado sesión con tu Google porque la configuración de tu Firebase no está disponible. No se ha probado un micrófono físico ni se han escuchado todas las voces de los dispositivos. Después de publicar, comprueba acceso, permiso de micrófono, reproducción y sincronización desde otro dispositivo.
 
 La puntuación de voz mide coincidencia de palabras transcritas, no precisión fonética. Las respuestas libres utilizan autoevaluación y modelos; no reciben una nota automática de gramática. El dibujo es didáctico y aproximado, sin alineación exacta con el audio sintético.
+
+
+## Edición 6: recorrido por conversaciones
+
+Consulta `VERIFICACION_CONVERSACIONES.md` para las comprobaciones de las historias, grabación y persistencia nuevas. Los informes de versiones anteriores describen su validación en aquel momento.

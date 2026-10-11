@@ -1,5 +1,6 @@
+import {cleanConversations,mergeConversations} from './conversation-memory.js';
 // Datos de aprendizaje. Sin tokens, correos ni credenciales.
-export const freshProgress = () => ({version:1,completed:{},activity:{},errors:{},vocab:{},writing:{},study:{},studyDrafts:{},workbook:{},portfolio:{},lexicon:{},studyLog:[],checks:[],speech:[],exam:[],xp:0,goal:10,accent:'en-US',name:''});
+export const freshProgress = () => ({version:1,completed:{},activity:{},errors:{},vocab:{},writing:{},study:{},studyDrafts:{},workbook:{},portfolio:{},conversations:{},lexicon:{},studyLog:[],checks:[],speech:[],exam:[],xp:0,goal:10,accent:'en-US',name:''});
 export const clone = value => JSON.parse(JSON.stringify(value));
 const own = obj => obj && typeof obj==='object' && !Array.isArray(obj) ? obj : {};
 const safeKey=k=>!['__proto__','prototype','constructor'].includes(k);
@@ -9,6 +10,7 @@ const finite=(x,max=1000000)=>Number.isFinite(x)?Math.max(0,Math.min(max,x)):0;
 const date=s=>/^\d{4}-\d{2}-\d{2}$/.test(s||'')?s:'';
 export function cleanProgress(input) {
  const s=own(input),p=freshProgress();
+ p.conversations=cleanConversations(s.conversations);
  p.name=text(s.name,30);p.goal=[5,10,15,20].includes(s.goal)?s.goal:10;p.accent=['en-US','en-GB'].includes(s.accent)?s.accent:'en-US';p.xp=Math.floor(finite(s.xp));
  for(const[k,v]of entries(s.completed)) if(/^([1-9]|1\d|2[0-4])_[012]$/.test(k)&&v&&Number.isFinite(v.score)&&v.score>=70&&v.score<=100)p.completed[k]={score:v.score,date:date(v.date)};
  for(const[k,v]of entries(s.activity).slice(-3660))if(date(k)&&Number.isFinite(v))p.activity[k]=Math.floor(finite(v,10000));
@@ -18,8 +20,8 @@ export function cleanProgress(input) {
  for(const[k,v]of entries(s.studyDrafts).slice(0,120))if(/^u([1-9]|1\d|2[0-4])_(notes|reading|listening|project|reflection)$/.test(k))p.studyDrafts[k]=text(v,2400);
  for(const[k,v]of entries(s.workbook).slice(0,6500))if(/^u([1-9]|1\d|2[0-4])-[a-z0-9]{1,20}$/.test(k)&&Array.isArray(v)&&v.length===5&&v.every(Number.isFinite)){const attempts=Math.floor(finite(v[0],10000));p.workbook[k]=[attempts,Math.min(attempts,Math.floor(finite(v[1],10000))),Math.floor(finite(v[2],5)),finite(v[3],9999999999999),finite(v[4],9999999999999)];}
  for(const[k,v]of entries(s.portfolio).slice(0,72))if(/^u([1-9]|1\d|2[0-4])_(essay|speech|mediation)$/.test(k))p.portfolio[k]=text(v,2400);
- for(const[k,v]of entries(s.lexicon).slice(0,3000))if(/^[a-z][a-z '-]{0,69}$/.test(k)&&Array.isArray(v)&&[0,1].includes(v[0])&&Number.isFinite(v[1]))p.lexicon[k]=[v[0],finite(v[1],9999999999999)];
- p.studyLog=(Array.isArray(s.studyLog)?s.studyLog:[]).filter(v=>v&&typeof v.id==='string'&&Number.isFinite(v.t)&&['lesson','workshop','project','exam','voice','practice','reading','cloze','writing','speaking','mediation'].includes(v.kind)).slice(0,200).map(v=>({id:text(v.id,100),t:finite(v.t,9999999999999),kind:v.kind,unit:Math.floor(finite(v.unit,24)),right:finite(v.right,10000),total:finite(v.total,10000)}));
+ for(const[k,v]of entries(s.lexicon).slice(0,3000))if(/^[a-z][a-z ,'-]{0,69}$/.test(k)&&Array.isArray(v)&&[0,1].includes(v[0])&&Number.isFinite(v[1]))p.lexicon[k]=[v[0],finite(v[1],9999999999999)];
+ p.studyLog=(Array.isArray(s.studyLog)?s.studyLog:[]).filter(v=>v&&typeof v.id==='string'&&Number.isFinite(v.t)&&['lesson','workshop','project','exam','voice','practice','reading','cloze','writing','speaking','mediation','conversation'].includes(v.kind)).slice(0,200).map(v=>({id:text(v.id,100),t:finite(v.t,9999999999999),kind:v.kind,unit:Math.floor(finite(v.unit,24)),right:finite(v.right,10000),total:finite(v.total,10000)}));
  p.checks=Array.isArray(s.checks)?[...new Set(s.checks.filter(x=>Number.isInteger(x)&&x>=0&&x<50))].sort((a,b)=>a-b):[];
  // Los errores se reconstruyen desde el catálogo, nunca se ejecuta contenido importado.
  for(const[k]of entries(s.errors).slice(0,600))if(/^u\d+[a-z]+\d+[a-z]*$/.test(k))p.errors[k]=true;
@@ -50,6 +52,7 @@ export function mergeProgress(baseInput,localInput,remoteInput){
   out.workbook[k]=[Math.min(10000,rv[0]+Math.max(0,v[0]-(bv?.[0]||0))),Math.min(10000,rv[1]+Math.max(0,v[1]-(bv?.[1]||0))),latest[2],latest[3],latest[4]];
  }
  for(const[k,v]of Object.entries(l.lexicon))if(!equal(b.lexicon[k],v)&&(!r.lexicon[k]||v[1]>=r.lexicon[k][1]))out.lexicon[k]=v;
+ out.conversations=mergeConversations(b.conversations,l.conversations,r.conversations);
  const log=new Map([...r.studyLog,...l.studyLog.filter(x=>!b.studyLog.some(y=>y.id===x.id))].map(x=>[x.id,x]));out.studyLog=[...log.values()].sort((a,b)=>b.t-a.t).slice(0,200);
  for(const[k,v]of Object.entries(l.completed)){if(!out.completed[k]||v.score>out.completed[k].score)out.completed[k]=v;}
  for(const[k,v]of Object.entries(l.activity))out.activity[k]=Math.min(10000,(r.activity[k]||0)+Math.max(0,v-(b.activity[k]||0)));
@@ -64,4 +67,4 @@ export function mergeProgress(baseInput,localInput,remoteInput){
  return cleanProgress(out);
 }
 export function readRecord(storage,key){try{const x=JSON.parse(storage.getItem(key)||'null');if(x?.recordVersion===1)return{...x,state:cleanProgress(x.state),base:cleanProgress(x.base),epoch:Number.isInteger(x.epoch)&&x.epoch>=0?x.epoch:0,pending:x.pending&&typeof x.pending.id==='string'?{id:x.pending.id,base:cleanProgress(x.pending.base),local:cleanProgress(x.pending.local),epoch:Math.max(0,Number(x.pending.epoch)||0)}:null};}catch{}return{recordVersion:1,state:freshProgress(),base:freshProgress(),epoch:0,dirty:false,pending:null,lastSynced:null};}
-export function hasLearning(p){return Object.keys(p.completed).length>0||Object.keys(p.writing).length>0||Object.keys(p.vocab).length>0||Object.keys(p.activity).length>0||Object.keys(p.study||{}).length>0||Object.keys(p.studyDrafts||{}).length>0||Object.keys(p.workbook||{}).length>0||Object.keys(p.portfolio||{}).length>0;}
+export function hasLearning(p){return Object.keys(p.completed).length>0||Object.keys(p.writing).length>0||Object.keys(p.vocab).length>0||Object.keys(p.activity).length>0||Object.keys(p.study||{}).length>0||Object.keys(p.studyDrafts||{}).length>0||Object.keys(p.workbook||{}).length>0||Object.keys(p.portfolio||{}).length>0||Object.keys(p.conversations||{}).length>0;}

@@ -95,3 +95,8 @@ Si compartes una captura para recibir ayuda, oculta cualquier contraseña, token
 - Cuotas de Firestore: https://firebase.google.com/docs/firestore/quotas
 - Reglas por usuario: https://firebase.google.com/docs/firestore/security/rules-conditions
 - Publicar desde GitHub en Netlify: https://docs.netlify.com/start/quickstarts/deploy-from-repository/
+
+
+## Edición 6: conversaciones
+
+El progreso añade un mapa `conversations` por nivel, con hasta 12 escenas. Publica de nuevo el archivo completo `firestore.rules` aunque Google ya estuviera funcionando. La exención de índices del mapa `progress` indicada en esta guía también cubre este campo. Conserva tu mismo `public/firebase-config.js` y el mismo proyecto Firebase.

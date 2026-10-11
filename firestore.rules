@@ -5,7 +5,7 @@ service cloud.firestore {
   function validProgress(p) {
    return p is map
     && p.keys().hasAll(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
-    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','study','studyDrafts','workbook','portfolio','lexicon','studyLog','checks','speech','exam','xp','goal','accent','name'])
+    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','study','studyDrafts','workbook','portfolio','conversations','lexicon','studyLog','checks','speech','exam','xp','goal','accent','name'])
     && p.version == 1
     && p.completed is map && p.completed.size() <= 72
     && p.activity is map && p.activity.size() <= 3660
@@ -16,6 +16,7 @@ service cloud.firestore {
     && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 120))
     && (!('workbook' in p) || (p.workbook is map && p.workbook.size() <= 6500))
     && (!('portfolio' in p) || (p.portfolio is map && p.portfolio.size() <= 72))
+    && (!('conversations' in p) || (p.conversations is map && p.conversations.size() <= 12))
     && (!('lexicon' in p) || (p.lexicon is map && p.lexicon.size() <= 3000))
     && (!('studyLog' in p) || (p.studyLog is list && p.studyLog.size() <= 200))
     && p.checks is list && p.checks.size() <= 50
@@ -50,6 +51,7 @@ service cloud.firestore {
     && (!('studyDrafts' in resource.data.progress) || ('studyDrafts' in request.resource.data.progress))
     && (!('workbook' in resource.data.progress) || ('workbook' in request.resource.data.progress))
     && (!('portfolio' in resource.data.progress) || ('portfolio' in request.resource.data.progress))
+    && (!('conversations' in resource.data.progress) || ('conversations' in request.resource.data.progress))
     && (!('lexicon' in resource.data.progress) || ('lexicon' in request.resource.data.progress))
     && (!('studyLog' in resource.data.progress) || ('studyLog' in request.resource.data.progress))
     && request.resource.data.revision == resource.data.revision + 1

@@ -15,6 +15,7 @@ import './course.css';
 import './account.css';
 import './lab.css';
 import './study.css';
+import './conversation.css';
 import {AccountStore} from './account-store.js';
 import {createFirebaseAdapter} from './firebase-adapter.js';
 import {bootCourse} from './course-engine.js';

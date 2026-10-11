@@ -1,0 +1,4546 @@
+{
+  "a1": [
+    {
+      "id": 1,
+      "title": "Tu primer día en el club",
+      "theme": "classroom",
+      "people": [
+        "Leo",
+        "Mia"
+      ],
+      "units": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "episodes": [
+        {
+          "title": "Una cara nueva",
+          "context": "Llegas a un club de idiomas. Leo se acerca. Tu objetivo es presentarte y encontrar el aula.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hi! I'm Leo. Are you new here?",
+              "es": "¡Hola! Soy Leo. ¿Eres nueva aquí?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I am. I'm Mia. Nice to meet you.",
+              "es": "Sí. Soy Mia. Encantada de conocerte."
+            },
+            {
+              "speaker": 0,
+              "en": "Nice to meet you, too. Where are you from?",
+              "es": "Encantado también. ¿De dónde eres?"
+            },
+            {
+              "speaker": 1,
+              "en": "I'm from Peru. And you?",
+              "es": "Soy de Perú. ¿Y tú?"
+            },
+            {
+              "speaker": 0,
+              "en": "I'm from Canada. Is this your first class?",
+              "es": "Soy de Canadá. ¿Es tu primera clase?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes. Is this room three?",
+              "es": "Sí. ¿Esta es el aula tres?"
+            },
+            {
+              "speaker": 0,
+              "en": "No, this is room two. Room three is next door.",
+              "es": "No, esta es el aula dos. El aula tres está al lado."
+            },
+            {
+              "speaker": 1,
+              "en": "Oh, thanks! See you there.",
+              "es": "¡Ah, gracias! Nos vemos allí."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'm Mia",
+              "es": "Soy Mia",
+              "use": "Usa I'm + nombre para presentarte; aprende el bloque completo.",
+              "example": "I'm Ana. Nice to meet you.",
+              "translation": "Soy Ana. Encantada de conocerte."
+            },
+            {
+              "en": "And you?",
+              "es": "¿Y tú?",
+              "use": "Devuelve la pregunta anterior sin repetirla entera.",
+              "example": "I'm from Peru. And you?",
+              "translation": "Soy de Perú. ¿Y tú?"
+            },
+            {
+              "en": "next door",
+              "es": "al lado",
+              "use": "Sirve para ubicar una habitación o un edificio vecino.",
+              "example": "The class is next door.",
+              "translation": "La clase está al lado."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can you show me, please?",
+              "es": "¿Puedes mostrarme, por favor?",
+              "reply": "Of course. Come with me.",
+              "translation": "Claro. Ven conmigo.",
+              "why": "Pides ayuda concreta y mantienes la conversación."
+            },
+            {
+              "en": "Thanks. Is the teacher there?",
+              "es": "Gracias. ¿Está allí el profesor?",
+              "reply": "Yes, she is. Her name is Anna.",
+              "translation": "Sí. Se llama Anna.",
+              "why": "Añades una pregunta útil antes de ir al aula."
+            }
+          ],
+          "task": "Preséntate con un nombre y un país distintos. Pregunta si esta es el aula cinco y devuelve una pregunta a tu compañero."
+        },
+        {
+          "title": "No entendiste el nombre",
+          "context": "Dentro del aula, Leo te presenta a la profesora. Necesitas pedir una repetición y confirmar cómo se escribe su nombre.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Our teacher is Anna. Her surname is Reed.",
+              "es": "Nuestra profesora es Anna. Su apellido es Reed."
+            },
+            {
+              "speaker": 1,
+              "en": "Sorry, can you repeat that, please?",
+              "es": "Perdona, ¿puedes repetirlo, por favor?"
+            },
+            {
+              "speaker": 0,
+              "en": "Reed. Anna Reed.",
+              "es": "Reed. Anna Reed."
+            },
+            {
+              "speaker": 1,
+              "en": "How do you spell Reed?",
+              "es": "¿Cómo se escribe Reed?"
+            },
+            {
+              "speaker": 0,
+              "en": "R, E, E, D. Do you have a pen?",
+              "es": "R, E, E, D. ¿Tienes un bolígrafo?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I do. Is this her desk?",
+              "es": "Sí. ¿Este es su escritorio?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Put your name on this card, please.",
+              "es": "Sí. Pon tu nombre en esta tarjeta, por favor."
+            },
+            {
+              "speaker": 1,
+              "en": "OK. Mia. Is that right?",
+              "es": "Vale. Mia. ¿Está bien así?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Can you repeat that, please?",
+              "es": "¿Puedes repetirlo, por favor?",
+              "use": "Pedir repetición es parte de hablar; no necesitas entender todo a la primera.",
+              "example": "Can you repeat your name, please?",
+              "translation": "¿Puedes repetir tu nombre, por favor?"
+            },
+            {
+              "en": "How do you spell",
+              "es": "¿Cómo se escribe o deletrea?",
+              "use": "Añade la palabra que necesitas confirmar.",
+              "example": "How do you spell Anna?",
+              "translation": "¿Cómo se escribe Anna?"
+            },
+            {
+              "en": "Is that right?",
+              "es": "¿Está bien así?",
+              "use": "Comprueba que tu interlocutor entendió lo mismo.",
+              "example": "Room three. Is that right?",
+              "translation": "Aula tres. ¿Es correcto?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can you speak slowly, please?",
+              "es": "¿Puedes hablar despacio, por favor?",
+              "reply": "Yes. Write your first name here.",
+              "translation": "Sí. Escribe aquí tu nombre.",
+              "why": "Cambias la velocidad, no el tema de la conversación."
+            },
+            {
+              "en": "Do I write my surname too?",
+              "es": "¿Escribo también mi apellido?",
+              "reply": "Yes, please. Your first name and your surname.",
+              "translation": "Sí, por favor. Tu nombre y tu apellido.",
+              "why": "Aclara exactamente qué debes hacer."
+            }
+          ],
+          "task": "Elige un apellido ficticio. Pide que lo repitan, que lo deletreen y confirma lo que entendiste. Intercambia los papeles."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "En casa de una amiga",
+      "theme": "home",
+      "people": [
+        "Mia",
+        "Leo"
+      ],
+      "units": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "episodes": [
+        {
+          "title": "Dónde dejamos la mochila",
+          "context": "Mia te recibe en su casa. Quieres dejar la mochila y conocer a su familia.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Come in! You can put your bag here.",
+              "es": "¡Pasa! Puedes poner tu mochila aquí."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Under the table?",
+              "es": "Gracias. ¿Debajo de la mesa?"
+            },
+            {
+              "speaker": 0,
+              "en": "No, next to the chair. This is my brother, Ben.",
+              "es": "No, al lado de la silla. Este es mi hermano, Ben."
+            },
+            {
+              "speaker": 1,
+              "en": "Hi, Ben! Mia, is that his guitar?",
+              "es": "¡Hola, Ben! Mia, ¿esa es su guitarra?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, it is. He plays every afternoon.",
+              "es": "Sí. Él toca todas las tardes."
+            },
+            {
+              "speaker": 1,
+              "en": "That's nice. Is your sister here too?",
+              "es": "Qué bien. ¿Tu hermana también está aquí?"
+            },
+            {
+              "speaker": 0,
+              "en": "No, she's at school. Her name is Sara.",
+              "es": "No, está en el colegio. Se llama Sara."
+            },
+            {
+              "speaker": 1,
+              "en": "Oh, OK. Your house is really nice.",
+              "es": "Ah, vale. Tu casa es muy bonita."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "next to",
+              "es": "al lado de",
+              "use": "Usa next to + cosa para indicar una posición.",
+              "example": "The bag is next to the chair.",
+              "translation": "La mochila está al lado de la silla."
+            },
+            {
+              "en": "This is my brother",
+              "es": "Este es mi hermano",
+              "use": "This is sirve para presentar a alguien.",
+              "example": "This is my friend, Ana.",
+              "translation": "Esta es mi amiga, Ana."
+            },
+            {
+              "en": "Is this your",
+              "es": "¿Este o esta es tu…?",
+              "use": "Pregunta a quién pertenece una cosa cercana.",
+              "example": "Is this your book?",
+              "translation": "¿Este es tu libro?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Where is the bathroom, please?",
+              "es": "¿Dónde está el baño, por favor?",
+              "reply": "It's upstairs, next to my room.",
+              "translation": "Está arriba, junto a mi habitación.",
+              "why": "Una pregunta de ubicación ayuda a desenvolverte en una casa nueva."
+            },
+            {
+              "en": "Can I sit here?",
+              "es": "¿Puedo sentarme aquí?",
+              "reply": "Of course. That chair is free.",
+              "translation": "Claro. Esa silla está libre.",
+              "why": "Pides permiso antes de usar un lugar."
+            }
+          ],
+          "task": "Presenta a dos personas de una familia real o inventada. Ubica una mochila y un libro usando next to y under."
+        },
+        {
+          "title": "Un plan después de clase",
+          "context": "Mia y tú quieren tocar música otro día. Comparen sus rutinas para encontrar un momento.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "What time do you finish school?",
+              "es": "¿A qué hora terminas el colegio?"
+            },
+            {
+              "speaker": 1,
+              "en": "At three. I get home at half past three.",
+              "es": "A las tres. Llego a casa a las tres y media."
+            },
+            {
+              "speaker": 0,
+              "en": "Do you do your homework in the afternoon?",
+              "es": "¿Haces tus tareas por la tarde?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I do. Then I play football.",
+              "es": "Sí. Después juego al fútbol."
+            },
+            {
+              "speaker": 0,
+              "en": "I usually play the guitar after dinner.",
+              "es": "Yo normalmente toco la guitarra después de cenar."
+            },
+            {
+              "speaker": 1,
+              "en": "Can we play together on Saturday?",
+              "es": "¿Podemos tocar juntos el sábado?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes! I don't have a class on Saturday morning.",
+              "es": "¡Sí! No tengo clase el sábado por la mañana."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. Let's meet at ten.",
+              "es": "Genial. Quedemos a las diez."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "What time do you",
+              "es": "¿A qué hora…?",
+              "use": "Para rutinas, usa do you antes de la acción.",
+              "example": "What time do you get home?",
+              "translation": "¿A qué hora llegas a casa?"
+            },
+            {
+              "en": "Then",
+              "es": "Después",
+              "use": "Conecta dos acciones de tu rutina.",
+              "example": "I eat dinner. Then I read.",
+              "translation": "Ceno. Después leo."
+            },
+            {
+              "en": "Let's meet at",
+              "es": "Quedemos a las…",
+              "use": "Propón una hora concreta, usando at.",
+              "example": "Let's meet at nine.",
+              "translation": "Quedemos a las nueve."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can we meet at eleven instead?",
+              "es": "¿Podemos quedar a las once mejor?",
+              "reply": "Yes, eleven is fine. See you then!",
+              "translation": "Sí, las once está bien. ¡Nos vemos entonces!",
+              "why": "No basta con decir no: puedes proponer otra hora."
+            },
+            {
+              "en": "Where do we meet?",
+              "es": "¿Dónde quedamos?",
+              "reply": "At my house. Bring your guitar!",
+              "translation": "En mi casa. ¡Trae tu guitarra!",
+              "why": "Confirmas el lugar después de acordar la hora."
+            }
+          ],
+          "task": "Explica tres acciones de tu día. Propón una hora para quedar; tu compañero propone otra y tú confirmas."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Una parada en el café",
+      "theme": "cafe",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        9,
+        11,
+        12,
+        13
+      ],
+      "episodes": [
+        {
+          "title": "Pedir algo que te gusta",
+          "context": "Estás en un café. Nora atiende. Tu objetivo es pedir una bebida y un bocadillo, indicando qué no quieres.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hi! What would you like?",
+              "es": "¡Hola! ¿Qué te gustaría tomar?"
+            },
+            {
+              "speaker": 1,
+              "en": "I'd like a cheese sandwich, please.",
+              "es": "Quisiera un sándwich de queso, por favor."
+            },
+            {
+              "speaker": 0,
+              "en": "Sure. Would you like a drink too?",
+              "es": "Claro. ¿Quieres también una bebida?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, a small tea, please.",
+              "es": "Sí, un té pequeño, por favor."
+            },
+            {
+              "speaker": 0,
+              "en": "With milk?",
+              "es": "¿Con leche?"
+            },
+            {
+              "speaker": 1,
+              "en": "No milk, thanks. Do you have any water?",
+              "es": "Sin leche, gracias. ¿Tienes agua?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Still or sparkling?",
+              "es": "Sí. ¿Sin gas o con gas?"
+            },
+            {
+              "speaker": 1,
+              "en": "Still, please. How much is it altogether?",
+              "es": "Sin gas, por favor. ¿Cuánto es en total?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'd like",
+              "es": "Quisiera",
+              "use": "Es una forma habitual de pedir algo con cortesía; añade el producto.",
+              "example": "I'd like a small coffee, please.",
+              "translation": "Quisiera un café pequeño, por favor."
+            },
+            {
+              "en": "No milk, thanks",
+              "es": "Sin leche, gracias",
+              "use": "Puedes rechazar un ingrediente con una respuesta corta y amable.",
+              "example": "No sugar, thanks.",
+              "translation": "Sin azúcar, gracias."
+            },
+            {
+              "en": "How much is it",
+              "es": "¿Cuánto cuesta?",
+              "use": "Pregunta el precio; altogether añade la idea de total.",
+              "example": "How much is the sandwich?",
+              "translation": "¿Cuánto cuesta el sándwich?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I have apple juice instead of tea?",
+              "es": "¿Me das zumo de manzana en vez de té?",
+              "reply": "Of course. One apple juice.",
+              "translation": "Claro. Un zumo de manzana.",
+              "why": "Instead of permite cambiar una parte de tu pedido."
+            },
+            {
+              "en": "Is the sandwich hot?",
+              "es": "¿El sándwich está caliente?",
+              "reply": "No, but I can heat it for you.",
+              "translation": "No, pero puedo calentarlo.",
+              "why": "Preguntas por algo que sí cambia tu decisión."
+            }
+          ],
+          "task": "Pide una comida y una bebida distintas. Rechaza un ingrediente con cortesía y pregunta el total."
+        },
+        {
+          "title": "Falta una cosa",
+          "context": "Ya tienes la bandeja. Revisas el pedido y notas que falta el agua. Pídela sin empezar de nuevo.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Here's your sandwich and your tea.",
+              "es": "Aquí tienes tu sándwich y tu té."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. Sorry, where is my water?",
+              "es": "Gracias. Perdona, ¿dónde está mi agua?"
+            },
+            {
+              "speaker": 0,
+              "en": "Oh, sorry! Here it is.",
+              "es": "¡Ah, perdona! Aquí está."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Can I pay by card?",
+              "es": "Gracias. ¿Puedo pagar con tarjeta?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, of course. That's six pounds.",
+              "es": "Sí, claro. Son seis libras."
+            },
+            {
+              "speaker": 1,
+              "en": "Here you are. Is this table free?",
+              "es": "Aquí tienes. ¿Esta mesa está libre?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. You can sit by the window too.",
+              "es": "Sí. También puedes sentarte junto a la ventana."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. Thank you for your help.",
+              "es": "Genial. Gracias por tu ayuda."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Here it is",
+              "es": "Aquí está",
+              "use": "Se usa al mostrar o entregar algo que alguien busca.",
+              "example": "Your water? Here it is.",
+              "translation": "¿Tu agua? Aquí está."
+            },
+            {
+              "en": "Can I pay by card?",
+              "es": "¿Puedo pagar con tarjeta?",
+              "use": "Aprende la frase completa para un pago cotidiano.",
+              "example": "Can I pay in cash?",
+              "translation": "¿Puedo pagar en efectivo?"
+            },
+            {
+              "en": "Is this table free?",
+              "es": "¿Esta mesa está libre?",
+              "use": "Free aquí significa disponible, no gratuita.",
+              "example": "Is this chair free?",
+              "translation": "¿Esta silla está libre?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I have a napkin, please?",
+              "es": "¿Me das una servilleta, por favor?",
+              "reply": "Of course. They're next to the till.",
+              "translation": "Claro. Están junto a la caja.",
+              "why": "Añades una petición pequeña dentro de la misma situación."
+            },
+            {
+              "en": "Can I take the sandwich away?",
+              "es": "¿Puedo llevarme el sándwich?",
+              "reply": "Yes. I'll put it in a bag.",
+              "translation": "Sí. Lo pondré en una bolsa.",
+              "why": "Cambias cómo recibirás el pedido, manteniendo lo acordado."
+            }
+          ],
+          "task": "Imagina que falta una bebida diferente. Explica qué falta, pregunta cómo pagar y pide una servilleta."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "La chaqueta para el sábado",
+      "theme": "shop",
+      "people": [
+        "Sam",
+        "Mia"
+      ],
+      "units": [
+        10,
+        14,
+        17,
+        18
+      ],
+      "episodes": [
+        {
+          "title": "Buscar talla y color",
+          "context": "Va a hacer frío. Entras en una tienda para buscar una chaqueta azul de tu talla.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hello. Can I help you?",
+              "es": "Hola. ¿Puedo ayudarte?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I'm looking for a jacket.",
+              "es": "Sí, estoy buscando una chaqueta."
+            },
+            {
+              "speaker": 0,
+              "en": "What colour would you like?",
+              "es": "¿De qué color la quieres?"
+            },
+            {
+              "speaker": 1,
+              "en": "Blue, please. Do you have this one in small?",
+              "es": "Azul, por favor. ¿Tienes esta en talla pequeña?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Here you are. You can try it on.",
+              "es": "Sí. Aquí tienes. Puedes probártela."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. Where are the changing rooms?",
+              "es": "Gracias. ¿Dónde están los probadores?"
+            },
+            {
+              "speaker": 0,
+              "en": "Over there, on the left.",
+              "es": "Allí, a la izquierda."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. I'll try this one.",
+              "es": "Gracias. Me probaré esta."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'm looking for",
+              "es": "Estoy buscando",
+              "use": "Di qué necesitas sin describir toda la tienda.",
+              "example": "I'm looking for a blue shirt.",
+              "translation": "Estoy buscando una camisa azul."
+            },
+            {
+              "en": "in small",
+              "es": "en talla pequeña",
+              "use": "In + talla especifica la versión del producto.",
+              "example": "Do you have it in medium?",
+              "translation": "¿Lo tienes en talla mediana?"
+            },
+            {
+              "en": "try it on",
+              "es": "probárselo",
+              "use": "Se usa para ropa: el objetivo es comprobar cómo queda.",
+              "example": "Can I try it on?",
+              "translation": "¿Puedo probármelo?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Do you have a green one too?",
+              "es": "¿También tienes una verde?",
+              "reply": "Yes, the green jackets are here.",
+              "translation": "Sí, las chaquetas verdes están aquí.",
+              "why": "Cambias el color, conservando la misma estructura."
+            },
+            {
+              "en": "How much is this one?",
+              "es": "¿Cuánto cuesta esta?",
+              "reply": "It's twenty pounds.",
+              "translation": "Cuesta veinte libras.",
+              "why": "This one evita repetir jacket cuando ambos ven la prenda."
+            }
+          ],
+          "task": "Busca otra prenda. Cambia su talla y color; pregunta dónde probártela."
+        },
+        {
+          "title": "Decidir sin complicarte",
+          "context": "La chaqueta pequeña te queda corta. Explica el problema y compara con otra talla.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "How is the jacket?",
+              "es": "¿Qué tal la chaqueta?"
+            },
+            {
+              "speaker": 1,
+              "en": "It's a little small. Do you have a medium?",
+              "es": "Es un poco pequeña. ¿Tienes una mediana?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Try this one.",
+              "es": "Sí. Prueba esta."
+            },
+            {
+              "speaker": 1,
+              "en": "This is better. Is it warm?",
+              "es": "Esta queda mejor. ¿Abriga?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, it is. It's good for cold weather.",
+              "es": "Sí. Va bien para el frío."
+            },
+            {
+              "speaker": 1,
+              "en": "Good. It's cold outside today.",
+              "es": "Bien. Hoy hace frío afuera."
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, and rainy. Do you need an umbrella?",
+              "es": "Sí, y llueve. ¿Necesitas un paraguas?"
+            },
+            {
+              "speaker": 1,
+              "en": "No, thanks. I have one. I'll take the jacket.",
+              "es": "No, gracias. Tengo uno. Me llevo la chaqueta."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "a little small",
+              "es": "un poco pequeña",
+              "use": "A little permite describir un problema leve.",
+              "example": "It's a little big.",
+              "translation": "Es un poco grande."
+            },
+            {
+              "en": "This is better",
+              "es": "Esta está mejor",
+              "use": "Compara con la opción que acabas de probar.",
+              "example": "The blue one is better.",
+              "translation": "La azul está mejor."
+            },
+            {
+              "en": "I'll take",
+              "es": "Me llevo",
+              "use": "En una tienda señala una decisión de compra.",
+              "example": "I'll take this one.",
+              "translation": "Me llevo esta."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I see the price again?",
+              "es": "¿Puedo ver el precio otra vez?",
+              "reply": "Of course. It's on this label.",
+              "translation": "Claro. Está en esta etiqueta.",
+              "why": "Confirmar un dato antes de comprar también es comunicarse."
+            },
+            {
+              "en": "I'll think about it, thanks.",
+              "es": "Lo pensaré, gracias.",
+              "reply": "No problem. Let me know if you need help.",
+              "translation": "No hay problema. Avísame si necesitas ayuda.",
+              "why": "Puedes cerrar una interacción con cortesía sin comprar."
+            }
+          ],
+          "task": "Explica por qué una prenda no te queda bien. Pide otra talla y decide si la compras."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Llegar al museo",
+      "theme": "station",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        15,
+        16,
+        19,
+        23
+      ],
+      "episodes": [
+        {
+          "title": "La parada correcta",
+          "context": "Quieres ir al museo. Estás cerca de una parada, pero no sabes qué autobús tomar.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hello. Do you need help?",
+              "es": "Hola. ¿Necesitas ayuda?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, please. Where is the bus stop for the museum?",
+              "es": "Sí, por favor. ¿Dónde está la parada para el museo?"
+            },
+            {
+              "speaker": 0,
+              "en": "It's across the street, next to the bank.",
+              "es": "Está al otro lado de la calle, junto al banco."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Which bus do I take?",
+              "es": "Gracias. ¿Qué autobús tomo?"
+            },
+            {
+              "speaker": 0,
+              "en": "Number twelve. It stops outside the museum.",
+              "es": "El doce. Para delante del museo."
+            },
+            {
+              "speaker": 1,
+              "en": "Is the museum far from here?",
+              "es": "¿El museo está lejos de aquí?"
+            },
+            {
+              "speaker": 0,
+              "en": "No. It's about ten minutes by bus.",
+              "es": "No. Está a unos diez minutos en autobús."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. Number twelve, across the street. Thank you!",
+              "es": "Genial. El doce, al otro lado de la calle. ¡Gracias!"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "across the street",
+              "es": "al otro lado de la calle",
+              "use": "Ayuda a situar un lugar que no está en tu misma acera.",
+              "example": "The bank is across the street.",
+              "translation": "El banco está al otro lado de la calle."
+            },
+            {
+              "en": "Which bus do I take?",
+              "es": "¿Qué autobús tomo?",
+              "use": "Which pide elegir entre opciones concretas.",
+              "example": "Which train do I take?",
+              "translation": "¿Qué tren tomo?"
+            },
+            {
+              "en": "about ten minutes",
+              "es": "unos diez minutos",
+              "use": "About indica una cantidad aproximada.",
+              "example": "It's about five minutes.",
+              "translation": "Está a unos cinco minutos."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I walk there?",
+              "es": "¿Puedo ir caminando?",
+              "reply": "Yes. Go straight on and turn right at the park.",
+              "translation": "Sí. Sigue recto y gira a la derecha en el parque.",
+              "why": "Cambias el medio de transporte y pides una ruta útil."
+            },
+            {
+              "en": "Can you show me on this map?",
+              "es": "¿Puedes mostrarme en este mapa?",
+              "reply": "Yes. We're here, and the museum is here.",
+              "translation": "Sí. Estamos aquí y el museo está aquí.",
+              "why": "Un apoyo visual permite confirmar lo que entendiste."
+            }
+          ],
+          "task": "Cambia museo por biblioteca. Pregunta por el autobús y repite el número y la ubicación para confirmar."
+        },
+        {
+          "title": "Comprar el billete",
+          "context": "Ya estás en el autobús. Compra un billete y pide que te indiquen tu parada.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Good morning. Where are you going?",
+              "es": "Buenos días. ¿Adónde vas?"
+            },
+            {
+              "speaker": 1,
+              "en": "To the museum, please. One ticket.",
+              "es": "Al museo, por favor. Un billete."
+            },
+            {
+              "speaker": 0,
+              "en": "That's two pounds.",
+              "es": "Son dos libras."
+            },
+            {
+              "speaker": 1,
+              "en": "Here you are. Is this seat free?",
+              "es": "Aquí tiene. ¿Este asiento está libre?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. The museum is after the park.",
+              "es": "Sí. El museo está después del parque."
+            },
+            {
+              "speaker": 1,
+              "en": "Sorry, can you tell me when we get there?",
+              "es": "Perdone, ¿puede avisarme cuando lleguemos?"
+            },
+            {
+              "speaker": 0,
+              "en": "Of course. Sit near the front.",
+              "es": "Claro. Siéntate cerca de la parte delantera."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. That's very kind.",
+              "es": "Gracias. Es muy amable."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "One ticket",
+              "es": "Un billete",
+              "use": "Una petición breve sirve si el destino está claro.",
+              "example": "Two tickets to the museum, please.",
+              "translation": "Dos billetes para el museo, por favor."
+            },
+            {
+              "en": "after the park",
+              "es": "después del parque",
+              "use": "Un punto de referencia ayuda a reconocer la parada.",
+              "example": "The bank is after the school.",
+              "translation": "El banco está después del colegio."
+            },
+            {
+              "en": "can you tell me",
+              "es": "¿puede decirme o avisarme?",
+              "use": "Úsalo para pedir información o ayuda concreta.",
+              "example": "Can you tell me the time?",
+              "translation": "¿Puede decirme la hora?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Does this bus go to the station too?",
+              "es": "¿Este autobús también va a la estación?",
+              "reply": "Yes. The station is the last stop.",
+              "translation": "Sí. La estación es la última parada.",
+              "why": "Aprovechas el contexto para averiguar el siguiente destino."
+            },
+            {
+              "en": "Can I pay by card?",
+              "es": "¿Puedo pagar con tarjeta?",
+              "reply": "Yes. Put your card here, please.",
+              "translation": "Sí. Acerca aquí tu tarjeta, por favor.",
+              "why": "Reutilizas una expresión del café en otro lugar."
+            }
+          ],
+          "task": "Compra dos billetes para otro destino. Pide ayuda para identificar la parada y agradece."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "El plan del fin de semana",
+      "theme": "park",
+      "people": [
+        "Mia",
+        "Leo"
+      ],
+      "units": [
+        20,
+        21,
+        22,
+        24
+      ],
+      "episodes": [
+        {
+          "title": "Una invitación posible",
+          "context": "Mia te propone un plan. Quieres ir, pero debes encontrar un horario que funcione.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Would you like to go to the park tomorrow?",
+              "es": "¿Te gustaría ir al parque mañana?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I'd love to. In the morning?",
+              "es": "Sí, me encantaría. ¿Por la mañana?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Let's meet at nine.",
+              "es": "Sí. Quedemos a las nueve."
+            },
+            {
+              "speaker": 1,
+              "en": "Sorry, I have a class at nine. What about eleven?",
+              "es": "Perdona, tengo clase a las nueve. ¿Qué tal a las once?"
+            },
+            {
+              "speaker": 0,
+              "en": "Eleven is fine. Can you bring some water?",
+              "es": "Las once está bien. ¿Puedes traer agua?"
+            },
+            {
+              "speaker": 1,
+              "en": "Of course. Are we meeting at the gate?",
+              "es": "Claro. ¿Quedamos en la entrada?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, the gate next to the café.",
+              "es": "Sí, la entrada que está junto al café."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. See you tomorrow!",
+              "es": "Genial. ¡Hasta mañana!"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'd love to",
+              "es": "Me encantaría",
+              "use": "Responde a una invitación con interés.",
+              "example": "Yes, I'd love to come.",
+              "translation": "Sí, me encantaría ir."
+            },
+            {
+              "en": "What about",
+              "es": "¿Qué tal…?",
+              "use": "Propón otra opción con What about + nombre o actividad en -ing. Sirve para negociar un plan.",
+              "example": "What about Saturday?",
+              "translation": "¿Qué tal el sábado?"
+            },
+            {
+              "en": "See you tomorrow",
+              "es": "Hasta mañana",
+              "use": "Cierra el acuerdo de manera natural.",
+              "example": "See you at eleven!",
+              "translation": "¡Nos vemos a las once!"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can my sister come too?",
+              "es": "¿Mi hermana también puede ir?",
+              "reply": "Of course. Bring her with you!",
+              "translation": "Claro. ¡Tráela contigo!",
+              "why": "Añades una persona al plan y pides confirmación."
+            },
+            {
+              "en": "What if it rains?",
+              "es": "¿Y si llueve?",
+              "reply": "Let's go to the café instead.",
+              "translation": "Mejor vamos al café.",
+              "why": "Aprendes una pregunta útil como bloque; después podrás estudiar su estructura."
+            }
+          ],
+          "task": "Invita a alguien a otra actividad. La primera hora no funciona: acuerden otra y confirmen dónde encontrarse."
+        },
+        {
+          "title": "Después del paseo",
+          "context": "Al día siguiente, Mia te pregunta cómo fue el resto de tu domingo. Cuenta unos hechos sencillos.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Did you have a good day yesterday?",
+              "es": "¿Pasaste un buen día ayer?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, I did. The park was great.",
+              "es": "Sí. El parque estuvo genial."
+            },
+            {
+              "speaker": 0,
+              "en": "What did you do after lunch?",
+              "es": "¿Qué hiciste después de comer?"
+            },
+            {
+              "speaker": 1,
+              "en": "I visited my cousin. We watched a film.",
+              "es": "Visité a mi primo. Vimos una película."
+            },
+            {
+              "speaker": 0,
+              "en": "Was the film good?",
+              "es": "¿La película estuvo bien?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, but it was very long. I was tired!",
+              "es": "Sí, pero fue muy larga. ¡Estaba cansado!"
+            },
+            {
+              "speaker": 0,
+              "en": "Did you get home late?",
+              "es": "¿Llegaste tarde a casa?"
+            },
+            {
+              "speaker": 1,
+              "en": "No, I got home at seven. What about you?",
+              "es": "No, llegué a las siete. ¿Y tú?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "What did you do",
+              "es": "¿Qué hiciste…?",
+              "use": "Did pregunta por una acción terminada; do conserva su forma base.",
+              "example": "What did you do on Sunday?",
+              "translation": "¿Qué hiciste el domingo?"
+            },
+            {
+              "en": "We watched",
+              "es": "Vimos",
+              "use": "Watched es el pasado de watch: una acción ya terminada.",
+              "example": "We watched a short film.",
+              "translation": "Vimos una película corta."
+            },
+            {
+              "en": "I was tired",
+              "es": "Estaba cansado",
+              "use": "Was describe tu estado en el pasado.",
+              "example": "I was happy yesterday.",
+              "translation": "Ayer estaba contento."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Did you like the café?",
+              "es": "¿Te gustó el café?",
+              "reply": "Yes. The sandwiches were really good.",
+              "translation": "Sí. Los sándwiches estaban muy buenos.",
+              "why": "Devuelves una pregunta sobre la experiencia compartida."
+            },
+            {
+              "en": "Let's go again next week.",
+              "es": "Vamos otra vez la próxima semana.",
+              "reply": "Good idea! Saturday is better for me.",
+              "translation": "¡Buena idea! El sábado me viene mejor.",
+              "why": "Conectas una experiencia pasada con un plan nuevo."
+            }
+          ],
+          "task": "Cuenta tres cosas que hiciste ayer, di cómo te sentiste y pregunta a otra persona por su día."
+        }
+      ]
+    }
+  ],
+  "a2": [
+    {
+      "id": 1,
+      "title": "Compartir piso sin malentendidos",
+      "theme": "home",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        1,
+        2,
+        6,
+        22
+      ],
+      "episodes": [
+        {
+          "title": "La primera tarde",
+          "context": "Acabas de mudarte. Nora te enseña el piso y ambos comparan horarios para convivir mejor.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "How are you settling in? Have you unpacked everything yet?",
+              "es": "¿Qué tal te estás instalando? ¿Ya deshiciste todo el equipaje?"
+            },
+            {
+              "speaker": 1,
+              "en": "Almost. I've put my clothes away, but my books are still in boxes.",
+              "es": "Casi. Ya guardé mi ropa, pero los libros siguen en cajas."
+            },
+            {
+              "speaker": 0,
+              "en": "There's some space on the shelf in the living room.",
+              "es": "Hay espacio en la estantería del salón."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Do you mind if I use the bottom shelf?",
+              "es": "Gracias. ¿Te importa si uso la estantería de abajo?"
+            },
+            {
+              "speaker": 0,
+              "en": "Not at all. What time do you usually leave for work?",
+              "es": "Para nada. ¿A qué hora sueles salir para trabajar?"
+            },
+            {
+              "speaker": 1,
+              "en": "At seven, but I'm working from home this week.",
+              "es": "A las siete, pero esta semana trabajo desde casa."
+            },
+            {
+              "speaker": 0,
+              "en": "Good to know. I usually make breakfast at half past seven.",
+              "es": "Es bueno saberlo. Suelo preparar el desayuno a las siete y media."
+            },
+            {
+              "speaker": 1,
+              "en": "That's fine. We can share the kitchen then.",
+              "es": "Está bien. Podemos compartir la cocina a esa hora."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Have you unpacked everything yet?",
+              "es": "¿Ya deshiciste todo el equipaje?",
+              "use": "Yet ayuda a preguntar si una tarea esperada ya terminó.",
+              "example": "Have you finished your homework yet?",
+              "translation": "¿Ya terminaste la tarea?"
+            },
+            {
+              "en": "Do you mind if I",
+              "es": "¿Te importa si…?",
+              "use": "Pide permiso antes de usar un espacio compartido.",
+              "example": "Do you mind if I open the window?",
+              "translation": "¿Te importa si abro la ventana?"
+            },
+            {
+              "en": "this week",
+              "es": "esta semana",
+              "use": "El contexto puede señalar una situación temporal, como working from home.",
+              "example": "I'm studying at home this week.",
+              "translation": "Esta semana estudio en casa."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could you show me where the plates are?",
+              "es": "¿Podrías mostrarme dónde están los platos?",
+              "reply": "Sure. They're in the cupboard above the sink.",
+              "translation": "Claro. Están en el armario sobre el fregadero.",
+              "why": "Una petición concreta resuelve una necesidad inmediata."
+            },
+            {
+              "en": "Shall we have breakfast together tomorrow?",
+              "es": "¿Desayunamos juntos mañana?",
+              "reply": "I'd like that. I'll make some coffee.",
+              "translation": "Me gustaría. Prepararé café.",
+              "why": "Shall we propone una acción compartida."
+            }
+          ],
+          "task": "Explica una rutina habitual y algo temporal de esta semana. Pide permiso para usar un objeto del piso."
+        },
+        {
+          "title": "Un acuerdo pequeño",
+          "context": "Pasaron unos días. La música de la noche te dificulta estudiar. Quieres resolverlo sin discutir.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "You look a bit tired. Is everything OK?",
+              "es": "Te veo algo cansado. ¿Todo bien?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, but I couldn't study last night. The music was quite loud.",
+              "es": "Sí, pero anoche no pude estudiar. La música estaba bastante alta."
+            },
+            {
+              "speaker": 0,
+              "en": "Oh, I'm sorry. I didn't realise you were working.",
+              "es": "Ay, lo siento. No sabía que estabas trabajando."
+            },
+            {
+              "speaker": 1,
+              "en": "No problem. Could we keep it quiet after nine?",
+              "es": "No pasa nada. ¿Podemos hacer menos ruido después de las nueve?"
+            },
+            {
+              "speaker": 0,
+              "en": "Of course. I'll use headphones in the evening.",
+              "es": "Claro. Usaré auriculares por la noche."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. And I'll tell you when I have an important deadline.",
+              "es": "Gracias. Y te avisaré cuando tenga una entrega importante."
+            },
+            {
+              "speaker": 0,
+              "en": "That would help. Is Friday evening different?",
+              "es": "Eso ayudaría. ¿El viernes por la noche es distinto?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes. I'm free then. We could watch a film together.",
+              "es": "Sí. Entonces estoy libre. Podríamos ver una película juntos."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I didn't realise",
+              "es": "No me había dado cuenta",
+              "use": "Reconoce una información que no conocías; no es una excusa automática.",
+              "example": "I didn't realise you were studying.",
+              "translation": "No sabía que estabas estudiando."
+            },
+            {
+              "en": "Could we",
+              "es": "¿Podríamos…?",
+              "use": "Presenta una petición como algo que pueden acordar juntos.",
+              "example": "Could we clean the kitchen after dinner?",
+              "translation": "¿Podríamos limpiar la cocina después de cenar?"
+            },
+            {
+              "en": "That would help",
+              "es": "Eso ayudaría",
+              "use": "Reconoce que la propuesta de la otra persona es útil.",
+              "example": "A short message would help.",
+              "translation": "Un mensaje breve ayudaría."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can we write the plan on the fridge?",
+              "es": "¿Podemos escribir el acuerdo en la nevera?",
+              "reply": "Good idea. Then neither of us will forget.",
+              "translation": "Buena idea. Así ninguno de los dos se olvidará.",
+              "why": "El acuerdo termina con una acción fácil de recordar."
+            },
+            {
+              "en": "Let's try it for a week.",
+              "es": "Probémoslo durante una semana.",
+              "reply": "OK. We can talk again next Sunday.",
+              "translation": "Vale. Podemos hablar otra vez el próximo domingo.",
+              "why": "Una prueba permite revisar el acuerdo después."
+            }
+          ],
+          "task": "Explica otro problema pequeño de convivencia. Propón un cambio, acepta una solución y acuerda cuándo revisarla."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Un cumpleaños y un cambio de plan",
+      "theme": "park",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        7,
+        8,
+        10,
+        19
+      ],
+      "episodes": [
+        {
+          "title": "Organizar el picnic",
+          "context": "Quieren preparar un picnic de cumpleaños. Deben acordar quién trae cada cosa y qué hacer si llueve.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Are you still coming to the picnic on Saturday?",
+              "es": "¿Sigues viniendo al picnic el sábado?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes! What should I bring?",
+              "es": "¡Sí! ¿Qué debería llevar?"
+            },
+            {
+              "speaker": 0,
+              "en": "We've got plenty of sandwiches, but we need something to drink.",
+              "es": "Tenemos muchos sándwiches, pero necesitamos bebidas."
+            },
+            {
+              "speaker": 1,
+              "en": "I'll bring some juice and a few bottles of water.",
+              "es": "Llevaré zumo y unas botellas de agua."
+            },
+            {
+              "speaker": 0,
+              "en": "Great. We're meeting by the lake at twelve.",
+              "es": "Genial. Quedamos junto al lago a las doce."
+            },
+            {
+              "speaker": 1,
+              "en": "What will we do if it rains?",
+              "es": "¿Qué haremos si llueve?"
+            },
+            {
+              "speaker": 0,
+              "en": "We'll go to my flat. There's enough room for everyone.",
+              "es": "Iremos a mi piso. Hay sitio para todos."
+            },
+            {
+              "speaker": 1,
+              "en": "OK. Send me a message if the meeting place changes.",
+              "es": "Vale. Envíame un mensaje si cambia el lugar."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "What should I bring?",
+              "es": "¿Qué debería llevar?",
+              "use": "Pide una recomendación concreta para participar.",
+              "example": "What should I wear?",
+              "translation": "¿Qué debería ponerme?"
+            },
+            {
+              "en": "a few bottles",
+              "es": "unas pocas botellas",
+              "use": "Few acompaña a nombres contables en plural.",
+              "example": "We need a few cups.",
+              "translation": "Necesitamos unos vasos."
+            },
+            {
+              "en": "if it rains",
+              "es": "si llueve",
+              "use": "La condición futura usa presente después de if.",
+              "example": "If it rains, we'll stay inside.",
+              "translation": "Si llueve, nos quedaremos dentro."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Do we have enough cups?",
+              "es": "¿Tenemos suficientes vasos?",
+              "reply": "Not yet. Could you bring ten?",
+              "translation": "Todavía no. ¿Puedes traer diez?",
+              "why": "Compruebas una necesidad que se conecta con las bebidas."
+            },
+            {
+              "en": "Would you like me to bring a cake?",
+              "es": "¿Quieres que lleve una tarta?",
+              "reply": "That would be lovely. A small one is enough.",
+              "translation": "Sería estupendo. Con una pequeña basta.",
+              "why": "Ofreces ayuda y confirmas la cantidad."
+            }
+          ],
+          "task": "Organiza otra comida: reparte tres cosas que llevar y acuerda una alternativa si cambia el tiempo."
+        },
+        {
+          "title": "Avisar y negociar otra hora",
+          "context": "El sábado tienes un retraso. Debes avisar a Mia y preguntar qué cambió con la lluvia.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hi! We're at my flat now. It's raining quite hard.",
+              "es": "¡Hola! Ya estamos en mi piso. Está lloviendo bastante."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks for telling me. I'm sorry, but I'm going to be late.",
+              "es": "Gracias por avisarme. Perdona, voy a llegar tarde."
+            },
+            {
+              "speaker": 0,
+              "en": "That's OK. What happened?",
+              "es": "Está bien. ¿Qué pasó?"
+            },
+            {
+              "speaker": 1,
+              "en": "My bus broke down. I'm waiting for the next one.",
+              "es": "Mi autobús se averió. Estoy esperando el siguiente."
+            },
+            {
+              "speaker": 0,
+              "en": "Do you know when you'll arrive?",
+              "es": "¿Sabes cuándo llegarás?"
+            },
+            {
+              "speaker": 1,
+              "en": "Probably at half past twelve. Is that too late?",
+              "es": "Probablemente a las doce y media. ¿Es demasiado tarde?"
+            },
+            {
+              "speaker": 0,
+              "en": "Not at all. We'll save you some food.",
+              "es": "Para nada. Te guardaremos comida."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you! I'll text you when I'm outside.",
+              "es": "¡Gracias! Te escribiré cuando esté fuera."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Thanks for telling me",
+              "es": "Gracias por avisarme",
+              "use": "Reconoce una actualización antes de dar tu propia información.",
+              "example": "Thanks for letting me know.",
+              "translation": "Gracias por hacérmelo saber."
+            },
+            {
+              "en": "I'm going to be late",
+              "es": "Voy a llegar tarde",
+              "use": "Comunica pronto el problema para que otros puedan ajustar el plan.",
+              "example": "I'm going to be about ten minutes late.",
+              "translation": "Voy a llegar unos diez minutos tarde."
+            },
+            {
+              "en": "when I'm outside",
+              "es": "cuando esté fuera",
+              "use": "En una cláusula temporal futura, when suele llevar presente.",
+              "example": "I'll call you when I arrive.",
+              "translation": "Te llamaré cuando llegue."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could you send me your address again?",
+              "es": "¿Podrías enviarme tu dirección otra vez?",
+              "reply": "Of course. It's 18 Green Street, flat four.",
+              "translation": "Claro. Es el 18 de Green Street, piso cuatro.",
+              "why": "Pedir un dato otra vez es mejor que fingir que lo recuerdas."
+            },
+            {
+              "en": "Shall I buy anything on the way?",
+              "es": "¿Compro algo de camino?",
+              "reply": "Some ice would be useful, if you have time.",
+              "translation": "Vendría bien hielo, si tienes tiempo.",
+              "why": "Añades una oferta que encaja con el nuevo plan."
+            }
+          ],
+          "task": "Avisa de un retraso diferente. Da una hora aproximada de llegada y confirma el nuevo lugar."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Un viaje con una sorpresa",
+      "theme": "station",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        9,
+        12,
+        13,
+        14
+      ],
+      "episodes": [
+        {
+          "title": "No es el tren que esperabas",
+          "context": "La pantalla muestra un retraso. Pregunta por otra opción y comprueba si sirve tu billete.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Can I help you?",
+              "es": "¿Puedo ayudarte?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes. My train to Oxford is delayed. Is there another one soon?",
+              "es": "Sí. Mi tren a Oxford va con retraso. ¿Hay otro pronto?"
+            },
+            {
+              "speaker": 0,
+              "en": "There's one at ten forty, but you have to change at Reading.",
+              "es": "Hay uno a las diez y cuarenta, pero tienes que cambiar en Reading."
+            },
+            {
+              "speaker": 1,
+              "en": "Is it faster than waiting for the direct train?",
+              "es": "¿Es más rápido que esperar el tren directo?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, you'll arrive about half an hour earlier.",
+              "es": "Sí, llegarás aproximadamente media hora antes."
+            },
+            {
+              "speaker": 1,
+              "en": "Can I use this ticket on that train?",
+              "es": "¿Puedo usar este billete en ese tren?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. Go to platform five and keep your ticket with you.",
+              "es": "Sí. Ve al andén cinco y conserva tu billete."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. Platform five, and I change at Reading.",
+              "es": "Gracias. Andén cinco y cambio en Reading."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "you have to change",
+              "es": "tienes que cambiar de tren",
+              "use": "Have to expresa una necesidad de la ruta.",
+              "example": "We have to change at Central Station.",
+              "translation": "Tenemos que cambiar en la estación central."
+            },
+            {
+              "en": "faster than",
+              "es": "más rápido que",
+              "use": "Compara opciones con un criterio concreto.",
+              "example": "The train is faster than the bus.",
+              "translation": "El tren es más rápido que el autobús."
+            },
+            {
+              "en": "Can I use this ticket",
+              "es": "¿Puedo usar este billete?",
+              "use": "Confirma la validez del billete antes de subir.",
+              "example": "Can I use this ticket tomorrow?",
+              "translation": "¿Puedo usar este billete mañana?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "How long do I have to change trains?",
+              "es": "¿Cuánto tiempo tengo para cambiar de tren?",
+              "reply": "Fifteen minutes. The platforms are close together.",
+              "translation": "Quince minutos. Los andenes están cerca.",
+              "why": "Una conexión no solo depende de la hora final."
+            },
+            {
+              "en": "I'd rather wait for the direct train.",
+              "es": "Prefiero esperar el tren directo.",
+              "reply": "That's fine. Watch the screen for its new departure time.",
+              "translation": "Está bien. Mira la pantalla para ver la nueva salida.",
+              "why": "Puedes elegir comodidad en lugar de rapidez."
+            }
+          ],
+          "task": "Compara dos trayectos. Pregunta por una conexión y repite el plan que elegiste."
+        },
+        {
+          "title": "Una petición en el alojamiento",
+          "context": "Llegaste al hotel. Necesitas confirmar la reserva y pedir una solución para una habitación ruidosa.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Good evening. Do you have a reservation?",
+              "es": "Buenas tardes. ¿Tienes una reserva?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, under Leo Torres. For two nights.",
+              "es": "Sí, a nombre de Leo Torres. Para dos noches."
+            },
+            {
+              "speaker": 0,
+              "en": "Here it is. A room on the first floor.",
+              "es": "Aquí está. Una habitación en la primera planta."
+            },
+            {
+              "speaker": 1,
+              "en": "Is it facing the street? I'm a light sleeper.",
+              "es": "¿Da a la calle? Tengo el sueño ligero."
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, but we have a quieter room at the back.",
+              "es": "Sí, pero tenemos una habitación más tranquila atrás."
+            },
+            {
+              "speaker": 1,
+              "en": "Could I have that room instead, please?",
+              "es": "¿Podría quedarme con esa habitación, por favor?"
+            },
+            {
+              "speaker": 0,
+              "en": "Of course. Here's your key. Breakfast starts at seven.",
+              "es": "Claro. Aquí tienes la llave. El desayuno empieza a las siete."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Could you tell me where the lift is?",
+              "es": "Gracias. ¿Podrías decirme dónde está el ascensor?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "under Leo Torres",
+              "es": "a nombre de Leo Torres",
+              "use": "Under + nombre identifica una reserva.",
+              "example": "The booking is under Mia Cruz.",
+              "translation": "La reserva está a nombre de Mia Cruz."
+            },
+            {
+              "en": "a quieter room",
+              "es": "una habitación más tranquila",
+              "use": "Relaciona la petición con la necesidad, sin atacar al interlocutor.",
+              "example": "Do you have a larger room?",
+              "translation": "¿Tienes una habitación más grande?"
+            },
+            {
+              "en": "Could you tell me where",
+              "es": "¿Podrías decirme dónde…?",
+              "use": "En esta pregunta indirecta, el sujeto va antes del verbo siguiente.",
+              "example": "Could you tell me where breakfast is?",
+              "translation": "¿Podrías decirme dónde es el desayuno?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Is breakfast included?",
+              "es": "¿Está incluido el desayuno?",
+              "reply": "Yes, it's included in your booking.",
+              "translation": "Sí, está incluido en tu reserva.",
+              "why": "Comprueba una condición del servicio."
+            },
+            {
+              "en": "Could I have an extra blanket?",
+              "es": "¿Podría tener una manta extra?",
+              "reply": "Certainly. I'll bring one to your room.",
+              "translation": "Por supuesto. Llevaré una a tu habitación.",
+              "why": "Una petición cortés puede ser breve y directa."
+            }
+          ],
+          "task": "Confirma una reserva ficticia. Explica una necesidad y pide un cambio relacionado con ella."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "El auricular que dejó de funcionar",
+      "theme": "shop",
+      "people": [
+        "Sam",
+        "Mia"
+      ],
+      "units": [
+        11,
+        17,
+        20,
+        21
+      ],
+      "episodes": [
+        {
+          "title": "Explicar el problema",
+          "context": "Compraste unos auriculares ayer. Uno no funciona. En la tienda te piden algunos detalles.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hi. What can I do for you?",
+              "es": "Hola. ¿En qué puedo ayudarte?"
+            },
+            {
+              "speaker": 1,
+              "en": "I bought these headphones yesterday, but the left side doesn't work.",
+              "es": "Compré estos auriculares ayer, pero el lado izquierdo no funciona."
+            },
+            {
+              "speaker": 0,
+              "en": "I'm sorry about that. Have you tried them on another device?",
+              "es": "Lo siento. ¿Los probaste en otro dispositivo?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, on my laptop. The same thing happens.",
+              "es": "Sí, en mi portátil. Pasa lo mismo."
+            },
+            {
+              "speaker": 0,
+              "en": "Do you have the receipt with you?",
+              "es": "¿Tienes el recibo contigo?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, here it is. Could I exchange them?",
+              "es": "Sí, aquí está. ¿Podría cambiarlos?"
+            },
+            {
+              "speaker": 0,
+              "en": "Of course. I'll check if we have another pair.",
+              "es": "Claro. Comprobaré si tenemos otro par."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. I'd like the same model if possible.",
+              "es": "Gracias. Quisiera el mismo modelo si es posible."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "the same thing happens",
+              "es": "pasa lo mismo",
+              "use": "Explica el resultado de una comprobación sin repetir todo.",
+              "example": "I tried again, but the same thing happens.",
+              "translation": "Lo intenté otra vez, pero pasa lo mismo."
+            },
+            {
+              "en": "Could I exchange them?",
+              "es": "¿Podría cambiarlos?",
+              "use": "Them se refiere a headphones; indica la solución que prefieres.",
+              "example": "Could I exchange this one?",
+              "translation": "¿Podría cambiar este?"
+            },
+            {
+              "en": "if possible",
+              "es": "si es posible",
+              "use": "Presenta una preferencia flexible.",
+              "example": "I'd like a blue pair, if possible.",
+              "translation": "Quisiera un par azul, si es posible."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could I get a refund instead?",
+              "es": "¿Podrían devolverme el dinero mejor?",
+              "reply": "Yes. We'll put it back on the card you used.",
+              "translation": "Sí. Lo devolveremos a la tarjeta que usaste.",
+              "why": "Nombras una solución diferente dentro del mismo problema."
+            },
+            {
+              "en": "Can we test the new pair here?",
+              "es": "¿Podemos probar el nuevo par aquí?",
+              "reply": "Certainly. Let's connect them to this phone.",
+              "translation": "Por supuesto. Conectémoslos a este teléfono.",
+              "why": "Compruebas que el cambio haya resuelto la dificultad."
+            }
+          ],
+          "task": "Describe otro objeto que no funciona, cuenta una prueba que hiciste y pide una solución concreta."
+        },
+        {
+          "title": "Seguir instrucciones",
+          "context": "El nuevo par funciona, pero no sabes conectarlo. Sam te guía y tú confirmas cada paso.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "First, turn on Bluetooth on your phone.",
+              "es": "Primero, activa Bluetooth en tu teléfono."
+            },
+            {
+              "speaker": 1,
+              "en": "OK, it's on. What do I do next?",
+              "es": "Vale, está activado. ¿Qué hago después?"
+            },
+            {
+              "speaker": 0,
+              "en": "Hold this button until the light flashes blue.",
+              "es": "Mantén pulsado este botón hasta que la luz parpadee en azul."
+            },
+            {
+              "speaker": 1,
+              "en": "Like this? I can see a blue light now.",
+              "es": "¿Así? Ahora veo una luz azul."
+            },
+            {
+              "speaker": 0,
+              "en": "That's right. Now select the headphones on your screen.",
+              "es": "Correcto. Ahora selecciona los auriculares en la pantalla."
+            },
+            {
+              "speaker": 1,
+              "en": "There are two names. Which one should I choose?",
+              "es": "Hay dos nombres. ¿Cuál debo elegir?"
+            },
+            {
+              "speaker": 0,
+              "en": "Choose the one ending in 24. Then play some music.",
+              "es": "Elige el que termina en 24. Después reproduce música."
+            },
+            {
+              "speaker": 1,
+              "en": "It works! Thanks for showing me.",
+              "es": "¡Funciona! Gracias por enseñarme."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "What do I do next?",
+              "es": "¿Qué hago después?",
+              "use": "Pide el siguiente paso cuando el anterior está completo.",
+              "example": "What should I do first?",
+              "translation": "¿Qué debo hacer primero?"
+            },
+            {
+              "en": "until the light flashes",
+              "es": "hasta que la luz parpadee",
+              "use": "Until marca el momento en el que dejas de hacer una acción.",
+              "example": "Wait until the light turns green.",
+              "translation": "Espera hasta que la luz se vuelva verde."
+            },
+            {
+              "en": "Which one should I choose?",
+              "es": "¿Cuál debo elegir?",
+              "use": "One sustituye al objeto que ambos conocen.",
+              "example": "Which button should I press?",
+              "translation": "¿Qué botón debo pulsar?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can you show me once more?",
+              "es": "¿Puedes mostrármelo una vez más?",
+              "reply": "Of course. This time, you press the buttons.",
+              "translation": "Claro. Esta vez pulsa tú los botones.",
+              "why": "Pasas de observar a realizar los pasos."
+            },
+            {
+              "en": "Let me try without help.",
+              "es": "Déjame intentarlo sin ayuda.",
+              "reply": "Go ahead. I'll wait here if you need me.",
+              "translation": "Adelante. Espero aquí por si me necesitas.",
+              "why": "Practicas la secuencia con menos apoyo."
+            }
+          ],
+          "task": "Explica cómo conectar un dispositivo en tres pasos. Tu compañero pide una aclaración entre el segundo y el tercero."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Un sábado de voluntariado",
+      "theme": "work",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        15,
+        16,
+        18,
+        23
+      ],
+      "episodes": [
+        {
+          "title": "Saber qué tienes que hacer",
+          "context": "Es tu primer día ayudando en un centro comunitario. Nora explica las tareas y tú preguntas por las normas.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Welcome! Have you worked at an event before?",
+              "es": "¡Bienvenido! ¿Has trabajado antes en un evento?"
+            },
+            {
+              "speaker": 1,
+              "en": "Only once. I helped at a school fair.",
+              "es": "Solo una vez. Ayudé en una feria escolar."
+            },
+            {
+              "speaker": 0,
+              "en": "That's useful. Today you'll welcome people at the entrance.",
+              "es": "Eso viene bien. Hoy recibirás a la gente en la entrada."
+            },
+            {
+              "speaker": 1,
+              "en": "Do I have to check their tickets?",
+              "es": "¿Tengo que comprobar sus entradas?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, and give them a map. You don't have to take any money.",
+              "es": "Sí, y darles un mapa. No tienes que cobrar dinero."
+            },
+            {
+              "speaker": 1,
+              "en": "OK. What should I do if someone needs help?",
+              "es": "Vale. ¿Qué debo hacer si alguien necesita ayuda?"
+            },
+            {
+              "speaker": 0,
+              "en": "Call me on this radio. Please don't leave the entrance alone.",
+              "es": "Llámame por esta radio. No dejes la entrada sin atender, por favor."
+            },
+            {
+              "speaker": 1,
+              "en": "Understood. Could we test the radio now?",
+              "es": "Entendido. ¿Podemos probar la radio ahora?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Do I have to",
+              "es": "¿Tengo que…?",
+              "use": "Pregunta por una obligación, no solo por una posibilidad.",
+              "example": "Do I have to wear this badge?",
+              "translation": "¿Tengo que llevar esta acreditación?"
+            },
+            {
+              "en": "You don't have to",
+              "es": "No tienes que",
+              "use": "Expresa ausencia de obligación; no significa prohibición.",
+              "example": "You don't have to bring food.",
+              "translation": "No tienes que traer comida."
+            },
+            {
+              "en": "What should I do if",
+              "es": "¿Qué debo hacer si…?",
+              "use": "Anticipa una dificultad y pide instrucciones.",
+              "example": "What should I do if the radio stops working?",
+              "translation": "¿Qué debo hacer si deja de funcionar la radio?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I keep the instructions with me?",
+              "es": "¿Puedo llevar las instrucciones conmigo?",
+              "reply": "Yes. Here's a short checklist.",
+              "translation": "Sí. Aquí tienes una lista breve.",
+              "why": "Un apoyo escrito facilita recordar una tarea nueva."
+            },
+            {
+              "en": "Could I watch you welcome the first visitor?",
+              "es": "¿Podría observar cómo recibes al primer visitante?",
+              "reply": "Of course. Then you can try the next one.",
+              "translation": "Claro. Después puedes intentarlo con el siguiente.",
+              "why": "Primero observas un modelo y luego actúas."
+            }
+          ],
+          "task": "Pregunta por dos obligaciones y una norma en una actividad nueva. Confirma qué harás si aparece un problema."
+        },
+        {
+          "title": "Pedir ayuda a tiempo",
+          "context": "Durante el evento, una visitante no sabe dónde está la sala. La radio permite coordinar ayuda.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hi, Leo. How is it going at the entrance?",
+              "es": "Hola, Leo. ¿Qué tal va en la entrada?"
+            },
+            {
+              "speaker": 1,
+              "en": "Fine, but a visitor needs the quiet room. I'm not sure where it is.",
+              "es": "Bien, pero una visitante necesita la sala tranquila. No sé dónde está."
+            },
+            {
+              "speaker": 0,
+              "en": "It's on the ground floor, beside the office.",
+              "es": "Está en la planta baja, al lado de la oficina."
+            },
+            {
+              "speaker": 1,
+              "en": "Could someone show her the way? I can't leave this desk.",
+              "es": "¿Podría alguien acompañarla? No puedo dejar este puesto."
+            },
+            {
+              "speaker": 0,
+              "en": "Yes. I'll send Sam over in a minute.",
+              "es": "Sí. Enviaré a Sam en un minuto."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. She's waiting by the blue chairs.",
+              "es": "Gracias. Está esperando junto a las sillas azules."
+            },
+            {
+              "speaker": 0,
+              "en": "Got it. Please ask her to stay there.",
+              "es": "Entendido. Pídele que espere allí, por favor."
+            },
+            {
+              "speaker": 1,
+              "en": "I will. Thanks for your help.",
+              "es": "Lo haré. Gracias por tu ayuda."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'm not sure",
+              "es": "No estoy seguro",
+              "use": "Reconoce una duda antes de dar información incorrecta.",
+              "example": "I'm not sure which room it is.",
+              "translation": "No estoy seguro de qué sala es."
+            },
+            {
+              "en": "show her the way",
+              "es": "indicarle o acompañarla por el camino",
+              "use": "Her se refiere a la visitante mencionada.",
+              "example": "Can you show them the way?",
+              "translation": "¿Puedes indicarles el camino?"
+            },
+            {
+              "en": "Got it",
+              "es": "Entendido",
+              "use": "Es una respuesta breve e informal de confirmación.",
+              "example": "Got it. I'll wait here.",
+              "translation": "Entendido. Esperaré aquí."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Can I give her a map while she waits?",
+              "es": "¿Puedo darle un mapa mientras espera?",
+              "reply": "Yes. The quiet room is marked with a blue circle.",
+              "translation": "Sí. La sala tranquila está marcada con un círculo azul.",
+              "why": "Ofreces apoyo mientras llega la ayuda."
+            },
+            {
+              "en": "Could you repeat the location, please?",
+              "es": "¿Podrías repetir la ubicación, por favor?",
+              "reply": "Ground floor, beside the office.",
+              "translation": "Planta baja, al lado de la oficina.",
+              "why": "Compruebas una información práctica importante."
+            }
+          ],
+          "task": "Una persona necesita encontrar otro lugar. Pide ayuda, explica dónde espera y confirma quién irá."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "La foto que cuenta una historia",
+      "theme": "park",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        3,
+        4,
+        5,
+        24
+      ],
+      "episodes": [
+        {
+          "title": "Algo salió distinto",
+          "context": "Mia ve una foto de tu excursión. Cuenta lo que ocurrió cuando cambió el tiempo.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "That photo is amazing. Where were you?",
+              "es": "Esa foto es increíble. ¿Dónde estabas?"
+            },
+            {
+              "speaker": 1,
+              "en": "In the mountains last weekend. We were walking near a lake.",
+              "es": "En las montañas el fin de semana pasado. Caminábamos cerca de un lago."
+            },
+            {
+              "speaker": 0,
+              "en": "Did you walk all the way there?",
+              "es": "¿Llegaron caminando todo el camino?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, but while we were taking photos, it started to rain.",
+              "es": "Sí, pero mientras sacábamos fotos empezó a llover."
+            },
+            {
+              "speaker": 0,
+              "en": "Oh no! What did you do?",
+              "es": "¡Ay, no! ¿Qué hicieron?"
+            },
+            {
+              "speaker": 1,
+              "en": "We found a small café and waited inside.",
+              "es": "Encontramos un café pequeño y esperamos dentro."
+            },
+            {
+              "speaker": 0,
+              "en": "Was the trip disappointing after that?",
+              "es": "¿El viaje fue decepcionante después de eso?"
+            },
+            {
+              "speaker": 1,
+              "en": "Not really. We met two friendly hikers and shared our sandwiches.",
+              "es": "No mucho. Conocimos a dos excursionistas amables y compartimos nuestros sándwiches."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "while we were",
+              "es": "mientras estábamos…",
+              "use": "Presenta una acción en marcha cuando ocurre otra.",
+              "example": "While we were eating, the rain stopped.",
+              "translation": "Mientras comíamos, dejó de llover."
+            },
+            {
+              "en": "What did you do?",
+              "es": "¿Qué hiciste o hicieron?",
+              "use": "Mantiene la historia en movimiento preguntando por la siguiente acción.",
+              "example": "What did you do next?",
+              "translation": "¿Qué hicieron después?"
+            },
+            {
+              "en": "Not really",
+              "es": "No mucho; no exactamente",
+              "use": "Matiza una respuesta sin dar un sí o no tajante.",
+              "example": "Was it difficult? Not really.",
+              "translation": "¿Fue difícil? No mucho."
+            }
+          ],
+          "branches": [
+            {
+              "en": "We took another photo after the rain.",
+              "es": "Sacamos otra foto después de la lluvia.",
+              "reply": "I'd love to see it. Was there a rainbow?",
+              "translation": "Me encantaría verla. ¿Había un arcoíris?",
+              "why": "Añades un detalle que invita a continuar la historia."
+            },
+            {
+              "en": "Next time I'll check the forecast.",
+              "es": "La próxima vez miraré el pronóstico.",
+              "reply": "Good idea. And take a light raincoat!",
+              "translation": "Buena idea. ¡Y lleva un impermeable ligero!",
+              "why": "Conectas una experiencia con lo que harás diferente."
+            }
+          ],
+          "task": "Cuenta una salida que cambió por un imprevisto. Incluye una acción en marcha, lo que ocurrió y cómo respondió el grupo."
+        },
+        {
+          "title": "Una experiencia nueva",
+          "context": "Hablan de repetir la excursión y de algo que aún no han hecho.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Have you ever camped near that lake?",
+              "es": "¿Has acampado alguna vez cerca de ese lago?"
+            },
+            {
+              "speaker": 1,
+              "en": "No, I haven't. I've only been there for the day.",
+              "es": "No. Solo he ido a pasar el día."
+            },
+            {
+              "speaker": 0,
+              "en": "I've camped twice, but never in the mountains.",
+              "es": "He acampado dos veces, pero nunca en las montañas."
+            },
+            {
+              "speaker": 1,
+              "en": "Would you like to try it together in summer?",
+              "es": "¿Te gustaría intentarlo conmigo en verano?"
+            },
+            {
+              "speaker": 0,
+              "en": "I'd love to. We'll need a tent and warm sleeping bags.",
+              "es": "Me encantaría. Necesitaremos una tienda y sacos de dormir abrigados."
+            },
+            {
+              "speaker": 1,
+              "en": "My cousin has a tent. I can ask to borrow it.",
+              "es": "Mi primo tiene una tienda. Puedo pedírsela prestada."
+            },
+            {
+              "speaker": 0,
+              "en": "Great. Let's start with one night, not a whole week.",
+              "es": "Genial. Empecemos con una noche, no una semana entera."
+            },
+            {
+              "speaker": 1,
+              "en": "Agreed. We can make a list before we book anything.",
+              "es": "De acuerdo. Podemos hacer una lista antes de reservar nada."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Have you ever",
+              "es": "¿Has… alguna vez?",
+              "use": "Pregunta por una experiencia sin fijar un momento pasado concreto.",
+              "example": "Have you ever travelled alone?",
+              "translation": "¿Has viajado solo alguna vez?"
+            },
+            {
+              "en": "I've only been there",
+              "es": "Solo he estado allí",
+              "use": "Only limita la experiencia que describes.",
+              "example": "I've only visited once.",
+              "translation": "Solo he ido una vez."
+            },
+            {
+              "en": "ask to borrow",
+              "es": "pedir prestado",
+              "use": "Borrow significa recibir algo temporalmente; después lo devuelves.",
+              "example": "Can I borrow your tent?",
+              "translation": "¿Puedo tomar prestada tu tienda?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Shall we ask an experienced friend to come?",
+              "es": "¿Invitamos a un amigo con experiencia?",
+              "reply": "Yes. Nora knows the area well.",
+              "translation": "Sí. Nora conoce bien la zona.",
+              "why": "Ajustas el plan a la experiencia del grupo."
+            },
+            {
+              "en": "Let's find a campsite with facilities.",
+              "es": "Busquemos un camping con servicios.",
+              "reply": "That sounds sensible for our first trip.",
+              "translation": "Parece sensato para nuestra primera salida.",
+              "why": "Justificas una elección con una necesidad concreta."
+            }
+          ],
+          "task": "Compara dos experiencias que ya has tenido y una que quieres probar. Acuerda un primer paso realista."
+        }
+      ]
+    }
+  ],
+  "b1": [
+    {
+      "id": 1,
+      "title": "Entrar en un equipo nuevo",
+      "theme": "work",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "episodes": [
+        {
+          "title": "La reunión que va demasiado rápido",
+          "context": "Acabas de incorporarte a un proyecto. Necesitas entender tu tarea y confirmar qué harás antes del viernes.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Have you had a chance to look at the project notes?",
+              "es": "¿Has tenido tiempo de mirar las notas del proyecto?"
+            },
+            {
+              "speaker": 1,
+              "en": "I've read them, but I'm not sure which part I'm responsible for.",
+              "es": "Las he leído, pero no tengo claro de qué parte soy responsable."
+            },
+            {
+              "speaker": 0,
+              "en": "You'll be collecting feedback from the people who use our website.",
+              "es": "Vas a recoger opiniones de las personas que usan nuestra página."
+            },
+            {
+              "speaker": 1,
+              "en": "Right. Do you mean I should interview them or send a questionnaire?",
+              "es": "Vale. ¿Quieres decir que debo entrevistarlas o enviar un cuestionario?"
+            },
+            {
+              "speaker": 0,
+              "en": "Start with a short questionnaire. We can arrange interviews later.",
+              "es": "Empieza con un cuestionario corto. Podemos organizar entrevistas después."
+            },
+            {
+              "speaker": 1,
+              "en": "That makes sense. How many responses are we hoping to get?",
+              "es": "Tiene sentido. ¿Cuántas respuestas esperamos conseguir?"
+            },
+            {
+              "speaker": 0,
+              "en": "About twenty by Friday, if possible. Let me know if you need a hand.",
+              "es": "Unas veinte para el viernes, si es posible. Avísame si necesitas ayuda."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. I'll draft the questions today and send them to you first.",
+              "es": "Gracias. Prepararé las preguntas hoy y te las enviaré primero."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Have you had a chance to",
+              "es": "¿Has tenido tiempo de…?",
+              "use": "Pregunta por el avance de una tarea sin sonar como una orden. Después va un verbo en forma base.",
+              "example": "Have you had a chance to check the timetable?",
+              "translation": "¿Has tenido tiempo de revisar el horario?"
+            },
+            {
+              "en": "Do you mean",
+              "es": "¿Quieres decir…?",
+              "use": "Comprueba una interpretación concreta. Es más útil que fingir que has entendido.",
+              "example": "Do you mean we should contact everyone?",
+              "translation": "¿Quieres decir que deberíamos contactar con todos?"
+            },
+            {
+              "en": "need a hand",
+              "es": "necesitar ayuda",
+              "use": "Expresión informal para ofrecer o pedir ayuda con una tarea.",
+              "example": "I might need a hand with the last section.",
+              "translation": "Puede que necesite ayuda con la última sección."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could we look at one example together?",
+              "es": "¿Podríamos mirar un ejemplo juntos?",
+              "reply": "Of course. Here's the questionnaire we used last month.",
+              "translation": "Claro. Aquí está el cuestionario que usamos el mes pasado.",
+              "why": "Pides un modelo antes de actuar; es útil cuando todavía no conoces el proceso."
+            },
+            {
+              "en": "I can do that. Could you check my first draft tomorrow?",
+              "es": "Puedo hacerlo. ¿Podrías revisar mi primer borrador mañana?",
+              "reply": "Yes. Send it over before lunch and I'll take a look.",
+              "translation": "Sí. Envíamelo antes del almuerzo y le echo un vistazo.",
+              "why": "Aceptas la tarea y acuerdas una revisión con un plazo concreto."
+            }
+          ],
+          "task": "Explica una tarea nueva de tu trabajo o estudios. Pide una aclaración y acuerda qué entregarás y cuándo."
+        },
+        {
+          "title": "Pedir ayuda sin abandonar la tarea",
+          "context": "Ya has escrito el cuestionario. Algunas preguntas pueden confundir a los participantes; quieres mejorarlas con tu compañera.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "How's the questionnaire coming along?",
+              "es": "¿Cómo va el cuestionario?"
+            },
+            {
+              "speaker": 1,
+              "en": "I've finished a first draft, but two questions still sound confusing.",
+              "es": "He terminado un primer borrador, pero dos preguntas todavía suenan confusas."
+            },
+            {
+              "speaker": 0,
+              "en": "Let's have a look. What are you trying to find out here?",
+              "es": "Vamos a verlo. ¿Qué intentas averiguar aquí?"
+            },
+            {
+              "speaker": 1,
+              "en": "Whether people can find the contact page without asking for help.",
+              "es": "Si las personas pueden encontrar la página de contacto sin pedir ayuda."
+            },
+            {
+              "speaker": 0,
+              "en": "Then why not ask them to try it and describe what happens?",
+              "es": "Entonces, ¿por qué no les pides que lo intenten y describan qué pasa?"
+            },
+            {
+              "speaker": 1,
+              "en": "Good point. That would give us more useful information.",
+              "es": "Buena observación. Eso nos daría información más útil."
+            },
+            {
+              "speaker": 0,
+              "en": "Exactly. You can still ask how easy they found it afterwards.",
+              "es": "Exacto. Después también puedes preguntarles qué tan fácil les resultó."
+            },
+            {
+              "speaker": 1,
+              "en": "I'll change those questions and test them with two people first.",
+              "es": "Cambiaré esas preguntas y las probaré primero con dos personas."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "How's it coming along?",
+              "es": "¿Cómo va?",
+              "use": "Pregunta por el progreso de algo que ya empezó. Puedes sustituir it por el nombre de la tarea.",
+              "example": "How's your presentation coming along?",
+              "translation": "¿Cómo va tu presentación?"
+            },
+            {
+              "en": "What are you trying to",
+              "es": "¿Qué intentas…?",
+              "use": "Ayuda a aclarar el objetivo antes de proponer una solución.",
+              "example": "What are you trying to explain in this paragraph?",
+              "translation": "¿Qué intentas explicar en este párrafo?"
+            },
+            {
+              "en": "Good point",
+              "es": "Buena observación",
+              "use": "Reconoce una idea útil y prepara tu siguiente comentario; no tiene que ser un acuerdo total.",
+              "example": "Good point. We should ask the visitors too.",
+              "translation": "Buena observación. También deberíamos preguntar a los visitantes."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could you try the new version before I send it?",
+              "es": "¿Podrías probar la nueva versión antes de que la envíe?",
+              "reply": "Sure. I'll tell you if anything is still unclear.",
+              "translation": "Claro. Te diré si todavía hay algo poco claro.",
+              "why": "Solicitas una comprobación específica del cambio."
+            },
+            {
+              "en": "I'll test it first and bring you the results.",
+              "es": "Lo probaré primero y te traeré los resultados.",
+              "reply": "Great. Then we can decide whether it needs more changes.",
+              "translation": "Genial. Así podremos decidir si necesita más cambios.",
+              "why": "Propones actuar y usar los resultados para decidir, sin dar por perfecta la primera versión."
+            }
+          ],
+          "task": "Cuenta qué parte de una tarea ya has terminado, dónde te has atascado y qué ayuda concreta necesitas."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "El día que perdimos el tren",
+      "theme": "station",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        2,
+        6,
+        7,
+        18
+      ],
+      "episodes": [
+        {
+          "title": "Contar lo que pasó",
+          "context": "Llegas tarde a una salida. Tu amiga te escucha; cuenta los hechos en orden y explica la confusión.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "You look exhausted. What happened on the way here?",
+              "es": "Pareces agotado. ¿Qué pasó de camino?"
+            },
+            {
+              "speaker": 1,
+              "en": "I was waiting on platform four when they announced a change.",
+              "es": "Estaba esperando en el andén cuatro cuando anunciaron un cambio."
+            },
+            {
+              "speaker": 0,
+              "en": "Didn't the information screen show the new platform?",
+              "es": "¿La pantalla de información no mostraba el nuevo andén?"
+            },
+            {
+              "speaker": 1,
+              "en": "It did, but I was looking at my phone and missed it.",
+              "es": "Sí, pero estaba mirando el móvil y no lo vi."
+            },
+            {
+              "speaker": 0,
+              "en": "Oh no. So by the time you got there, the train had gone?",
+              "es": "Vaya. ¿Así que cuando llegaste allí, el tren ya se había ido?"
+            },
+            {
+              "speaker": 1,
+              "en": "Exactly. Luckily, a member of staff helped me find another route.",
+              "es": "Exacto. Por suerte, un empleado me ayudó a encontrar otra ruta."
+            },
+            {
+              "speaker": 0,
+              "en": "Well, at least you're here now. Have you had anything to eat?",
+              "es": "Bueno, al menos ya estás aquí. ¿Has comido algo?"
+            },
+            {
+              "speaker": 1,
+              "en": "Not yet. A sandwich and five minutes to sit down would be lovely.",
+              "es": "Todavía no. Me vendrían muy bien un sándwich y cinco minutos para sentarme."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I was waiting",
+              "es": "Estaba esperando",
+              "use": "Presenta la acción que estaba en curso cuando ocurrió otro hecho.",
+              "example": "I was waiting for the bus when you called.",
+              "translation": "Estaba esperando el autobús cuando llamaste."
+            },
+            {
+              "en": "by the time",
+              "es": "para cuando / cuando ya…",
+              "use": "Relaciona un momento con algo que ya había ocurrido antes.",
+              "example": "By the time we arrived, the shop had closed.",
+              "translation": "Cuando llegamos, la tienda ya había cerrado."
+            },
+            {
+              "en": "at least",
+              "es": "al menos",
+              "use": "Destaca un aspecto positivo sin negar el problema.",
+              "example": "At least we have enough time for lunch.",
+              "translation": "Al menos tenemos suficiente tiempo para almorzar."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could we get something to eat before the walk?",
+              "es": "¿Podríamos comer algo antes del paseo?",
+              "reply": "Definitely. There's a bakery just around the corner.",
+              "translation": "Claro. Hay una panadería a la vuelta de la esquina.",
+              "why": "Haces una petición vinculada a la necesidad que acabas de explicar."
+            },
+            {
+              "en": "I'd rather sit here for a moment, if that's okay.",
+              "es": "Preferiría sentarme aquí un momento, si te parece bien.",
+              "reply": "Of course. I'll get us some water while you rest.",
+              "translation": "Claro. Iré a buscar agua mientras descansas.",
+              "why": "Expresas una preferencia y dejas espacio a la otra persona."
+            }
+          ],
+          "task": "Cuenta un contratiempo real o inventado: qué estabas haciendo, qué ocurrió y qué ya había pasado cuando llegaste."
+        },
+        {
+          "title": "Salvar la tarde",
+          "context": "La excursión larga ya no cabe en el horario. Necesitan un plan alternativo que ambos puedan disfrutar.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "We probably haven't got time for the whole coastal walk now.",
+              "es": "Probablemente ya no tenemos tiempo para todo el paseo por la costa."
+            },
+            {
+              "speaker": 1,
+              "en": "Could we do the shorter route and still see the lighthouse?",
+              "es": "¿Podríamos hacer la ruta corta y aun así ver el faro?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, but we'd need to leave in the next ten minutes.",
+              "es": "Sí, pero tendríamos que salir en los próximos diez minutos."
+            },
+            {
+              "speaker": 1,
+              "en": "I'd prefer not to rush. What about taking the local bus there?",
+              "es": "Preferiría no ir con prisa. ¿Qué tal si vamos en el autobús local?"
+            },
+            {
+              "speaker": 0,
+              "en": "That's an option. If we catch the two o'clock bus, we'll have plenty of time.",
+              "es": "Es una opción. Si tomamos el autobús de las dos, tendremos tiempo de sobra."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. We could walk back along the beach if the weather stays dry.",
+              "es": "Genial. Podríamos volver caminando por la playa si no llueve."
+            },
+            {
+              "speaker": 0,
+              "en": "And if it starts raining, we can get the bus back instead.",
+              "es": "Y si empieza a llover, podemos volver en autobús."
+            },
+            {
+              "speaker": 1,
+              "en": "Perfect. Let's check the last bus before we set off.",
+              "es": "Perfecto. Comprobemos el último autobús antes de salir."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'd prefer not to",
+              "es": "Preferiría no…",
+              "use": "Expresa un límite con cortesía y después puedes ofrecer una alternativa.",
+              "example": "I'd prefer not to drive at night.",
+              "translation": "Preferiría no conducir de noche."
+            },
+            {
+              "en": "What about taking",
+              "es": "¿Qué tal si tomamos…?",
+              "use": "What about admite una acción con -ing para proponer opciones.",
+              "example": "What about visiting the museum first?",
+              "translation": "¿Qué tal si visitamos primero el museo?"
+            },
+            {
+              "en": "set off",
+              "es": "salir / ponerse en camino",
+              "use": "Se usa al hablar del inicio de un trayecto.",
+              "example": "We should set off before it gets dark.",
+              "translation": "Deberíamos salir antes de que oscurezca."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Let's take the bus there and decide about the walk later.",
+              "es": "Vayamos en autobús y decidamos lo del paseo después.",
+              "reply": "Sounds good. I'll check where the stop is.",
+              "translation": "Suena bien. Voy a comprobar dónde está la parada.",
+              "why": "Resuelves el primer paso y mantienes abierta una decisión que depende del tiempo."
+            },
+            {
+              "en": "Could we stay in town today and do the walk tomorrow?",
+              "es": "¿Podríamos quedarnos en la ciudad hoy y hacer el paseo mañana?",
+              "reply": "That works for me. Tomorrow's forecast looks better anyway.",
+              "translation": "Por mí está bien. Además, el pronóstico de mañana parece mejor.",
+              "why": "Cambias el plan de forma completa y explicas una opción viable."
+            }
+          ],
+          "task": "Propón un plan A y un plan B para una salida. Usa una condición real y explica tu preferencia."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Una biblioteca hecha entre todos",
+      "theme": "work",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        9,
+        10,
+        11,
+        13
+      ],
+      "episodes": [
+        {
+          "title": "Entender el procedimiento",
+          "context": "Colaboras en una biblioteca comunitaria. Antes de atender a alguien, aprendes qué hacer con las devoluciones.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Have you worked at the returns desk before?",
+              "es": "¿Has trabajado antes en el mostrador de devoluciones?"
+            },
+            {
+              "speaker": 1,
+              "en": "No, this is my first shift. Could you show me how it works?",
+              "es": "No, este es mi primer turno. ¿Podrías enseñarme cómo funciona?"
+            },
+            {
+              "speaker": 0,
+              "en": "First, each book is scanned. Then we check whether it's damaged.",
+              "es": "Primero se escanea cada libro. Después comprobamos si está dañado."
+            },
+            {
+              "speaker": 1,
+              "en": "And what should I do if a page is missing?",
+              "es": "¿Y qué debo hacer si falta una página?"
+            },
+            {
+              "speaker": 0,
+              "en": "Put the book on this shelf and leave a note for the librarian.",
+              "es": "Pon el libro en esta estantería y deja una nota para la bibliotecaria."
+            },
+            {
+              "speaker": 1,
+              "en": "Do I have to contact the person who borrowed it?",
+              "es": "¿Tengo que contactar con la persona que lo tomó prestado?"
+            },
+            {
+              "speaker": 0,
+              "en": "No, you don't have to. The librarian takes care of that.",
+              "es": "No, no hace falta. La bibliotecaria se ocupa de eso."
+            },
+            {
+              "speaker": 1,
+              "en": "Okay. I'll scan it, check it, and put any damaged books here.",
+              "es": "Bien. Lo escanearé, lo revisaré y pondré aquí los libros dañados."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Could you show me",
+              "es": "¿Podrías enseñarme…?",
+              "use": "Pide una demostración práctica. Resulta útil cuando una explicación verbal no basta.",
+              "example": "Could you show me how to use the scanner?",
+              "translation": "¿Podrías enseñarme a usar el escáner?"
+            },
+            {
+              "en": "you don't have to",
+              "es": "no hace falta que…",
+              "use": "Expresa ausencia de obligación, no prohibición. Para prohibir se necesita otra forma.",
+              "example": "You don't have to bring your own laptop.",
+              "translation": "No hace falta que traigas tu propio portátil."
+            },
+            {
+              "en": "takes care of",
+              "es": "se ocupa de",
+              "use": "Identifica a la persona responsable de una parte del trabajo.",
+              "example": "Jo takes care of the bookings.",
+              "translation": "Jo se ocupa de las reservas."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could I try one while you watch?",
+              "es": "¿Podría probar con uno mientras me miras?",
+              "reply": "Of course. Start with this book and I'll help if you get stuck.",
+              "translation": "Claro. Empieza con este libro y te ayudo si te atascas.",
+              "why": "Pides práctica supervisada para comprobar que has entendido."
+            },
+            {
+              "en": "Can I write the steps down before we begin?",
+              "es": "¿Puedo anotar los pasos antes de empezar?",
+              "reply": "Absolutely. I'll wait while you make a note.",
+              "translation": "Por supuesto. Espero mientras lo anotas.",
+              "why": "Creas un apoyo que podrás consultar en tu primer turno."
+            }
+          ],
+          "task": "Describe un proceso sencillo de tu casa, estudios o trabajo y aclara una tarea que no sea obligatoria."
+        },
+        {
+          "title": "Resolver una duda sin acusar",
+          "context": "Aparece un libro mojado junto a una ventana. Hay varias explicaciones posibles; deben averiguar qué pasó.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "This book is wet. Was it like that when it was returned?",
+              "es": "Este libro está mojado. ¿Ya estaba así cuando lo devolvieron?"
+            },
+            {
+              "speaker": 1,
+              "en": "I don't think so. I checked it about half an hour ago.",
+              "es": "Creo que no. Lo revisé hace una media hora."
+            },
+            {
+              "speaker": 0,
+              "en": "Someone might have left the window open during the rain.",
+              "es": "Puede que alguien haya dejado la ventana abierta durante la lluvia."
+            },
+            {
+              "speaker": 1,
+              "en": "Maybe, but the books beside it are completely dry.",
+              "es": "Puede ser, pero los libros de al lado están totalmente secos."
+            },
+            {
+              "speaker": 0,
+              "en": "Good point. Could someone have spilled a drink on it?",
+              "es": "Buena observación. ¿Podría alguien haber derramado una bebida encima?"
+            },
+            {
+              "speaker": 1,
+              "en": "There's an empty cup behind the shelf. That might explain it.",
+              "es": "Hay un vaso vacío detrás de la estantería. Eso podría explicarlo."
+            },
+            {
+              "speaker": 0,
+              "en": "Let's tell the librarian what we've found without blaming anyone.",
+              "es": "Digamos a la bibliotecaria qué encontramos sin culpar a nadie."
+            },
+            {
+              "speaker": 1,
+              "en": "Agreed. We know the book is wet, but we don't know how it happened.",
+              "es": "De acuerdo. Sabemos que el libro está mojado, pero no sabemos cómo pasó."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "might have",
+              "es": "puede que haya…",
+              "use": "Presenta una explicación posible sobre el pasado, sin afirmar que sea cierta.",
+              "example": "Someone might have moved the box.",
+              "translation": "Puede que alguien haya movido la caja."
+            },
+            {
+              "en": "That might explain it",
+              "es": "Eso podría explicarlo",
+              "use": "Relaciona un indicio con una posibilidad; conserva la incertidumbre.",
+              "example": "The wrong address might explain it.",
+              "translation": "La dirección incorrecta podría explicarlo."
+            },
+            {
+              "en": "without blaming anyone",
+              "es": "sin culpar a nadie",
+              "use": "Without seguido de -ing permite explicar cómo evitar una acción.",
+              "example": "Let's discuss it without interrupting each other.",
+              "translation": "Hablemos de ello sin interrumpirnos."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll describe what I saw and let the librarian decide.",
+              "es": "Describiré lo que vi y dejaré que la bibliotecaria decida.",
+              "reply": "Thanks. I'll move the other books somewhere dry.",
+              "translation": "Gracias. Moveré los otros libros a un sitio seco.",
+              "why": "Separas hechos observados de conclusiones y propones una acción útil."
+            },
+            {
+              "en": "Could we check whether anyone reported a spill?",
+              "es": "¿Podríamos comprobar si alguien avisó de un derrame?",
+              "reply": "Yes. There may be a note at the front desk.",
+              "translation": "Sí. Puede que haya una nota en recepción.",
+              "why": "Buscas evidencia adicional antes de elegir una explicación."
+            }
+          ],
+          "task": "Inventa un objeto perdido. Ofrece dos explicaciones posibles y di qué información necesitas para comprobarlas."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Un pedido que necesita solución",
+      "theme": "shop",
+      "people": [
+        "Sam",
+        "Mia"
+      ],
+      "units": [
+        14,
+        15,
+        16,
+        19
+      ],
+      "episodes": [
+        {
+          "title": "Explicar el problema con precisión",
+          "context": "Has recibido una lámpara con una pieza rota. Contactas con la tienda y pides una solución concreta.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Hello, customer support. How can I help?",
+              "es": "Hola, atención al cliente. ¿En qué puedo ayudarte?"
+            },
+            {
+              "speaker": 1,
+              "en": "I'm calling about a lamp I ordered last week. It arrived with a broken base.",
+              "es": "Llamo por una lámpara que pedí la semana pasada. Llegó con la base rota."
+            },
+            {
+              "speaker": 0,
+              "en": "I'm sorry to hear that. Was the packaging damaged as well?",
+              "es": "Lamento oír eso. ¿El embalaje también estaba dañado?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, one corner of the box was torn. I've taken photos of both.",
+              "es": "Sí, una esquina de la caja estaba rasgada. He tomado fotos de las dos cosas."
+            },
+            {
+              "speaker": 0,
+              "en": "Could you email the photos with your order number?",
+              "es": "¿Podrías enviar las fotos por correo con el número de pedido?"
+            },
+            {
+              "speaker": 1,
+              "en": "Of course. I'd like a replacement if the same model is available.",
+              "es": "Claro. Quisiera una sustitución si está disponible el mismo modelo."
+            },
+            {
+              "speaker": 0,
+              "en": "It is. Once we receive the photos, we'll arrange collection and delivery.",
+              "es": "Lo está. Cuando recibamos las fotos, organizaremos la recogida y la entrega."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Could you confirm the dates by email so I can be at home?",
+              "es": "Gracias. ¿Podrías confirmar las fechas por correo para que pueda estar en casa?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'm calling about",
+              "es": "Llamo por…",
+              "use": "Presenta el motivo de una llamada y ayuda a situar al interlocutor.",
+              "example": "I'm calling about my delivery.",
+              "translation": "Llamo por mi entrega."
+            },
+            {
+              "en": "I'd like a replacement",
+              "es": "Quisiera una sustitución",
+              "use": "Pide una solución concreta en lugar de limitarte a describir el problema.",
+              "example": "I'd like a replacement for the damaged part.",
+              "translation": "Quisiera una sustitución de la pieza dañada."
+            },
+            {
+              "en": "so I can",
+              "es": "para poder…",
+              "use": "Explica para qué necesitas algo y facilita que atiendan tu petición.",
+              "example": "Please send the details so I can check them.",
+              "translation": "Envía los detalles para que pueda revisarlos."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could you send the replacement to my work address?",
+              "es": "¿Podrías enviar la sustitución a mi dirección de trabajo?",
+              "reply": "Yes. Please include the new address in your email.",
+              "translation": "Sí. Incluye la nueva dirección en tu correo.",
+              "why": "Ajustas la solución a una necesidad real y sabes cuál es el siguiente paso."
+            },
+            {
+              "en": "Would a refund be possible instead?",
+              "es": "¿Sería posible un reembolso en su lugar?",
+              "reply": "Yes. We can refund you once the damaged lamp is collected.",
+              "translation": "Sí. Podemos hacer el reembolso cuando se recoja la lámpara dañada.",
+              "why": "Pides una alternativa con cortesía y recibes su condición."
+            }
+          ],
+          "task": "Describe un producto, el fallo, una prueba que puedes aportar y la solución que prefieres."
+        },
+        {
+          "title": "Confirmar sin repetirlo todo",
+          "context": "La tienda te ha enviado una fecha de entrega que no puedes aceptar. Necesitas cambiarla manteniendo el acuerdo.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "I'm following up on your replacement lamp. We can deliver on Tuesday.",
+              "es": "Te contacto por la lámpara de sustitución. Podemos entregarla el martes."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks for getting back to me. Unfortunately, I'll be away that day.",
+              "es": "Gracias por responder. Lamentablemente, ese día estaré fuera."
+            },
+            {
+              "speaker": 0,
+              "en": "Would Wednesday morning be any better?",
+              "es": "¿Te vendría mejor el miércoles por la mañana?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, as long as the driver arrives before eleven.",
+              "es": "Sí, siempre que el conductor llegue antes de las once."
+            },
+            {
+              "speaker": 0,
+              "en": "I can't guarantee an exact time, but I can offer Thursday evening.",
+              "es": "No puedo garantizar una hora exacta, pero puedo ofrecer el jueves por la tarde."
+            },
+            {
+              "speaker": 1,
+              "en": "Thursday evening would be easier. Is there anything I need to prepare?",
+              "es": "El jueves por la tarde sería más fácil. ¿Tengo que preparar algo?"
+            },
+            {
+              "speaker": 0,
+              "en": "Please put the damaged lamp back in its box for collection.",
+              "es": "Pon la lámpara dañada en su caja para la recogida."
+            },
+            {
+              "speaker": 1,
+              "en": "No problem. So both the collection and the delivery are on Thursday?",
+              "es": "Sin problema. ¿Entonces la recogida y la entrega son el jueves?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Thanks for getting back to me",
+              "es": "Gracias por responder",
+              "use": "Reconoce una respuesta después de un contacto anterior; sirve en correo o conversación.",
+              "example": "Thanks for getting back to me so quickly.",
+              "translation": "Gracias por responder tan rápido."
+            },
+            {
+              "en": "as long as",
+              "es": "siempre que",
+              "use": "Introduce una condición necesaria para aceptar algo.",
+              "example": "I can come as long as we finish by six.",
+              "translation": "Puedo ir siempre que terminemos antes de las seis."
+            },
+            {
+              "en": "Is there anything I need to",
+              "es": "¿Hay algo que deba…?",
+              "use": "Comprueba si tienes que hacer algo antes del siguiente paso.",
+              "example": "Is there anything I need to bring?",
+              "translation": "¿Hay algo que deba llevar?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Yes, Thursday works. Please confirm the time window.",
+              "es": "Sí, el jueves me viene bien. Confirma la franja horaria, por favor.",
+              "reply": "I'll send you a confirmation for six to eight in the evening.",
+              "translation": "Te enviaré una confirmación para la franja de seis a ocho de la tarde.",
+              "why": "Cierras el acuerdo con información verificable."
+            },
+            {
+              "en": "Could someone else accept the delivery for me?",
+              "es": "¿Podría otra persona recibir la entrega por mí?",
+              "reply": "Yes, an adult at the address can accept it and hand over the old lamp.",
+              "translation": "Sí, una persona adulta en la dirección puede recibirla y entregar la lámpara antigua.",
+              "why": "Buscas una solución logística sin exigir una hora imposible."
+            }
+          ],
+          "task": "Redacta un mensaje corto para confirmar el problema, el acuerdo, la fecha y una pregunta pendiente."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Lo que decía el mensaje",
+      "theme": "cafe",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        12,
+        17,
+        21,
+        22
+      ],
+      "episodes": [
+        {
+          "title": "Comprobar un rumor",
+          "context": "Alguien compartió que el centro cultural cerrará. Antes de cambiar tus planes, revisas el mensaje con una amiga.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Did you see the message about the community centre closing?",
+              "es": "¿Viste el mensaje sobre el cierre del centro comunitario?"
+            },
+            {
+              "speaker": 1,
+              "en": "I did, but I'm not sure whether it means permanently or just this weekend.",
+              "es": "Sí, pero no sé si quiere decir para siempre o solo este fin de semana."
+            },
+            {
+              "speaker": 0,
+              "en": "Alex said they were cancelling all the classes.",
+              "es": "Alex dijo que estaban cancelando todas las clases."
+            },
+            {
+              "speaker": 1,
+              "en": "Did he hear that from the centre, or was he repeating someone else's message?",
+              "es": "¿Lo oyó del centro o estaba repitiendo el mensaje de otra persona?"
+            },
+            {
+              "speaker": 0,
+              "en": "I don't know. The screenshot doesn't show a date.",
+              "es": "No lo sé. La captura no muestra una fecha."
+            },
+            {
+              "speaker": 1,
+              "en": "Let's check the website before we tell anyone else.",
+              "es": "Consultemos la web antes de decírselo a alguien más."
+            },
+            {
+              "speaker": 0,
+              "en": "Here it is: the building is closed on Saturday for repairs.",
+              "es": "Aquí está: el edificio estará cerrado el sábado por reparaciones."
+            },
+            {
+              "speaker": 1,
+              "en": "So the classes aren't ending. They're moving online for one day.",
+              "es": "Así que las clases no terminan. Pasarán a ser virtuales durante un día."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'm not sure whether",
+              "es": "No tengo claro si…",
+              "use": "Expresa una duda entre posibilidades sin presentar una suposición como un hecho.",
+              "example": "I'm not sure whether the meeting is online.",
+              "translation": "No tengo claro si la reunión es virtual."
+            },
+            {
+              "en": "Alex said",
+              "es": "Alex dijo",
+              "use": "Introduce información atribuida a otra persona. Comprueba la fuente cuando la decisión importa.",
+              "example": "Alex said the class was starting later.",
+              "translation": "Alex dijo que la clase empezaba más tarde."
+            },
+            {
+              "en": "before we tell anyone else",
+              "es": "antes de decírselo a alguien más",
+              "use": "Relaciona la comprobación con una acción posterior.",
+              "example": "Let's confirm the time before we invite anyone else.",
+              "translation": "Confirmemos la hora antes de invitar a alguien más."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll send Alex the current announcement.",
+              "es": "Enviaré a Alex el anuncio actualizado.",
+              "reply": "Good idea. He can correct the message in the group.",
+              "translation": "Buena idea. Puede corregir el mensaje en el grupo.",
+              "why": "Compartes la fuente actual y facilitas una corrección."
+            },
+            {
+              "en": "Could we call the centre to check which classes are online?",
+              "es": "¿Podríamos llamar al centro para comprobar qué clases son virtuales?",
+              "reply": "Yes. The notice doesn't list them individually.",
+              "translation": "Sí. El aviso no las enumera una por una.",
+              "why": "Distingues lo confirmado de un detalle que todavía falta."
+            }
+          ],
+          "task": "Cuenta qué te dijo alguien sobre un evento. Distingue la fuente, lo confirmado y lo que falta comprobar."
+        },
+        {
+          "title": "Explicar la información a otra persona",
+          "context": "Un amigo no entiende el aviso en inglés. Resume lo importante para que pueda asistir a su clase.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "My dad goes to the Saturday class. What should I tell him?",
+              "es": "Mi padre va a la clase del sábado. ¿Qué debo decirle?"
+            },
+            {
+              "speaker": 1,
+              "en": "The building is closed for repairs, but his class will still take place online.",
+              "es": "El edificio está cerrado por reparaciones, pero su clase sí se celebrará en línea."
+            },
+            {
+              "speaker": 0,
+              "en": "He hasn't used the video app before. Will someone help him?",
+              "es": "No ha usado antes la aplicación de videollamadas. ¿Alguien lo ayudará?"
+            },
+            {
+              "speaker": 1,
+              "en": "According to the notice, students can join ten minutes early for technical help.",
+              "es": "Según el aviso, los estudiantes pueden entrar diez minutos antes para recibir ayuda técnica."
+            },
+            {
+              "speaker": 0,
+              "en": "That's useful. Does he need to download anything?",
+              "es": "Eso es útil. ¿Necesita descargar algo?"
+            },
+            {
+              "speaker": 1,
+              "en": "It says he can use the link in his browser. I'll send him the instructions.",
+              "es": "Dice que puede usar el enlace en su navegador. Le enviaré las instrucciones."
+            },
+            {
+              "speaker": 0,
+              "en": "Could you explain that in a short message? Long instructions put him off.",
+              "es": "¿Podrías explicarlo en un mensaje corto? Las instrucciones largas lo desaniman."
+            },
+            {
+              "speaker": 1,
+              "en": "Sure. I'll include the time, the link and where to get help.",
+              "es": "Claro. Incluiré la hora, el enlace y dónde pedir ayuda."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "will still take place",
+              "es": "sí se celebrará / seguirá celebrándose",
+              "use": "Still aclara que un cambio no elimina el evento principal.",
+              "example": "The workshop will still take place on Monday.",
+              "translation": "El taller sí se celebrará el lunes."
+            },
+            {
+              "en": "According to",
+              "es": "Según",
+              "use": "Atribuye información a una fuente y evita presentarla como experiencia propia.",
+              "example": "According to the email, we need to arrive early.",
+              "translation": "Según el correo, tenemos que llegar temprano."
+            },
+            {
+              "en": "put him off",
+              "es": "lo desaniman",
+              "use": "Put someone off expresa que algo reduce sus ganas de hacerlo.",
+              "example": "The long queue put us off.",
+              "translation": "La fila larga nos desanimó."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll send a short message and offer to practise with him.",
+              "es": "Enviaré un mensaje corto y ofreceré practicar con él.",
+              "reply": "Thanks. A quick test call would help him feel more confident.",
+              "translation": "Gracias. Una llamada de prueba le ayudaría a sentirse más seguro.",
+              "why": "Adaptas el mensaje y el apoyo a la persona que lo recibe."
+            },
+            {
+              "en": "Let's ask the teacher for the simplest joining instructions.",
+              "es": "Pidamos al profesor las instrucciones más sencillas para entrar.",
+              "reply": "Good idea. They may already have a guide for new users.",
+              "translation": "Buena idea. Puede que ya tengan una guía para usuarios nuevos.",
+              "why": "Buscas un recurso adecuado en vez de añadir instrucciones innecesarias."
+            }
+          ],
+          "task": "Explica a un familiar un cambio en una cita: qué cambia, qué sigue igual y qué tiene que hacer."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Una noche de cine que sí funciona",
+      "theme": "park",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        8,
+        20,
+        23,
+        24
+      ],
+      "episodes": [
+        {
+          "title": "Recomendar pensando en otra persona",
+          "context": "Organizan una película con amigos. Recomienda una opción, reconoce una limitación y pregunta por sus gustos.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Have you seen anything we could watch together on Friday?",
+              "es": "¿Has visto algo que podamos ver juntos el viernes?"
+            },
+            {
+              "speaker": 1,
+              "en": "I watched a comedy about two neighbours who accidentally swap dogs.",
+              "es": "Vi una comedia sobre dos vecinos que intercambian sus perros sin querer."
+            },
+            {
+              "speaker": 0,
+              "en": "That sounds silly. Was it actually any good?",
+              "es": "Suena disparatado. ¿Estuvo bien de verdad?"
+            },
+            {
+              "speaker": 1,
+              "en": "Better than I expected. The story was simple, but the characters felt believable.",
+              "es": "Mejor de lo que esperaba. La historia era sencilla, pero los personajes parecían creíbles."
+            },
+            {
+              "speaker": 0,
+              "en": "Would Jamie enjoy it? He usually prefers something with a bit of mystery.",
+              "es": "¿Le gustaría a Jamie? Suele preferir algo con un poco de misterio."
+            },
+            {
+              "speaker": 1,
+              "en": "There is a small mystery, although it's easy to guess the ending.",
+              "es": "Hay un pequeño misterio, aunque es fácil adivinar el final."
+            },
+            {
+              "speaker": 0,
+              "en": "As long as it's not too long, I'm happy to give it a try.",
+              "es": "Mientras no sea demasiado larga, estoy dispuesto a probar."
+            },
+            {
+              "speaker": 1,
+              "en": "It's about ninety minutes. Shall I send everyone the trailer first?",
+              "es": "Dura unos noventa minutos. ¿Les envío primero el tráiler a todos?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "Better than I expected",
+              "es": "Mejor de lo que esperaba",
+              "use": "Compara la experiencia con una expectativa previa.",
+              "example": "The exhibition was better than I expected.",
+              "translation": "La exposición fue mejor de lo que esperaba."
+            },
+            {
+              "en": "although",
+              "es": "aunque",
+              "use": "Une una valoración con una limitación relevante.",
+              "example": "I enjoyed it, although the beginning was slow.",
+              "translation": "Me gustó, aunque el principio fue lento."
+            },
+            {
+              "en": "give it a try",
+              "es": "probarlo / darle una oportunidad",
+              "use": "Expresa disposición a experimentar sin garantizar que te vaya a gustar.",
+              "example": "We could give the new café a try.",
+              "translation": "Podríamos probar el café nuevo."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Let's send two trailers and let everyone choose.",
+              "es": "Enviemos dos tráileres y dejemos que todos elijan.",
+              "reply": "Good plan. I'll find a second option with more mystery.",
+              "translation": "Buen plan. Buscaré una segunda opción con más misterio.",
+              "why": "Transformas preferencias distintas en una elección compartida."
+            },
+            {
+              "en": "I think this one would suit the group. Let's suggest it.",
+              "es": "Creo que esta le iría bien al grupo. Propongámosla.",
+              "reply": "Okay. I'll mention the length and ask if anyone has seen it.",
+              "translation": "Vale. Mencionaré la duración y preguntaré si alguien la ha visto.",
+              "why": "Recomiendas con razones y permites que el grupo aporte información."
+            }
+          ],
+          "task": "Recomienda una película, libro o actividad para una persona concreta. Da dos razones y una limitación."
+        },
+        {
+          "title": "Revisar cómo salió y mejorar",
+          "context": "Después de la noche de cine, piensan cómo organizar la próxima sin que una persona haga todo.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "That went well. Everyone seemed to enjoy themselves.",
+              "es": "Salió bien. Todos parecían haberse divertido."
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, although I spent more time preparing food than watching the film.",
+              "es": "Sí, aunque pasé más tiempo preparando comida que viendo la película."
+            },
+            {
+              "speaker": 0,
+              "en": "I hadn't realised. We should have helped you more.",
+              "es": "No me había dado cuenta. Deberíamos haberte ayudado más."
+            },
+            {
+              "speaker": 1,
+              "en": "Next time, would you mind asking everyone to bring something?",
+              "es": "La próxima vez, ¿te importaría pedir a todos que traigan algo?"
+            },
+            {
+              "speaker": 0,
+              "en": "Not at all. We could make a list so we don't end up with five bags of crisps.",
+              "es": "Para nada. Podríamos hacer una lista para no terminar con cinco bolsas de papas fritas."
+            },
+            {
+              "speaker": 1,
+              "en": "And maybe we could choose the film a few days earlier.",
+              "es": "Y quizá podríamos elegir la película unos días antes."
+            },
+            {
+              "speaker": 0,
+              "en": "Agreed. If we share the jobs, it'll be easier for everyone.",
+              "es": "De acuerdo. Si repartimos las tareas, será más fácil para todos."
+            },
+            {
+              "speaker": 1,
+              "en": "Great. I'll host again if someone else takes care of the food.",
+              "es": "Genial. Volveré a poner la casa si otra persona se ocupa de la comida."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I hadn't realised",
+              "es": "No me había dado cuenta",
+              "use": "Reconoce información nueva sobre un hecho pasado.",
+              "example": "I hadn't realised you were doing all the work.",
+              "translation": "No me había dado cuenta de que estabas haciendo todo el trabajo."
+            },
+            {
+              "en": "would you mind",
+              "es": "¿te importaría…?",
+              "use": "Petición cortés seguida de una acción en -ing. Not at all significa que aceptas.",
+              "example": "Would you mind bringing some plates?",
+              "translation": "¿Te importaría traer unos platos?"
+            },
+            {
+              "en": "end up with",
+              "es": "terminar con",
+              "use": "Describe un resultado, a veces imprevisto, que quieres evitar o explicar.",
+              "example": "We ended up with too much food.",
+              "translation": "Terminamos con demasiada comida."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll set up a shared list and ask people to choose a job.",
+              "es": "Crearé una lista compartida y pediré que cada uno elija una tarea.",
+              "reply": "Perfect. I'll take drinks and help tidy up afterwards.",
+              "translation": "Perfecto. Me encargo de las bebidas y ayudo a recoger después.",
+              "why": "Conviertes una mejora general en acciones repartidas."
+            },
+            {
+              "en": "Could we try a picnic next time so there's less preparation?",
+              "es": "¿Podríamos probar un picnic la próxima vez para preparar menos?",
+              "reply": "I'd like that. We can each bring our own lunch.",
+              "translation": "Me gustaría. Cada uno puede llevar su almuerzo.",
+              "why": "Propones otra actividad que responde al problema descubierto."
+            }
+          ],
+          "task": "Cuenta qué funcionó en una actividad, qué cambiarías y cómo repartirías dos responsabilidades la próxima vez."
+        }
+      ]
+    }
+  ],
+  "b2": [
+    {
+      "id": 1,
+      "title": "Un plazo que hay que negociar",
+      "theme": "work",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        2,
+        9,
+        11,
+        16
+      ],
+      "episodes": [
+        {
+          "title": "Acordar qué se puede entregar",
+          "context": "Un cliente adelanta la fecha de un proyecto. Tu objetivo es proteger la calidad y ofrecer una alternativa concreta.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "The client has asked whether we could bring the launch forward by a week.",
+              "es": "El cliente ha preguntado si podríamos adelantar el lanzamiento una semana."
+            },
+            {
+              "speaker": 1,
+              "en": "We could, provided we reduce the scope. The payment feature still needs testing.",
+              "es": "Podríamos, siempre que reduzcamos el alcance. La función de pago todavía necesita pruebas."
+            },
+            {
+              "speaker": 0,
+              "en": "I was hoping we'd have everything ready by then. What's the main obstacle?",
+              "es": "Esperaba que para entonces tuviéramos todo listo. ¿Cuál es el principal obstáculo?"
+            },
+            {
+              "speaker": 1,
+              "en": "It's not the design itself; it's making sure the payment process works reliably.",
+              "es": "No es el diseño en sí; es comprobar que el proceso de pago funciona de manera fiable."
+            },
+            {
+              "speaker": 0,
+              "en": "Would bringing in another developer make enough of a difference?",
+              "es": "¿Incorporar a otro desarrollador marcaría suficiente diferencia?"
+            },
+            {
+              "speaker": 1,
+              "en": "Possibly, but getting someone up to speed would take a few days.",
+              "es": "Posiblemente, pero poner a alguien al día llevaría unos días."
+            },
+            {
+              "speaker": 0,
+              "en": "So what would you be comfortable committing to by the earlier date?",
+              "es": "Entonces, ¿qué te sentirías seguro de comprometerte a entregar en la fecha adelantada?"
+            },
+            {
+              "speaker": 1,
+              "en": "The information pages and booking form, with payments added the following week.",
+              "es": "Las páginas informativas y el formulario de reserva, con los pagos añadidos la semana siguiente."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "provided we",
+              "es": "siempre que…",
+              "use": "Presenta una condición explícita de una oferta. Evita que un sí condicionado parezca una promesa sin límites.",
+              "example": "We can accept, provided we receive the data today.",
+              "translation": "Podemos aceptar, siempre que recibamos los datos hoy."
+            },
+            {
+              "en": "get someone up to speed",
+              "es": "poner a alguien al día",
+              "use": "Se refiere a dar a una persona el contexto necesario para que pueda contribuir.",
+              "example": "I'll get the new designer up to speed tomorrow.",
+              "translation": "Mañana pondré al día a la nueva diseñadora."
+            },
+            {
+              "en": "committing to",
+              "es": "comprometerse a",
+              "use": "Después de to aquí va un nombre o -ing: committing to a date, committing to delivering.",
+              "example": "We're committing to delivering a tested version.",
+              "translation": "Nos comprometemos a entregar una versión probada."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Shall I put both options in writing for the client?",
+              "es": "¿Pongo ambas opciones por escrito para el cliente?",
+              "reply": "Yes. Include what each option would mean for users.",
+              "translation": "Sí. Incluye qué implicaría cada opción para los usuarios.",
+              "why": "Haces visibles los costes y beneficios de la decisión sin prometer más de lo acordado."
+            },
+            {
+              "en": "Could we check with the testing team before confirming?",
+              "es": "¿Podríamos consultar al equipo de pruebas antes de confirmar?",
+              "reply": "Absolutely. I'd rather give a realistic date than revise it later.",
+              "translation": "Por supuesto. Prefiero dar una fecha realista a cambiarla después.",
+              "why": "Compruebas una dependencia que puede afectar al compromiso."
+            }
+          ],
+          "task": "Negocia un plazo: explica una limitación, ofrece dos opciones y concreta qué sí puedes entregar."
+        },
+        {
+          "title": "No estamos diciendo exactamente lo mismo",
+          "context": "La propuesta fue aceptada, pero un compañero entendió que todos los pagos estarían listos. Hay que aclararlo sin discutir.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "I've told the client that users will be able to pay on launch day.",
+              "es": "Le he dicho al cliente que los usuarios podrán pagar el día del lanzamiento."
+            },
+            {
+              "speaker": 1,
+              "en": "Sorry, I think we may have been talking at cross purposes.",
+              "es": "Perdona, creo que quizá no nos estábamos entendiendo."
+            },
+            {
+              "speaker": 0,
+              "en": "I thought you said the booking form would be ready.",
+              "es": "Creía que habías dicho que el formulario de reserva estaría listo."
+            },
+            {
+              "speaker": 1,
+              "en": "It will, but it only collects requests. It won't process payments yet.",
+              "es": "Lo estará, pero solo recoge solicitudes. Todavía no procesará pagos."
+            },
+            {
+              "speaker": 0,
+              "en": "Right, I see the distinction now. We need to correct the message quickly.",
+              "es": "Vale, ahora entiendo la diferencia. Tenemos que corregir el mensaje cuanto antes."
+            },
+            {
+              "speaker": 1,
+              "en": "Agreed. Could we explain that bookings will be confirmed manually for the first week?",
+              "es": "De acuerdo. ¿Podríamos explicar que las reservas se confirmarán manualmente durante la primera semana?"
+            },
+            {
+              "speaker": 0,
+              "en": "Yes, and I'll make sure the support team knows what to tell customers.",
+              "es": "Sí, y me aseguraré de que atención al cliente sepa qué decir a los usuarios."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. I'll add that limitation to the launch notes so it's clear to everyone.",
+              "es": "Gracias. Añadiré esa limitación a las notas del lanzamiento para que todos la tengan clara."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "talking at cross purposes",
+              "es": "hablar sin estar refiriéndonos a lo mismo",
+              "use": "Nombra un malentendido compartido sin acusar directamente a la otra persona.",
+              "example": "We were talking at cross purposes about the deadline.",
+              "translation": "No nos estábamos entendiendo sobre el plazo."
+            },
+            {
+              "en": "I see the distinction",
+              "es": "Entiendo la diferencia",
+              "use": "Reconoce una diferencia relevante entre dos conceptos parecidos.",
+              "example": "I see the distinction between a request and a confirmed booking.",
+              "translation": "Entiendo la diferencia entre una solicitud y una reserva confirmada."
+            },
+            {
+              "en": "make sure",
+              "es": "asegurarse de",
+              "use": "Introduce una comprobación o responsabilidad concreta.",
+              "example": "I'll make sure everyone receives the update.",
+              "translation": "Me aseguraré de que todos reciban la actualización."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Let's write the correction together before it goes out.",
+              "es": "Escribamos juntos la corrección antes de enviarla.",
+              "reply": "Good idea. That way we can check the wording against the actual feature.",
+              "translation": "Buena idea. Así podemos comprobar que el texto describe la función real.",
+              "why": "Alineas el mensaje con lo que el producto permite hacer."
+            },
+            {
+              "en": "I'll call the client, then follow up with a written summary.",
+              "es": "Llamaré al cliente y después enviaré un resumen escrito.",
+              "reply": "Thanks. Please copy me in so we have the same record.",
+              "translation": "Gracias. Ponme en copia para que tengamos el mismo registro.",
+              "why": "Combinas una aclaración rápida con una confirmación consultable."
+            }
+          ],
+          "task": "Aclara una promesa mal entendida: explica la diferencia, corrige la expectativa y acuerda cómo avisar."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lo que haríamos de otra manera",
+      "theme": "station",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "episodes": [
+        {
+          "title": "Revisar un viaje que salió mal",
+          "context": "Una reserva incorrecta cambió vuestro viaje. Hablen de lo que pudo pasar sin confundir deducciones con hechos.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "I still can't believe we booked the hotel for the wrong month.",
+              "es": "Todavía no puedo creer que reserváramos el hotel para el mes equivocado."
+            },
+            {
+              "speaker": 1,
+              "en": "I must have selected November instead of October without noticing.",
+              "es": "Debí de seleccionar noviembre en vez de octubre sin darme cuenta."
+            },
+            {
+              "speaker": 0,
+              "en": "Didn't the confirmation show the dates clearly?",
+              "es": "¿La confirmación no mostraba las fechas con claridad?"
+            },
+            {
+              "speaker": 1,
+              "en": "It did. If I'd checked it properly, we'd have spotted the mistake straight away.",
+              "es": "Sí. Si la hubiera revisado bien, habríamos detectado el error enseguida."
+            },
+            {
+              "speaker": 0,
+              "en": "We both should have checked. I only looked at the price and the address.",
+              "es": "Los dos deberíamos haberla revisado. Yo solo miré el precio y la dirección."
+            },
+            {
+              "speaker": 1,
+              "en": "At least the receptionist managed to find us a room nearby.",
+              "es": "Al menos la recepcionista consiguió encontrarnos una habitación cerca."
+            },
+            {
+              "speaker": 0,
+              "en": "True, although it cost more than we'd budgeted for.",
+              "es": "Cierto, aunque costó más de lo que habíamos presupuestado."
+            },
+            {
+              "speaker": 1,
+              "en": "Next time, let's read the details out loud before either of us confirms.",
+              "es": "La próxima vez, leamos los detalles en voz alta antes de que cualquiera confirme."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "must have selected",
+              "es": "debí de seleccionar",
+              "use": "Must have + participio expresa una deducción fuerte sobre el pasado, no una obligación pasada.",
+              "example": "I must have left the charger in the room.",
+              "translation": "Debí de dejar el cargador en la habitación."
+            },
+            {
+              "en": "If I'd checked",
+              "es": "Si hubiera revisado",
+              "use": "Abre una condición imaginaria sobre un pasado que ya no puede cambiarse.",
+              "example": "If I'd checked the map, I wouldn't have missed the turn.",
+              "translation": "Si hubiera revisado el mapa, no me habría pasado el desvío."
+            },
+            {
+              "en": "budgeted for",
+              "es": "presupuestado para",
+              "use": "Budget for significa prever un gasto; conecta el precio con un plan económico.",
+              "example": "We hadn't budgeted for an extra night.",
+              "translation": "No habíamos presupuestado una noche adicional."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I wish I'd saved the confirmation somewhere easier to find.",
+              "es": "Ojalá hubiera guardado la confirmación en un sitio más fácil de encontrar.",
+              "reply": "Let's keep future bookings in one shared folder.",
+              "translation": "Guardemos las próximas reservas en una carpeta compartida.",
+              "why": "Expresas un arrepentimiento y el otro personaje lo convierte en prevención."
+            },
+            {
+              "en": "If we hadn't made that mistake, we wouldn't know about this place.",
+              "es": "Si no hubiéramos cometido ese error, no conoceríamos este lugar.",
+              "reply": "That's true. The mistake was expensive, but the place is lovely.",
+              "translation": "Es verdad. El error salió caro, pero el lugar es precioso.",
+              "why": "Relacionas un hecho pasado con un resultado presente mediante una condición mixta."
+            }
+          ],
+          "task": "Explica un error pasado, una deducción sobre su causa, qué habrías hecho distinto y qué cambiarás ahora."
+        },
+        {
+          "title": "Reparar sin buscar culpables",
+          "context": "Una de las personas pagó el gasto extra. Necesitan acordar cómo repartirlo y evitar tensión.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Can we talk about the extra hotel charge before we leave?",
+              "es": "¿Podemos hablar del gasto extra del hotel antes de irnos?"
+            },
+            {
+              "speaker": 1,
+              "en": "Of course. I paid it at the desk, but I wasn't sure how we should split it.",
+              "es": "Claro. Lo pagué en recepción, pero no tenía claro cómo debíamos repartirlo."
+            },
+            {
+              "speaker": 0,
+              "en": "Since I made the booking, I feel I ought to cover more of it.",
+              "es": "Como yo hice la reserva, siento que debería cubrir una parte mayor."
+            },
+            {
+              "speaker": 1,
+              "en": "I appreciate that, but we agreed on the booking together. Half each seems fair.",
+              "es": "Te lo agradezco, pero acordamos la reserva juntos. La mitad cada uno parece justo."
+            },
+            {
+              "speaker": 0,
+              "en": "Are you sure? I don't want you to feel stuck with my mistake.",
+              "es": "¿Seguro? No quiero que sientas que cargas con mi error."
+            },
+            {
+              "speaker": 1,
+              "en": "I'm sure. I'd rather sort it out now than let it become awkward.",
+              "es": "Seguro. Prefiero resolverlo ahora a dejar que se vuelva incómodo."
+            },
+            {
+              "speaker": 0,
+              "en": "All right. Send me the amount and I'll transfer my half tonight.",
+              "es": "De acuerdo. Envíame el importe y transferiré mi mitad esta noche."
+            },
+            {
+              "speaker": 1,
+              "en": "Thanks. Once that's done, let's put it behind us and enjoy the last day.",
+              "es": "Gracias. Una vez hecho, dejémoslo atrás y disfrutemos del último día."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I feel I ought to",
+              "es": "Siento que debería…",
+              "use": "Ought to expresa responsabilidad o lo que consideras correcto; aquí no es una orden.",
+              "example": "I feel I ought to apologise.",
+              "translation": "Siento que debería disculparme."
+            },
+            {
+              "en": "sort it out",
+              "es": "resolverlo",
+              "use": "Expresión práctica para un problema o acuerdo pendiente.",
+              "example": "Let's sort it out before the next meeting.",
+              "translation": "Resolvámoslo antes de la próxima reunión."
+            },
+            {
+              "en": "put it behind us",
+              "es": "dejarlo atrás",
+              "use": "Propone dejar de centrarse en un problema después de resolverlo.",
+              "example": "We've agreed on a solution. Let's put it behind us.",
+              "translation": "Hemos acordado una solución. Dejémoslo atrás."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Half each works for me. I'll send it when we get back.",
+              "es": "La mitad cada uno me parece bien. Te lo envío cuando volvamos.",
+              "reply": "Thanks. I'll send you a photo of the receipt.",
+              "translation": "Gracias. Te enviaré una foto del recibo.",
+              "why": "Aceptas el acuerdo y concretas cuándo cumplirás tu parte."
+            },
+            {
+              "en": "Could I pay you in two parts this week?",
+              "es": "¿Podría pagarte en dos partes esta semana?",
+              "reply": "That's fine. Just let me know which days work for you.",
+              "translation": "Está bien. Solo dime qué días te vienen bien.",
+              "why": "Negocias una dificultad real de cumplimiento de forma directa y respetuosa."
+            }
+          ],
+          "task": "Plantea una conversación incómoda sin culpar, reconoce la perspectiva de la otra persona y cierra un acuerdo."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "¿Qué demuestra ese gráfico?",
+      "theme": "cafe",
+      "people": [
+        "Nora",
+        "Leo"
+      ],
+      "units": [
+        10,
+        13,
+        15,
+        17
+      ],
+      "episodes": [
+        {
+          "title": "No confundir datos con conclusiones",
+          "context": "Un equipo afirma que su curso duplica la productividad. Examina qué se midió antes de recomendarlo.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "This report claims the training doubled staff productivity. Impressive, isn't it?",
+              "es": "Este informe afirma que la formación duplicó la productividad del personal. Impresionante, ¿no?"
+            },
+            {
+              "speaker": 1,
+              "en": "It sounds promising, but I'd like to know what they measured.",
+              "es": "Suena prometedor, pero me gustaría saber qué midieron."
+            },
+            {
+              "speaker": 0,
+              "en": "The chart shows that people completed twice as many tasks afterwards.",
+              "es": "El gráfico muestra que las personas completaron el doble de tareas después."
+            },
+            {
+              "speaker": 1,
+              "en": "Were they the same type of tasks, and did the quality stay the same?",
+              "es": "¿Eran tareas del mismo tipo y se mantuvo la calidad?"
+            },
+            {
+              "speaker": 0,
+              "en": "The summary doesn't say. It also doesn't mention how many people took part.",
+              "es": "El resumen no lo dice. Tampoco menciona cuántas personas participaron."
+            },
+            {
+              "speaker": 1,
+              "en": "Then we should be cautious about applying the result to our whole team.",
+              "es": "Entonces deberíamos ser prudentes al aplicar el resultado a todo nuestro equipo."
+            },
+            {
+              "speaker": 0,
+              "en": "Fair enough. The training may have helped, but this alone doesn't prove it caused the change.",
+              "es": "De acuerdo. La formación pudo ayudar, pero esto por sí solo no prueba que causara el cambio."
+            },
+            {
+              "speaker": 1,
+              "en": "Exactly. Let's ask for the full method before making a recommendation.",
+              "es": "Exacto. Pidamos el método completo antes de recomendarlo."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I'd like to know what",
+              "es": "Me gustaría saber qué…",
+              "use": "Introduce una pregunta indirecta. No inviertas el orden como en What did they measure? cuando va dentro de esta estructura.",
+              "example": "I'd like to know what the results actually show.",
+              "translation": "Me gustaría saber qué muestran realmente los resultados."
+            },
+            {
+              "en": "we should be cautious about",
+              "es": "deberíamos ser prudentes al…",
+              "use": "Matiza una conclusión sin rechazar los datos por completo.",
+              "example": "We should be cautious about comparing such different groups.",
+              "translation": "Deberíamos ser prudentes al comparar grupos tan distintos."
+            },
+            {
+              "en": "this alone doesn't prove",
+              "es": "esto por sí solo no prueba",
+              "use": "Distingue evidencia parcial de una demostración suficiente.",
+              "example": "This alone doesn't prove the new system is better.",
+              "translation": "Esto por sí solo no prueba que el sistema nuevo sea mejor."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Could we run a small trial and compare similar tasks?",
+              "es": "¿Podríamos hacer una prueba pequeña y comparar tareas similares?",
+              "reply": "Yes, as long as we also check quality and staff feedback.",
+              "translation": "Sí, siempre que también revisemos la calidad y las opiniones del personal.",
+              "why": "Propones recoger información más pertinente para tu decisión."
+            },
+            {
+              "en": "Let's ask whether they recorded any other changes during that period.",
+              "es": "Preguntemos si registraron otros cambios durante ese periodo.",
+              "reply": "Good point. New software might have affected the results too.",
+              "translation": "Buena observación. Un software nuevo también pudo influir en los resultados.",
+              "why": "Buscas explicaciones alternativas sin afirmar que una de ellas sea cierta."
+            }
+          ],
+          "task": "Resume una afirmación basada en datos e identifica dos datos que faltan antes de aceptarla."
+        },
+        {
+          "title": "Explicarlo sin tecnicismos",
+          "context": "Tu responsable solo tiene un minuto para decidir si compra la formación. Resume hallazgos, límites y siguiente paso.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Can you give me the short version? Should we buy the training or not?",
+              "es": "¿Puedes darme la versión breve? ¿Deberíamos comprar la formación o no?"
+            },
+            {
+              "speaker": 1,
+              "en": "The results are encouraging, but the evidence isn't strong enough for a company-wide purchase yet.",
+              "es": "Los resultados son alentadores, pero la evidencia todavía no basta para comprarla para toda la empresa."
+            },
+            {
+              "speaker": 0,
+              "en": "What's the biggest gap in the report?",
+              "es": "¿Cuál es la mayor carencia del informe?"
+            },
+            {
+              "speaker": 1,
+              "en": "We don't know whether the tasks were comparable before and after the training.",
+              "es": "No sabemos si las tareas eran comparables antes y después de la formación."
+            },
+            {
+              "speaker": 0,
+              "en": "So you're not saying the course doesn't work?",
+              "es": "Entonces, ¿no estás diciendo que el curso no funcione?"
+            },
+            {
+              "speaker": 1,
+              "en": "No. I'm saying we can't tell how much of the improvement came from the course itself.",
+              "es": "No. Digo que no podemos saber qué parte de la mejora provino del curso en sí."
+            },
+            {
+              "speaker": 0,
+              "en": "What would you recommend as a next step?",
+              "es": "¿Qué recomendarías como siguiente paso?"
+            },
+            {
+              "speaker": 1,
+              "en": "Ask for the missing details, then consider a small pilot with clear success criteria.",
+              "es": "Pedir los detalles que faltan y después considerar una prueba piloto pequeña con criterios de éxito claros."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "the short version",
+              "es": "la versión breve",
+              "use": "Solicita o anuncia un resumen que conserva lo esencial.",
+              "example": "Here's the short version of the proposal.",
+              "translation": "Aquí va la versión breve de la propuesta."
+            },
+            {
+              "en": "I'm saying we can't tell",
+              "es": "Lo que digo es que no podemos saber",
+              "use": "Reformula tu postura cuando alguien la interpreta como una afirmación más fuerte.",
+              "example": "I'm saying we can't tell which option is cheaper yet.",
+              "translation": "Lo que digo es que todavía no podemos saber qué opción es más barata."
+            },
+            {
+              "en": "as a next step",
+              "es": "como siguiente paso",
+              "use": "Convierte una evaluación en una acción concreta.",
+              "example": "As a next step, we should speak to the users.",
+              "translation": "Como siguiente paso, deberíamos hablar con los usuarios."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I can prepare a one-page proposal for a pilot.",
+              "es": "Puedo preparar una propuesta de una página para una prueba piloto.",
+              "reply": "Please do. Include the cost, the timeframe and what we'd measure.",
+              "translation": "Hazlo, por favor. Incluye el coste, el plazo y qué mediríamos.",
+              "why": "Ofreces un documento centrado en la decisión pendiente."
+            },
+            {
+              "en": "I'd wait for their response before spending anything.",
+              "es": "Esperaría su respuesta antes de gastar nada.",
+              "reply": "That seems reasonable. Could you contact them today?",
+              "translation": "Parece razonable. ¿Podrías contactar con ellos hoy?",
+              "why": "Priorizas conseguir la información que falta y acuerdas una acción inmediata."
+            }
+          ],
+          "task": "Explica a una persona no especialista una recomendación, su incertidumbre y un siguiente paso concreto."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Un espacio para el barrio",
+      "theme": "park",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        6,
+        8,
+        12,
+        18
+      ],
+      "episodes": [
+        {
+          "title": "Defender una propuesta y escuchar objeciones",
+          "context": "Quieres convertir un terreno vacío en un jardín comunitario. Una vecina teme el ruido y el mantenimiento.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "I like the idea of a garden, but who's going to look after it once the excitement wears off?",
+              "es": "Me gusta la idea de un jardín, pero ¿quién lo cuidará cuando pase el entusiasmo?"
+            },
+            {
+              "speaker": 1,
+              "en": "That's a fair concern. We're proposing a rota, with a named coordinator each month.",
+              "es": "Es una preocupación razonable. Proponemos un sistema de turnos con un responsable cada mes."
+            },
+            {
+              "speaker": 0,
+              "en": "And what about noise? My windows face the site.",
+              "es": "¿Y qué hay del ruido? Mis ventanas dan al terreno."
+            },
+            {
+              "speaker": 1,
+              "en": "We'd keep activities within agreed hours. There wouldn't be evening events during the week.",
+              "es": "Mantendríamos las actividades dentro de un horario acordado. No habría eventos nocturnos entre semana."
+            },
+            {
+              "speaker": 0,
+              "en": "I suppose that would help. Who would deal with complaints if the rules weren't followed?",
+              "es": "Supongo que eso ayudaría. ¿Quién atendería las quejas si no se cumplieran las normas?"
+            },
+            {
+              "speaker": 1,
+              "en": "The coordinator would be the first contact, and the council would review any ongoing issues.",
+              "es": "El responsable sería el primer contacto y el ayuntamiento revisaría los problemas persistentes."
+            },
+            {
+              "speaker": 0,
+              "en": "I'd be more comfortable if those commitments were included in the proposal.",
+              "es": "Me sentiría más tranquila si esos compromisos se incluyeran en la propuesta."
+            },
+            {
+              "speaker": 1,
+              "en": "Absolutely. Would you be willing to read that section before we submit it?",
+              "es": "Por supuesto. ¿Estarías dispuesta a leer esa sección antes de presentarla?"
+            }
+          ],
+          "chunks": [
+            {
+              "en": "That's a fair concern",
+              "es": "Es una preocupación razonable",
+              "use": "Reconoce una objeción sin renunciar a tu propuesta. Después responde al problema concreto.",
+              "example": "That's a fair concern. We need a backup plan.",
+              "translation": "Es una preocupación razonable. Necesitamos un plan alternativo."
+            },
+            {
+              "en": "I'd be more comfortable if",
+              "es": "Me sentiría más tranquilo si…",
+              "use": "Expresa una condición que te ayudaría a aceptar una propuesta.",
+              "example": "I'd be more comfortable if the costs were clearer.",
+              "translation": "Me sentiría más tranquilo si los costes estuvieran más claros."
+            },
+            {
+              "en": "Would you be willing to",
+              "es": "¿Estarías dispuesto a…?",
+              "use": "Invita a participar respetando la posibilidad de que la persona no quiera hacerlo.",
+              "example": "Would you be willing to join a short meeting?",
+              "translation": "¿Estarías dispuesto a participar en una reunión corta?"
+            }
+          ],
+          "branches": [
+            {
+              "en": "Let's add quiet hours and a contact number to the proposal.",
+              "es": "Añadamos un horario de silencio y un teléfono de contacto a la propuesta.",
+              "reply": "That would address my main worries. I'd be happy to review it.",
+              "translation": "Eso atendería mis principales preocupaciones. Con gusto la revisaría.",
+              "why": "Incorporas cambios concretos que responden a las objeciones."
+            },
+            {
+              "en": "Could we start with a three-month trial and review it together?",
+              "es": "¿Podríamos empezar con una prueba de tres meses y revisarla juntos?",
+              "reply": "A trial sounds sensible, provided residents can give feedback.",
+              "translation": "Una prueba parece sensata, siempre que los vecinos puedan opinar.",
+              "why": "Propones una decisión reversible con evaluación compartida."
+            }
+          ],
+          "task": "Defiende una mejora para tu barrio o centro de estudios. Responde a una objeción y modifica una parte de la propuesta."
+        },
+        {
+          "title": "Encontrar terreno común",
+          "context": "El grupo debe elegir entre un jardín silencioso y un espacio de actividades. Busquen una combinación realista.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Some residents want a quiet garden, whereas others want a space for workshops.",
+              "es": "Algunos vecinos quieren un jardín tranquilo, mientras que otros quieren un espacio para talleres."
+            },
+            {
+              "speaker": 1,
+              "en": "Those aims aren't necessarily incompatible. Could we separate the areas?",
+              "es": "Esos objetivos no son necesariamente incompatibles. ¿Podríamos separar las zonas?"
+            },
+            {
+              "speaker": 0,
+              "en": "The site isn't very large. Physical separation might not solve the noise problem.",
+              "es": "El terreno no es muy grande. Separarlo físicamente quizá no resuelva el ruido."
+            },
+            {
+              "speaker": 1,
+              "en": "Then perhaps we could separate activities by time rather than by space.",
+              "es": "Entonces quizá podríamos separar las actividades por horario en lugar de por espacio."
+            },
+            {
+              "speaker": 0,
+              "en": "You mean quiet use most of the week, with scheduled workshops at weekends?",
+              "es": "¿Te refieres a un uso tranquilo la mayor parte de la semana, con talleres programados los fines de semana?"
+            },
+            {
+              "speaker": 1,
+              "en": "Exactly, with limits on group size and enough notice for neighbours.",
+              "es": "Exacto, con límites de tamaño de los grupos y suficiente aviso a los vecinos."
+            },
+            {
+              "speaker": 0,
+              "en": "That seems like a workable compromise, assuming we can manage the bookings.",
+              "es": "Parece un acuerdo viable, suponiendo que podamos gestionar las reservas."
+            },
+            {
+              "speaker": 1,
+              "en": "Let's try a simple calendar first and review whether it works after a month.",
+              "es": "Probemos primero un calendario sencillo y revisemos si funciona después de un mes."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "whereas",
+              "es": "mientras que",
+              "use": "Contrasta dos preferencias o situaciones, no dos acciones simultáneas en este uso.",
+              "example": "Some prefer mornings, whereas others can only come at night.",
+              "translation": "Algunos prefieren las mañanas, mientras que otros solo pueden venir de noche."
+            },
+            {
+              "en": "not necessarily",
+              "es": "no necesariamente",
+              "use": "Evita tratar una relación como automática; deja abiertas otras posibilidades.",
+              "example": "More expensive doesn't necessarily mean better.",
+              "translation": "Más caro no significa necesariamente mejor."
+            },
+            {
+              "en": "a workable compromise",
+              "es": "un acuerdo intermedio viable",
+              "use": "Describe una solución que atiende varias necesidades sin cumplir todas al máximo.",
+              "example": "A shared schedule could be a workable compromise.",
+              "translation": "Un horario compartido podría ser un acuerdo viable."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll draft a timetable with one workshop slot per weekend.",
+              "es": "Prepararé un horario con un espacio para taller cada fin de semana.",
+              "reply": "Great. We can show residents exactly what we're proposing.",
+              "translation": "Genial. Podremos mostrar a los vecinos exactamente qué proponemos.",
+              "why": "Concretas el acuerdo para que las personas puedan evaluarlo."
+            },
+            {
+              "en": "Let's ask residents which hours matter most to them.",
+              "es": "Preguntemos a los vecinos qué horarios les importan más.",
+              "reply": "Good idea. We shouldn't assume everyone's routine is the same.",
+              "translation": "Buena idea. No deberíamos suponer que todos tienen la misma rutina.",
+              "why": "Recoges información antes de fijar un horario que afecta a otras personas."
+            }
+          ],
+          "task": "Resume dos posiciones distintas y propón un acuerdo con un límite y una fecha de revisión."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Una reseña útil, una queja justa",
+      "theme": "shop",
+      "people": [
+        "Sam",
+        "Mia"
+      ],
+      "units": [
+        7,
+        19,
+        21,
+        22
+      ],
+      "episodes": [
+        {
+          "title": "Reclamar manteniendo la precisión",
+          "context": "Pagaste por una visita guiada que se anunció como accesible. Varias partes no lo fueron. Explica el impacto sin exagerar.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Thank you for contacting us. Could you tell me what happened on the tour?",
+              "es": "Gracias por contactar con nosotros. ¿Podrías contarme qué pasó en la visita?"
+            },
+            {
+              "speaker": 1,
+              "en": "The description said the route was step-free, yet two stops could only be reached by stairs.",
+              "es": "La descripción decía que la ruta no tenía escalones, pero a dos paradas solo se podía llegar por escaleras."
+            },
+            {
+              "speaker": 0,
+              "en": "I'm sorry. Were alternative arrangements offered by the guide?",
+              "es": "Lo siento. ¿El guía ofreció alguna alternativa?"
+            },
+            {
+              "speaker": 1,
+              "en": "Only at the second stop. My mother had to wait outside during the first one.",
+              "es": "Solo en la segunda parada. Mi madre tuvo que esperar fuera durante la primera."
+            },
+            {
+              "speaker": 0,
+              "en": "I understand why that was disappointing. The route was changed recently.",
+              "es": "Entiendo por qué fue decepcionante. La ruta cambió hace poco."
+            },
+            {
+              "speaker": 1,
+              "en": "That may explain it, but the booking page should have reflected the change.",
+              "es": "Eso puede explicarlo, pero la página de reserva debería haber reflejado el cambio."
+            },
+            {
+              "speaker": 0,
+              "en": "You're right. I'll ask the team to correct it and review your booking.",
+              "es": "Tienes razón. Pediré al equipo que la corrija y revise tu reserva."
+            },
+            {
+              "speaker": 1,
+              "en": "Thank you. I'd appreciate a written response explaining what remedy you can offer.",
+              "es": "Gracias. Agradecería una respuesta escrita explicando qué solución pueden ofrecer."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "yet",
+              "es": "sin embargo / pero",
+              "use": "Contrasta un hecho con una expectativa. Aquí enlaza dos partes de la misma oración.",
+              "example": "The venue looked small, yet it felt welcoming.",
+              "translation": "El local parecía pequeño, pero resultaba acogedor."
+            },
+            {
+              "en": "should have reflected",
+              "es": "debería haber reflejado",
+              "use": "Evalúa una acción pasada que consideras necesaria y que no se hizo.",
+              "example": "The email should have mentioned the change.",
+              "translation": "El correo debería haber mencionado el cambio."
+            },
+            {
+              "en": "I'd appreciate a written response",
+              "es": "Agradecería una respuesta escrita",
+              "use": "Petición formal y concreta, adecuada en una reclamación.",
+              "example": "I'd appreciate a written response by Friday.",
+              "translation": "Agradecería una respuesta escrita para el viernes."
+            }
+          ],
+          "branches": [
+            {
+              "en": "A partial refund would reflect the part of the tour we missed.",
+              "es": "Un reembolso parcial reflejaría la parte de la visita que nos perdimos.",
+              "reply": "I'll ask our manager to consider that and reply within three working days.",
+              "translation": "Pediré al responsable que lo considere y responda en tres días laborables.",
+              "why": "Vinculas la solución solicitada con el perjuicio específico."
+            },
+            {
+              "en": "Our priority is making sure other visitors get accurate information.",
+              "es": "Nuestra prioridad es que otros visitantes reciban información correcta.",
+              "reply": "Understood. I'll send you the updated description once it's been checked.",
+              "translation": "Entendido. Te enviaré la descripción actualizada cuando se haya revisado.",
+              "why": "Priorizas la corrección de la información y solicitas un resultado comprobable."
+            }
+          ],
+          "task": "Escribe una reclamación con lo anunciado, lo ocurrido, su impacto y una solución proporcionada."
+        },
+        {
+          "title": "Valorar también la respuesta",
+          "context": "La empresa respondió y corrigió la información. Redactas una reseña equilibrada que ayude a futuros visitantes.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Are you still planning to leave a review of the tour?",
+              "es": "¿Todavía piensas dejar una reseña de la visita?"
+            },
+            {
+              "speaker": 1,
+              "en": "Yes, but I want to include how they handled the complaint as well.",
+              "es": "Sí, pero también quiero incluir cómo atendieron la queja."
+            },
+            {
+              "speaker": 0,
+              "en": "Did they offer anything beyond an apology?",
+              "es": "¿Ofrecieron algo además de una disculpa?"
+            },
+            {
+              "speaker": 1,
+              "en": "They gave us a partial refund and updated the accessibility information.",
+              "es": "Nos dieron un reembolso parcial y actualizaron la información de accesibilidad."
+            },
+            {
+              "speaker": 0,
+              "en": "That sounds fair. Will you recommend the tour now?",
+              "es": "Suena justo. ¿Ahora recomendarás la visita?"
+            },
+            {
+              "speaker": 1,
+              "en": "With reservations. The guide was excellent, but visitors should check the current route carefully.",
+              "es": "Con reservas. El guía fue excelente, pero los visitantes deberían revisar bien la ruta actual."
+            },
+            {
+              "speaker": 0,
+              "en": "So you'd distinguish the quality of the guide from the booking information?",
+              "es": "¿Entonces distinguirías la calidad del guía de la información de reserva?"
+            },
+            {
+              "speaker": 1,
+              "en": "Exactly. A useful review should explain who the experience would suit and why.",
+              "es": "Exacto. Una reseña útil debería explicar para quién sería adecuada la experiencia y por qué."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "beyond an apology",
+              "es": "además de una disculpa",
+              "use": "Pregunta por acciones concretas, no solo por palabras.",
+              "example": "They offered support beyond an apology.",
+              "translation": "Ofrecieron apoyo además de una disculpa."
+            },
+            {
+              "en": "with reservations",
+              "es": "con reservas",
+              "use": "Indica aprobación parcial acompañada de dudas o condiciones; aquí no significa reservar una plaza.",
+              "example": "I'd recommend it, but with reservations.",
+              "translation": "Lo recomendaría, pero con reservas."
+            },
+            {
+              "en": "distinguish from",
+              "es": "distinguir de",
+              "use": "Separa dos aspectos para que una valoración no los mezcle.",
+              "example": "We should distinguish the service from the location.",
+              "translation": "Deberíamos distinguir el servicio de la ubicación."
+            }
+          ],
+          "branches": [
+            {
+              "en": "I'll explain both the problem and the steps they took to fix it.",
+              "es": "Explicaré tanto el problema como las medidas que tomaron para resolverlo.",
+              "reply": "That seems balanced. Readers can decide whether it suits them.",
+              "translation": "Parece equilibrado. Los lectores pueden decidir si les conviene.",
+              "why": "Aportas hechos relevantes para una decisión, incluidos cambios posteriores."
+            },
+            {
+              "en": "I'll update my original review rather than write a separate one.",
+              "es": "Actualizaré mi reseña original en vez de escribir otra aparte.",
+              "reply": "Good idea. That keeps the whole story in one place.",
+              "translation": "Buena idea. Así queda toda la historia en un solo lugar.",
+              "why": "Mantienes juntos el incidente y su resolución para evitar una impresión incompleta."
+            }
+          ],
+          "task": "Recomienda una experiencia con matices: dos puntos fuertes, una limitación, público adecuado y respuesta a un problema."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Conversar con matices",
+      "theme": "cafe",
+      "people": [
+        "Mia",
+        "Sam"
+      ],
+      "units": [
+        14,
+        20,
+        23,
+        24
+      ],
+      "episodes": [
+        {
+          "title": "Discrepar sin cerrar la conversación",
+          "context": "Un amigo propone dejar todos los cursos y aprender solo viendo series. Comparen experiencias sin convertirlas en reglas universales.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "Honestly, I think language classes are a waste of time. You learn more from watching series.",
+              "es": "Sinceramente, creo que las clases de idiomas son una pérdida de tiempo. Se aprende más viendo series."
+            },
+            {
+              "speaker": 1,
+              "en": "I can see why you'd say that if your classes were mostly worksheets.",
+              "es": "Entiendo por qué lo dirías si tus clases eran principalmente fichas de ejercicios."
+            },
+            {
+              "speaker": 0,
+              "en": "Exactly. I barely got to speak, whereas series exposed me to real conversations.",
+              "es": "Exacto. Casi no pude hablar, mientras que las series me mostraron conversaciones reales."
+            },
+            {
+              "speaker": 1,
+              "en": "That helped me too. Still, understanding a scene isn't quite the same as responding in one.",
+              "es": "A mí también me ayudó. Aun así, entender una escena no es exactamente lo mismo que responder en ella."
+            },
+            {
+              "speaker": 0,
+              "en": "Fair point. I sometimes know what I want to say but can't get it out quickly.",
+              "es": "Es verdad. A veces sé lo que quiero decir, pero no consigo decirlo con rapidez."
+            },
+            {
+              "speaker": 1,
+              "en": "For me, the useful part is combining listening with practice that makes me retrieve the language.",
+              "es": "Para mí, lo útil es combinar la escucha con práctica que me haga recuperar el lenguaje de memoria."
+            },
+            {
+              "speaker": 0,
+              "en": "So it's less about choosing one method and more about how you use it?",
+              "es": "¿Entonces importa menos elegir un método y más cómo lo usas?"
+            },
+            {
+              "speaker": 1,
+              "en": "That's how I see it. I'd keep the series and add short conversations with feedback.",
+              "es": "Así lo veo. Mantendría las series y añadiría conversaciones cortas con comentarios para mejorar."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "I can see why you'd say that",
+              "es": "Entiendo por qué lo dirías",
+              "use": "Reconoce el razonamiento ajeno sin tener que aceptar toda la conclusión.",
+              "example": "I can see why you'd say that after your experience.",
+              "translation": "Entiendo por qué lo dirías después de tu experiencia."
+            },
+            {
+              "en": "isn't quite the same as",
+              "es": "no es exactamente lo mismo que",
+              "use": "Introduce una distinción con tacto, sin negar todo lo anterior.",
+              "example": "Recognising a word isn't quite the same as using it.",
+              "translation": "Reconocer una palabra no es exactamente lo mismo que usarla."
+            },
+            {
+              "en": "That's how I see it",
+              "es": "Así lo veo yo",
+              "use": "Presenta tu postura como una perspectiva razonada, no como una verdad absoluta.",
+              "example": "That's how I see it, though my experience may be different.",
+              "translation": "Así lo veo yo, aunque mi experiencia puede ser distinta."
+            }
+          ],
+          "branches": [
+            {
+              "en": "What kind of practice has actually helped you speak more easily?",
+              "es": "¿Qué tipo de práctica te ha ayudado de verdad a hablar con más facilidad?",
+              "reply": "Retelling a short scene, then trying it again without the script.",
+              "translation": "Volver a contar una escena corta y después intentarlo sin el guion.",
+              "why": "Pides una experiencia concreta para pasar de una discusión general a una idea aplicable."
+            },
+            {
+              "en": "Would you be up for trying a short conversation after each episode?",
+              "es": "¿Te animarías a probar una conversación corta después de cada episodio?",
+              "reply": "I'd be up for that, as long as we keep it relaxed.",
+              "translation": "Me animaría, siempre que lo hagamos sin presión.",
+              "why": "Transformas el intercambio de opiniones en un experimento compartido."
+            }
+          ],
+          "task": "Responde a una opinión con la que solo estás parcialmente de acuerdo. Reconoce una razón, introduce un matiz y pregunta algo concreto."
+        },
+        {
+          "title": "Un plan que se puede mantener",
+          "context": "Deciden practicar juntos. Necesitan un plan pequeño, una forma de revisar errores y espacio para los días difíciles.",
+          "lines": [
+            {
+              "speaker": 0,
+              "en": "If we're going to do this regularly, we need a plan we can actually stick to.",
+              "es": "Si vamos a hacer esto regularmente, necesitamos un plan que realmente podamos mantener."
+            },
+            {
+              "speaker": 1,
+              "en": "Agreed. I'd rather manage fifteen minutes three times a week than give up after one intense session.",
+              "es": "De acuerdo. Prefiero conseguir quince minutos tres veces por semana a abandonar tras una sesión intensa."
+            },
+            {
+              "speaker": 0,
+              "en": "What should we do when we keep making the same mistake?",
+              "es": "¿Qué deberíamos hacer cuando seguimos cometiendo el mismo error?"
+            },
+            {
+              "speaker": 1,
+              "en": "Let's save a useful example and try it in a new situation a few days later.",
+              "es": "Guardemos un ejemplo útil y probémoslo en una situación nueva unos días después."
+            },
+            {
+              "speaker": 0,
+              "en": "And should we correct each other while we're speaking?",
+              "es": "¿Y deberíamos corregirnos mientras hablamos?"
+            },
+            {
+              "speaker": 1,
+              "en": "Only if the meaning breaks down. Otherwise, let's note one or two things and discuss them afterwards.",
+              "es": "Solo si se pierde el sentido. Si no, anotemos una o dos cosas y comentémoslas después."
+            },
+            {
+              "speaker": 0,
+              "en": "That sounds manageable. We can review the plan after two weeks.",
+              "es": "Suena manejable. Podemos revisar el plan después de dos semanas."
+            },
+            {
+              "speaker": 1,
+              "en": "Perfect. Missing one day doesn't mean starting from scratch; we'll just pick it up again.",
+              "es": "Perfecto. Saltarse un día no significa empezar de cero; simplemente lo retomaremos."
+            }
+          ],
+          "chunks": [
+            {
+              "en": "stick to",
+              "es": "mantener / cumplir",
+              "use": "Se usa para continuar con un plan, hábito o decisión.",
+              "example": "I find it easier to stick to a short routine.",
+              "translation": "Me resulta más fácil mantener una rutina corta."
+            },
+            {
+              "en": "the meaning breaks down",
+              "es": "se pierde el sentido",
+              "use": "Describe un momento en que la comunicación deja de entenderse, no cualquier pequeño error.",
+              "example": "Ask for clarification when the meaning breaks down.",
+              "translation": "Pide una aclaración cuando se pierda el sentido."
+            },
+            {
+              "en": "pick it up again",
+              "es": "retomarlo",
+              "use": "Permite hablar de continuar tras una pausa.",
+              "example": "We can pick it up again tomorrow.",
+              "translation": "Podemos retomarlo mañana."
+            }
+          ],
+          "branches": [
+            {
+              "en": "Let's put three short sessions in the calendar and review them in two weeks.",
+              "es": "Pongamos tres sesiones cortas en el calendario y revisémoslas en dos semanas.",
+              "reply": "Good. I'll choose our first scene and you can choose the next one.",
+              "translation": "Bien. Yo elegiré nuestra primera escena y tú puedes elegir la siguiente.",
+              "why": "Concretas frecuencia, revisión y reparto de tareas sin prometer resultados automáticos."
+            },
+            {
+              "en": "Could we start with two sessions and add a third if it feels manageable?",
+              "es": "¿Podríamos empezar con dos sesiones y añadir una tercera si resulta manejable?",
+              "reply": "Definitely. Consistency matters more to me than an ambitious schedule.",
+              "translation": "Por supuesto. Para mí importa más la constancia que un horario ambicioso.",
+              "why": "Ajustas la carga a lo que pueden mantener y dejas un criterio para aumentarla."
+            }
+          ],
+          "task": "Diseña un plan de práctica realista: frecuencia, actividad, revisión de errores, alternativa para un día difícil y fecha de revisión."
+        }
+      ]
+    }
+  ]
+}
