@@ -49,7 +49,9 @@ Puedes dedicar sesiones cortas o largas según tu atención. La cantidad de pant
 
 ## Audio y pronunciación
 
-Las conversaciones utilizan las voces inglesas instaladas o disponibles en el navegador. Si ofrece dos voces del acento seleccionado se asignan a los personajes; si solo hay una se reutiliza. Puedes cambiar la velocidad. Si no hay voz compatible, el diálogo sigue disponible por escrito. No son grabaciones humanas ni una conversación generada por IA.
+Las conversaciones tienen audios incluidos y una voz predeterminada para cada personaje: Leo, Mia, Nora y Sam. Mantienen esa voz al cambiar de historia, nivel o dispositivo. Los ejemplos usan una quinta voz de narración. No hay que elegir ni instalar voces. Puedes repetir el diálogo y cambiar entre velocidad natural, tranquila y lenta; el reproductor conserva el tono. Los audios se generaron con síntesis neural local y se publican como MP3: no son grabaciones de actores ni respuestas generadas en tiempo real. Si un archivo no carga, aparece un aviso para reintentarlo y no se registra la escucha como terminada.
+
+Los diálogos de las 96 unidades también tienen audios incluidos. Las lecturas completas, las palabras sueltas y los textos libres que no forman parte de ese catálogo usan una voz automática del navegador, con la disponibilidad y calidad de ese dispositivo.
 
 La grabación para autoescucha permanece en la pestaña y se descarta al cambiar de turno o salir de la escena. No se sube a Firebase. El dictado depende de la compatibilidad y los permisos del navegador, y puede usar el servicio de voz de su proveedor.
 
@@ -71,4 +73,4 @@ Las grabaciones no se guardan en el progreso. Las fechas del historial represent
 - `src/conversation-memory.js`: guardado, combinación entre dispositivos y repaso.
 - `src/conversation.css`: diseño adaptable.
 
-Si editas el JSON directamente, no ejecutes luego el generador sin trasladar tus cambios a los archivos Python. Ejecuta `npm run build` para actualizar la copia publicada. El ZIP ya incluye la compilación.
+Si editas el JSON directamente, no ejecutes luego el generador sin trasladar tus cambios a los archivos Python. Si cambias el texto de una intervención, actualiza también su audio siguiendo VOCES.md. Ejecuta `npm run build` para actualizar la copia publicada. El ZIP ya incluye la compilación.

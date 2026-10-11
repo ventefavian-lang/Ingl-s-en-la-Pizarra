@@ -1,3 +1,4 @@
+import {initVoiceCatalog} from './voice-cast.js';
 import a1 from './course.json';
 import a2 from './course-a2.json';
 import b1 from './course-b1.json';
@@ -20,6 +21,7 @@ import {AccountStore} from './account-store.js';
 import {createFirebaseAdapter} from './firebase-adapter.js';
 import {bootCourse} from './course-engine.js';
 window.COURSE=course;
+initVoiceCatalog();
 let adapter=null;
 try{adapter=createFirebaseAdapter(window.FIREBASE_CONFIG,courseId);}catch{console.warn('No se pudo iniciar el servicio de cuentas. Revisa la configuración pública de Firebase.');}
 let storage;let persistent=true;

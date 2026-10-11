@@ -1,3 +1,4 @@
+import {playLessonAudio,stopLessonAudio} from './recorded-audio.js';
 import conversationStories from './conversations.json';
 import {buildPracticeBank,makeCloze,isAnswer,normaliseAnswer,answerMemory,addLearningEvent} from './practice-memory.js';
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -8,9 +9,9 @@ const types={conversation:'Conversación guiada',lesson:'Lección base',workshop
 let store,course,bank=[],tab='practice',quiz=null,cloze=null,unitID=1,timer=null,seconds=0,recording=null,stream=null,recordURL=null,stopRecordTimer=null,recordPending=false,generation=0;
 const today=()=>new Date().toLocaleDateString('en-CA');
 const unitSelect=(id='hub-unit',all=true)=>`<label for="${id}">Unidad<select id="${id}">${all?'<option value="all">Todas las unidades</option>':''}${course.units.map(u=>`<option value="${u.id}" ${u.id===unitID?'selected':''}>${u.id}. ${esc(u.title)}</option>`).join('')}</select></label>`;
-const say=(text,rate=1)=>{if(!window.speechSynthesis){message('Este navegador no tiene lectura en voz alta. Puedes abrir la transcripción.');return;}window.speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang=store.getState().accent;u.rate=rate;u.voice=window.speechSynthesis.getVoices().find(v=>v.lang===u.lang)||null;u.onerror=e=>{if(!['canceled','interrupted'].includes(e.error))message('No se pudo reproducir el audio. Revisa las voces de inglés de tu navegador.');};window.speechSynthesis.speak(u);};
+const say=(text,rate=1)=>{void playLessonAudio(text,{rate,accent:store.getState().accent,onerror:message});};
 function message(t){const el=$('#hub-message');if(el)el.textContent=t;}
-export function stopPractice(){generation++;recordPending=false;clearInterval(timer);timer=null;clearTimeout(stopRecordTimer);if(recording?.state==='recording'){recording.onstop=null;recording.stop();}stream?.getTracks().forEach(t=>t.stop());stream=null;recording=null;if(recordURL)URL.revokeObjectURL(recordURL);recordURL=null;window.speechSynthesis?.cancel();quiz=null;cloze=null;}
+export function stopPractice(){generation++;recordPending=false;clearInterval(timer);timer=null;clearTimeout(stopRecordTimer);if(recording?.state==='recording'){recording.onstop=null;recording.stop();}stream?.getTracks().forEach(t=>t.stop());stream=null;recording=null;if(recordURL)URL.revokeObjectURL(recordURL);recordURL=null;stopLessonAudio();quiz=null;cloze=null;}
 export function renderPractice(s,c,section='practice'){store=s;course=c;bank=buildPracticeBank(c,s.courseId);tab=['practice','reading','cloze','portfolio','history'].includes(section)?section:'practice';unitID=1;return frame();}
 function frame(){return `<div id="practice-hub"><nav class="hub-tabs" aria-label="Herramientas para usar el inglés">${[['practice','Entrenar'],['reading','Reading'],['cloze','Completar textos'],['portfolio','Crear y hablar'],['history','Historial y gráficas']].map(([slug,label])=>`<a href="#skills/${slug}" ${tab===slug?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div id="hub-message" role="status"></div>${({practice:practiceHome,reading:readingHome,cloze:clozeHome,portfolio:portfolio,history:history})[tab]()}</div>`;}
 function replace(){const root=$('#practice-hub');if(root)root.outerHTML=frame();}

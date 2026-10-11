@@ -1,0 +1,7148 @@
+[
+  {
+    "text": "Hi! I'm Leo. Are you new here?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9ca63fb5bdea601563a3.mp3"
+  },
+  {
+    "text": "Yes, I am. I'm Mia. Nice to meet you.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e5cd6486ca2b14126c76.mp3"
+  },
+  {
+    "text": "Nice to meet you, too. Where are you from?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e8d0f97a55f681cfdadf.mp3"
+  },
+  {
+    "text": "I'm from Peru. And you?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6ae07e45488e6b11568c.mp3"
+  },
+  {
+    "text": "I'm from Canada. Is this your first class?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "789404ba29a221016009.mp3"
+  },
+  {
+    "text": "Yes. Is this room three?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5e27d4900be36f12c89f.mp3"
+  },
+  {
+    "text": "No, this is room two. Room three is next door.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "43469cd29ddcf2096e8e.mp3"
+  },
+  {
+    "text": "Oh, thanks! See you there.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4fbc482bb041a1216bfd.mp3"
+  },
+  {
+    "text": "I'm Ana. Nice to meet you.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3859e73028269e8f5943.mp3"
+  },
+  {
+    "text": "I'm from Peru. And you?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "41cfbe95225de0726369.mp3"
+  },
+  {
+    "text": "The class is next door.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6830b9a40dd3473773b2.mp3"
+  },
+  {
+    "text": "Of course. Come with me.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "784aaa84e9b4725ed47b.mp3"
+  },
+  {
+    "text": "Yes, she is. Her name is Anna.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e12680053a1ccb0b66a2.mp3"
+  },
+  {
+    "text": "Our teacher is Anna. Her surname is Reed.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "68fbe2dddfcdf2e3983a.mp3"
+  },
+  {
+    "text": "Sorry, can you repeat that, please?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7710412ae36b9da45d1b.mp3"
+  },
+  {
+    "text": "Reed. Anna Reed.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "cf9254ccb4c488b3313a.mp3"
+  },
+  {
+    "text": "How do you spell Reed?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9b7da111f337c3cf9b24.mp3"
+  },
+  {
+    "text": "R, E, E, D. Do you have a pen?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c66b35649866e382d816.mp3"
+  },
+  {
+    "text": "Yes, I do. Is this her desk?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d3944db55bbf71a83dd2.mp3"
+  },
+  {
+    "text": "Yes. Put your name on this card, please.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9cc9189568f041317ad2.mp3"
+  },
+  {
+    "text": "OK. Mia. Is that right?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "69feac81a4edd5f75812.mp3"
+  },
+  {
+    "text": "Can you repeat your name, please?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "d3469e2a19223838471a.mp3"
+  },
+  {
+    "text": "How do you spell Anna?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "4c4f681df1013d4838b4.mp3"
+  },
+  {
+    "text": "Room three. Is that right?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "2fe6becf5cd6d256d1bc.mp3"
+  },
+  {
+    "text": "Yes. Write your first name here.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d83a10e7429eee0e4e4f.mp3"
+  },
+  {
+    "text": "Yes, please. Your first name and your surname.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ff770a82f6f480f55cbc.mp3"
+  },
+  {
+    "text": "Come in! You can put your bag here.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "52469cb6717443c09c53.mp3"
+  },
+  {
+    "text": "Thanks. Under the table?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "63716f6f4276450f74e0.mp3"
+  },
+  {
+    "text": "No, next to the chair. This is my brother, Ben.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "350810734d3e6b321df6.mp3"
+  },
+  {
+    "text": "Hi, Ben! Mia, is that his guitar?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a2e1a4da260fa1c87582.mp3"
+  },
+  {
+    "text": "Yes, it is. He plays every afternoon.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "54c53e5339b646b9386a.mp3"
+  },
+  {
+    "text": "That's nice. Is your sister here too?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3e6dfb076c19727d3c35.mp3"
+  },
+  {
+    "text": "No, she's at school. Her name is Sara.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d7d97510e43f6c53d369.mp3"
+  },
+  {
+    "text": "Oh, OK. Your house is really nice.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "531423f41e1c90b3cc90.mp3"
+  },
+  {
+    "text": "The bag is next to the chair.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "115fa42ad78d46fe495c.mp3"
+  },
+  {
+    "text": "This is my friend, Ana.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "092a483c10568ba19835.mp3"
+  },
+  {
+    "text": "Is this your book?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ba90982c6ce4e1aca840.mp3"
+  },
+  {
+    "text": "It's upstairs, next to my room.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c21832fcb686d746749c.mp3"
+  },
+  {
+    "text": "Of course. That chair is free.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5d7792ec2f4b72753f39.mp3"
+  },
+  {
+    "text": "What time do you finish school?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "26dafc3a39e1057cf7d7.mp3"
+  },
+  {
+    "text": "At three. I get home at half past three.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d64447ee31c881fd8daf.mp3"
+  },
+  {
+    "text": "Do you do your homework in the afternoon?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b222442a5604ae40a863.mp3"
+  },
+  {
+    "text": "Yes, I do. Then I play football.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2c251eaf8c202c1857cd.mp3"
+  },
+  {
+    "text": "I usually play the guitar after dinner.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6afeb835f1a0a0755fa9.mp3"
+  },
+  {
+    "text": "Can we play together on Saturday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4cf73c32ec8c03b3e186.mp3"
+  },
+  {
+    "text": "Yes! I don't have a class on Saturday morning.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1f28e7ee12ad5b002b3c.mp3"
+  },
+  {
+    "text": "Great. Let's meet at ten.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "85fddba82dcd4c1aeaa7.mp3"
+  },
+  {
+    "text": "What time do you get home?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "44a92d037bc1cfd42a1f.mp3"
+  },
+  {
+    "text": "I eat dinner. Then I read.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ba2f0d480352cfd55ed1.mp3"
+  },
+  {
+    "text": "Let's meet at nine.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1beb13a2bf59b2617e9e.mp3"
+  },
+  {
+    "text": "Yes, eleven is fine. See you then!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "af261b9616376d1203f0.mp3"
+  },
+  {
+    "text": "At my house. Bring your guitar!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e96d619c78b6f965010f.mp3"
+  },
+  {
+    "text": "Hi! What would you like?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7209459f5301a3931f70.mp3"
+  },
+  {
+    "text": "I'd like a cheese sandwich, please.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e582fdc3491c39fa175e.mp3"
+  },
+  {
+    "text": "Sure. Would you like a drink too?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "91661df4f8dc02d872d2.mp3"
+  },
+  {
+    "text": "Yes, a small tea, please.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d0ce837c76764b70634d.mp3"
+  },
+  {
+    "text": "With milk?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5cab62a0f897713f98dc.mp3"
+  },
+  {
+    "text": "No milk, thanks. Do you have any water?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "37949fb824d1e2826b31.mp3"
+  },
+  {
+    "text": "Yes. Still or sparkling?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7e91f1fe90cd613c3bbd.mp3"
+  },
+  {
+    "text": "Still, please. How much is it altogether?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c3bec6d7c1d09b554d8d.mp3"
+  },
+  {
+    "text": "I'd like a small coffee, please.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "bbb162977f34c26ad1a1.mp3"
+  },
+  {
+    "text": "No sugar, thanks.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "0df0640e6e5512fb30d3.mp3"
+  },
+  {
+    "text": "How much is the sandwich?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "8e0d53305b4e7dab20e1.mp3"
+  },
+  {
+    "text": "Of course. One apple juice.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d07bc677ad650fcf1c61.mp3"
+  },
+  {
+    "text": "No, but I can heat it for you.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "188b8e438c371829d182.mp3"
+  },
+  {
+    "text": "Here's your sandwich and your tea.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "232ab14b0073460fd8ec.mp3"
+  },
+  {
+    "text": "Thank you. Sorry, where is my water?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b0ea0f6cccca29a49bb7.mp3"
+  },
+  {
+    "text": "Oh, sorry! Here it is.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "f855bdcc308ec2abb0fd.mp3"
+  },
+  {
+    "text": "Thanks. Can I pay by card?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9b3079baeee1fbe730d1.mp3"
+  },
+  {
+    "text": "Yes, of course. That's six pounds.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "68433f2b6cd245cf5714.mp3"
+  },
+  {
+    "text": "Here you are. Is this table free?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9443a175668f1fb4a8bb.mp3"
+  },
+  {
+    "text": "Yes. You can sit by the window too.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "63290e5b4ea1a40c0887.mp3"
+  },
+  {
+    "text": "Great. Thank you for your help.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a67410181bafc23baf32.mp3"
+  },
+  {
+    "text": "Your water? Here it is.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "dc1f038949e5b7e08150.mp3"
+  },
+  {
+    "text": "Can I pay in cash?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3dab02a28c31eb42f7a6.mp3"
+  },
+  {
+    "text": "Is this chair free?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3809861d950a4cafb1ba.mp3"
+  },
+  {
+    "text": "Of course. They're next to the till.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d86267d5b1052cf3d641.mp3"
+  },
+  {
+    "text": "Yes. I'll put it in a bag.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "b356d224d37946a2916a.mp3"
+  },
+  {
+    "text": "Hello. Can I help you?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "4f5d62e129781dc4bc03.mp3"
+  },
+  {
+    "text": "Yes, I'm looking for a jacket.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9d0063c728202c0f6df5.mp3"
+  },
+  {
+    "text": "What colour would you like?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "515ec2727ed92b74cb2d.mp3"
+  },
+  {
+    "text": "Blue, please. Do you have this one in small?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "83a15488d4c44c7e28be.mp3"
+  },
+  {
+    "text": "Yes. Here you are. You can try it on.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "c399ee675af1f6014e6c.mp3"
+  },
+  {
+    "text": "Thank you. Where are the changing rooms?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2a9085fbd5df3f9298e8.mp3"
+  },
+  {
+    "text": "Over there, on the left.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "1fb64f163c717437ef61.mp3"
+  },
+  {
+    "text": "Thanks. I'll try this one.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "78803a07f8d3ec82ee5e.mp3"
+  },
+  {
+    "text": "I'm looking for a blue shirt.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "949adce5c0d32638d475.mp3"
+  },
+  {
+    "text": "Do you have it in medium?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1e8b8e370ea79faf6c75.mp3"
+  },
+  {
+    "text": "Can I try it on?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "dc9f182cc544b4a39b72.mp3"
+  },
+  {
+    "text": "Yes, the green jackets are here.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "644f32b82cd89aede2c8.mp3"
+  },
+  {
+    "text": "It's twenty pounds.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "a5fc3230d17cae18f9fc.mp3"
+  },
+  {
+    "text": "How is the jacket?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "5907a5e6558a7ae9d38d.mp3"
+  },
+  {
+    "text": "It's a little small. Do you have a medium?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "655079f69b5add71b8b6.mp3"
+  },
+  {
+    "text": "Yes. Try this one.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "0fad4ddfbc480f163ad1.mp3"
+  },
+  {
+    "text": "This is better. Is it warm?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "15230fcd5731b198cbde.mp3"
+  },
+  {
+    "text": "Yes, it is. It's good for cold weather.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "42fa13e403d6374d4ef5.mp3"
+  },
+  {
+    "text": "Good. It's cold outside today.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2227f9f01914d51a7f5e.mp3"
+  },
+  {
+    "text": "Yes, and rainy. Do you need an umbrella?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "1842209dad25523640e7.mp3"
+  },
+  {
+    "text": "No, thanks. I have one. I'll take the jacket.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e2c3e5c92c5b36dde492.mp3"
+  },
+  {
+    "text": "It's a little big.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "27b3df3e112d9682e65b.mp3"
+  },
+  {
+    "text": "The blue one is better.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "c27bc68519bfc1a17ad1.mp3"
+  },
+  {
+    "text": "I'll take this one.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "20ceb87551f88ea48193.mp3"
+  },
+  {
+    "text": "Of course. It's on this label.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "8ffd1231a918b773a8e5.mp3"
+  },
+  {
+    "text": "No problem. Let me know if you need help.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "ca6d213bddfe58eec81f.mp3"
+  },
+  {
+    "text": "Hello. Do you need help?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d65bc783c7352e908f88.mp3"
+  },
+  {
+    "text": "Yes, please. Where is the bus stop for the museum?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2b78cbb32984cc1aa43d.mp3"
+  },
+  {
+    "text": "It's across the street, next to the bank.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5915128c5f35cc3f39c3.mp3"
+  },
+  {
+    "text": "Thanks. Which bus do I take?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "808db9453aad9fb8e391.mp3"
+  },
+  {
+    "text": "Number twelve. It stops outside the museum.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "583453694863505f5616.mp3"
+  },
+  {
+    "text": "Is the museum far from here?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6f83c23cd462668d3a26.mp3"
+  },
+  {
+    "text": "No. It's about ten minutes by bus.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "684025f5c43e66fa2a1e.mp3"
+  },
+  {
+    "text": "Great. Number twelve, across the street. Thank you!",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7552729202015ff2ce90.mp3"
+  },
+  {
+    "text": "The bank is across the street.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "9dc1fef4b03df1082ce7.mp3"
+  },
+  {
+    "text": "Which train do I take?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "7f75208da7e1bca5d95e.mp3"
+  },
+  {
+    "text": "It's about five minutes.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "957f7fe23bff7adea8df.mp3"
+  },
+  {
+    "text": "Yes. Go straight on and turn right at the park.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "4da1e2a7fabba56b8e5f.mp3"
+  },
+  {
+    "text": "Yes. We're here, and the museum is here.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "abcf3a2de3602573278a.mp3"
+  },
+  {
+    "text": "Good morning. Where are you going?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "1cba10e9a4afbd1fe210.mp3"
+  },
+  {
+    "text": "To the museum, please. One ticket.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "81452d5335fe1d2409a1.mp3"
+  },
+  {
+    "text": "That's two pounds.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "c281ba31211307582bb6.mp3"
+  },
+  {
+    "text": "Here you are. Is this seat free?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "52dda263f6ea0137b2f9.mp3"
+  },
+  {
+    "text": "Yes. The museum is after the park.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "798ed7db707512e45fbe.mp3"
+  },
+  {
+    "text": "Sorry, can you tell me when we get there?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "143f27b1a930ae972c0d.mp3"
+  },
+  {
+    "text": "Of course. Sit near the front.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "55d5c180b8779f37f4d2.mp3"
+  },
+  {
+    "text": "Thank you. That's very kind.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "db18ed5672ab90b2fa18.mp3"
+  },
+  {
+    "text": "Two tickets to the museum, please.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "c91b43b1b9070e92b4a9.mp3"
+  },
+  {
+    "text": "The bank is after the school.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "d4b223148cf4d7d2ed64.mp3"
+  },
+  {
+    "text": "Can you tell me the time?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "48c5b505593bc3ccf335.mp3"
+  },
+  {
+    "text": "Yes. The station is the last stop.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e71c5a2edf9673cf0105.mp3"
+  },
+  {
+    "text": "Yes. Put your card here, please.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "3a546e08eb950a1c7464.mp3"
+  },
+  {
+    "text": "Would you like to go to the park tomorrow?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "322bc902d011760f82e6.mp3"
+  },
+  {
+    "text": "Yes, I'd love to. In the morning?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5af1e26dcdc1b4cdcdfb.mp3"
+  },
+  {
+    "text": "Yes. Let's meet at nine.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f6b5fcde96d49216d8ae.mp3"
+  },
+  {
+    "text": "Sorry, I have a class at nine. What about eleven?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "29ee54b85750720d148b.mp3"
+  },
+  {
+    "text": "Eleven is fine. Can you bring some water?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3bde641b986cf3351d4f.mp3"
+  },
+  {
+    "text": "Of course. Are we meeting at the gate?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ee13a67f5f3cf5c64b06.mp3"
+  },
+  {
+    "text": "Yes, the gate next to the café.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a0af1b0709c2bd02eda0.mp3"
+  },
+  {
+    "text": "Great. See you tomorrow!",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c8bcefefc74198df7551.mp3"
+  },
+  {
+    "text": "Yes, I'd love to come.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "159e706b9f1f6f4b8fb5.mp3"
+  },
+  {
+    "text": "What about Saturday?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "bea71496dfe8dcd83a93.mp3"
+  },
+  {
+    "text": "See you at eleven!",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "aa9ceb651663fb6d7d74.mp3"
+  },
+  {
+    "text": "Of course. Bring her with you!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a303e665ab2f690ae2a3.mp3"
+  },
+  {
+    "text": "Let's go to the café instead.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3bbc28fe99c0051474ba.mp3"
+  },
+  {
+    "text": "Did you have a good day yesterday?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "35998cb73bcf3c99a068.mp3"
+  },
+  {
+    "text": "Yes, I did. The park was great.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "62ff75d14f111a739318.mp3"
+  },
+  {
+    "text": "What did you do after lunch?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2e98fba457339a02b5d2.mp3"
+  },
+  {
+    "text": "I visited my cousin. We watched a film.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1cd554c56ec5ab0b1d79.mp3"
+  },
+  {
+    "text": "Was the film good?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "675bbf61e671db48c484.mp3"
+  },
+  {
+    "text": "Yes, but it was very long. I was tired!",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f69ab5ea5be31ecb0915.mp3"
+  },
+  {
+    "text": "Did you get home late?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "396dc8d7dc9b19533502.mp3"
+  },
+  {
+    "text": "No, I got home at seven. What about you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2df72e8656a1798aff08.mp3"
+  },
+  {
+    "text": "What did you do on Sunday?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ac8397a91936428497bc.mp3"
+  },
+  {
+    "text": "We watched a short film.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "12840457eac8f2667948.mp3"
+  },
+  {
+    "text": "I was happy yesterday.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "68d24e0bf562a677be01.mp3"
+  },
+  {
+    "text": "Yes. The sandwiches were really good.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "59b0a2ee1c4f6b2cd816.mp3"
+  },
+  {
+    "text": "Good idea! Saturday is better for me.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3bc5945e638610374674.mp3"
+  },
+  {
+    "text": "How are you settling in? Have you unpacked everything yet?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "2e46eecd01cb2abfdb63.mp3"
+  },
+  {
+    "text": "Almost. I've put my clothes away, but my books are still in boxes.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9bafde09b1249c05edb1.mp3"
+  },
+  {
+    "text": "There's some space on the shelf in the living room.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "90be6831c00945e6d48e.mp3"
+  },
+  {
+    "text": "Thanks. Do you mind if I use the bottom shelf?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f7e17ffdeae1f5a2a3e9.mp3"
+  },
+  {
+    "text": "Not at all. What time do you usually leave for work?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "0feeabd7449e2af81147.mp3"
+  },
+  {
+    "text": "At seven, but I'm working from home this week.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "938f6326fd5ba556df5a.mp3"
+  },
+  {
+    "text": "Good to know. I usually make breakfast at half past seven.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "8270fb14607a6d86cf77.mp3"
+  },
+  {
+    "text": "That's fine. We can share the kitchen then.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "19ce61fa8a5343a10729.mp3"
+  },
+  {
+    "text": "Have you finished your homework yet?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "f0fa018b15a223a8b902.mp3"
+  },
+  {
+    "text": "Do you mind if I open the window?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "75bd8c9f851dd0b737db.mp3"
+  },
+  {
+    "text": "I'm studying at home this week.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "96b808541ab0e03931a3.mp3"
+  },
+  {
+    "text": "Sure. They're in the cupboard above the sink.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5ed2191a503ac4b5bbd9.mp3"
+  },
+  {
+    "text": "I'd like that. I'll make some coffee.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "6ac8976895f0501e64ef.mp3"
+  },
+  {
+    "text": "You look a bit tired. Is everything OK?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "148f900585c51cd26943.mp3"
+  },
+  {
+    "text": "Yes, but I couldn't study last night. The music was quite loud.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8bb6966a181aa48d75fd.mp3"
+  },
+  {
+    "text": "Oh, I'm sorry. I didn't realise you were working.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "a7962a9c942b90ac05eb.mp3"
+  },
+  {
+    "text": "No problem. Could we keep it quiet after nine?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d428a5a9fde6765d56d5.mp3"
+  },
+  {
+    "text": "Of course. I'll use headphones in the evening.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "a2812b93c3250d3ba1c1.mp3"
+  },
+  {
+    "text": "Thanks. And I'll tell you when I have an important deadline.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2acda3d1ed0f49f753e1.mp3"
+  },
+  {
+    "text": "That would help. Is Friday evening different?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d53540743d6b356e82b5.mp3"
+  },
+  {
+    "text": "Yes. I'm free then. We could watch a film together.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "21b02d44e0c8dac9b7b7.mp3"
+  },
+  {
+    "text": "I didn't realise you were studying.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3563ee3c8501db90cf0f.mp3"
+  },
+  {
+    "text": "Could we clean the kitchen after dinner?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e9c1f7643d019070131f.mp3"
+  },
+  {
+    "text": "A short message would help.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e3460a295772d8ab8280.mp3"
+  },
+  {
+    "text": "Good idea. Then neither of us will forget.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "4a0a51fed30334f1268d.mp3"
+  },
+  {
+    "text": "OK. We can talk again next Sunday.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "71f01f200b7257a5893f.mp3"
+  },
+  {
+    "text": "Are you still coming to the picnic on Saturday?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9339192341a9954893ef.mp3"
+  },
+  {
+    "text": "Yes! What should I bring?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "53ef1c13d3dea72ff1af.mp3"
+  },
+  {
+    "text": "We've got plenty of sandwiches, but we need something to drink.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "94c3f5cb057597c01926.mp3"
+  },
+  {
+    "text": "I'll bring some juice and a few bottles of water.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "276e335d55af951b3721.mp3"
+  },
+  {
+    "text": "Great. We're meeting by the lake at twelve.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "434a74647de2a31f941d.mp3"
+  },
+  {
+    "text": "What will we do if it rains?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "7c7651f7195743528596.mp3"
+  },
+  {
+    "text": "We'll go to my flat. There's enough room for everyone.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e2bfaaf61bcbe7847f03.mp3"
+  },
+  {
+    "text": "OK. Send me a message if the meeting place changes.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "62dffade61df6b6f78ef.mp3"
+  },
+  {
+    "text": "What should I wear?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "78981afa80546b229ff2.mp3"
+  },
+  {
+    "text": "We need a few cups.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "fdbfc6129a17f4b3aef3.mp3"
+  },
+  {
+    "text": "If it rains, we'll stay inside.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "9709dbd39afc703b5191.mp3"
+  },
+  {
+    "text": "Not yet. Could you bring ten?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a7ae6717e246bdf79248.mp3"
+  },
+  {
+    "text": "That would be lovely. A small one is enough.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "27afd8da72c880666094.mp3"
+  },
+  {
+    "text": "Hi! We're at my flat now. It's raining quite hard.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1102269a55cd17e6deec.mp3"
+  },
+  {
+    "text": "Thanks for telling me. I'm sorry, but I'm going to be late.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "5cf60e7d1c7c6c3915a2.mp3"
+  },
+  {
+    "text": "That's OK. What happened?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e76b80cb8b8a1f9dc8af.mp3"
+  },
+  {
+    "text": "My bus broke down. I'm waiting for the next one.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "bbef0066bd952365b285.mp3"
+  },
+  {
+    "text": "Do you know when you'll arrive?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c896ec456d44d58e94b0.mp3"
+  },
+  {
+    "text": "Probably at half past twelve. Is that too late?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "6dec2682aa866335ca1a.mp3"
+  },
+  {
+    "text": "Not at all. We'll save you some food.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5bb53f6a5aa3ab5058ae.mp3"
+  },
+  {
+    "text": "Thank you! I'll text you when I'm outside.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "c8fd96fd9bfde0fee9d5.mp3"
+  },
+  {
+    "text": "Thanks for letting me know.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e5c0e84b73fd68d70f68.mp3"
+  },
+  {
+    "text": "I'm going to be about ten minutes late.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3bd029a66ad114dc87a7.mp3"
+  },
+  {
+    "text": "I'll call you when I arrive.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "b7997c92c8aaa6716ddd.mp3"
+  },
+  {
+    "text": "Of course. It's 18 Green Street, flat four.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "debf81b1b6e0db7ca4b1.mp3"
+  },
+  {
+    "text": "Some ice would be useful, if you have time.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "aa13431a5e74177c0ef2.mp3"
+  },
+  {
+    "text": "Can I help you?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "1b16b7b8a38f7730108a.mp3"
+  },
+  {
+    "text": "Yes. My train to Oxford is delayed. Is there another one soon?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "38cee3d44dd7ed5937ad.mp3"
+  },
+  {
+    "text": "There's one at ten forty, but you have to change at Reading.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "0c60984f9e7ffe424865.mp3"
+  },
+  {
+    "text": "Is it faster than waiting for the direct train?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b54f8836a3bbc83f26a9.mp3"
+  },
+  {
+    "text": "Yes, you'll arrive about half an hour earlier.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "341a86db75bf4cd85b38.mp3"
+  },
+  {
+    "text": "Can I use this ticket on that train?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f46a0c026bdb13644f5d.mp3"
+  },
+  {
+    "text": "Yes. Go to platform five and keep your ticket with you.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "22682b6774729764a229.mp3"
+  },
+  {
+    "text": "Thank you. Platform five, and I change at Reading.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0df45d5c51a28c2c4d74.mp3"
+  },
+  {
+    "text": "We have to change at Central Station.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ead56aac8297dcda7670.mp3"
+  },
+  {
+    "text": "The train is faster than the bus.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "b286b15cecd3ee9b14f1.mp3"
+  },
+  {
+    "text": "Can I use this ticket tomorrow?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ea4c901648dd9c0948be.mp3"
+  },
+  {
+    "text": "Fifteen minutes. The platforms are close together.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d06528bc0d428ed6830f.mp3"
+  },
+  {
+    "text": "That's fine. Watch the screen for its new departure time.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e565644f7b370d1e3b90.mp3"
+  },
+  {
+    "text": "Good evening. Do you have a reservation?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5eeb41d2b270474f630c.mp3"
+  },
+  {
+    "text": "Yes, under Leo Torres. For two nights.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "223fbb21d8b73d6141fd.mp3"
+  },
+  {
+    "text": "Here it is. A room on the first floor.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e534d4644bba6512c0ac.mp3"
+  },
+  {
+    "text": "Is it facing the street? I'm a light sleeper.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9b039493f7474da4e7e5.mp3"
+  },
+  {
+    "text": "Yes, but we have a quieter room at the back.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "f789455ff2fe6dbbd057.mp3"
+  },
+  {
+    "text": "Could I have that room instead, please?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a3a717ad41673755929c.mp3"
+  },
+  {
+    "text": "Of course. Here's your key. Breakfast starts at seven.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "55ddf3a74a4a5899de7d.mp3"
+  },
+  {
+    "text": "Thanks. Could you tell me where the lift is?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "30cbbb5dd15be7ca47e2.mp3"
+  },
+  {
+    "text": "The booking is under Mia Cruz.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e707772b29e01a809be2.mp3"
+  },
+  {
+    "text": "Do you have a larger room?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "4c77b9c7a46cf2b1d8f3.mp3"
+  },
+  {
+    "text": "Could you tell me where breakfast is?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "cb993540863d46755521.mp3"
+  },
+  {
+    "text": "Yes, it's included in your booking.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7bcb735589e697a9250d.mp3"
+  },
+  {
+    "text": "Certainly. I'll bring one to your room.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "fe8373a08bb838a8cbd8.mp3"
+  },
+  {
+    "text": "Hi. What can I do for you?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "89cf56d51011cf23cf30.mp3"
+  },
+  {
+    "text": "I bought these headphones yesterday, but the left side doesn't work.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1e7b01b1d9842c045440.mp3"
+  },
+  {
+    "text": "I'm sorry about that. Have you tried them on another device?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "bdd7d5df2e07df6262a7.mp3"
+  },
+  {
+    "text": "Yes, on my laptop. The same thing happens.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7f26e63172c5d262f894.mp3"
+  },
+  {
+    "text": "Do you have the receipt with you?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "36863fc2a217c6973c32.mp3"
+  },
+  {
+    "text": "Yes, here it is. Could I exchange them?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d0edeb96ba85a1f6d1a2.mp3"
+  },
+  {
+    "text": "Of course. I'll check if we have another pair.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "817b5d280231e7a22995.mp3"
+  },
+  {
+    "text": "Thank you. I'd like the same model if possible.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fec67af0fef3db367544.mp3"
+  },
+  {
+    "text": "I tried again, but the same thing happens.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "4938931a7b5bed9c35c7.mp3"
+  },
+  {
+    "text": "Could I exchange this one?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "381a16751fa9f0917be3.mp3"
+  },
+  {
+    "text": "I'd like a blue pair, if possible.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "fc22b4155e33ace56780.mp3"
+  },
+  {
+    "text": "Yes. We'll put it back on the card you used.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "bdfce980093d1503f317.mp3"
+  },
+  {
+    "text": "Certainly. Let's connect them to this phone.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "34727f069868827ea900.mp3"
+  },
+  {
+    "text": "First, turn on Bluetooth on your phone.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "64927eb10f97bddc89ea.mp3"
+  },
+  {
+    "text": "OK, it's on. What do I do next?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b80924c3455b97a71084.mp3"
+  },
+  {
+    "text": "Hold this button until the light flashes blue.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "969a7af01eb19d6118b0.mp3"
+  },
+  {
+    "text": "Like this? I can see a blue light now.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1f7201a59088f2613ff4.mp3"
+  },
+  {
+    "text": "That's right. Now select the headphones on your screen.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "20ebcae4a424d3a4a793.mp3"
+  },
+  {
+    "text": "There are two names. Which one should I choose?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e82054b6fb3f5e5ca369.mp3"
+  },
+  {
+    "text": "Choose the one ending in 24. Then play some music.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "c4784267f3da44e189e9.mp3"
+  },
+  {
+    "text": "It works! Thanks for showing me.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2ac8997bcf70c6e23a9d.mp3"
+  },
+  {
+    "text": "What should I do first?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5317d398066159b68d8c.mp3"
+  },
+  {
+    "text": "Wait until the light turns green.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "47a0f661d9786fb7367c.mp3"
+  },
+  {
+    "text": "Which button should I press?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "bfaf6e9264d8e394fa2a.mp3"
+  },
+  {
+    "text": "Of course. This time, you press the buttons.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "e553261e8ac50a9b6553.mp3"
+  },
+  {
+    "text": "Go ahead. I'll wait here if you need me.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "8a4eca19212e5580936a.mp3"
+  },
+  {
+    "text": "Welcome! Have you worked at an event before?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "dab4716f91e13101fd8e.mp3"
+  },
+  {
+    "text": "Only once. I helped at a school fair.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4aec5fa19bb8497db4eb.mp3"
+  },
+  {
+    "text": "That's useful. Today you'll welcome people at the entrance.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "4bf5b4423bf08bfec129.mp3"
+  },
+  {
+    "text": "Do I have to check their tickets?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a080e575718d8057f2d8.mp3"
+  },
+  {
+    "text": "Yes, and give them a map. You don't have to take any money.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "ea9010c30e3def866fc8.mp3"
+  },
+  {
+    "text": "OK. What should I do if someone needs help?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d8ff47a7609f637f4236.mp3"
+  },
+  {
+    "text": "Call me on this radio. Please don't leave the entrance alone.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "a22a1f79b205537c9bad.mp3"
+  },
+  {
+    "text": "Understood. Could we test the radio now?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "20663b4c88d677920769.mp3"
+  },
+  {
+    "text": "Do I have to wear this badge?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "271d1dd13f63af6ea6c8.mp3"
+  },
+  {
+    "text": "You don't have to bring food.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "9da53aab77ab3037c093.mp3"
+  },
+  {
+    "text": "What should I do if the radio stops working?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "57a5998aebf82d720198.mp3"
+  },
+  {
+    "text": "Yes. Here's a short checklist.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "0491bbb1d7478fbd36eb.mp3"
+  },
+  {
+    "text": "Of course. Then you can try the next one.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e8b6850a4e3acd0d9d36.mp3"
+  },
+  {
+    "text": "Hi, Leo. How is it going at the entrance?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d772c2f9d81da9c2b4c2.mp3"
+  },
+  {
+    "text": "Fine, but a visitor needs the quiet room. I'm not sure where it is.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e528217be0eca46a6c4f.mp3"
+  },
+  {
+    "text": "It's on the ground floor, beside the office.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "830625db091f520ed31f.mp3"
+  },
+  {
+    "text": "Could someone show her the way? I can't leave this desk.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9c891df527b764c96fc5.mp3"
+  },
+  {
+    "text": "Yes. I'll send Sam over in a minute.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "28b9a61c0a1b7ab306c0.mp3"
+  },
+  {
+    "text": "Thanks. She's waiting by the blue chairs.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0ec0d142d9122f12ff1c.mp3"
+  },
+  {
+    "text": "Got it. Please ask her to stay there.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5de54cc28002ce1ee7cc.mp3"
+  },
+  {
+    "text": "I will. Thanks for your help.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "93439de92e4f003e9b42.mp3"
+  },
+  {
+    "text": "I'm not sure which room it is.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "668f4e33870d787e95bc.mp3"
+  },
+  {
+    "text": "Can you show them the way?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "b3ab7ecfb8e717d94c11.mp3"
+  },
+  {
+    "text": "Got it. I'll wait here.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "d6cff1e44b4c1200e89b.mp3"
+  },
+  {
+    "text": "Yes. The quiet room is marked with a blue circle.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5faa11424199705d7785.mp3"
+  },
+  {
+    "text": "Ground floor, beside the office.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "8c8c36d9eb270af22d7a.mp3"
+  },
+  {
+    "text": "That photo is amazing. Where were you?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ade51ac18e0a701d30dc.mp3"
+  },
+  {
+    "text": "In the mountains last weekend. We were walking near a lake.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "8c6c8f1aa77ba2d59d99.mp3"
+  },
+  {
+    "text": "Did you walk all the way there?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "717e1bdf5138db8ff6b9.mp3"
+  },
+  {
+    "text": "Yes, but while we were taking photos, it started to rain.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "cd273b00554b391af85d.mp3"
+  },
+  {
+    "text": "Oh no! What did you do?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ec63b8a025022152f7b7.mp3"
+  },
+  {
+    "text": "We found a small café and waited inside.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "a0235b1a7b3bbb977427.mp3"
+  },
+  {
+    "text": "Was the trip disappointing after that?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9ffb2d834cdfe7103731.mp3"
+  },
+  {
+    "text": "Not really. We met two friendly hikers and shared our sandwiches.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "ffe8f7a226af22a885b0.mp3"
+  },
+  {
+    "text": "While we were eating, the rain stopped.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "151eb1ff2c4e773d1fb8.mp3"
+  },
+  {
+    "text": "What did you do next?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "83d689ad94d89a96db3e.mp3"
+  },
+  {
+    "text": "Was it difficult? Not really.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "221bb53f4b592d357ad1.mp3"
+  },
+  {
+    "text": "I'd love to see it. Was there a rainbow?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4390c8d8f0357db8627f.mp3"
+  },
+  {
+    "text": "Good idea. And take a light raincoat!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8ea43572df177ffb91fb.mp3"
+  },
+  {
+    "text": "Have you ever camped near that lake?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2ab768db85c5d44ef1e8.mp3"
+  },
+  {
+    "text": "No, I haven't. I've only been there for the day.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "9f6bba562ae2c57f1cee.mp3"
+  },
+  {
+    "text": "I've camped twice, but never in the mountains.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ca96aa8b2434229c1bad.mp3"
+  },
+  {
+    "text": "Would you like to try it together in summer?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "350d45dee3426b3986b4.mp3"
+  },
+  {
+    "text": "I'd love to. We'll need a tent and warm sleeping bags.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a318b27bdad72d18dca4.mp3"
+  },
+  {
+    "text": "My cousin has a tent. I can ask to borrow it.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "09ca17fc2febc2b0b3e2.mp3"
+  },
+  {
+    "text": "Great. Let's start with one night, not a whole week.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "89ec1ab344261e4236b2.mp3"
+  },
+  {
+    "text": "Agreed. We can make a list before we book anything.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "1fa70f50256bcc537b7e.mp3"
+  },
+  {
+    "text": "Have you ever travelled alone?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "4d8a65e9c6c60ab5f9a6.mp3"
+  },
+  {
+    "text": "I've only visited once.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "8773d771629d726eca70.mp3"
+  },
+  {
+    "text": "Can I borrow your tent?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "835711335833ade57815.mp3"
+  },
+  {
+    "text": "Yes. Nora knows the area well.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "85eced5639943ddd4557.mp3"
+  },
+  {
+    "text": "That sounds sensible for our first trip.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3238a557391d0b3b6496.mp3"
+  },
+  {
+    "text": "Have you had a chance to look at the project notes?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "81f2b7010a4813599134.mp3"
+  },
+  {
+    "text": "I've read them, but I'm not sure which part I'm responsible for.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8857718491eeb4826b74.mp3"
+  },
+  {
+    "text": "You'll be collecting feedback from the people who use our website.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7e554bc96a882b1494e7.mp3"
+  },
+  {
+    "text": "Right. Do you mean I should interview them or send a questionnaire?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "568e771c04dd24106eab.mp3"
+  },
+  {
+    "text": "Start with a short questionnaire. We can arrange interviews later.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d52fa3a97f8a7951bd44.mp3"
+  },
+  {
+    "text": "That makes sense. How many responses are we hoping to get?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b99d94d132c4e4b51bf4.mp3"
+  },
+  {
+    "text": "About twenty by Friday, if possible. Let me know if you need a hand.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "24bd70945a2b7329ca84.mp3"
+  },
+  {
+    "text": "Thanks. I'll draft the questions today and send them to you first.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2fb3f5ca8e9b0627e0c4.mp3"
+  },
+  {
+    "text": "Have you had a chance to check the timetable?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "53d4d35103957ae67c51.mp3"
+  },
+  {
+    "text": "Do you mean we should contact everyone?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "9ea424fd3357df48cbbe.mp3"
+  },
+  {
+    "text": "I might need a hand with the last section.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "22b3933bc36aac90915c.mp3"
+  },
+  {
+    "text": "Of course. Here's the questionnaire we used last month.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "6187a67f39e71ea51a3a.mp3"
+  },
+  {
+    "text": "Yes. Send it over before lunch and I'll take a look.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "6293557bdf2d38f618ed.mp3"
+  },
+  {
+    "text": "How's the questionnaire coming along?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "778285ffca3a8ea8216d.mp3"
+  },
+  {
+    "text": "I've finished a first draft, but two questions still sound confusing.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d8ef399c6057022911b7.mp3"
+  },
+  {
+    "text": "Let's have a look. What are you trying to find out here?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "33a667ee82a930092203.mp3"
+  },
+  {
+    "text": "Whether people can find the contact page without asking for help.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "17a6b5874833685a0eca.mp3"
+  },
+  {
+    "text": "Then why not ask them to try it and describe what happens?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "ab7c562ec840f18fd1a8.mp3"
+  },
+  {
+    "text": "Good point. That would give us more useful information.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4868131a153172225158.mp3"
+  },
+  {
+    "text": "Exactly. You can still ask how easy they found it afterwards.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "a4cbe0fe017a3748bf44.mp3"
+  },
+  {
+    "text": "I'll change those questions and test them with two people first.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9db71b83225d21f5823b.mp3"
+  },
+  {
+    "text": "How's your presentation coming along?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1c8742ed9e22b5590581.mp3"
+  },
+  {
+    "text": "What are you trying to explain in this paragraph?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "79a9f652bdee7d30ac68.mp3"
+  },
+  {
+    "text": "Good point. We should ask the visitors too.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "c9b52f5acc5ebabc5289.mp3"
+  },
+  {
+    "text": "Sure. I'll tell you if anything is still unclear.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "4650ca982ef1f6d337c9.mp3"
+  },
+  {
+    "text": "Great. Then we can decide whether it needs more changes.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7c5efaf6403352dc7bf9.mp3"
+  },
+  {
+    "text": "You look exhausted. What happened on the way here?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2e5bb29ffd743d4fa207.mp3"
+  },
+  {
+    "text": "I was waiting on platform four when they announced a change.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "6fe14a7c9407dd10b1fd.mp3"
+  },
+  {
+    "text": "Didn't the information screen show the new platform?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "63dedf9b6dd76472c187.mp3"
+  },
+  {
+    "text": "It did, but I was looking at my phone and missed it.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "f382a5273473ee7e537a.mp3"
+  },
+  {
+    "text": "Oh no. So by the time you got there, the train had gone?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6313133410e974e6dc1f.mp3"
+  },
+  {
+    "text": "Exactly. Luckily, a member of staff helped me find another route.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "f3dd85c2245827e93893.mp3"
+  },
+  {
+    "text": "Well, at least you're here now. Have you had anything to eat?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4f1689c1863f4542d07d.mp3"
+  },
+  {
+    "text": "Not yet. A sandwich and five minutes to sit down would be lovely.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "0df4b26b5818e8c053f6.mp3"
+  },
+  {
+    "text": "I was waiting for the bus when you called.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6ac04cb3591024b0656b.mp3"
+  },
+  {
+    "text": "By the time we arrived, the shop had closed.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1c292a5ee2f7aed35dd1.mp3"
+  },
+  {
+    "text": "At least we have enough time for lunch.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6206dfdb5a2ba7a129d7.mp3"
+  },
+  {
+    "text": "Definitely. There's a bakery just around the corner.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "41d3b7dfaee378d622e0.mp3"
+  },
+  {
+    "text": "Of course. I'll get us some water while you rest.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a121f25638a657c411a5.mp3"
+  },
+  {
+    "text": "We probably haven't got time for the whole coastal walk now.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7d463dd7481fb7cc46d0.mp3"
+  },
+  {
+    "text": "Could we do the shorter route and still see the lighthouse?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "9199f4be69f45b6406f4.mp3"
+  },
+  {
+    "text": "Yes, but we'd need to leave in the next ten minutes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2b6e222a24311875a448.mp3"
+  },
+  {
+    "text": "I'd prefer not to rush. What about taking the local bus there?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "8a55447e63ede72ab778.mp3"
+  },
+  {
+    "text": "That's an option. If we catch the two o'clock bus, we'll have plenty of time.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "edd1644dc563c407dcb4.mp3"
+  },
+  {
+    "text": "Great. We could walk back along the beach if the weather stays dry.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "bcdd767e85566805e308.mp3"
+  },
+  {
+    "text": "And if it starts raining, we can get the bus back instead.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "13f388aa9fa3dbdde5a4.mp3"
+  },
+  {
+    "text": "Perfect. Let's check the last bus before we set off.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "08243c5f026385a23adf.mp3"
+  },
+  {
+    "text": "I'd prefer not to drive at night.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "a3c1f968c43dd402d4e6.mp3"
+  },
+  {
+    "text": "What about visiting the museum first?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "241d0ccd8983fd9d58c2.mp3"
+  },
+  {
+    "text": "We should set off before it gets dark.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ab286005c77dc55ac99a.mp3"
+  },
+  {
+    "text": "Sounds good. I'll check where the stop is.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b75d605cb79496ca4b5a.mp3"
+  },
+  {
+    "text": "That works for me. Tomorrow's forecast looks better anyway.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7e06c8a95e910da90d24.mp3"
+  },
+  {
+    "text": "Have you worked at the returns desk before?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "550473d5605041734880.mp3"
+  },
+  {
+    "text": "No, this is my first shift. Could you show me how it works?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e6e68d083e4eafc6f185.mp3"
+  },
+  {
+    "text": "First, each book is scanned. Then we check whether it's damaged.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "1b447a38cf763be1bc49.mp3"
+  },
+  {
+    "text": "And what should I do if a page is missing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2e5375f67b71298260d4.mp3"
+  },
+  {
+    "text": "Put the book on this shelf and leave a note for the librarian.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "615f04ee66b8a5e911eb.mp3"
+  },
+  {
+    "text": "Do I have to contact the person who borrowed it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ee4ed6e2dce8c22fd739.mp3"
+  },
+  {
+    "text": "No, you don't have to. The librarian takes care of that.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "ebb8f6d62897ca8adc81.mp3"
+  },
+  {
+    "text": "Okay. I'll scan it, check it, and put any damaged books here.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e808e566e1a0a249c18a.mp3"
+  },
+  {
+    "text": "Could you show me how to use the scanner?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3d2764f93779cbcb93bb.mp3"
+  },
+  {
+    "text": "You don't have to bring your own laptop.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6c98d38e3f0f545b3a2c.mp3"
+  },
+  {
+    "text": "Jo takes care of the bookings.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "761ef1b20997e957d144.mp3"
+  },
+  {
+    "text": "Of course. Start with this book and I'll help if you get stuck.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "39f1f3763a3015a544ca.mp3"
+  },
+  {
+    "text": "Absolutely. I'll wait while you make a note.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "29aeb65c47aa2e2f0c76.mp3"
+  },
+  {
+    "text": "This book is wet. Was it like that when it was returned?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "30389840e574432ec979.mp3"
+  },
+  {
+    "text": "I don't think so. I checked it about half an hour ago.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7d4afe93d6ef22dcb702.mp3"
+  },
+  {
+    "text": "Someone might have left the window open during the rain.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "fb758cc3e0e51a6f8fe3.mp3"
+  },
+  {
+    "text": "Maybe, but the books beside it are completely dry.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ab285e7f3724b7bdef28.mp3"
+  },
+  {
+    "text": "Good point. Could someone have spilled a drink on it?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "38e51372c9c295cfa78c.mp3"
+  },
+  {
+    "text": "There's an empty cup behind the shelf. That might explain it.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "98285f3f651b0ef98ee2.mp3"
+  },
+  {
+    "text": "Let's tell the librarian what we've found without blaming anyone.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "a4662b29008c2b1c88a3.mp3"
+  },
+  {
+    "text": "Agreed. We know the book is wet, but we don't know how it happened.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5691b28a3c013166a9a2.mp3"
+  },
+  {
+    "text": "Someone might have moved the box.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3052d71cf373e0cffe4a.mp3"
+  },
+  {
+    "text": "The wrong address might explain it.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5ad03b9ca562be9ed768.mp3"
+  },
+  {
+    "text": "Let's discuss it without interrupting each other.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "38215aa481753bb58428.mp3"
+  },
+  {
+    "text": "Thanks. I'll move the other books somewhere dry.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "eeae5420848245fdce3b.mp3"
+  },
+  {
+    "text": "Yes. There may be a note at the front desk.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5e1f9b60677513df9ff6.mp3"
+  },
+  {
+    "text": "Hello, customer support. How can I help?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "4158f9762b5748972e5b.mp3"
+  },
+  {
+    "text": "I'm calling about a lamp I ordered last week. It arrived with a broken base.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "557ca39d1ab62914132a.mp3"
+  },
+  {
+    "text": "I'm sorry to hear that. Was the packaging damaged as well?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "ebfc0dde1f5537b6f495.mp3"
+  },
+  {
+    "text": "Yes, one corner of the box was torn. I've taken photos of both.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b80d6a87d36c53823003.mp3"
+  },
+  {
+    "text": "Could you email the photos with your order number?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "aeaf2a98305a49544c4c.mp3"
+  },
+  {
+    "text": "Of course. I'd like a replacement if the same model is available.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0710dd8d92c1e654fdaa.mp3"
+  },
+  {
+    "text": "It is. Once we receive the photos, we'll arrange collection and delivery.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "6d7172adc7f9bb26f247.mp3"
+  },
+  {
+    "text": "Thanks. Could you confirm the dates by email so I can be at home?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b66c20810edc71b321cf.mp3"
+  },
+  {
+    "text": "I'm calling about my delivery.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "250c7989a6bea69de184.mp3"
+  },
+  {
+    "text": "I'd like a replacement for the damaged part.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "461ee29c123405c04794.mp3"
+  },
+  {
+    "text": "Please send the details so I can check them.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5ec5910c7d13e41c23a4.mp3"
+  },
+  {
+    "text": "Yes. Please include the new address in your email.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "21022fd0588269388aac.mp3"
+  },
+  {
+    "text": "Yes. We can refund you once the damaged lamp is collected.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2bf5f26a7821d013f1a2.mp3"
+  },
+  {
+    "text": "I'm following up on your replacement lamp. We can deliver on Tuesday.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "08e622ced73f03579c97.mp3"
+  },
+  {
+    "text": "Thanks for getting back to me. Unfortunately, I'll be away that day.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "778929096398fbcec68c.mp3"
+  },
+  {
+    "text": "Would Wednesday morning be any better?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "f9d19a016372e16aecea.mp3"
+  },
+  {
+    "text": "Yes, as long as the driver arrives before eleven.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9461e5d2e4960ea83a7a.mp3"
+  },
+  {
+    "text": "I can't guarantee an exact time, but I can offer Thursday evening.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "56d7c9987ba18d7c232a.mp3"
+  },
+  {
+    "text": "Thursday evening would be easier. Is there anything I need to prepare?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "067a21aee7061ab725ea.mp3"
+  },
+  {
+    "text": "Please put the damaged lamp back in its box for collection.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "5032c4c13b6e23bed940.mp3"
+  },
+  {
+    "text": "No problem. So both the collection and the delivery are on Thursday?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "595f9b0ae70b54909e37.mp3"
+  },
+  {
+    "text": "Thanks for getting back to me so quickly.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "fbb9532ee27ee9dbb771.mp3"
+  },
+  {
+    "text": "I can come as long as we finish by six.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "88b2414c00698bee08b5.mp3"
+  },
+  {
+    "text": "Is there anything I need to bring?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "703a488c1fe471accd56.mp3"
+  },
+  {
+    "text": "I'll send you a confirmation for six to eight in the evening.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "3581b92c3f9bd2cf9ac5.mp3"
+  },
+  {
+    "text": "Yes, an adult at the address can accept it and hand over the old lamp.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "5dbca2583a3603051f87.mp3"
+  },
+  {
+    "text": "Did you see the message about the community centre closing?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5b6a535915758a676eec.mp3"
+  },
+  {
+    "text": "I did, but I'm not sure whether it means permanently or just this weekend.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "28b21f29d67d9c7c916d.mp3"
+  },
+  {
+    "text": "Alex said they were cancelling all the classes.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "358ecc44a630880d81b0.mp3"
+  },
+  {
+    "text": "Did he hear that from the centre, or was he repeating someone else's message?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d06dfb73c6dbc4adb5ab.mp3"
+  },
+  {
+    "text": "I don't know. The screenshot doesn't show a date.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "cd5015da26c63ee893ab.mp3"
+  },
+  {
+    "text": "Let's check the website before we tell anyone else.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c72ec71ff3bb2d836a04.mp3"
+  },
+  {
+    "text": "Here it is: the building is closed on Saturday for repairs.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "ccc9c2b3e927ae8eb413.mp3"
+  },
+  {
+    "text": "So the classes aren't ending. They're moving online for one day.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3d0e81383a0fe28b0e2f.mp3"
+  },
+  {
+    "text": "I'm not sure whether the meeting is online.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "23ea4026b4dfcfe01a11.mp3"
+  },
+  {
+    "text": "Alex said the class was starting later.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "f103664c3f084a3aa618.mp3"
+  },
+  {
+    "text": "Let's confirm the time before we invite anyone else.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6ca4b9e07cbde57860e9.mp3"
+  },
+  {
+    "text": "Good idea. He can correct the message in the group.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "036bc2b890aa2024e94c.mp3"
+  },
+  {
+    "text": "Yes. The notice doesn't list them individually.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "500b7026e0245f5cf40b.mp3"
+  },
+  {
+    "text": "My dad goes to the Saturday class. What should I tell him?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "5e43cb4361bb85abd653.mp3"
+  },
+  {
+    "text": "The building is closed for repairs, but his class will still take place online.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b3154c68d6be1f113b21.mp3"
+  },
+  {
+    "text": "He hasn't used the video app before. Will someone help him?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "020d485219d008049ab7.mp3"
+  },
+  {
+    "text": "According to the notice, students can join ten minutes early for technical help.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0fe73ff7f2eb8a3b48a5.mp3"
+  },
+  {
+    "text": "That's useful. Does he need to download anything?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "370808083ae4361a22c4.mp3"
+  },
+  {
+    "text": "It says he can use the link in his browser. I'll send him the instructions.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ea54516302ce2ef6f490.mp3"
+  },
+  {
+    "text": "Could you explain that in a short message? Long instructions put him off.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "036794efa6e891a15f66.mp3"
+  },
+  {
+    "text": "Sure. I'll include the time, the link and where to get help.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "920667f53f1acc26226c.mp3"
+  },
+  {
+    "text": "The workshop will still take place on Monday.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6462739a68bc18817344.mp3"
+  },
+  {
+    "text": "According to the email, we need to arrive early.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "a2b2b10cb8d03d930fca.mp3"
+  },
+  {
+    "text": "The long queue put us off.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "0a70121b3a476f0a2370.mp3"
+  },
+  {
+    "text": "Thanks. A quick test call would help him feel more confident.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "8e82c8cc61905425ce2a.mp3"
+  },
+  {
+    "text": "Good idea. They may already have a guide for new users.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "df07dcb4ead4bdf2a7a7.mp3"
+  },
+  {
+    "text": "Have you seen anything we could watch together on Friday?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ec392b94ec53324d4fc6.mp3"
+  },
+  {
+    "text": "I watched a comedy about two neighbours who accidentally swap dogs.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "d62ae12240e43ea7497c.mp3"
+  },
+  {
+    "text": "That sounds silly. Was it actually any good?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9aebde6ac783779402b6.mp3"
+  },
+  {
+    "text": "Better than I expected. The story was simple, but the characters felt believable.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "37f9eeb3bdac604875cd.mp3"
+  },
+  {
+    "text": "Would Jamie enjoy it? He usually prefers something with a bit of mystery.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c581db23b9f7c06d1432.mp3"
+  },
+  {
+    "text": "There is a small mystery, although it's easy to guess the ending.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "3af482384c8ffe0b186b.mp3"
+  },
+  {
+    "text": "As long as it's not too long, I'm happy to give it a try.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "86f4b216327a657a54a4.mp3"
+  },
+  {
+    "text": "It's about ninety minutes. Shall I send everyone the trailer first?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "fd0b055cfb90a89e908e.mp3"
+  },
+  {
+    "text": "The exhibition was better than I expected.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "362d94ef94fe233fb94a.mp3"
+  },
+  {
+    "text": "I enjoyed it, although the beginning was slow.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "c83e31f55d57eba2a1a2.mp3"
+  },
+  {
+    "text": "We could give the new café a try.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "0457e85ea40514c8c05b.mp3"
+  },
+  {
+    "text": "Good plan. I'll find a second option with more mystery.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e578fda25660c9b740a7.mp3"
+  },
+  {
+    "text": "Okay. I'll mention the length and ask if anyone has seen it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9eac802528220e3d099b.mp3"
+  },
+  {
+    "text": "That went well. Everyone seemed to enjoy themselves.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9b5eea3c256793d95514.mp3"
+  },
+  {
+    "text": "Yes, although I spent more time preparing food than watching the film.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2d69bb0ee3bcc3c28972.mp3"
+  },
+  {
+    "text": "I hadn't realised. We should have helped you more.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e40a40ca53981142efc6.mp3"
+  },
+  {
+    "text": "Next time, would you mind asking everyone to bring something?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "46c4242b75871a3aae1a.mp3"
+  },
+  {
+    "text": "Not at all. We could make a list so we don't end up with five bags of crisps.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b7922c5b757e7552a62c.mp3"
+  },
+  {
+    "text": "And maybe we could choose the film a few days earlier.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "60a891ffcde081a537e7.mp3"
+  },
+  {
+    "text": "Agreed. If we share the jobs, it'll be easier for everyone.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bd4ce92b83a66e450b70.mp3"
+  },
+  {
+    "text": "Great. I'll host again if someone else takes care of the food.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "a59df37a706c6319f23c.mp3"
+  },
+  {
+    "text": "I hadn't realised you were doing all the work.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "c00d3a73753ecd26acfd.mp3"
+  },
+  {
+    "text": "Would you mind bringing some plates?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "14bea1e431e4fc06a730.mp3"
+  },
+  {
+    "text": "We ended up with too much food.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "df1d131e5738c6eb61a9.mp3"
+  },
+  {
+    "text": "Perfect. I'll take drinks and help tidy up afterwards.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "23cc5e70eb1ba4588f7b.mp3"
+  },
+  {
+    "text": "I'd like that. We can each bring our own lunch.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "57da5cd11b3150026e37.mp3"
+  },
+  {
+    "text": "The client has asked whether we could bring the launch forward by a week.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "da7efaa5a36e72301872.mp3"
+  },
+  {
+    "text": "We could, provided we reduce the scope. The payment feature still needs testing.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4769033ed1c808171445.mp3"
+  },
+  {
+    "text": "I was hoping we'd have everything ready by then. What's the main obstacle?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e8b4411d720bf572bccc.mp3"
+  },
+  {
+    "text": "It's not the design itself; it's making sure the payment process works reliably.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7291493ed03325799a7a.mp3"
+  },
+  {
+    "text": "Would bringing in another developer make enough of a difference?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "636c50be901f4eb2738b.mp3"
+  },
+  {
+    "text": "Possibly, but getting someone up to speed would take a few days.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "55bef7c1f6eeab6a253f.mp3"
+  },
+  {
+    "text": "So what would you be comfortable committing to by the earlier date?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "d617c5d42dbf035c097c.mp3"
+  },
+  {
+    "text": "The information pages and booking form, with payments added the following week.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "896cf4e91356566ac9fa.mp3"
+  },
+  {
+    "text": "We can accept, provided we receive the data today.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "af7680e2ad8463d89e09.mp3"
+  },
+  {
+    "text": "I'll get the new designer up to speed tomorrow.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "d2cbd8343f521c4df53f.mp3"
+  },
+  {
+    "text": "We're committing to delivering a tested version.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "f5f55e998d76284e1d0f.mp3"
+  },
+  {
+    "text": "Yes. Include what each option would mean for users.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "b8d7ce8074f76d0fc6f0.mp3"
+  },
+  {
+    "text": "Absolutely. I'd rather give a realistic date than revise it later.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e1f0e04db707ab94b5bf.mp3"
+  },
+  {
+    "text": "I've told the client that users will be able to pay on launch day.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "2a2f32f362d5bade3eb9.mp3"
+  },
+  {
+    "text": "Sorry, I think we may have been talking at cross purposes.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f071933c10f5014a7c61.mp3"
+  },
+  {
+    "text": "I thought you said the booking form would be ready.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7feff5419f270577d3a8.mp3"
+  },
+  {
+    "text": "It will, but it only collects requests. It won't process payments yet.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0e9a87e86a6b056c6d19.mp3"
+  },
+  {
+    "text": "Right, I see the distinction now. We need to correct the message quickly.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "18dba1951cbb9422b1ea.mp3"
+  },
+  {
+    "text": "Agreed. Could we explain that bookings will be confirmed manually for the first week?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e237e9a7f6a4d58d1e75.mp3"
+  },
+  {
+    "text": "Yes, and I'll make sure the support team knows what to tell customers.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "fe90f693d4b1a37696b6.mp3"
+  },
+  {
+    "text": "Thanks. I'll add that limitation to the launch notes so it's clear to everyone.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d1cd103c7ff68d57b1c9.mp3"
+  },
+  {
+    "text": "We were talking at cross purposes about the deadline.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "d927926d08020a6b7f83.mp3"
+  },
+  {
+    "text": "I see the distinction between a request and a confirmed booking.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1ca15a03195c3b593397.mp3"
+  },
+  {
+    "text": "I'll make sure everyone receives the update.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e041dcd1a2ccf5f6ca4c.mp3"
+  },
+  {
+    "text": "Good idea. That way we can check the wording against the actual feature.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "b0b6e1c17dc227219d69.mp3"
+  },
+  {
+    "text": "Thanks. Please copy me in so we have the same record.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e364fd2dfe35b44b1e42.mp3"
+  },
+  {
+    "text": "I still can't believe we booked the hotel for the wrong month.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c3a4e490a8661835c82d.mp3"
+  },
+  {
+    "text": "I must have selected November instead of October without noticing.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "44589bf7adbc76508a2a.mp3"
+  },
+  {
+    "text": "Didn't the confirmation show the dates clearly?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "283d8425f59a5db481e2.mp3"
+  },
+  {
+    "text": "It did. If I'd checked it properly, we'd have spotted the mistake straight away.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "905c150e07188b2ae455.mp3"
+  },
+  {
+    "text": "We both should have checked. I only looked at the price and the address.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ed0ede7eca2fe02188cc.mp3"
+  },
+  {
+    "text": "At least the receptionist managed to find us a room nearby.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "fad1d1058c2cdb43d691.mp3"
+  },
+  {
+    "text": "True, although it cost more than we'd budgeted for.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cd17f445075888708ca3.mp3"
+  },
+  {
+    "text": "Next time, let's read the details out loud before either of us confirms.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "f42725baacdda42028cc.mp3"
+  },
+  {
+    "text": "I must have left the charger in the room.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5f0467dedd172b2b3240.mp3"
+  },
+  {
+    "text": "If I'd checked the map, I wouldn't have missed the turn.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "a1b529197447ff7b5cc3.mp3"
+  },
+  {
+    "text": "We hadn't budgeted for an extra night.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "91eb9a2b88698a0c48d8.mp3"
+  },
+  {
+    "text": "Let's keep future bookings in one shared folder.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6831fc1cca0b51bbc5d0.mp3"
+  },
+  {
+    "text": "That's true. The mistake was expensive, but the place is lovely.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6e0afde1e15d298b37c1.mp3"
+  },
+  {
+    "text": "Can we talk about the extra hotel charge before we leave?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "146be4afa9c7a89c9043.mp3"
+  },
+  {
+    "text": "Of course. I paid it at the desk, but I wasn't sure how we should split it.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "df1cde07120edb4d68a2.mp3"
+  },
+  {
+    "text": "Since I made the booking, I feel I ought to cover more of it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "dc9ea3ba14cead479cce.mp3"
+  },
+  {
+    "text": "I appreciate that, but we agreed on the booking together. Half each seems fair.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "87d57db181baa5219f06.mp3"
+  },
+  {
+    "text": "Are you sure? I don't want you to feel stuck with my mistake.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0265ec6e020cce399894.mp3"
+  },
+  {
+    "text": "I'm sure. I'd rather sort it out now than let it become awkward.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "c09e805a705ae8637716.mp3"
+  },
+  {
+    "text": "All right. Send me the amount and I'll transfer my half tonight.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "21e8304019db514d02fe.mp3"
+  },
+  {
+    "text": "Thanks. Once that's done, let's put it behind us and enjoy the last day.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2d2bc03d10ca89d00740.mp3"
+  },
+  {
+    "text": "I feel I ought to apologise.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "36db18ac3e7197b871cd.mp3"
+  },
+  {
+    "text": "Let's sort it out before the next meeting.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "bb4c71e00d9b08a588f6.mp3"
+  },
+  {
+    "text": "We've agreed on a solution. Let's put it behind us.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "9336f291bba55563781f.mp3"
+  },
+  {
+    "text": "Thanks. I'll send you a photo of the receipt.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fb333d78182457dd61d8.mp3"
+  },
+  {
+    "text": "That's fine. Just let me know which days work for you.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bf6666e57943288851eb.mp3"
+  },
+  {
+    "text": "This report claims the training doubled staff productivity. Impressive, isn't it?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "2b21ae834732b5fcc5dd.mp3"
+  },
+  {
+    "text": "It sounds promising, but I'd like to know what they measured.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3672f25f36fe7719cf4c.mp3"
+  },
+  {
+    "text": "The chart shows that people completed twice as many tasks afterwards.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e6d0550aebfc7afc1fed.mp3"
+  },
+  {
+    "text": "Were they the same type of tasks, and did the quality stay the same?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "34743f8695a74820b893.mp3"
+  },
+  {
+    "text": "The summary doesn't say. It also doesn't mention how many people took part.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "53f347d26e39c4c8afb9.mp3"
+  },
+  {
+    "text": "Then we should be cautious about applying the result to our whole team.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bcbfcceb879dde9b8f1c.mp3"
+  },
+  {
+    "text": "Fair enough. The training may have helped, but this alone doesn't prove it caused the change.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "66d4a9d45b49ed2c8b71.mp3"
+  },
+  {
+    "text": "Exactly. Let's ask for the full method before making a recommendation.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f0e07695b6d5258d1e39.mp3"
+  },
+  {
+    "text": "I'd like to know what the results actually show.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5841cde077b2c40820d4.mp3"
+  },
+  {
+    "text": "We should be cautious about comparing such different groups.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "760c1cecf22f69c9ec99.mp3"
+  },
+  {
+    "text": "This alone doesn't prove the new system is better.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "2fc45e703628c247e3ad.mp3"
+  },
+  {
+    "text": "Yes, as long as we also check quality and staff feedback.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "ab1b2043d84e6a89da4f.mp3"
+  },
+  {
+    "text": "Good point. New software might have affected the results too.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "0a621e969997fb315b54.mp3"
+  },
+  {
+    "text": "Can you give me the short version? Should we buy the training or not?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "bceeec7e0597d8021150.mp3"
+  },
+  {
+    "text": "The results are encouraging, but the evidence isn't strong enough for a company-wide purchase yet.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fb93c63b29ed9c0bde7b.mp3"
+  },
+  {
+    "text": "What's the biggest gap in the report?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "b5e6e28faedab1aa0aa9.mp3"
+  },
+  {
+    "text": "We don't know whether the tasks were comparable before and after the training.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "408ad03d4398f4444226.mp3"
+  },
+  {
+    "text": "So you're not saying the course doesn't work?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e618eba4c52670e01a0d.mp3"
+  },
+  {
+    "text": "No. I'm saying we can't tell how much of the improvement came from the course itself.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0011d31d2e60f8d79066.mp3"
+  },
+  {
+    "text": "What would you recommend as a next step?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "7ddad99053d261f4b447.mp3"
+  },
+  {
+    "text": "Ask for the missing details, then consider a small pilot with clear success criteria.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d5235fde2b67dacfb491.mp3"
+  },
+  {
+    "text": "Here's the short version of the proposal.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "8c89c2dd1e6e2caf2027.mp3"
+  },
+  {
+    "text": "I'm saying we can't tell which option is cheaper yet.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3c473b5338f9f1b92770.mp3"
+  },
+  {
+    "text": "As a next step, we should speak to the users.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "aca21e29b7cbde1ab6d6.mp3"
+  },
+  {
+    "text": "Please do. Include the cost, the timeframe and what we'd measure.",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "da54d47ea6e8d76a7cc0.mp3"
+  },
+  {
+    "text": "That seems reasonable. Could you contact them today?",
+    "role": "Nora",
+    "voice": "af_bella",
+    "file": "e84979326cb7661ef8f0.mp3"
+  },
+  {
+    "text": "I like the idea of a garden, but who's going to look after it once the excitement wears off?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fee54fb09758fd7d0dd3.mp3"
+  },
+  {
+    "text": "That's a fair concern. We're proposing a rota, with a named coordinator each month.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "335e0524d3756a19aac9.mp3"
+  },
+  {
+    "text": "And what about noise? My windows face the site.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9411353b44954adee60a.mp3"
+  },
+  {
+    "text": "We'd keep activities within agreed hours. There wouldn't be evening events during the week.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2b4e39be31394b2a65e8.mp3"
+  },
+  {
+    "text": "I suppose that would help. Who would deal with complaints if the rules weren't followed?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ee2c762da905f784d5cc.mp3"
+  },
+  {
+    "text": "The coordinator would be the first contact, and the council would review any ongoing issues.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "47f71b759cf10b93e776.mp3"
+  },
+  {
+    "text": "I'd be more comfortable if those commitments were included in the proposal.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5967559c5c12c416d7ae.mp3"
+  },
+  {
+    "text": "Absolutely. Would you be willing to read that section before we submit it?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "60a5dd47bb8791f9b27f.mp3"
+  },
+  {
+    "text": "That's a fair concern. We need a backup plan.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "5496f93f1ae813681489.mp3"
+  },
+  {
+    "text": "I'd be more comfortable if the costs were clearer.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3dfd1ed2c670f15c9312.mp3"
+  },
+  {
+    "text": "Would you be willing to join a short meeting?",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "3a0dc7c4039b04b0e899.mp3"
+  },
+  {
+    "text": "That would address my main worries. I'd be happy to review it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b5af25205554187a8f34.mp3"
+  },
+  {
+    "text": "A trial sounds sensible, provided residents can give feedback.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "be51f62aadd4113c7ef8.mp3"
+  },
+  {
+    "text": "Some residents want a quiet garden, whereas others want a space for workshops.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ae60bc815a1408b70999.mp3"
+  },
+  {
+    "text": "Those aims aren't necessarily incompatible. Could we separate the areas?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "d3acfc1765e992d46580.mp3"
+  },
+  {
+    "text": "The site isn't very large. Physical separation might not solve the noise problem.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6494ad4f3a4b65d52326.mp3"
+  },
+  {
+    "text": "Then perhaps we could separate activities by time rather than by space.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "c38c2161bb4cba05aae1.mp3"
+  },
+  {
+    "text": "You mean quiet use most of the week, with scheduled workshops at weekends?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5e235d543269074ddafe.mp3"
+  },
+  {
+    "text": "Exactly, with limits on group size and enough notice for neighbours.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "565e5adfaf025d702e52.mp3"
+  },
+  {
+    "text": "That seems like a workable compromise, assuming we can manage the bookings.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c1c282d99398d8f05746.mp3"
+  },
+  {
+    "text": "Let's try a simple calendar first and review whether it works after a month.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "4ca85c50c094f5ea87e0.mp3"
+  },
+  {
+    "text": "Some prefer mornings, whereas others can only come at night.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "793e1b9f09c9f02322df.mp3"
+  },
+  {
+    "text": "More expensive doesn't necessarily mean better.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "0574d915bd1d78116b59.mp3"
+  },
+  {
+    "text": "A shared schedule could be a workable compromise.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6e23f4fad2cbfa46cad6.mp3"
+  },
+  {
+    "text": "Great. We can show residents exactly what we're proposing.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "653cb72571e44fe8d655.mp3"
+  },
+  {
+    "text": "Good idea. We shouldn't assume everyone's routine is the same.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5c40c5f7d2bae8bd7537.mp3"
+  },
+  {
+    "text": "Thank you for contacting us. Could you tell me what happened on the tour?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "222fd413b60dab2a064b.mp3"
+  },
+  {
+    "text": "The description said the route was step-free, yet two stops could only be reached by stairs.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "176af59250bf0eddb6bf.mp3"
+  },
+  {
+    "text": "I'm sorry. Were alternative arrangements offered by the guide?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "bfaa742a3596c57cc870.mp3"
+  },
+  {
+    "text": "Only at the second stop. My mother had to wait outside during the first one.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5104f49c7e43f35867c7.mp3"
+  },
+  {
+    "text": "I understand why that was disappointing. The route was changed recently.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "40d6c0a7184fcb7dd002.mp3"
+  },
+  {
+    "text": "That may explain it, but the booking page should have reflected the change.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b6c95a482a00ee51d72f.mp3"
+  },
+  {
+    "text": "You're right. I'll ask the team to correct it and review your booking.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2c4fbf9f467670f78a1a.mp3"
+  },
+  {
+    "text": "Thank you. I'd appreciate a written response explaining what remedy you can offer.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "64523f875480af634731.mp3"
+  },
+  {
+    "text": "The venue looked small, yet it felt welcoming.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "1fadf9eefc4e28c1a1c2.mp3"
+  },
+  {
+    "text": "The email should have mentioned the change.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e942831a45e46f692a4c.mp3"
+  },
+  {
+    "text": "I'd appreciate a written response by Friday.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "6806210f015167c5843d.mp3"
+  },
+  {
+    "text": "I'll ask our manager to consider that and reply within three working days.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "1c29ab62f18a87f769d3.mp3"
+  },
+  {
+    "text": "Understood. I'll send you the updated description once it's been checked.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "148dfc59c52fcd1a5789.mp3"
+  },
+  {
+    "text": "Are you still planning to leave a review of the tour?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "0b99a216d516c7aabe6a.mp3"
+  },
+  {
+    "text": "Yes, but I want to include how they handled the complaint as well.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f35a73d62d2c89cf92f5.mp3"
+  },
+  {
+    "text": "Did they offer anything beyond an apology?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "388c308e54c1aa0af348.mp3"
+  },
+  {
+    "text": "They gave us a partial refund and updated the accessibility information.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0b498ee3a5f588f57cae.mp3"
+  },
+  {
+    "text": "That sounds fair. Will you recommend the tour now?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "8780d3f4cc03e18da114.mp3"
+  },
+  {
+    "text": "With reservations. The guide was excellent, but visitors should check the current route carefully.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "594f9d2fd804ca7ad550.mp3"
+  },
+  {
+    "text": "So you'd distinguish the quality of the guide from the booking information?",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "ae62ae6d34689b47e295.mp3"
+  },
+  {
+    "text": "Exactly. A useful review should explain who the experience would suit and why.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d143ce06ac4a301ea975.mp3"
+  },
+  {
+    "text": "They offered support beyond an apology.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "373a3d142a469b183d93.mp3"
+  },
+  {
+    "text": "I'd recommend it, but with reservations.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e9c613c3cb6f3efbfd6a.mp3"
+  },
+  {
+    "text": "We should distinguish the service from the location.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "dcfe46d15079558299ca.mp3"
+  },
+  {
+    "text": "That seems balanced. Readers can decide whether it suits them.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "68a195d94f005af925ad.mp3"
+  },
+  {
+    "text": "Good idea. That keeps the whole story in one place.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "a232ad89dd9a4ca92be9.mp3"
+  },
+  {
+    "text": "Honestly, I think language classes are a waste of time. You learn more from watching series.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3c0e00a808af1ad6cce0.mp3"
+  },
+  {
+    "text": "I can see why you'd say that if your classes were mostly worksheets.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "787d86b7c42d812381b4.mp3"
+  },
+  {
+    "text": "Exactly. I barely got to speak, whereas series exposed me to real conversations.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "558561da7ec571ace986.mp3"
+  },
+  {
+    "text": "That helped me too. Still, understanding a scene isn't quite the same as responding in one.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "de29a5005ede288cd07c.mp3"
+  },
+  {
+    "text": "Fair point. I sometimes know what I want to say but can't get it out quickly.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c8d5d629b8b1fb0ae14b.mp3"
+  },
+  {
+    "text": "For me, the useful part is combining listening with practice that makes me retrieve the language.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "64038853d9e68646950c.mp3"
+  },
+  {
+    "text": "So it's less about choosing one method and more about how you use it?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "46704bb308635017598e.mp3"
+  },
+  {
+    "text": "That's how I see it. I'd keep the series and add short conversations with feedback.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "83501b5daf2e33782524.mp3"
+  },
+  {
+    "text": "I can see why you'd say that after your experience.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "e118a07d0373e2325f40.mp3"
+  },
+  {
+    "text": "Recognising a word isn't quite the same as using it.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "145b086aa0817f726a31.mp3"
+  },
+  {
+    "text": "That's how I see it, though my experience may be different.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "38696bdd77b80303a331.mp3"
+  },
+  {
+    "text": "Retelling a short scene, then trying it again without the script.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0da9bd4183a5674ae036.mp3"
+  },
+  {
+    "text": "I'd be up for that, as long as we keep it relaxed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9db1a1f6000323f6e358.mp3"
+  },
+  {
+    "text": "If we're going to do this regularly, we need a plan we can actually stick to.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "432f5ca3f30df249e634.mp3"
+  },
+  {
+    "text": "Agreed. I'd rather manage fifteen minutes three times a week than give up after one intense session.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "f16616941d332c95e68a.mp3"
+  },
+  {
+    "text": "What should we do when we keep making the same mistake?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8bebc0a9672b14df70bb.mp3"
+  },
+  {
+    "text": "Let's save a useful example and try it in a new situation a few days later.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "2bab7262d1ebed87a337.mp3"
+  },
+  {
+    "text": "And should we correct each other while we're speaking?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c023b1b4a0554544b486.mp3"
+  },
+  {
+    "text": "Only if the meaning breaks down. Otherwise, let's note one or two things and discuss them afterwards.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "cf2ba191842d7d17ba24.mp3"
+  },
+  {
+    "text": "That sounds manageable. We can review the plan after two weeks.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7b4b7e10ccfc5a40d395.mp3"
+  },
+  {
+    "text": "Perfect. Missing one day doesn't mean starting from scratch; we'll just pick it up again.",
+    "role": "Sam",
+    "voice": "am_fenrir",
+    "file": "d8e82502ff6b1ad69b0e.mp3"
+  },
+  {
+    "text": "I find it easier to stick to a short routine.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "732ff57a79dbb04776b7.mp3"
+  },
+  {
+    "text": "Ask for clarification when the meaning breaks down.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "498721f31247f64a8656.mp3"
+  },
+  {
+    "text": "We can pick it up again tomorrow.",
+    "role": "Narrador",
+    "voice": "af_sarah",
+    "file": "ce634de8033425bbc16b.mp3"
+  },
+  {
+    "text": "Good. I'll choose our first scene and you can choose the next one.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d2566a92b82efcb9e06b.mp3"
+  },
+  {
+    "text": "Definitely. Consistency matters more to me than an ambitious schedule.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5ed65aef9f859b60fff2.mp3"
+  },
+  {
+    "text": "Hello! What is your name?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "557677d8cb384aab5c64.mp3"
+  },
+  {
+    "text": "My name is Ana.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a162fef16931f7ebdbd0.mp3"
+  },
+  {
+    "text": "How do you spell it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c3e12ed0c0de8d152273.mp3"
+  },
+  {
+    "text": "A, N, A.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a670169508353b404173.mp3"
+  },
+  {
+    "text": "Nice to meet you!",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b86907dcdb92d3c78f9f.mp3"
+  },
+  {
+    "text": "Nice to meet you, too!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d1d8ea49a67c66eb62d6.mp3"
+  },
+  {
+    "text": "Hi! Are you a student?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b7948498eaf8f7490072.mp3"
+  },
+  {
+    "text": "Yes, I am.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a323b4cf2fb3e0d2c4ab.mp3"
+  },
+  {
+    "text": "Is your teacher nice?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a2f43c297745c9e14cca.mp3"
+  },
+  {
+    "text": "Yes, she is.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cbee715c228ae68220b2.mp3"
+  },
+  {
+    "text": "Are you tired?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ac2867a41cea8de274f2.mp3"
+  },
+  {
+    "text": "No, I am not.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "28680c30d391c0b0e868.mp3"
+  },
+  {
+    "text": "Where are you from?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f8e387c8555dbe1bef94.mp3"
+  },
+  {
+    "text": "I am from Peru.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "98e2c01b90ce5ebf3c10.mp3"
+  },
+  {
+    "text": "How old are you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ad4d3b2ac76a7a2b182b.mp3"
+  },
+  {
+    "text": "I am twenty years old.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "eeedd190f953dd7c2e44.mp3"
+  },
+  {
+    "text": "What is your email address?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8b5bea9c03c0d64c4427.mp3"
+  },
+  {
+    "text": "It is ana at example dot com.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8c445c3821c1d4f52af9.mp3"
+  },
+  {
+    "text": "What is this?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9f15ed4aa34e58c30be1.mp3"
+  },
+  {
+    "text": "It is a book.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0e518f26546b6f1b0f48.mp3"
+  },
+  {
+    "text": "And what are these?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b227bdd0d713eb094ca0.mp3"
+  },
+  {
+    "text": "They are pencils.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2781eda526d6eca631d0.mp3"
+  },
+  {
+    "text": "Is that your bag?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "161cd7e6e1ecdc1def39.mp3"
+  },
+  {
+    "text": "Yes, it is.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "de83b7b6bb7a5ec187a9.mp3"
+  },
+  {
+    "text": "Who is she?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e804db53c88603acc0d7.mp3"
+  },
+  {
+    "text": "She is my sister.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "51424d0e9bb56f997636.mp3"
+  },
+  {
+    "text": "What is her name?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4740fa03b13f102fd73a.mp3"
+  },
+  {
+    "text": "Her name is Eva.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "dba92ceec6cf4a4b360f.mp3"
+  },
+  {
+    "text": "Is this Eva’s book?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5a5033787b8d07c23989.mp3"
+  },
+  {
+    "text": "Yes, it is her book.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "39e83da8efeede5da4b2.mp3"
+  },
+  {
+    "text": "What is your friend like?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2de976f40426ef77fc61.mp3"
+  },
+  {
+    "text": "She is very friendly.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0d3763eab972e8633826.mp3"
+  },
+  {
+    "text": "Has she got a bike?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7e72cc81873927d4c4fd.mp3"
+  },
+  {
+    "text": "Yes, she has.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "11095b7e413344de4408.mp3"
+  },
+  {
+    "text": "What colour is it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5501dab943dbf6bd87e3.mp3"
+  },
+  {
+    "text": "It is blue.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bfb27dfcadb1edd2a6e9.mp3"
+  },
+  {
+    "text": "Is there a kitchen?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "30eb9517dd6013e5d090.mp3"
+  },
+  {
+    "text": "Yes, there is.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8b35dc28e2c899d48662.mp3"
+  },
+  {
+    "text": "How many bedrooms are there?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "02be1a974e628aaec148.mp3"
+  },
+  {
+    "text": "There are two bedrooms.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "efd0eea7018369fd7305.mp3"
+  },
+  {
+    "text": "Where is your bag?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1ace5b554229fecb0e42.mp3"
+  },
+  {
+    "text": "It is under the chair.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c4c7b8c2712a898879e0.mp3"
+  },
+  {
+    "text": "What do you do in the morning?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "41848ad90e95747d2ddc.mp3"
+  },
+  {
+    "text": "I get up at seven.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "960bc4d00d9d48bd5d26.mp3"
+  },
+  {
+    "text": "And then?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "96cf5b8cc118dff2e344.mp3"
+  },
+  {
+    "text": "I have breakfast and go to school.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "83ffb5788df6efedc16a.mp3"
+  },
+  {
+    "text": "What does your sister do?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7ea05f6ca01be22e3770.mp3"
+  },
+  {
+    "text": "She works in a shop.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "04f497bdf74ce822ad73.mp3"
+  },
+  {
+    "text": "Where do you live?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b0ba2a8caba83f811399.mp3"
+  },
+  {
+    "text": "I live in Lima.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d19f2e21af6881f0b616.mp3"
+  },
+  {
+    "text": "Do you work?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7c5547de75d039129e1d.mp3"
+  },
+  {
+    "text": "No, I do not. I am a student.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9fd7ac946d88f528bd10.mp3"
+  },
+  {
+    "text": "Why do you study English?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f8bb66c03fab109925b7.mp3"
+  },
+  {
+    "text": "Because I like languages.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "acc0eb34583d60d331aa.mp3"
+  },
+  {
+    "text": "What time is the class?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c6f0fc19f7de239bbf77.mp3"
+  },
+  {
+    "text": "It is at six o’clock.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e651f72de7ef2ab5562f.mp3"
+  },
+  {
+    "text": "How often do you study?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "766e53e68165b1606ea0.mp3"
+  },
+  {
+    "text": "I study every day.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ded0290f3196c229e9c4.mp3"
+  },
+  {
+    "text": "When is your birthday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b87d41df6f37db154bfc.mp3"
+  },
+  {
+    "text": "It is in November.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e32181999166c3c10492.mp3"
+  },
+  {
+    "text": "What do you like doing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b5fdef9a340f298ecedd.mp3"
+  },
+  {
+    "text": "I like listening to music.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d9e5873048399fb78414.mp3"
+  },
+  {
+    "text": "Can you play the guitar?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0b92076d68660663683b.mp3"
+  },
+  {
+    "text": "Yes, I can.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c7de75897eb795a8012a.mp3"
+  },
+  {
+    "text": "Can you help me?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "24689f75581c05370bdf.mp3"
+  },
+  {
+    "text": "Of course!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6aa69b5699f15324f02c.mp3"
+  },
+  {
+    "text": "Are there any eggs?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ffe7d6a8f546f7f869d5.mp3"
+  },
+  {
+    "text": "Yes, there are some eggs.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "087f8e84efeb2d7a2fe1.mp3"
+  },
+  {
+    "text": "How many do we need?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1e2923f9019b6479aed5.mp3"
+  },
+  {
+    "text": "We need two.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6db2dea98e9835b173c7.mp3"
+  },
+  {
+    "text": "Is there any milk?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5fd09130883a8a46e112.mp3"
+  },
+  {
+    "text": "No, there is not.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ba4815dc9d0c930e602d.mp3"
+  },
+  {
+    "text": "Hello. What would you like?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "dc6c17d736d6f2e64716.mp3"
+  },
+  {
+    "text": "A sandwich and a tea, please.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3fbd55c95a975457514e.mp3"
+  },
+  {
+    "text": "To eat here or take away?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f95cea3cb9c8869b8a2b.mp3"
+  },
+  {
+    "text": "To eat here, please.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "258317014a3f33872872.mp3"
+  },
+  {
+    "text": "Anything else?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ee8c47d244d66e819de1.mp3"
+  },
+  {
+    "text": "No, thank you.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "423716cc9bbef92a5348.mp3"
+  },
+  {
+    "text": "Can I help you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "eea8c5c5b845d07533bd.mp3"
+  },
+  {
+    "text": "Yes. How much are these shoes?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "04f7ea5a960dff6aa787.mp3"
+  },
+  {
+    "text": "They are twenty pounds.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "50993df99f5bff8e45ac.mp3"
+  },
+  {
+    "text": "Can I try them on?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "53acf9d0b0894f54c365.mp3"
+  },
+  {
+    "text": "What size do you need?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b59db83c0bf9d131bcf2.mp3"
+  },
+  {
+    "text": "Size forty, please.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e2498c4773eff7ba6daa.mp3"
+  },
+  {
+    "text": "Excuse me. Where is the library?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "50d05ea6577c2b93665c.mp3"
+  },
+  {
+    "text": "Go straight and turn left.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8156e0199f11ad3e161a.mp3"
+  },
+  {
+    "text": "Is it near the bank?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "64074a7d8689484d359a.mp3"
+  },
+  {
+    "text": "Yes. It is opposite the bank.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ab5c66190f5148325b6d.mp3"
+  },
+  {
+    "text": "Thank you very much.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ce24327683f359052ef7.mp3"
+  },
+  {
+    "text": "You are welcome.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "78bf78c2efe394576f0e.mp3"
+  },
+  {
+    "text": "Where would you like to go?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "818d3e80adce4723ecd5.mp3"
+  },
+  {
+    "text": "A return ticket to Oxford, please.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "220a04a93c43f78b0d5e.mp3"
+  },
+  {
+    "text": "That is eighteen pounds.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2b0f4a9870695c0eea49.mp3"
+  },
+  {
+    "text": "What time does the train leave?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "707e8e9abf83af7cec08.mp3"
+  },
+  {
+    "text": "At nine thirty.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3b9dc91c066b7f8be50a.mp3"
+  },
+  {
+    "text": "Which platform is it?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e73fd7af59dedde8d3e6.mp3"
+  },
+  {
+    "text": "What are you doing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0eec2d2c832d9a84c1c3.mp3"
+  },
+  {
+    "text": "I am studying English.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cab430023050cdd76739.mp3"
+  },
+  {
+    "text": "Is your sister studying, too?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e95d9668f9e903c82d41.mp3"
+  },
+  {
+    "text": "No, she is watching TV.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "99c5e8709b4e14e7adef.mp3"
+  },
+  {
+    "text": "Do you study every day?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f4d8a10388d0fc22c4db.mp3"
+  },
+  {
+    "text": "Yes, I do.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "24a2507cea73b68a2e71.mp3"
+  },
+  {
+    "text": "What is the weather like?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c54277b09ac31f8ef777.mp3"
+  },
+  {
+    "text": "It is cold and windy.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "681a8ea3a4e1fdaa2a8d.mp3"
+  },
+  {
+    "text": "What are you wearing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4a5e377d6e722cd049f3.mp3"
+  },
+  {
+    "text": "I am wearing a coat.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "07b6541e3fdd6bff6def.mp3"
+  },
+  {
+    "text": "Is it raining?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "74307b66aad3ae622cf1.mp3"
+  },
+  {
+    "text": "No, it is not.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1857f25c0b14f30eadef.mp3"
+  },
+  {
+    "text": "What is the matter?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4921863ce74ce52fc1d7.mp3"
+  },
+  {
+    "text": "I have a headache.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b355433133379b7f956c.mp3"
+  },
+  {
+    "text": "Please sit down.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a4304dc4bde0c335e8bc.mp3"
+  },
+  {
+    "text": "Can you call my parent, please?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a06852b97af67f5f66de.mp3"
+  },
+  {
+    "text": "Where were you yesterday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "711698f5b348b31e7465.mp3"
+  },
+  {
+    "text": "I was at home.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c5a32dd60ce074b7cf37.mp3"
+  },
+  {
+    "text": "Were your parents there?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "062039e3d4eb4ea44896.mp3"
+  },
+  {
+    "text": "Yes, they were.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a0ecb77b4283c173cf75.mp3"
+  },
+  {
+    "text": "Was it a good day?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1ef7128a8dbd113e24a7.mp3"
+  },
+  {
+    "text": "Yes, it was.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cc4a18fccc2d9415c227.mp3"
+  },
+  {
+    "text": "What did you do yesterday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "cc6be08f852ee3f1b1c8.mp3"
+  },
+  {
+    "text": "I visited my grandmother.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f09902758d35939b064c.mp3"
+  },
+  {
+    "text": "Did you go by bus?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2a2eaf3cad410761a53b.mp3"
+  },
+  {
+    "text": "Yes, I did.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d1b94c119689e5cdb6fb.mp3"
+  },
+  {
+    "text": "Did you buy anything?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d4e38821396be918aafe.mp3"
+  },
+  {
+    "text": "No, I did not.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "afb23b2c8da44e93eb18.mp3"
+  },
+  {
+    "text": "Would you like to go to the cinema?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f4ba1c515fad4d3d1459.mp3"
+  },
+  {
+    "text": "Yes, I would love to.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fd03c48d7eecbcfe9bb5.mp3"
+  },
+  {
+    "text": "Are you free on Saturday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "41dbda043f642fa7e97c.mp3"
+  },
+  {
+    "text": "Let’s meet at six.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6dbee985f8cac5c0d5e1.mp3"
+  },
+  {
+    "text": "Great! See you then.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ef5b30dd8db98d9456d9.mp3"
+  },
+  {
+    "text": "Can you send me the address?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0719d73708e8d30ce2eb.mp3"
+  },
+  {
+    "text": "Yes. It is ten Green Street.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c1b4b185ab080c2ae191.mp3"
+  },
+  {
+    "text": "What time does the class start?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3e613e2a866f5831398c.mp3"
+  },
+  {
+    "text": "It starts at six.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d3eef37db331f3390436.mp3"
+  },
+  {
+    "text": "Do I need a book?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a6cfdd67140fcda1f354.mp3"
+  },
+  {
+    "text": "Yes. Please bring a book and a pen.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8323131681b20c63d3f7.mp3"
+  },
+  {
+    "text": "Hello! Can I help you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c84e80cd3c3786a9a608.mp3"
+  },
+  {
+    "text": "Yes. Where is the museum?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0139dc210a2895f67632.mp3"
+  },
+  {
+    "text": "Go straight and turn left.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7c432b9ba6edbabb3167.mp3"
+  },
+  {
+    "text": "Can you repeat that slowly, please?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0d3f0f94f803c8ba0520.mp3"
+  },
+  {
+    "text": "Go straight. Then turn left.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8bc162103e1c0fa47ae2.mp3"
+  },
+  {
+    "text": "Thank you very much!",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fe6338cbf2a3fe671975.mp3"
+  },
+  {
+    "text": "What do you usually do after class?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "71cb8314afc42f0374c7.mp3"
+  },
+  {
+    "text": "I usually study in the library.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "be9002540f2aa13cdece.mp3"
+  },
+  {
+    "text": "Are you studying there this week?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e25be64fb52e6e1f4bce.mp3"
+  },
+  {
+    "text": "No, I am studying at my cousin’s flat.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1f6e52f7ca7d525bfe4a.mp3"
+  },
+  {
+    "text": "Why do you prefer the library?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5182c8a5fd6884f0b5e7.mp3"
+  },
+  {
+    "text": "Because it is quiet and close to college.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4bb5a619a8c9349a04c4.mp3"
+  },
+  {
+    "text": "What is your new flatmate like?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6226359e9a51c720aced.mp3"
+  },
+  {
+    "text": "He is friendly and very patient.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1619351d6ce9f0c256e1.mp3"
+  },
+  {
+    "text": "Is this guitar yours?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bb6011f298b0d08e3fc9.mp3"
+  },
+  {
+    "text": "No, it is his. Mine is in my room.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b02055d6f3d105d37df9.mp3"
+  },
+  {
+    "text": "Do you get on well?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8f8e9762837b62050255.mp3"
+  },
+  {
+    "text": "Yes, we share the housework and help each other.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b756c232efcb429651c7.mp3"
+  },
+  {
+    "text": "What did you do last weekend?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "31be9cf346c4fae05af5.mp3"
+  },
+  {
+    "text": "I went to a concert with my sister.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ba5395f1bdc0f607955b.mp3"
+  },
+  {
+    "text": "Did you enjoy it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "367119fedff1a94bfb67.mp3"
+  },
+  {
+    "text": "Yes, but I almost lost my ticket.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fd37cbd9dd0c0e80e5e0.mp3"
+  },
+  {
+    "text": "How did you get home?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a12fadfc55067f515914.mp3"
+  },
+  {
+    "text": "My father collected us because we missed the bus.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bd514b0888bfcf4a1d0c.mp3"
+  },
+  {
+    "text": "What were you doing when the lights went out?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1d07e58b72f0636492f1.mp3"
+  },
+  {
+    "text": "I was finishing my homework.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ba29f9144b9be7252bb0.mp3"
+  },
+  {
+    "text": "Was it raining outside?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c38816ada1922eb8ac70.mp3"
+  },
+  {
+    "text": "Yes, it was raining heavily.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f2cabe63450faa65d33f.mp3"
+  },
+  {
+    "text": "What happened next?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b87eb3a187cfb8b40481.mp3"
+  },
+  {
+    "text": "Our neighbour came in and we shared some food.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "dee6dadab6d2749ead59.mp3"
+  },
+  {
+    "text": "Have you ever slept in a tent?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "df8e667d6a7429d65430.mp3"
+  },
+  {
+    "text": "Yes, I have. I did it last summer.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3b0b427b73bfd9f64637.mp3"
+  },
+  {
+    "text": "Where did you go?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c79b2acbf2a91e260bcf.mp3"
+  },
+  {
+    "text": "I went to the coast with my cousins.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c522bf66778e3e43735d.mp3"
+  },
+  {
+    "text": "Would you like to do it again?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e272a621a66ff4d69fba.mp3"
+  },
+  {
+    "text": "Yes, but next time I want a warmer sleeping bag.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "32421d89cabffc69c064.mp3"
+  },
+  {
+    "text": "Have you finished moving yet?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2f44a74a639a7e77f05b.mp3"
+  },
+  {
+    "text": "Yes, we have, but we have not bought all the furniture.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e6314992b922d1b796c9.mp3"
+  },
+  {
+    "text": "How long have you lived there?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "09d07fdd2f00742c0433.mp3"
+  },
+  {
+    "text": "We have lived there for two weeks.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a519c4ea259f947242ae.mp3"
+  },
+  {
+    "text": "Have you met your neighbours?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a99c594876aaff210bc6.mp3"
+  },
+  {
+    "text": "Yes, I have just spoken to the family next door.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "419d19000c4f6aa0d4fc.mp3"
+  },
+  {
+    "text": "What are you going to do next month?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a1fe46e96def9785a0b1.mp3"
+  },
+  {
+    "text": "I am going to take a swimming course.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fca52f3dab8dd8524cef.mp3"
+  },
+  {
+    "text": "When are you meeting the instructor?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d849a0c37639581392f4.mp3"
+  },
+  {
+    "text": "On Monday at six.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "03c31f3c14ebf5bcf6c6.mp3"
+  },
+  {
+    "text": "Do you need a lift?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "324ac6c49e14bb9231e5.mp3"
+  },
+  {
+    "text": "Yes, please. I will be ready at half past five.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "911b8f3a19f9f1fa2431.mp3"
+  },
+  {
+    "text": "Would you like to join us on Saturday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6dcc1a8bdac4336fde5e.mp3"
+  },
+  {
+    "text": "I would love to, but I am busy until twelve.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "78116d1ed1e437ace044.mp3"
+  },
+  {
+    "text": "That is fine. Shall we meet at one?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d3c0c0eab03eca4fdd9d.mp3"
+  },
+  {
+    "text": "Yes. Where are we meeting?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "843b57a3058044ceda66.mp3"
+  },
+  {
+    "text": "At my house. Could you bring some fruit?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9be0dd5886d1abcc8d73.mp3"
+  },
+  {
+    "text": "Of course. Please send me your address.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "95eaa7a2730593b1b7ab.mp3"
+  },
+  {
+    "text": "Which hotel do you prefer?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "593a47765b09ccde8c3b.mp3"
+  },
+  {
+    "text": "The smaller one. It is cheaper and quieter.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7fb9b744d57026399430.mp3"
+  },
+  {
+    "text": "Is it as close to the station as the other one?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bbd69205bd277948c517.mp3"
+  },
+  {
+    "text": "No, but it is only ten minutes away.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3357fc548791385c958f.mp3"
+  },
+  {
+    "text": "What is its best feature?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b9a9158df5746c4a827e.mp3"
+  },
+  {
+    "text": "It has the most comfortable beds.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "25481e348d06e2041457.mp3"
+  },
+  {
+    "text": "Have we got enough food for the picnic?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f34cf5b5e5d9b150d38e.mp3"
+  },
+  {
+    "text": "We have a few sandwiches, but not much fruit.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6d28a83a72395224e6cb.mp3"
+  },
+  {
+    "text": "How many people are coming?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fedf4776c86bdf29232a.mp3"
+  },
+  {
+    "text": "Six. We need some more apples.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4335105734021fc1a095.mp3"
+  },
+  {
+    "text": "Shall I buy a bottle of water too?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1fd530dab3aec8dd4588.mp3"
+  },
+  {
+    "text": "Yes, please. There is only a little water left.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "75b05a0c3025b12f1c8c.mp3"
+  },
+  {
+    "text": "Yes. I bought these shoes yesterday, but they are too small.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bcd8b0e254dcf88e7246.mp3"
+  },
+  {
+    "text": "Have you got the receipt?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "243a5cb3f70771b74634.mp3"
+  },
+  {
+    "text": "Of course. Would you like to try these ones on?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9bb27c064f8f222b3133.mp3"
+  },
+  {
+    "text": "Yes, please. They look more comfortable.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8fc1619cc2f1a5d3d106.mp3"
+  },
+  {
+    "text": "Excuse me, how do I get to the library?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c0d73c54f15b3c528ea0.mp3"
+  },
+  {
+    "text": "Walk along this street and go past the supermarket.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0f7e920994ed10459195.mp3"
+  },
+  {
+    "text": "Do I turn at the traffic lights?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "857ea5a10aa2b6816d19.mp3"
+  },
+  {
+    "text": "Yes, turn left. The library is opposite the sports centre.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9da9741975eb4e0cef1c.mp3"
+  },
+  {
+    "text": "How long does it take on foot?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6c56e486655170adb7b7.mp3"
+  },
+  {
+    "text": "About ten minutes. The entrance is beside a big tree.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "136391b9e885a730fa51.mp3"
+  },
+  {
+    "text": "A return ticket to Central Station, please.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1c3d65121070bef85260.mp3"
+  },
+  {
+    "text": "Certainly. Are you travelling today?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1f5d743370bb41762164.mp3"
+  },
+  {
+    "text": "Yes. What time does the next train leave?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0ca5560b19590ebeb3af.mp3"
+  },
+  {
+    "text": "At ten fifteen, from platform five.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "48809b1479d3b773889c.mp3"
+  },
+  {
+    "text": "Do I need to change trains?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "cd22a7fe7dfd499c7ed1.mp3"
+  },
+  {
+    "text": "No, it is a direct service.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "375d6775dcb0b2d0f3f3.mp3"
+  },
+  {
+    "text": "Good evening. How can I help you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bcab75f8de380bdcf6ce.mp3"
+  },
+  {
+    "text": "I have a booking for two nights under Vega.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "55da97364a5c3231994b.mp3"
+  },
+  {
+    "text": "Welcome. Here is your key card.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a866fc1756278e8fdd35.mp3"
+  },
+  {
+    "text": "Thank you. Is breakfast included?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "47da4945f15eebce9a98.mp3"
+  },
+  {
+    "text": "Yes, from seven to ten in the dining room.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "cb9f64478c3d85e02044.mp3"
+  },
+  {
+    "text": "Great. Could I also have an extra blanket, please?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0890fe720e1a6e0b6839.mp3"
+  },
+  {
+    "text": "How can I help you?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "222c38fa42da8f16ee38.mp3"
+  },
+  {
+    "text": "I would like to make an appointment.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c1b29561107248b07d8b.mp3"
+  },
+  {
+    "text": "What seems to be the problem?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b801b55fddc0e77d6506.mp3"
+  },
+  {
+    "text": "I have had a sore throat for two days.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b9d50e3ac98becec4923.mp3"
+  },
+  {
+    "text": "We have an appointment at three fifteen.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3a4a30db23fd791c4f5a.mp3"
+  },
+  {
+    "text": "Thank you. Could you repeat the address, please?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a649e004e247eac66bc0.mp3"
+  },
+  {
+    "text": "Do I have to wear a uniform?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b4f69b3e829fdcbef52b.mp3"
+  },
+  {
+    "text": "No, but please wear comfortable shoes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "830f349db7fbe69127e5.mp3"
+  },
+  {
+    "text": "What time do I need to arrive?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "855e3ceceb37538d8c7e.mp3"
+  },
+  {
+    "text": "Ten minutes before your shift.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5863ffc6cbbf189999d5.mp3"
+  },
+  {
+    "text": "Can I change my shift next week?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5f6ac851a634cada3a81.mp3"
+  },
+  {
+    "text": "Yes, but you have to tell the manager by Wednesday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "41229c845e98b8d22d95.mp3"
+  },
+  {
+    "text": "Can you use this program?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a076b5457f6b3cbff12b.mp3"
+  },
+  {
+    "text": "Yes, I can. I learned last month.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "01d322f39040c4d7ab2c.mp3"
+  },
+  {
+    "text": "Could you show me how it works?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c87ebbf0ea1c874982a5.mp3"
+  },
+  {
+    "text": "Of course. First, open a new document.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a923eedd78cc84cf7fb0.mp3"
+  },
+  {
+    "text": "Could I borrow your notes too?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e0d69610595d82a8370c.mp3"
+  },
+  {
+    "text": "Yes, but please return them tomorrow.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "689fbbbbcb0ed50c36e5.mp3"
+  },
+  {
+    "text": "What do you enjoy doing in your free time?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "27cb9b457ee89e805a10.mp3"
+  },
+  {
+    "text": "I enjoy taking photos and walking.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8d0aa67bd8247753ae2b.mp3"
+  },
+  {
+    "text": "Would you like to join our photo walk?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6c5f924b3725133b3e32.mp3"
+  },
+  {
+    "text": "Yes, I would. Where are we going?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d533d091bab6ff18b14c.mp3"
+  },
+  {
+    "text": "To the old town. How about meeting at ten?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3f8968eb7a99da0f903f.mp3"
+  },
+  {
+    "text": "That sounds good. I will bring my phone.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "60cfb55cafc942bef75d.mp3"
+  },
+  {
+    "text": "What will we do if it rains on Friday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "42e83714945938752efd.mp3"
+  },
+  {
+    "text": "We will use the sports hall.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d4182aa65996f51847a0.mp3"
+  },
+  {
+    "text": "Should I still bring my sports shoes?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e4a2c232faf295abfe69.mp3"
+  },
+  {
+    "text": "Yes, and bring a bottle of water.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "73e858169e12fd9ce92e.mp3"
+  },
+  {
+    "text": "When will you confirm the plan?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f802a67bf1aa6e6095c6.mp3"
+  },
+  {
+    "text": "I will send a message when I check the forecast.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cdf5cf401634c2c8f11f.mp3"
+  },
+  {
+    "text": "I would like to send this parcel, please.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e058329690c1317f2230.mp3"
+  },
+  {
+    "text": "Certainly. Where is it going?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e42cc2276e9a60ed7a92.mp3"
+  },
+  {
+    "text": "To Manchester. How much does it cost?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "642fa1055f77d4d1a6e9.mp3"
+  },
+  {
+    "text": "The standard service is five pounds.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a4b11d3e4f9cb8de701c.mp3"
+  },
+  {
+    "text": "How long does it take?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1897a25c12c4745b5b5a.mp3"
+  },
+  {
+    "text": "About five working days. Please write the address here.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a54d136d69578a45afcf.mp3"
+  },
+  {
+    "text": "Can you help me? I am trying to upload my homework.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "72c9a452aba66f963364.mp3"
+  },
+  {
+    "text": "What message can you see?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1a66a53c812431a9b0c6.mp3"
+  },
+  {
+    "text": "It says the file is too large.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5eeff43dd8b822a95a31.mp3"
+  },
+  {
+    "text": "Have you checked the size of the photos?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2a04f6badd116bc6e979.mp3"
+  },
+  {
+    "text": "Not yet. Could you show me how to change it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fb810e4f2b3660efee0b.mp3"
+  },
+  {
+    "text": "Of course. First, save another copy of your document.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "56fa71fad39bd98750e7.mp3"
+  },
+  {
+    "text": "Did you use to live near your school?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "744722092b2253061715.mp3"
+  },
+  {
+    "text": "Yes, I used to walk there every day.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7216c873db1a725061c0.mp3"
+  },
+  {
+    "text": "How did you feel when you moved?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "39e7390e4cadf27d787e.mp3"
+  },
+  {
+    "text": "I felt worried at first, but now I am more confident.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2fd5cded32fedc516329.mp3"
+  },
+  {
+    "text": "Do you still see your old friends?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "35c5c832eab4bdf40ee2.mp3"
+  },
+  {
+    "text": "Yes, we meet during the holidays.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "21257dd9f7ec91631be3.mp3"
+  },
+  {
+    "text": "What do you need to include in your email?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "55143d857a26f7112d11.mp3"
+  },
+  {
+    "text": "An apology, a reason and a new meeting time.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "48ad59023aaeacd0c3d1.mp3"
+  },
+  {
+    "text": "Have you answered all three points?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0b483b78e183f37dee34.mp3"
+  },
+  {
+    "text": "Yes. I also asked my friend to confirm.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ab751e39be6c88dac154.mp3"
+  },
+  {
+    "text": "What will you check next?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f7696b257aa3d26c5b60.mp3"
+  },
+  {
+    "text": "The verb forms, capital letters and punctuation.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "796069bca8a33da1039a.mp3"
+  },
+  {
+    "text": "Which transport do you think we should choose?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3a625f1073b3242c2d20.mp3"
+  },
+  {
+    "text": "I prefer the bus because it is cheaper and stops near the museum.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "eed0490919bbbd7c5d66.mp3"
+  },
+  {
+    "text": "What will we do if it rains?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7aac16f00de4bd91e8be.mp3"
+  },
+  {
+    "text": "We will visit the museum first.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bcbe641301e7a6ee40fd.mp3"
+  },
+  {
+    "text": "Could you confirm the meeting time?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "56cf57e184e349c32d48.mp3"
+  },
+  {
+    "text": "Yes, we are meeting at the station at eight thirty on Saturday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "10eec12dedc4f1da566e.mp3"
+  },
+  {
+    "text": "What are you finding difficult?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7f42302a620d14c1bc81.mp3"
+  },
+  {
+    "text": "I struggle with fast conversations.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9112796271b3d895a092.mp3"
+  },
+  {
+    "text": "What are you doing about it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "68233eccdb548a50c689.mp3"
+  },
+  {
+    "text": "I listen for the main idea first.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "646b3cb450dc1c34f760.mp3"
+  },
+  {
+    "text": "Is that helping?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7577e9f5bf9ad00ffbbc.mp3"
+  },
+  {
+    "text": "Yes, I feel more confident now.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a45877e85e5367d3fc06.mp3"
+  },
+  {
+    "text": "Why were you late?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6de20501ac9db916ee12.mp3"
+  },
+  {
+    "text": "I had left my phone in the café.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "58721932d97718e27754.mp3"
+  },
+  {
+    "text": "Did you find it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2656cdb299f32232ce9d.mp3"
+  },
+  {
+    "text": "Yes, a waiter had kept it safe.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5089522cba38eb3f9c08.mp3"
+  },
+  {
+    "text": "I caught the next train and called my friend.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "daf1bada8322f262ff05.mp3"
+  },
+  {
+    "text": "Have you ever led a workshop?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d0c0b555b7e27ecbec10.mp3"
+  },
+  {
+    "text": "Yes, I led one last month.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "85f621df20a35d595dbd.mp3"
+  },
+  {
+    "text": "How long have you volunteered there?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "09207201537649449eeb.mp3"
+  },
+  {
+    "text": "I have volunteered there for two years.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "44b350bb0bd987e78ad9.mp3"
+  },
+  {
+    "text": "Have you received a job offer yet?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "322744ab552187253313.mp3"
+  },
+  {
+    "text": "Not yet, but I have sent my application.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fe123c5c1f0c0125fe2b.mp3"
+  },
+  {
+    "text": "How long have you been editing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "433112ab2e26acaaf30f.mp3"
+  },
+  {
+    "text": "I have been editing since breakfast.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "dae4256a356300c2ed98.mp3"
+  },
+  {
+    "text": "How much have you finished?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "21139ed656dcc8aeb928.mp3"
+  },
+  {
+    "text": "I have finished the first five minutes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3eed6b5adb3ca1f613e0.mp3"
+  },
+  {
+    "text": "Why are you taking a break?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f66b0ba262cf88709afb.mp3"
+  },
+  {
+    "text": "I have been concentrating for hours.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e005cb6d38f33a3adb6d.mp3"
+  },
+  {
+    "text": "Did you use to live nearby?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5d6897f3a7a48bcee9d1.mp3"
+  },
+  {
+    "text": "No, I used to live in a small town.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "67d3e6f89567b64e362c.mp3"
+  },
+  {
+    "text": "Are you used to the buses now?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "14e6618865a5ca3d864b.mp3"
+  },
+  {
+    "text": "I am getting used to them.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3c3b049e3c80148f5a2e.mp3"
+  },
+  {
+    "text": "What do you miss most?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bbf6cc720e08b1f5b467.mp3"
+  },
+  {
+    "text": "I miss walking everywhere.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "11164198350347491d50.mp3"
+  },
+  {
+    "text": "Are you free on Friday morning?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b059c29911b3091957bb.mp3"
+  },
+  {
+    "text": "Yes, I am meeting the group at eight.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "77197668af15c06c4de5.mp3"
+  },
+  {
+    "text": "What if it rains?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e25c7b10d0796ab6e612.mp3"
+  },
+  {
+    "text": "We will eat inside the museum.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cf8daedb906ef358028b.mp3"
+  },
+  {
+    "text": "When will you send the schedule?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "152e9e588be697f6dbc4.mp3"
+  },
+  {
+    "text": "I will send it as soon as it is ready.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "62af8a5dad83d73c8bc9.mp3"
+  },
+  {
+    "text": "We will choose the shorter route.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "11894cfa3e66c3179663.mp3"
+  },
+  {
+    "text": "Should I bring some food?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b012389128220ee2173a.mp3"
+  },
+  {
+    "text": "Yes, in case the café is closed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e24c72a1d6b3294fc959.mp3"
+  },
+  {
+    "text": "Can we leave now?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a4fea6d941e3f1a83ad5.mp3"
+  },
+  {
+    "text": "Not unless everyone has suitable shoes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d573404f8806aaa02aa9.mp3"
+  },
+  {
+    "text": "What would you do with the building?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d5098b999eb326f4dcb5.mp3"
+  },
+  {
+    "text": "I would open a study room.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "757102d1e4b3d3359108.mp3"
+  },
+  {
+    "text": "What would be the main benefit?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c12b5e9a772d57ff518d.mp3"
+  },
+  {
+    "text": "Students would have a quiet place.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d88206ad134722b94900.mp3"
+  },
+  {
+    "text": "And the main difficulty?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fd2148794cd0ae886530.mp3"
+  },
+  {
+    "text": "We would need volunteers to keep it open.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "78592e782683cac59c15.mp3"
+  },
+  {
+    "text": "Do I have to bring any tools?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9cd8e2e17115399c83a9.mp3"
+  },
+  {
+    "text": "No, everything is provided.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "54c4c7bab6031a5cdf9d.mp3"
+  },
+  {
+    "text": "Can I use the oven?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fc829020328ba550e3a3.mp3"
+  },
+  {
+    "text": "Only trained staff are allowed to use it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7a631eb9144c8ed5ee69.mp3"
+  },
+  {
+    "text": "Should I bring an old shirt?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4d256913f2896d26e410.mp3"
+  },
+  {
+    "text": "Yes, that would be a good idea.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a570dca69e91d226b7d9.mp3"
+  },
+  {
+    "text": "The room is empty. Has everyone left?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "34f4353131af9329e36c.mp3"
+  },
+  {
+    "text": "They might be upstairs.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4061c92a31cf2029c65a.mp3"
+  },
+  {
+    "text": "Why do you think that?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5c3b98067068e17b0b14.mp3"
+  },
+  {
+    "text": "I can hear people talking.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9cc6eb65d36ce5a3d11a.mp3"
+  },
+  {
+    "text": "Shall we go home?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0fe50b1d8f3d3f92d019.mp3"
+  },
+  {
+    "text": "Let us check the noticeboard first.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "30966e1577cb719625da.mp3"
+  },
+  {
+    "text": "What are these bags made from?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0456d2aabe29eeb0bb4e.mp3"
+  },
+  {
+    "text": "They are made from old banners.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "42729330e52885b66eb1.mp3"
+  },
+  {
+    "text": "Where are the banners collected?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1426cfa134dbdbb2f9e4.mp3"
+  },
+  {
+    "text": "They are collected after local events.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "343c6a586518a63d1d32.mp3"
+  },
+  {
+    "text": "Who makes the bags?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "bfa375222ba5973661db.mp3"
+  },
+  {
+    "text": "They are sewn by people in our workshop.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "fa7af55fcc8d834b1811.mp3"
+  },
+  {
+    "text": "What did the organiser say?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e0ac4d0e09c62dc90bd4.mp3"
+  },
+  {
+    "text": "He said the event would start later.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "47663bafe79d49c32831.mp3"
+  },
+  {
+    "text": "Did he ask us to bring anything?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "be5d5805460649a4e8ae.mp3"
+  },
+  {
+    "text": "He asked us to bring reusable cups.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4dfd357f53fd7e67c7ea.mp3"
+  },
+  {
+    "text": "Are families welcome?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fcdc247e082115178875.mp3"
+  },
+  {
+    "text": "He confirmed that families could attend.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ab546566cae5e5a656bc.mp3"
+  },
+  {
+    "text": "Which building do you mean?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4a216cf64b33d13380b9.mp3"
+  },
+  {
+    "text": "The one that used to be a cinema.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f8e24568f3dea5a1b252.mp3"
+  },
+  {
+    "text": "Is it near the library?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fea67dea901e864f69c9.mp3"
+  },
+  {
+    "text": "Yes, the library where you can borrow tools.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b070c8b7351fc6b97041.mp3"
+  },
+  {
+    "text": "Who organises the tours?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fca420ed3a8dd037968a.mp3"
+  },
+  {
+    "text": "A neighbour whose daughter studies history.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "172c99d222b3e5315e2b.mp3"
+  },
+  {
+    "text": "What are you considering doing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1242dc0217461450bb02.mp3"
+  },
+  {
+    "text": "I am considering joining a class.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "01f591bd25068036f840.mp3"
+  },
+  {
+    "text": "Have you decided which one?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e5738df272347d29283f.mp3"
+  },
+  {
+    "text": "I have decided to try woodwork.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "376e2f8b9415d7908f02.mp3"
+  },
+  {
+    "text": "Are you looking forward to it?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5e27b7dc22dc6bfe3704.mp3"
+  },
+  {
+    "text": "Yes, I enjoy making useful things.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "af2221ebee163f338868.mp3"
+  },
+  {
+    "text": "Which option would you choose?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6fd496be0f9e72520871.mp3"
+  },
+  {
+    "text": "The middle one is more suitable.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5b272bdc1e995987cd52.mp3"
+  },
+  {
+    "text": "Is it as light as the first one?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "36daa634f664c962a32b.mp3"
+  },
+  {
+    "text": "No, but the battery lasts much longer.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4d2bcf8213bb29da0beb.mp3"
+  },
+  {
+    "text": "Is it worth paying more?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "51b758bfcba9da0af19a.mp3"
+  },
+  {
+    "text": "For my routine, I think it is.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2a08859485d76f3f7019.mp3"
+  },
+  {
+    "text": "Is there enough food for everyone?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "727cd209e3337f48f1f1.mp3"
+  },
+  {
+    "text": "Yes, and there is plenty of rice.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9917b5d343ed78e68933.mp3"
+  },
+  {
+    "text": "How much salad is left?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "458407ebaad9d232e770.mp3"
+  },
+  {
+    "text": "Only a little.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "92e7781439559e86f16e.mp3"
+  },
+  {
+    "text": "Can each person ask for more?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f78c8b83ba9a7dc6c9bc.mp3"
+  },
+  {
+    "text": "Of course, if they are still hungry.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "145511b86d131ef7d18c.mp3"
+  },
+  {
+    "text": "Do you support Saturday opening?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2ac13477e41668e63374.mp3"
+  },
+  {
+    "text": "Yes, because many students need a quiet place.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d8ce40c4df12b35262f0.mp3"
+  },
+  {
+    "text": "What about the cost?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "982d094424aae6b3227c.mp3"
+  },
+  {
+    "text": "That is a concern. However, we could try it first.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b978cb32d834f0294de4.mp3"
+  },
+  {
+    "text": "How would we judge the trial?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fbdd5aeaa48942bad7de.mp3"
+  },
+  {
+    "text": "We could record attendance and ask for feedback.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "33948340f7f54cd4efdd.mp3"
+  },
+  {
+    "text": "Can you tell me if my ticket is still valid?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b542f78d9bbd7948ab9c.mp3"
+  },
+  {
+    "text": "Yes, you can use it on the next direct train.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "986ca3f49f241843a522.mp3"
+  },
+  {
+    "text": "Is there an extra charge?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2514af892961445a7c76.mp3"
+  },
+  {
+    "text": "No, there is no extra charge.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "03a344bcd3e2d87ef488.mp3"
+  },
+  {
+    "text": "Which platform should I use?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1eeef9723e07f9ff8c64.mp3"
+  },
+  {
+    "text": "Platform six, but check the screen before boarding.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "51d176ec8168443683ec.mp3"
+  },
+  {
+    "text": "My lamp arrived, but the switch is faulty.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c0fd81a4ddf70cb78aa7.mp3"
+  },
+  {
+    "text": "Do you have the order number?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5e9591ab4f9b50209c5a.mp3"
+  },
+  {
+    "text": "Yes, and I can send a photograph.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1eb9db611c906d341d99.mp3"
+  },
+  {
+    "text": "What solution would you prefer?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3bfb7545276fa15e0315.mp3"
+  },
+  {
+    "text": "I would like a working replacement, please.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "63877519f1c84270409d.mp3"
+  },
+  {
+    "text": "Can you describe a strength?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a7d81e476b865376f290.mp3"
+  },
+  {
+    "text": "I am organised and can keep accurate records.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "12421456a2d51d6f34ed.mp3"
+  },
+  {
+    "text": "Can you give an example?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7fefa50e69c725348dc4.mp3"
+  },
+  {
+    "text": "I recorded payments at a school event.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "bdc904ef99ffe637d745.mp3"
+  },
+  {
+    "text": "What are you working on improving?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "18686fd031af3c201106.mp3"
+  },
+  {
+    "text": "I am learning to ask for help before I get overwhelmed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a4fa466eb0463cd2a67c.mp3"
+  },
+  {
+    "text": "Have you checked this post?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "cafe8f7f21cc7afa207d.mp3"
+  },
+  {
+    "text": "Not yet. It says the centre is closed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3bab681f8bd8b1e8e8d1.mp3"
+  },
+  {
+    "text": "Do you know when the photo was taken?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d80c21c46d07dec03190.mp3"
+  },
+  {
+    "text": "I will look for the original source.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "3ad3f69be5a595fdb701.mp3"
+  },
+  {
+    "text": "What does the current notice say?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "458f8ec133707d45fbfc.mp3"
+  },
+  {
+    "text": "Only one road is being repaired.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a6394cab14201a511f22.mp3"
+  },
+  {
+    "text": "I think we should focus on sport.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "00ee084386e79d55fcdf.mp3"
+  },
+  {
+    "text": "I see your point, but some readers prefer music.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5b287378e6509695b79d.mp3"
+  },
+  {
+    "text": "What do you suggest?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "13816f0626bf682c714b.mp3"
+  },
+  {
+    "text": "How about including a short section for each?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "472e17c4ce09fb5f265f.mp3"
+  },
+  {
+    "text": "Who will prepare the first drafts?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1d59781c330c26d42f55.mp3"
+  },
+  {
+    "text": "I will write about music by Friday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "054bc1f2058d97f900fa.mp3"
+  },
+  {
+    "text": "Would you recommend the exhibition?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0494b629e29b4b3562a1.mp3"
+  },
+  {
+    "text": "Yes, especially if you enjoy local history.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "058feec3d2e4d29c9394.mp3"
+  },
+  {
+    "text": "What was the highlight?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0978f174cd4728bb39eb.mp3"
+  },
+  {
+    "text": "The interviews with local families.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9057441ecff13e84af9d.mp3"
+  },
+  {
+    "text": "Was there any drawback?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e99dd734c86b1c7c4ce9.mp3"
+  },
+  {
+    "text": "The room became noisy, so I would go early.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "08a633c5f682b0b15612.mp3"
+  },
+  {
+    "text": "What have you learnt from the project?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6db0007108be8f1c1d69.mp3"
+  },
+  {
+    "text": "I have learnt to organise ideas and ask for feedback.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "7011bc5b6d6e03b59738.mp3"
+  },
+  {
+    "text": "What would you change next time?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b625f1dcff93864fa62e.mp3"
+  },
+  {
+    "text": "I would plan more time for questions.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "5cb10fb08aae39542b39.mp3"
+  },
+  {
+    "text": "What is your next goal?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3c7a2265f39be04f80b1.mp3"
+  },
+  {
+    "text": "I want to explain my opinions with clearer examples.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4ec5ca790fb4cbfe75c5.mp3"
+  },
+  {
+    "text": "How have you been getting on at the workshop?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "09b753f5b7da9605d43a.mp3"
+  },
+  {
+    "text": "Better, although I still miss some jokes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "07b98da47a424327cc34.mp3"
+  },
+  {
+    "text": "What helped you join the discussion?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9aff438e97acc9a443e0.mp3"
+  },
+  {
+    "text": "I started asking one useful question at each meeting.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "09b60a23f442c1026269.mp3"
+  },
+  {
+    "text": "I used to wait until I had a perfect sentence.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "99a4222fc3fd7bd5fc8e.mp3"
+  },
+  {
+    "text": "So did I. Now I check whether people understood my point.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "490311b717527bacf4e8.mp3"
+  },
+  {
+    "text": "Will the programme be ready by Friday?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e0770046f6401ff8e22e.mp3"
+  },
+  {
+    "text": "We will have contacted the speakers, but two rooms are not confirmed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6a8c785e013f65888040.mp3"
+  },
+  {
+    "text": "What if those rooms are unavailable?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fe6ed63e673e4101be1c.mp3"
+  },
+  {
+    "text": "We can move one session online, provided that the speaker agrees.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f0f000b1cb7f487309f3.mp3"
+  },
+  {
+    "text": "Should we print the programme now?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7bdcacc414495fbc5557.mp3"
+  },
+  {
+    "text": "I would wait until the bookings are confirmed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "02ccfe2f605b9b6f3ad1.mp3"
+  },
+  {
+    "text": "If we had checked the address, we would not have missed the delivery.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4dd15954019634168f4f.mp3"
+  },
+  {
+    "text": "True, but what can we change for next time?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a73487defbed585cc618.mp3"
+  },
+  {
+    "text": "If we kept one shared list, everyone would see the latest details.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "58301cd52f6314e477a4.mp3"
+  },
+  {
+    "text": "Would that have prevented yesterday's problem?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "9db8642f1eb98b7ba59d.mp3"
+  },
+  {
+    "text": "It might have, though somebody would still need to check it.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0a9eb36b5a676af73939.mp3"
+  },
+  {
+    "text": "Then let us assign that responsibility before the next delivery.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d9ecf65fff6dcf12c09b.mp3"
+  },
+  {
+    "text": "I wish I had asked for help sooner.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "76c8f86d9896f8ab0b04.mp3"
+  },
+  {
+    "text": "What stopped you?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d05bef42025af25ce223.mp3"
+  },
+  {
+    "text": "I thought I ought to solve everything on my own.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d020c9e26316d2d35510.mp3"
+  },
+  {
+    "text": "Would you rather work with a partner next time?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d0adae31e6ca50207c97.mp3"
+  },
+  {
+    "text": "Yes, but I would prefer us to agree on responsibilities first.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "5cc36e71651a29460543.mp3"
+  },
+  {
+    "text": "That sounds sensible. We can still change the plan.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "ca44417989cda89756de.mp3"
+  },
+  {
+    "text": "The lights are off. They must have left already.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "db88d8b791c99f26b62f.mp3"
+  },
+  {
+    "text": "They might be working in the other room.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c185588163cedd4d3f86.mp3"
+  },
+  {
+    "text": "You are right; we should not assume.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "1a6b2d1450539e5413ff.mp3"
+  },
+  {
+    "text": "I should have confirmed the meeting time yesterday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0f19aabf206c56921c5a.mp3"
+  },
+  {
+    "text": "Could the message have gone to your old address?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "52ecdb9440bb2ccc825a.mp3"
+  },
+  {
+    "text": "Possibly. I will check before contacting them again.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "87c89120030a4c4a7620.mp3"
+  },
+  {
+    "text": "Has the heating been repaired?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a2c4916f70505e7ef3a1.mp3"
+  },
+  {
+    "text": "It was inspected yesterday, but a replacement part is needed.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d99dfd77dcd31bc84f11.mp3"
+  },
+  {
+    "text": "Who will contact the residents?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "27b069a75a9330367584.mp3"
+  },
+  {
+    "text": "The manager has been asked to send an update.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "deceee168cf888e19c98.mp3"
+  },
+  {
+    "text": "Should we have the windows checked as well?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d110227de61a8f4badc8.mp3"
+  },
+  {
+    "text": "Yes. Let us arrange that while the technician is here.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1967eac597f1027aca97.mp3"
+  },
+  {
+    "text": "What did the organiser say about the tickets?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "23f6bbdb78efd84a479d.mp3"
+  },
+  {
+    "text": "She said that the first batch had sold out.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c2431d61f87eede2e83a.mp3"
+  },
+  {
+    "text": "Did she promise to release more?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2f3d84b43add832d219d.mp3"
+  },
+  {
+    "text": "No. She suggested checking the website on Monday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "47f8f4cb29a601ebab7d.mp3"
+  },
+  {
+    "text": "Then we should avoid telling people that more tickets are guaranteed.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "46ed5a5d2ce55eecfbff.mp3"
+  },
+  {
+    "text": "Exactly. I will pass on the suggestion without adding a promise.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8a3ef13f3d2569b5cd62.mp3"
+  },
+  {
+    "text": "Which proposal are we discussing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d05063dd307ab2c725a2.mp3"
+  },
+  {
+    "text": "The one that includes an evening service.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "883144bb8417445815ed.mp3"
+  },
+  {
+    "text": "Is that the proposal submitted by the residents?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "deb012c2fdd298db8abb.mp3"
+  },
+  {
+    "text": "Yes. It was written by a group whose members use the bus every day.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1d78176e35ac9a462c97.mp3"
+  },
+  {
+    "text": "Their report, which I read yesterday, gives several examples.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "82d48722f0bece67cff9.mp3"
+  },
+  {
+    "text": "Could you explain the example you found most convincing?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "df338938ffe65718ee94.mp3"
+  },
+  {
+    "text": "Did you remember to send the invitation?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "64d0fd89958e2d83f43b.mp3"
+  },
+  {
+    "text": "Yes, and I remember attaching the new schedule.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c58d051e5cd72ebcef4d.mp3"
+  },
+  {
+    "text": "I tried opening the attachment, but it would not load.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3cb55ee28419d0b567f3.mp3"
+  },
+  {
+    "text": "Have you tried downloading it first?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "82c0266234cd261f7110.mp3"
+  },
+  {
+    "text": "Not yet. I stopped working when the network failed.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c94ce174081260901814.mp3"
+  },
+  {
+    "text": "I will send a plain-text version so we can carry on.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "35a02c27f0d95d283a38.mp3"
+  },
+  {
+    "text": "How much evidence do we have?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "980ebdc0bfed0341db8a.mp3"
+  },
+  {
+    "text": "We have a few interviews, but little information about evening users.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "60967b73518045d845b5.mp3"
+  },
+  {
+    "text": "Were all the participants regular visitors?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a878d9ebbc56cb137536.mp3"
+  },
+  {
+    "text": "Most were. That limits what we can conclude.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0504f282545a99d91fd6.mp3"
+  },
+  {
+    "text": "Could we speak to some people who rarely come?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "4c46b448916c6c28a8ed.mp3"
+  },
+  {
+    "text": "Yes. A larger number would help, provided that the group is more varied.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d440a11e5f66650ac3b5.mp3"
+  },
+  {
+    "text": "The second option is considerably cheaper.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "776bc69c73fc3833a5cc.mp3"
+  },
+  {
+    "text": "It is, but it is not quite as flexible.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "283a16f2bde749aa4edc.mp3"
+  },
+  {
+    "text": "Is the difference large enough to justify the extra cost?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "73e9e156603761dc670e.mp3"
+  },
+  {
+    "text": "For occasional users, probably not.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "0e13f87edcbe652dc111.mp3"
+  },
+  {
+    "text": "What about people who need it every day?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6f15223fd1d8abc27a0a.mp3"
+  },
+  {
+    "text": "They may find the more expensive option better value over time.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "392f73b5177d66007103.mp3"
+  },
+  {
+    "text": "The trial attracted more visitors; however, the waiting time increased.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "86e742d406ac10b8dbb8.mp3"
+  },
+  {
+    "text": "Does that mean we should cancel it?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "538be0e8e270b32d44ef.mp3"
+  },
+  {
+    "text": "Not necessarily. Although the queues were longer, most visitors stayed.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "9f0877cb9ec02f8b7711.mp3"
+  },
+  {
+    "text": "So what would you recommend?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "70128174195abd973951.mp3"
+  },
+  {
+    "text": "Add a second information desk so that simple questions can be answered quickly.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7414fbf479565c5828d7.mp3"
+  },
+  {
+    "text": "That might help, provided that we can find enough volunteers.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4311d826de5a093ad9ba.mp3"
+  },
+  {
+    "text": "I understand the word, but I cannot use it naturally.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "dcb883667d2c10cd3a34.mp3"
+  },
+  {
+    "text": "Can you remember the words that usually go with it?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4dbcf19d2739f167e91b.mp3"
+  },
+  {
+    "text": "I know decision, but I keep saying do a decision.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "50488b62f83f94534c6d.mp3"
+  },
+  {
+    "text": "Try learning make a decision as a complete expression.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d08d331d8c3a79553b03.mp3"
+  },
+  {
+    "text": "Then I could change it to reach a decision when the context fits.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "0b727dfa67f516ab583b.mp3"
+  },
+  {
+    "text": "Exactly. Check the whole phrase in a sentence before using it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e3c63ddde39d32ca9a85.mp3"
+  },
+  {
+    "text": "Would you say the new system has been successful?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "626ed77ae8f496fdd995.mp3"
+  },
+  {
+    "text": "To some extent. It appears to have reduced delays.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6a2863fe219a30649655.mp3"
+  },
+  {
+    "text": "But have all users benefited?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "3ddee9dbae492106d4ec.mp3"
+  },
+  {
+    "text": "That is less clear, especially for people without internet access.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "594521037beea2f5e25f.mp3"
+  },
+  {
+    "text": "What we need is a comparison across different groups.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a5a7f1a0f60f32857cc6.mp3"
+  },
+  {
+    "text": "I agree. One average figure does not explain everyone's experience.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "85778b428b6323a25c5f.mp3"
+  },
+  {
+    "text": "Can we use this report in our summary?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "46ef0d264240f51db3ef.mp3"
+  },
+  {
+    "text": "Yes, but we should check who produced it and when.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "c3667a0907df139e2ec5.mp3"
+  },
+  {
+    "text": "It says satisfaction increased after the change.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "ef57eb24d313773e76e6.mp3"
+  },
+  {
+    "text": "Does it show that the change caused the increase?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "892cabd1b5a0e01cd383.mp3"
+  },
+  {
+    "text": "No. Other things may have changed at the same time.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "c1e83997165459856d7c.mp3"
+  },
+  {
+    "text": "Then our summary should keep that uncertainty.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "2a5fd266ef6b181d10bc.mp3"
+  },
+  {
+    "text": "Could we move the deadline forward by two days?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f8dd3b253edb9eb06cc3.mp3"
+  },
+  {
+    "text": "That would be difficult unless we reduce the scope.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e4f5ed6bf3e711aece71.mp3"
+  },
+  {
+    "text": "Which part could wait?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "059224b8de76f55fd0a2.mp3"
+  },
+  {
+    "text": "We could deliver the main findings first and the detailed tables on Friday.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "8ed9cf8c94adeaa8a6be.mp3"
+  },
+  {
+    "text": "Would that give the client enough information for the meeting?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "81bd1db964c2a3f64688.mp3"
+  },
+  {
+    "text": "I think so, but let us confirm that before we commit.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4f88f9d8f75e4cfc5e42.mp3"
+  },
+  {
+    "text": "This post claims that the service is closing.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e8c6971c801237bb6e79.mp3"
+  },
+  {
+    "text": "What is the original source?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "58d4c7ea66f1492b543b.mp3"
+  },
+  {
+    "text": "It links to a notice from last year.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d68d3a0939c3f421b25f.mp3"
+  },
+  {
+    "text": "Then the date may change how we interpret it.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d19a8bdeb988edb0c5b9.mp3"
+  },
+  {
+    "text": "I will check for a newer notice before sharing the post.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "b6206e43d87345c51062.mp3"
+  },
+  {
+    "text": "Good idea. A confident headline is not the same as current evidence.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "4ab5f90547469220df55.mp3"
+  },
+  {
+    "text": "Should the council add more parking spaces?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e24ff8cb16af4ee8486a.mp3"
+  },
+  {
+    "text": "Perhaps, but we should also compare transport alternatives.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "030392371d3ee7c36a77.mp3"
+  },
+  {
+    "text": "Some residents cannot use the existing bus service.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "d5e4b62d93af76c30361.mp3"
+  },
+  {
+    "text": "Could a later bus help them without taking more public space?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a8c1d804a640f5e32081.mp3"
+  },
+  {
+    "text": "We would need to know how many people would use it.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "820586e020faf72d57ab.mp3"
+  },
+  {
+    "text": "Then a short trial with clear measures seems a reasonable next step.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "960962c3a1c43c69e91e.mp3"
+  },
+  {
+    "text": "I am not sure whether I understood the booking conditions.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "fa54eaf11086b3decf4d.mp3"
+  },
+  {
+    "text": "Which part was unclear?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "cb012cc2ccf1f2f76b2a.mp3"
+  },
+  {
+    "text": "It says we may arrive late if we notify reception.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "7021bbc990f927dc2aba.mp3"
+  },
+  {
+    "text": "Shall we ask what the latest arrival time is?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "b7ab43219bb4257f6e9d.mp3"
+  },
+  {
+    "text": "Yes, and I would like written confirmation.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "6127cf77f29f73a138cf.mp3"
+  },
+  {
+    "text": "I can write a short message and ask them to correct any misunderstanding.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "004864183e87c96bfa4d.mp3"
+  },
+  {
+    "text": "I have been studying late, but I remember less the next day.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "f10a320d817977b7ecd1.mp3"
+  },
+  {
+    "text": "What happens if you move one session to the afternoon?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "59941847659faf40535f.mp3"
+  },
+  {
+    "text": "I could try that, although my timetable changes each week.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "78ab0e7c536f8f45b5fa.mp3"
+  },
+  {
+    "text": "Could you reserve two short sessions instead of one long one?",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "d09b7fd3813a15b1c064.mp3"
+  },
+  {
+    "text": "That seems feasible. I will compare how well I recall the material.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "e6527e8c13051b432754.mp3"
+  },
+  {
+    "text": "And leave some time to use it in conversation, too.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1f16c84d441991001303.mp3"
+  },
+  {
+    "text": "Yes, especially to people interested in local stories.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e431c06b5bffb30cdc94.mp3"
+  },
+  {
+    "text": "Was there anything you found disappointing?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a9e4dfbc113112af5b59.mp3"
+  },
+  {
+    "text": "The final room felt rushed, whereas the earlier sections were carefully explained.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "31b25d7737e5cdd5c79c.mp3"
+  },
+  {
+    "text": "Did that spoil the experience?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "2394fe941e44f54c4348.mp3"
+  },
+  {
+    "text": "Not entirely. The interviews were memorable enough to justify a visit.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "e13f3382a7d6c31b5c66.mp3"
+  },
+  {
+    "text": "Have you written to the company about the damaged item?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "8e157c2b86dfea237aee.mp3"
+  },
+  {
+    "text": "I have drafted a message, but it sounds rather angry.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "69f16e73f946422a430e.mp3"
+  },
+  {
+    "text": "Have you included the order number and described the damage?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "524b5b02c8b73b31c19c.mp3"
+  },
+  {
+    "text": "Yes. I have also attached a photograph.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "36c082c6764ad505be76.mp3"
+  },
+  {
+    "text": "Then ask for a specific remedy and give them time to respond.",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "aed9ffe82fe1395ef63d.mp3"
+  },
+  {
+    "text": "I will request a replacement and ask when I can expect an update.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f3763c4ee64419749b72.mp3"
+  },
+  {
+    "text": "The proposal is affordable, is it not?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "90c9859295143db1acc3.mp3"
+  },
+  {
+    "text": "Compared with the original one, yes.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "a2bf50f4640bd82c5372.mp3"
+  },
+  {
+    "text": "Sorry, do you mean the total cost or the monthly payment?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "89f9669a7bc4038d6310.mp3"
+  },
+  {
+    "text": "The total cost. I should have made that clearer.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1d9a42a2d7320e3c3ca3.mp3"
+  },
+  {
+    "text": "I see your point. Could I add one concern about maintenance?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "a986c40dea4e51350c02.mp3"
+  },
+  {
+    "text": "Of course. Then perhaps we can agree on the next step.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6711aaced0be29fee3a8.mp3"
+  },
+  {
+    "text": "Which recommendation will you present?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "095112b0821b5370ba3a.mp3"
+  },
+  {
+    "text": "A limited trial, followed by a review of access and cost.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "f8cfc60cfc9c5cf219bd.mp3"
+  },
+  {
+    "text": "What is the strongest objection?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "65d57daad0a0c9c02ba4.mp3"
+  },
+  {
+    "text": "The trial could exclude people who cannot attend in the evening.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "6bb478719d15097d9266.mp3"
+  },
+  {
+    "text": "How would you address that?",
+    "role": "Leo",
+    "voice": "am_michael",
+    "file": "831e756d3ba4874e966a.mp3"
+  },
+  {
+    "text": "I would offer an alternative time and report whether it reaches different users.",
+    "role": "Mia",
+    "voice": "af_heart",
+    "file": "1d5808a5d77c59e6c02f.mp3"
+  }
+]

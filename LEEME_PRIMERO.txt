@@ -1,7 +1,9 @@
-HELLO ENGLISH COMPLETO: A1 + A2 + B1 + B2 · EDICIÓN 6
+HELLO ENGLISH COMPLETO: A1 + A2 + B1 + B2 · EDICIÓN 6.2
 
 Ahora la página empieza con historias y conversaciones.
-Incluye 48 escenas nuevas, personajes, práctica de tu papel y repaso.
+Incluye 48 escenas, personajes, práctica de tu papel y repaso.
+Cada personaje tiene una voz fija: no necesitas elegirla.
+Se incluyen 1.191 audios; copia también public/assets/voices.
 
 1. Extrae todo el ZIP.
 2. Abre EMPIEZA_AQUI.html haciendo doble clic.
