@@ -7,3 +7,5 @@
   Cache-Control: no-cache
 /build/*
   Cache-Control: no-cache
+/assets/context-help.js
+  Cache-Control: no-cache

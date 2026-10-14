@@ -1,0 +1,1642 @@
+{
+  "a1": [
+    [
+      {
+        "en": "Hello! My name is Ana.",
+        "es": "¡Hola! Me llamo Ana.",
+        "task": "Saluda a alguien que acabas de conocer y di tu nombre."
+      },
+      {
+        "en": "My name is Leo.",
+        "es": "Me llamo Leo.",
+        "task": "Preséntate con tu nombre real o uno inventado y deletréalo en voz alta."
+      },
+      {
+        "en": "Please speak slowly.",
+        "es": "Por favor, habla despacio.",
+        "task": "Imagina que tu compañero habla muy rápido. Pídele ayuda con una frase cortés."
+      }
+    ],
+    [
+      {
+        "en": "I am a student.",
+        "es": "Soy estudiante.",
+        "task": "Di quién eres con una profesión o una descripción sencilla."
+      },
+      {
+        "en": "I am not tired.",
+        "es": "No estoy cansado o cansada.",
+        "task": "Escribe cómo no te sientes hoy. Después di cómo sí te sientes."
+      },
+      {
+        "en": "Are you a student?",
+        "es": "¿Eres estudiante?",
+        "task": "Pregunta a otra persona si es estudiante y ensaya una respuesta breve."
+      }
+    ],
+    [
+      {
+        "en": "She is from Spain.",
+        "es": "Ella es de España.",
+        "task": "Di de dónde eres tú y de dónde es otra persona."
+      },
+      {
+        "en": "I am twenty years old.",
+        "es": "Tengo veinte años.",
+        "task": "Di tu edad o la edad de un personaje. En inglés se usa be, no have."
+      },
+      {
+        "en": "What is your address?",
+        "es": "¿Cuál es tu dirección?",
+        "task": "Pide un dato de contacto. Usa datos inventados al practicar."
+      }
+    ],
+    [
+      {
+        "en": "This is a pen.",
+        "es": "Esto es un bolígrafo.",
+        "task": "Presenta un objeto que tengas cerca usando a o an."
+      },
+      {
+        "en": "I have two pens.",
+        "es": "Tengo dos bolígrafos.",
+        "task": "Cuenta dos tipos de objetos de tu habitación; comprueba sus plurales."
+      },
+      {
+        "en": "This is a book.",
+        "es": "Esto es un libro.",
+        "task": "Señala un objeto cercano y otro lejano con this y that."
+      }
+    ],
+    [
+      {
+        "en": "This is my sister.",
+        "es": "Esta es mi hermana.",
+        "task": "Presenta a una persona de una familia real o inventada usando my."
+      },
+      {
+        "en": "This is Sara’s brother.",
+        "es": "Este es el hermano de Sara.",
+        "task": "Explica una relación de otra persona usando el nombre y apóstrofo."
+      },
+      {
+        "en": "My sister is a student.",
+        "es": "Mi hermana es estudiante.",
+        "task": "Di quién es un familiar y añade un dato sencillo sobre esa persona."
+      }
+    ],
+    [
+      {
+        "en": "She is very friendly.",
+        "es": "Ella es muy amable.",
+        "task": "Describe la personalidad de alguien con be y un adjetivo."
+      },
+      {
+        "en": "I have brown hair.",
+        "es": "Tengo el pelo castaño.",
+        "task": "Describe tu pelo o el de un personaje. Decide entre have y has."
+      },
+      {
+        "en": "I have got a blue bag.",
+        "es": "Tengo una bolsa azul.",
+        "task": "Di qué tienes usando have got. Puedes inventar el objeto."
+      }
+    ],
+    [
+      {
+        "en": "There is a bed.",
+        "es": "Hay una cama.",
+        "task": "Di qué hay en una habitación: primero una cosa y después varias."
+      },
+      {
+        "en": "Is there a bathroom?",
+        "es": "¿Hay un baño?",
+        "task": "Pregunta si hay algo que necesitas en una casa o un hotel."
+      },
+      {
+        "en": "The lamp is next to the bed.",
+        "es": "La lámpara está al lado de la cama.",
+        "task": "Describe dónde está un objeto con respecto a otro."
+      }
+    ],
+    [
+      {
+        "en": "I get up at seven.",
+        "es": "Me levanto a las siete.",
+        "task": "Di a qué hora haces una actividad habitual."
+      },
+      {
+        "en": "She works in a school.",
+        "es": "Ella trabaja en una escuela.",
+        "task": "Cuenta un hábito de otra persona y comprueba la terminación del verbo."
+      },
+      {
+        "en": "First, I have breakfast.",
+        "es": "Primero, desayuno.",
+        "task": "Cuenta dos pasos de tu mañana en orden."
+      }
+    ],
+    [
+      {
+        "en": "I do not drink coffee.",
+        "es": "No bebo café.",
+        "task": "Di algo que no haces habitualmente y contrástalo con algo que sí haces."
+      },
+      {
+        "en": "Do you speak English?",
+        "es": "¿Hablas inglés?",
+        "task": "Pregunta por un hábito a otra persona y prepara una respuesta breve."
+      },
+      {
+        "en": "Where do you live?",
+        "es": "¿Dónde vives?",
+        "task": "Pregunta dónde o cuándo hace algo una persona. Usa datos inventados."
+      }
+    ],
+    [
+      {
+        "en": "It is eight o’clock.",
+        "es": "Son las ocho.",
+        "task": "Di una hora y relaciona esa hora con una actividad."
+      },
+      {
+        "en": "My birthday is in May.",
+        "es": "Mi cumpleaños es en mayo.",
+        "task": "Di el mes de un cumpleaños y el día de una actividad semanal."
+      },
+      {
+        "en": "I always have breakfast.",
+        "es": "Siempre desayuno.",
+        "task": "Di con qué frecuencia haces dos actividades; evita usar siempre para todo."
+      }
+    ],
+    [
+      {
+        "en": "I like football.",
+        "es": "Me gusta el fútbol.",
+        "task": "Di una cosa que te gusta y otra que no te gusta."
+      },
+      {
+        "en": "I can swim.",
+        "es": "Sé nadar.",
+        "task": "Di una habilidad que tienes y una que todavía no tienes."
+      },
+      {
+        "en": "Can you help me?",
+        "es": "¿Puedes ayudarme?",
+        "task": "Pide ayuda y usa me, him, her o us para indicar a quién ayudar."
+      }
+    ],
+    [
+      {
+        "en": "I have two eggs.",
+        "es": "Tengo dos huevos.",
+        "task": "Haz una pequeña lista con un alimento contable y otro incontable."
+      },
+      {
+        "en": "There are some apples.",
+        "es": "Hay algunas manzanas.",
+        "task": "Explica qué comida hay y pregunta si queda otra cosa."
+      },
+      {
+        "en": "How many bananas do you want?",
+        "es": "¿Cuántos plátanos quieres?",
+        "task": "Pregunta una cantidad eligiendo how much o how many."
+      }
+    ],
+    [
+      {
+        "en": "I would like a coffee, please.",
+        "es": "Quisiera un café, por favor.",
+        "task": "Pide una bebida o comida que te gustaría tomar ahora."
+      },
+      {
+        "en": "I like coffee.",
+        "es": "Me gusta el café.",
+        "task": "Distingue tu gusto habitual de lo que quieres pedir hoy."
+      },
+      {
+        "en": "How much is the sandwich?",
+        "es": "¿Cuánto cuesta el sándwich?",
+        "task": "Pregunta el precio de algo y ensaya cómo terminarías la compra."
+      }
+    ],
+    [
+      {
+        "en": "How much is this bag?",
+        "es": "¿Cuánto cuesta esta bolsa?",
+        "task": "Pregunta el precio de un objeto y después el de varios."
+      },
+      {
+        "en": "I need a medium.",
+        "es": "Necesito una talla mediana.",
+        "task": "Pide una prenda indicando tu talla o color preferido."
+      },
+      {
+        "en": "This bag is smaller.",
+        "es": "Esta bolsa es más pequeña.",
+        "task": "Compara dos objetos que tengas a la vista usando un adjetivo sencillo."
+      }
+    ],
+    [
+      {
+        "en": "Is there a bank near here?",
+        "es": "¿Hay un banco cerca de aquí?",
+        "task": "Pregunta por un lugar que necesitas encontrar en una ciudad."
+      },
+      {
+        "en": "Go straight and turn right.",
+        "es": "Sigue recto y gira a la derecha.",
+        "task": "Da dos instrucciones para moverse por una calle imaginaria."
+      },
+      {
+        "en": "Turn right at the bank.",
+        "es": "Gira a la derecha en el banco.",
+        "task": "Explica un giro usando un lugar como referencia."
+      }
+    ],
+    [
+      {
+        "en": "I go to school by bus.",
+        "es": "Voy a la escuela en autobús.",
+        "task": "Di cómo vas habitualmente a algún sitio."
+      },
+      {
+        "en": "What time does the bus leave?",
+        "es": "¿A qué hora sale el autobús?",
+        "task": "Pregunta por la salida de un transporte y ensaya una respuesta."
+      },
+      {
+        "en": "A room for two nights, please.",
+        "es": "Una habitación para dos noches, por favor.",
+        "task": "Pide una habitación o un billete indicando la cantidad necesaria."
+      }
+    ],
+    [
+      {
+        "en": "I am reading now.",
+        "es": "Estoy leyendo ahora.",
+        "task": "Di qué estás haciendo ahora tú o un personaje."
+      },
+      {
+        "en": "Are you listening?",
+        "es": "¿Estás escuchando?",
+        "task": "Pregunta qué está haciendo alguien y da una respuesta breve."
+      },
+      {
+        "en": "She works every day.",
+        "es": "Ella trabaja todos los días.",
+        "task": "Contrasta una costumbre con lo que ocurre ahora."
+      }
+    ],
+    [
+      {
+        "en": "It is sunny today.",
+        "es": "Hoy hace sol.",
+        "task": "Describe el tiempo de hoy o de una imagen imaginaria."
+      },
+      {
+        "en": "I am wearing a blue shirt.",
+        "es": "Llevo puesta una camisa azul.",
+        "task": "Di qué lleva puesto una persona, incluyendo un color."
+      },
+      {
+        "en": "It is hot in summer.",
+        "es": "Hace calor en verano.",
+        "task": "Relaciona una estación con su clima y da una razón sencilla."
+      }
+    ],
+    [
+      {
+        "en": "My hand hurts.",
+        "es": "Me duele la mano.",
+        "task": "Di qué parte del cuerpo te duele en una situación ficticia."
+      },
+      {
+        "en": "I have a stomach ache.",
+        "es": "Me duele el estómago.",
+        "task": "Describe una molestia para pedir ayuda. Es una práctica de idioma."
+      },
+      {
+        "en": "Please help me.",
+        "es": "Por favor, ayúdame.",
+        "task": "Pide ayuda de forma cortés y añade una instrucción sencilla."
+      }
+    ],
+    [
+      {
+        "en": "I was at home yesterday.",
+        "es": "Ayer estuve en casa.",
+        "task": "Di dónde estabas ayer tú y otra persona."
+      },
+      {
+        "en": "Were you at school?",
+        "es": "¿Estabas en la escuela?",
+        "task": "Pregunta dónde estaba alguien y ensaya una respuesta negativa."
+      },
+      {
+        "en": "I was busy last week.",
+        "es": "La semana pasada estuve ocupado u ocupada.",
+        "task": "Cuenta cómo estabas en un momento pasado y precisa cuándo."
+      }
+    ],
+    [
+      {
+        "en": "I visited my friend yesterday.",
+        "es": "Ayer visité a mi amigo.",
+        "task": "Cuenta una acción terminada con un verbo regular."
+      },
+      {
+        "en": "I went to the park.",
+        "es": "Fui al parque.",
+        "task": "Cuenta adónde fuiste ayer usando el pasado de go."
+      },
+      {
+        "en": "Did you visit your friend?",
+        "es": "¿Visitaste a tu amigo?",
+        "task": "Pregunta qué hizo alguien ayer y ensaya una respuesta con did."
+      }
+    ],
+    [
+      {
+        "en": "I am going to study tonight.",
+        "es": "Voy a estudiar esta noche.",
+        "task": "Di un plan concreto para esta noche o mañana."
+      },
+      {
+        "en": "Are you going to study?",
+        "es": "¿Vas a estudiar?",
+        "task": "Pregunta a alguien por un plan y responde brevemente."
+      },
+      {
+        "en": "Would you like to come?",
+        "es": "¿Te gustaría venir?",
+        "task": "Invita a una persona y acuerda un lugar o una hora."
+      }
+    ],
+    [
+      {
+        "en": "I like tea and coffee.",
+        "es": "Me gustan el té y el café.",
+        "task": "Une dos ideas con and, but o because según su relación."
+      },
+      {
+        "en": "Hi Ana! How are you?",
+        "es": "¡Hola, Ana! ¿Cómo estás?",
+        "task": "Escribe el comienzo de un mensaje a una persona conocida."
+      },
+      {
+        "en": "The library is closed on Sunday.",
+        "es": "La biblioteca está cerrada el domingo.",
+        "task": "Escribe un aviso de horario y di qué día sí puedes ir."
+      }
+    ],
+    [
+      {
+        "en": "I am Ana and I am from Peru.",
+        "es": "Soy Ana y soy de Perú.",
+        "task": "Preséntate añadiendo tu lugar de origen."
+      },
+      {
+        "en": "A ticket to Oxford, please.",
+        "es": "Un billete a Oxford, por favor.",
+        "task": "Resuelve una compra sencilla indicando el destino que necesitas."
+      },
+      {
+        "en": "I can introduce myself.",
+        "es": "Puedo presentarme.",
+        "task": "Di una cosa que ya puedes hacer en inglés y demuéstrala con un ejemplo."
+      }
+    ]
+  ],
+  "a2": [
+    [
+      {
+        "en": "I usually study in the evening.",
+        "es": "Normalmente estudio por la tarde-noche.",
+        "task": "Contrasta un hábito de tu semana con algo temporal que haces estos días."
+      },
+      {
+        "en": "I hardly ever watch television.",
+        "es": "Casi nunca veo la televisión.",
+        "task": "Cuenta la frecuencia real de dos actividades y pregunta por la de otra persona."
+      },
+      {
+        "en": "I prefer quiet places because I can read.",
+        "es": "Prefiero los lugares tranquilos porque puedo leer.",
+        "task": "Explica una preferencia con una razón concreta."
+      }
+    ],
+    [
+      {
+        "en": "My neighbour has short curly hair.",
+        "es": "Mi vecino tiene el pelo corto y rizado.",
+        "task": "Describe el aspecto y un rasgo de personalidad de alguien."
+      },
+      {
+        "en": "This notebook is mine.",
+        "es": "Este cuaderno es mío.",
+        "task": "Aclara a quién pertenecen dos objetos sin repetir sus nombres."
+      },
+      {
+        "en": "She is the friend who helps me study.",
+        "es": "Ella es la amiga que me ayuda a estudiar.",
+        "task": "Identifica a una persona explicando qué hace."
+      }
+    ],
+    [
+      {
+        "en": "We visited the museum yesterday.",
+        "es": "Ayer visitamos el museo.",
+        "task": "Cuenta dos hechos terminados de una salida real o inventada."
+      },
+      {
+        "en": "Did you enjoy the concert?",
+        "es": "¿Disfrutaste del concierto?",
+        "task": "Pregunta por una experiencia pasada y añade algo que no ocurrió."
+      },
+      {
+        "en": "First we bought the tickets.",
+        "es": "Primero compramos las entradas.",
+        "task": "Cuenta tres pasos de una salida en un orden comprensible."
+      }
+    ],
+    [
+      {
+        "en": "I was reading at nine last night.",
+        "es": "Anoche a las nueve estaba leyendo.",
+        "task": "Describe qué hacías a una hora concreta de ayer."
+      },
+      {
+        "en": "We were eating when the lights went out.",
+        "es": "Estábamos comiendo cuando se fue la luz.",
+        "task": "Cuenta qué estabas haciendo y qué lo interrumpió."
+      },
+      {
+        "en": "While I was cooking, my sister was reading.",
+        "es": "Mientras yo cocinaba, mi hermana leía.",
+        "task": "Describe dos actividades que ocurrían a la vez."
+      }
+    ],
+    [
+      {
+        "en": "I have visited another country.",
+        "es": "He visitado otro país.",
+        "task": "Cuenta una experiencia sin decir todavía cuándo ocurrió."
+      },
+      {
+        "en": "Have you ever slept in a tent?",
+        "es": "¿Has dormido alguna vez en una tienda de campaña?",
+        "task": "Pregunta por una experiencia y responde con ever o never cuando corresponda."
+      },
+      {
+        "en": "My brother has been to Chile twice.",
+        "es": "Mi hermano ha estado en Chile dos veces.",
+        "task": "Distingue una visita de la que alguien volvió de un viaje del que aún no ha vuelto."
+      }
+    ],
+    [
+      {
+        "en": "I have just sent the email.",
+        "es": "Acabo de enviar el correo.",
+        "task": "Comunica una novedad usando just, already o yet según el mensaje."
+      },
+      {
+        "en": "I have lived here for three years.",
+        "es": "Vivo aquí desde hace tres años.",
+        "task": "Describe algo que empezó antes y continúa; distingue la duración del inicio."
+      },
+      {
+        "en": "I have lost my keys and cannot get in.",
+        "es": "He perdido las llaves y no puedo entrar.",
+        "task": "Cuenta una noticia con efecto actual y añade un detalle situado en el pasado."
+      }
+    ],
+    [
+      {
+        "en": "I am going to learn to swim.",
+        "es": "Voy a aprender a nadar.",
+        "task": "Expresa una intención y explica por qué la tienes."
+      },
+      {
+        "en": "Your bag is heavy. I will carry it.",
+        "es": "Tu bolsa pesa. Yo la llevaré.",
+        "task": "Imagina que alguien necesita ayuda y ofrece hacer algo en ese momento."
+      },
+      {
+        "en": "We are meeting at the station at ten.",
+        "es": "Hemos quedado en la estación a las diez.",
+        "task": "Cuenta un plan acordado indicando lugar y hora."
+      }
+    ],
+    [
+      {
+        "en": "Would you like to have lunch with us?",
+        "es": "¿Les gustaría almorzar con nosotros?",
+        "task": "Invita a alguien a una actividad concreta."
+      },
+      {
+        "en": "That sounds great. What time shall we meet?",
+        "es": "Suena genial. ¿A qué hora quedamos?",
+        "task": "Acepta una invitación y pide un dato para concretarla."
+      },
+      {
+        "en": "Are you free on Friday at three?",
+        "es": "¿Estás libre el viernes a las tres?",
+        "task": "Propón una hora y ofrece una alternativa si no funciona."
+      }
+    ],
+    [
+      {
+        "en": "The bus is cheaper than the taxi.",
+        "es": "El autobús es más barato que el taxi.",
+        "task": "Compara dos formas de llegar a un lugar."
+      },
+      {
+        "en": "This is the cheapest café in town.",
+        "es": "Esta es la cafetería más barata de la ciudad.",
+        "task": "Recomienda una opción dentro de un grupo usando un superlativo."
+      },
+      {
+        "en": "The train is as fast as the bus today.",
+        "es": "Hoy el tren es tan rápido como el autobús.",
+        "task": "Compara dos opciones indicando en qué son iguales o diferentes."
+      }
+    ],
+    [
+      {
+        "en": "We need a bottle of oil.",
+        "es": "Necesitamos una botella de aceite.",
+        "task": "Prepara una lista de compra con recipientes o cantidades adecuados."
+      },
+      {
+        "en": "We have a few tomatoes left.",
+        "es": "Nos quedan unos cuantos tomates.",
+        "task": "Explica qué queda para cocinar con a few y a little."
+      },
+      {
+        "en": "There is too much salt in this soup.",
+        "es": "Hay demasiada sal en esta sopa.",
+        "task": "Describe un exceso o una cantidad insuficiente y propone un cambio."
+      }
+    ],
+    [
+      {
+        "en": "I prefer the blue one.",
+        "es": "Prefiero el azul.",
+        "task": "Elige entre dos objetos sin repetir el nombre de ambos."
+      },
+      {
+        "en": "These shoes are too small.",
+        "es": "Estos zapatos son demasiado pequeños.",
+        "task": "Explica por qué una prenda no te sirve usando too o enough."
+      },
+      {
+        "en": "I bought this shirt yesterday.",
+        "es": "Compré esta camisa ayer.",
+        "task": "Explica una compra, un problema y la solución que pides."
+      }
+    ],
+    [
+      {
+        "en": "Walk along this street.",
+        "es": "Camina por esta calle.",
+        "task": "Da una ruta breve con dos indicaciones de movimiento."
+      },
+      {
+        "en": "This is the café where we usually meet.",
+        "es": "Esta es la cafetería donde solemos quedar.",
+        "task": "Identifica un lugar por lo que haces allí."
+      },
+      {
+        "en": "Excuse me, how do I get to the museum?",
+        "es": "Disculpe, ¿cómo llego al museo?",
+        "task": "Pide indicaciones y confirma un paso para evitar perderte."
+      }
+    ],
+    [
+      {
+        "en": "The train leaves at half past six.",
+        "es": "El tren sale a las seis y media.",
+        "task": "Comunica un horario publicado de un viaje."
+      },
+      {
+        "en": "I usually travel by train.",
+        "es": "Normalmente viajo en tren.",
+        "task": "Explica cómo viajas y pide el billete que necesitas."
+      },
+      {
+        "en": "Our train is delayed by twenty minutes.",
+        "es": "Nuestro tren lleva veinte minutos de retraso.",
+        "task": "Comunica un problema de transporte y pregunta por otra opción."
+      }
+    ],
+    [
+      {
+        "en": "Could I have an extra towel, please?",
+        "es": "¿Podría darme una toalla extra, por favor?",
+        "task": "Haz una petición concreta en un alojamiento."
+      },
+      {
+        "en": "There is a problem with the shower.",
+        "es": "Hay un problema con la ducha.",
+        "task": "Explica qué no funciona y pide que lo revisen."
+      },
+      {
+        "en": "I have a booking for two nights.",
+        "es": "Tengo una reserva para dos noches.",
+        "task": "Confirma los datos esenciales de una reserva ficticia."
+      }
+    ],
+    [
+      {
+        "en": "I have had a sore throat since Monday.",
+        "es": "Me duele la garganta desde el lunes.",
+        "task": "Explica una molestia ficticia e indica desde cuándo la tienes."
+      },
+      {
+        "en": "You should ask for help if you are worried.",
+        "es": "Deberías pedir ayuda si estás preocupado o preocupada.",
+        "task": "Da un consejo prudente y una razón en una situación ficticia."
+      },
+      {
+        "en": "I need to speak to a doctor.",
+        "es": "Necesito hablar con un médico.",
+        "task": "Expresa claramente qué ayuda necesitas; practica el idioma, no un diagnóstico."
+      }
+    ],
+    [
+      {
+        "en": "You must wear a helmet here.",
+        "es": "Aquí debes llevar casco.",
+        "task": "Explica una norma y su motivo."
+      },
+      {
+        "en": "You must not use your phone during the test.",
+        "es": "No debes usar el teléfono durante el examen.",
+        "task": "Distingue una prohibición de algo que simplemente no es obligatorio."
+      },
+      {
+        "en": "Do I have to wear a uniform?",
+        "es": "¿Tengo que llevar uniforme?",
+        "task": "Pregunta por un requisito y confirma la respuesta."
+      }
+    ],
+    [
+      {
+        "en": "I can repair a bicycle now.",
+        "es": "Ahora sé reparar una bicicleta.",
+        "task": "Compara una habilidad actual con lo que podías hacer antes."
+      },
+      {
+        "en": "Could I borrow your pen?",
+        "es": "¿Me prestas tu bolígrafo?",
+        "task": "Pide permiso o un objeto de forma cortés y responde."
+      },
+      {
+        "en": "She explains the rules clearly.",
+        "es": "Ella explica las reglas con claridad.",
+        "task": "Describe cómo hace alguien una tarea usando un adverbio."
+      }
+    ],
+    [
+      {
+        "en": "I enjoy taking photos.",
+        "es": "Me gusta hacer fotos.",
+        "task": "Cuenta una afición con un verbo seguido de -ing."
+      },
+      {
+        "en": "I want to join a music club.",
+        "es": "Quiero apuntarme a un club de música.",
+        "task": "Explica una intención con un verbo seguido de to e infinitivo."
+      },
+      {
+        "en": "I prefer walking to running.",
+        "es": "Prefiero caminar a correr.",
+        "task": "Compara dos aficiones y propone una actividad compartida."
+      }
+    ],
+    [
+      {
+        "en": "If it rains, we will stay indoors.",
+        "es": "Si llueve, nos quedaremos dentro.",
+        "task": "Prepara un plan alternativo para una condición posible."
+      },
+      {
+        "en": "If I stay up late, I feel tired.",
+        "es": "Si me acuesto tarde, me siento cansado o cansada.",
+        "task": "Relaciona una condición habitual con su resultado."
+      },
+      {
+        "en": "It might rain this afternoon.",
+        "es": "Puede que llueva esta tarde.",
+        "task": "Expresa una posibilidad sin presentarla como algo seguro."
+      }
+    ],
+    [
+      {
+        "en": "I went to the post office to send a parcel.",
+        "es": "Fui a correos para enviar un paquete.",
+        "task": "Explica para qué fuiste a un lugar."
+      },
+      {
+        "en": "Could you tell me where the cash machine is?",
+        "es": "¿Podría decirme dónde está el cajero automático?",
+        "task": "Pide información cortésmente y comprueba el orden de la pregunta indirecta."
+      },
+      {
+        "en": "How much does it cost to send this parcel?",
+        "es": "¿Cuánto cuesta enviar este paquete?",
+        "task": "Pregunta un precio y aclara qué incluye."
+      }
+    ],
+    [
+      {
+        "en": "There is something wrong with the screen.",
+        "es": "Hay algún problema con la pantalla.",
+        "task": "Describe un fallo usando something, anything o nothing."
+      },
+      {
+        "en": "First, open the email and download the attachment.",
+        "es": "Primero, abre el correo y descarga el archivo adjunto.",
+        "task": "Da dos instrucciones digitales sencillas y comprueba el orden."
+      },
+      {
+        "en": "I am trying to upload a photo.",
+        "es": "Estoy intentando subir una foto.",
+        "task": "Di qué intentas hacer y en qué paso aparece el problema."
+      }
+    ],
+    [
+      {
+        "en": "I used to walk to school, but now I take the bus.",
+        "es": "Antes iba caminando a la escuela, pero ahora voy en autobús.",
+        "task": "Compara una costumbre anterior con tu situación actual."
+      },
+      {
+        "en": "I was surprised by the news.",
+        "es": "La noticia me sorprendió.",
+        "task": "Distingue cómo se siente una persona de lo que provoca ese sentimiento."
+      },
+      {
+        "en": "Although I was nervous, I joined the group.",
+        "es": "Aunque estaba nervioso o nerviosa, me uní al grupo.",
+        "task": "Cuenta un cambio incluyendo una dificultad y un contraste."
+      }
+    ],
+    [
+      {
+        "en": "Hi Ben, thanks for your message.",
+        "es": "Hola, Ben. Gracias por tu mensaje.",
+        "task": "Empieza un mensaje, explica su propósito y pide una respuesta concreta."
+      },
+      {
+        "en": "I missed the bus, so I arrived late.",
+        "es": "Perdí el autobús, así que llegué tarde.",
+        "task": "Conecta un hecho con su causa o su resultado."
+      },
+      {
+        "en": "I study English on Mondays.",
+        "es": "Estudio inglés los lunes.",
+        "task": "Escribe un mensaje breve y revisa tiempo, orden y puntuación."
+      }
+    ],
+    [
+      {
+        "en": "I usually travel by bus, but I walked yesterday.",
+        "es": "Normalmente viajo en autobús, pero ayer fui andando.",
+        "task": "Cuenta un hábito y una excepción pasada usando tiempos distintos."
+      },
+      {
+        "en": "I prefer the bus because it is cheaper. What about you?",
+        "es": "Prefiero el autobús porque es más barato. ¿Y tú?",
+        "task": "Justifica una preferencia e invita a otra persona a responder."
+      },
+      {
+        "en": "I think we should choose the earlier train.",
+        "es": "Creo que deberíamos elegir el tren más temprano.",
+        "task": "Propón una solución y apóyala con una razón."
+      }
+    ]
+  ],
+  "b1": [
+    [
+      {
+        "en": "I practise a little every day.",
+        "es": "Practico un poco todos los días.",
+        "task": "Contrasta una rutina con un cambio que estás intentando hacer."
+      },
+      {
+        "en": "I understand the main idea.",
+        "es": "Entiendo la idea principal.",
+        "task": "Explica qué entiendes y qué estás haciendo para mejorar."
+      },
+      {
+        "en": "I take notes because they help me remember.",
+        "es": "Tomo apuntes porque me ayudan a recordar.",
+        "task": "Amplía una respuesta breve con una razón y un ejemplo."
+      }
+    ],
+    [
+      {
+        "en": "I was waiting when the train arrived.",
+        "es": "Estaba esperando cuando llegó el tren.",
+        "task": "Cuenta un acontecimiento y la situación en la que ocurrió."
+      },
+      {
+        "en": "The train had left before we arrived.",
+        "es": "El tren se había ido antes de que llegáramos.",
+        "task": "Explica qué había pasado antes de un problema."
+      },
+      {
+        "en": "At first, I did not know what to do.",
+        "es": "Al principio no sabía qué hacer.",
+        "task": "Cuenta una historia con inicio, cambio y desenlace."
+      }
+    ],
+    [
+      {
+        "en": "I have taken part in two projects.",
+        "es": "He participado en dos proyectos.",
+        "task": "Cuenta una experiencia relevante para una situación actual."
+      },
+      {
+        "en": "I have known Sara for three years.",
+        "es": "Conozco a Sara desde hace tres años.",
+        "task": "Explica desde cuándo conoces a alguien o haces una actividad."
+      },
+      {
+        "en": "Have you ever organised an event?",
+        "es": "¿Has organizado alguna vez un evento?",
+        "task": "Pregunta por una experiencia y después solicita un detalle pasado."
+      }
+    ],
+    [
+      {
+        "en": "I have been working on my project all morning.",
+        "es": "Llevo toda la mañana trabajando en mi proyecto.",
+        "task": "Cuenta una actividad reciente destacando su duración."
+      },
+      {
+        "en": "I have written three pages.",
+        "es": "He escrito tres páginas.",
+        "task": "Contrasta cuánto has terminado con cuánto tiempo llevas trabajando."
+      },
+      {
+        "en": "I have been looking at the screen for hours.",
+        "es": "Llevo horas mirando la pantalla.",
+        "task": "Explica una dificultad como resultado de una actividad reciente."
+      }
+    ],
+    [
+      {
+        "en": "I used to live near the sea.",
+        "es": "Antes vivía cerca del mar.",
+        "task": "Cuenta un hábito o estado anterior que ya cambió."
+      },
+      {
+        "en": "I am used to the noise now.",
+        "es": "Ahora estoy acostumbrado o acostumbrada al ruido.",
+        "task": "Distingue algo a lo que ya te adaptaste de algo a lo que te estás adaptando."
+      },
+      {
+        "en": "My old town was quiet, whereas this city is busy.",
+        "es": "Mi antiguo pueblo era tranquilo, mientras que esta ciudad tiene mucho movimiento.",
+        "task": "Compara dos etapas de tu vida sin decir que una es mejor en todo."
+      }
+    ],
+    [
+      {
+        "en": "We are going to organise a trip.",
+        "es": "Vamos a organizar una excursión.",
+        "task": "Distingue una intención, un acuerdo y una decisión tomada al hablar."
+      },
+      {
+        "en": "I will call you when I arrive.",
+        "es": "Te llamaré cuando llegue.",
+        "task": "Acuerda qué harás cuando ocurra otra cosa."
+      },
+      {
+        "en": "Are you available on Friday afternoon?",
+        "es": "¿Estás disponible el viernes por la tarde?",
+        "task": "Negocia una fecha y ofrece una alternativa concreta."
+      }
+    ],
+    [
+      {
+        "en": "If I sleep badly, I feel tired.",
+        "es": "Si duermo mal, me siento cansado o cansada.",
+        "task": "Explica una relación habitual entre una condición y su resultado."
+      },
+      {
+        "en": "If it rains, we will stay inside.",
+        "es": "Si llueve, nos quedaremos dentro.",
+        "task": "Prepara un plan y una alternativa para un imprevisto."
+      },
+      {
+        "en": "Take a jacket in case it gets cold.",
+        "es": "Lleva una chaqueta por si hace frío.",
+        "task": "Distingue una precaución previa de una acción que depende de una condición."
+      }
+    ],
+    [
+      {
+        "en": "If I had more time, I would learn to cook.",
+        "es": "Si tuviera más tiempo, aprendería a cocinar.",
+        "task": "Imagina un cambio en tu situación y explica qué harías."
+      },
+      {
+        "en": "If I were you, I would ask for advice.",
+        "es": "Si yo fuera tú, pediría consejo.",
+        "task": "Da un consejo para una situación ficticia y justifícalo."
+      },
+      {
+        "en": "One advantage would be more free time.",
+        "es": "Una ventaja sería tener más tiempo libre.",
+        "task": "Evalúa dos alternativas imaginarias con una ventaja y un inconveniente."
+      }
+    ],
+    [
+      {
+        "en": "You must wear closed shoes.",
+        "es": "Debes llevar zapatos cerrados.",
+        "task": "Explica una obligación, una prohibición y algo opcional en un lugar."
+      },
+      {
+        "en": "You should read the instructions first.",
+        "es": "Deberías leer primero las instrucciones.",
+        "task": "Da un consejo práctico y pregunta por un permiso."
+      },
+      {
+        "en": "Keep the door clear so that people can leave.",
+        "es": "Deja la puerta despejada para que la gente pueda salir.",
+        "task": "Explica el propósito de una norma."
+      }
+    ],
+    [
+      {
+        "en": "The lights are on; someone must be home.",
+        "es": "Las luces están encendidas; debe de haber alguien en casa.",
+        "task": "Haz una deducción y menciona la evidencia que la apoya."
+      },
+      {
+        "en": "He might be working upstairs.",
+        "es": "Puede que esté trabajando arriba.",
+        "task": "Ofrece dos explicaciones posibles sin afirmar que sean hechos."
+      },
+      {
+        "en": "The screen is dark, but the battery might be empty.",
+        "es": "La pantalla está oscura, pero puede que la batería esté descargada.",
+        "task": "Distingue lo que observas de lo que supones y propone cómo comprobarlo."
+      }
+    ],
+    [
+      {
+        "en": "The paper is collected every Friday.",
+        "es": "El papel se recoge todos los viernes.",
+        "task": "Describe un proceso centrándote en lo que ocurre."
+      },
+      {
+        "en": "Local artists designed the posters.",
+        "es": "Los artistas locales diseñaron los carteles.",
+        "task": "Decide si importa más la acción o quién la hizo y formula la frase."
+      },
+      {
+        "en": "First, the bottles are sorted by colour.",
+        "es": "Primero, las botellas se clasifican por colores.",
+        "task": "Explica tres pasos de un proceso sencillo."
+      }
+    ],
+    [
+      {
+        "en": "She said that she was busy.",
+        "es": "Ella dijo que estaba ocupada.",
+        "task": "Transmite un mensaje indicando quién lo dijo."
+      },
+      {
+        "en": "She asked if I was free.",
+        "es": "Ella preguntó si yo estaba libre.",
+        "task": "Cuenta una pregunta o una petición de otra persona."
+      },
+      {
+        "en": "The guide said the tour would start the following day.",
+        "es": "El guía dijo que la excursión empezaría al día siguiente.",
+        "task": "Transmite un aviso cambiando las referencias de persona y tiempo necesarias."
+      }
+    ],
+    [
+      {
+        "en": "The woman who runs the café is my neighbour.",
+        "es": "La mujer que lleva la cafetería es mi vecina.",
+        "task": "Identifica a una persona con información necesaria."
+      },
+      {
+        "en": "This is the park where we met.",
+        "es": "Este es el parque donde nos conocimos.",
+        "task": "Describe un lugar importante o a quién pertenece algo."
+      },
+      {
+        "en": "My sister, who lives nearby, can help.",
+        "es": "Mi hermana, que vive cerca, puede ayudar.",
+        "task": "Añade información extra sobre una persona ya identificada."
+      }
+    ],
+    [
+      {
+        "en": "I enjoy learning new skills.",
+        "es": "Me gusta aprender nuevas habilidades.",
+        "task": "Usa dos verbos con sus estructuras habituales en un plan personal."
+      },
+      {
+        "en": "I am interested in studying abroad.",
+        "es": "Me interesa estudiar en el extranjero.",
+        "task": "Explica un interés y el propósito de una actividad."
+      },
+      {
+        "en": "He stopped talking when the film began.",
+        "es": "Dejó de hablar cuando empezó la película.",
+        "task": "Crea dos situaciones que distingan dejar de hacer algo de parar para hacerlo."
+      }
+    ],
+    [
+      {
+        "en": "This option is much cheaper.",
+        "es": "Esta opción es mucho más barata.",
+        "task": "Compara dos opciones indicando el tamaño de la diferencia."
+      },
+      {
+        "en": "The case is too heavy to carry.",
+        "es": "La maleta es demasiado pesada para llevarla.",
+        "task": "Explica por qué algo supera un límite o resulta suficiente."
+      },
+      {
+        "en": "The repair is worth considering.",
+        "es": "Vale la pena considerar la reparación.",
+        "task": "Recomienda una opción y justifícala con dos criterios."
+      }
+    ],
+    [
+      {
+        "en": "We need fewer plastic bottles.",
+        "es": "Necesitamos menos botellas de plástico.",
+        "task": "Propón reducir o aumentar recursos distinguiendo contables e incontables."
+      },
+      {
+        "en": "A few people offered to help.",
+        "es": "Unas cuantas personas se ofrecieron a ayudar.",
+        "task": "Describe una cantidad escasa y explica si es suficiente para tu propósito."
+      },
+      {
+        "en": "Each person can take one notebook.",
+        "es": "Cada persona puede llevarse un cuaderno.",
+        "task": "Reparte materiales e indica qué corresponde a cada persona."
+      }
+    ],
+    [
+      {
+        "en": "We stayed inside because it was raining.",
+        "es": "Nos quedamos dentro porque estaba lloviendo.",
+        "task": "Une un hecho con su causa y después con su consecuencia."
+      },
+      {
+        "en": "Although it was cold, we went out.",
+        "es": "Aunque hacía frío, salimos.",
+        "task": "Expresa un contraste usando una estructura completa."
+      },
+      {
+        "en": "In my opinion, libraries are important.",
+        "es": "En mi opinión, las bibliotecas son importantes.",
+        "task": "Escribe un párrafo con idea principal, razón y ejemplo."
+      }
+    ],
+    [
+      {
+        "en": "Can you tell me where the desk is?",
+        "es": "¿Puedes decirme dónde está el mostrador?",
+        "task": "Pide información de manera cortés sin invertir el orden de la pregunta indirecta."
+      },
+      {
+        "en": "My flight has been delayed.",
+        "es": "Mi vuelo se ha retrasado.",
+        "task": "Explica un problema de viaje con los datos necesarios para recibir ayuda."
+      },
+      {
+        "en": "Would it be possible to take a later bus?",
+        "es": "¿Sería posible tomar un autobús más tarde?",
+        "task": "Pide una alternativa y confirma sus condiciones."
+      }
+    ],
+    [
+      {
+        "en": "I bought these headphones last week.",
+        "es": "Compré estos auriculares la semana pasada.",
+        "task": "Describe una compra y un defecto con hechos concretos."
+      },
+      {
+        "en": "I would like a replacement.",
+        "es": "Quisiera un reemplazo.",
+        "task": "Pide una solución razonable e indica por qué la necesitas."
+      },
+      {
+        "en": "I am sorry about the problem.",
+        "es": "Lamento el problema.",
+        "task": "Responde a una reclamación y acuerda el siguiente paso."
+      }
+    ],
+    [
+      {
+        "en": "I can organise group tasks.",
+        "es": "Puedo organizar tareas de grupo.",
+        "task": "Describe una habilidad y demuestra su uso con un ejemplo."
+      },
+      {
+        "en": "I have worked with different teams.",
+        "es": "He trabajado con diferentes equipos.",
+        "task": "Relaciona una experiencia previa con un objetivo actual."
+      },
+      {
+        "en": "Our group had a tight deadline.",
+        "es": "Nuestro grupo tenía un plazo ajustado.",
+        "task": "Cuenta una situación, tu acción y el resultado obtenido."
+      }
+    ],
+    [
+      {
+        "en": "According to the notice, the road is closed.",
+        "es": "Según el aviso, la carretera está cerrada.",
+        "task": "Transmite información e indica de dónde procede."
+      },
+      {
+        "en": "Check the date before sharing the post.",
+        "es": "Comprueba la fecha antes de compartir la publicación.",
+        "task": "Explica dos comprobaciones antes de confiar en un mensaje."
+      },
+      {
+        "en": "This may be an old photograph.",
+        "es": "Puede que esta sea una fotografía antigua.",
+        "task": "Resume información dudosa dejando claro qué falta por verificar."
+      }
+    ],
+    [
+      {
+        "en": "I suggest meeting earlier.",
+        "es": "Sugiero que quedemos más temprano.",
+        "task": "Haz una sugerencia y pide la opinión del grupo."
+      },
+      {
+        "en": "I see your point, but time is limited.",
+        "es": "Entiendo tu punto de vista, pero tenemos poco tiempo.",
+        "task": "Discrepa de una propuesta reconociendo primero una parte válida."
+      },
+      {
+        "en": "I will contact the venue by Friday.",
+        "es": "Contactaré con el lugar antes del viernes, como máximo.",
+        "task": "Cierra un acuerdo dejando claros responsable, acción y plazo."
+      }
+    ],
+    [
+      {
+        "en": "The story was moving.",
+        "es": "La historia era conmovedora.",
+        "task": "Describe una experiencia y explica qué reacción te produjo."
+      },
+      {
+        "en": "I recommend visiting the exhibition.",
+        "es": "Recomiendo visitar la exposición.",
+        "task": "Recomienda algo incluyendo una razón y una limitación."
+      },
+      {
+        "en": "I especially enjoyed the live music.",
+        "es": "Disfruté especialmente de la música en directo.",
+        "task": "Adapta una recomendación a los gustos de una persona concreta."
+      }
+    ],
+    [
+      {
+        "en": "Last month, I organised a small event.",
+        "es": "El mes pasado organicé un pequeño evento.",
+        "task": "Cuenta un proyecto usando los tiempos que aclaren la secuencia."
+      },
+      {
+        "en": "I think the plan worked because more people joined.",
+        "es": "Creo que el plan funcionó porque se unieron más personas.",
+        "task": "Justifica una valoración y prepara una respuesta a una objeción."
+      },
+      {
+        "en": "The main point I want to make is simple.",
+        "es": "La idea principal que quiero expresar es sencilla.",
+        "task": "Revisa un mensaje para que una persona entienda su idea principal."
+      }
+    ]
+  ],
+  "b2": [
+    [
+      {
+        "en": "I have been working on this report all morning, and it is still unfinished.",
+        "es": "Llevo toda la mañana trabajando en este informe y todavía no está terminado.",
+        "task": "Contrasta un resultado terminado con una actividad reciente que aún continúa."
+      },
+      {
+        "en": "When I reached the station, the train had already left.",
+        "es": "Cuando llegué a la estación, el tren ya se había ido.",
+        "task": "Cuenta un problema distinguiendo el hecho principal y una causa anterior."
+      },
+      {
+        "en": "I am used to working with people in different time zones.",
+        "es": "Estoy acostumbrado o acostumbrada a trabajar con personas de distintas zonas horarias.",
+        "task": "Compara un hábito anterior, una adaptación en marcha y algo ya familiar."
+      }
+    ],
+    [
+      {
+        "en": "The train leaves at seven according to the timetable.",
+        "es": "Según el horario, el tren sale a las siete.",
+        "task": "Organiza un viaje distinguiendo un horario publicado, un acuerdo y una previsión."
+      },
+      {
+        "en": "By Friday, we will have completed the first stage.",
+        "es": "Para el viernes habremos completado la primera etapa.",
+        "task": "Explica qué estará terminado para una fecha y qué seguirá en marcha."
+      },
+      {
+        "en": "We will send the invitation once everyone has confirmed.",
+        "es": "Enviaremos la invitación una vez que todos hayan confirmado.",
+        "task": "Acuerda un plazo condicionado a que otra tarea se complete."
+      }
+    ],
+    [
+      {
+        "en": "If we had checked the address, we would have found the building.",
+        "es": "Si hubiéramos comprobado la dirección, habríamos encontrado el edificio.",
+        "task": "Revisa un error pasado y explica una consecuencia alternativa."
+      },
+      {
+        "en": "If I had accepted that job, I would live abroad now.",
+        "es": "Si hubiera aceptado ese trabajo, ahora viviría en el extranjero.",
+        "task": "Relaciona una decisión pasada imaginaria con una situación presente distinta."
+      },
+      {
+        "en": "We can use the hall provided that we leave it clean.",
+        "es": "Podemos usar la sala siempre que la dejemos limpia.",
+        "task": "Negocia una posibilidad dejando clara la condición que la limita."
+      }
+    ],
+    [
+      {
+        "en": "I wish I had more time to practise today.",
+        "es": "Ojalá tuviera más tiempo para practicar hoy.",
+        "task": "Expresa un deseo sobre una situación actual que quisieras cambiar."
+      },
+      {
+        "en": "I wish I had saved a copy before the laptop stopped working.",
+        "es": "Ojalá hubiera guardado una copia antes de que el portátil dejara de funcionar.",
+        "task": "Expresa un arrepentimiento pasado y una medida para la próxima vez."
+      },
+      {
+        "en": "I would rather discuss this in person.",
+        "es": "Preferiría hablar de esto en persona.",
+        "task": "Expresa una preferencia y una queja sin sonar innecesariamente agresivo."
+      }
+    ],
+    [
+      {
+        "en": "The floor is wet. Someone must have spilled some water.",
+        "es": "El suelo está mojado. Alguien debe de haber derramado agua.",
+        "task": "Formula una deducción pasada, indica su evidencia y admite otra posibilidad."
+      },
+      {
+        "en": "I bought a ticket, but entry was free. I need not have bought one.",
+        "es": "Compré una entrada, pero el acceso era gratuito. No hacía falta que la comprara.",
+        "task": "Distingue una acción realizada innecesariamente de una obligación inexistente."
+      },
+      {
+        "en": "Despite the broken lock, we managed to open the door.",
+        "es": "A pesar de la cerradura rota, conseguimos abrir la puerta.",
+        "task": "Cuenta una dificultad pasada y cómo lograste resolverla."
+      }
+    ],
+    [
+      {
+        "en": "The bridge is being repaired this week, so traffic is restricted.",
+        "es": "Esta semana están reparando el puente, por lo que el tráfico está restringido.",
+        "task": "Informa de un cambio de servicio centrándote en el proceso y su efecto."
+      },
+      {
+        "en": "I had my laptop repaired at a local shop.",
+        "es": "Llevé mi portátil a una tienda local para que lo repararan.",
+        "task": "Explica un servicio que encargaste sin dar a entender que lo hiciste tú."
+      },
+      {
+        "en": "The painting is believed to have been stolen last night.",
+        "es": "Se cree que el cuadro fue robado anoche.",
+        "task": "Transmite una información atribuida sin presentarla como certeza propia."
+      }
+    ],
+    [
+      {
+        "en": "She told me she had finished the draft the previous day.",
+        "es": "Ella me dijo que había terminado el borrador el día anterior.",
+        "task": "Transmite un mensaje revisando las referencias de persona y tiempo."
+      },
+      {
+        "en": "She asked where the nearest station was.",
+        "es": "Ella preguntó dónde estaba la estación más cercana.",
+        "task": "Resume una consulta y una instrucción manteniendo su intención."
+      },
+      {
+        "en": "He admitted losing the key.",
+        "es": "Él admitió haber perdido la llave.",
+        "task": "Elige un verbo que distinga admitir, sugerir o prometer algo."
+      }
+    ],
+    [
+      {
+        "en": "My neighbour, who works at the library, recommended the book.",
+        "es": "Mi vecino, que trabaja en la biblioteca, me recomendó el libro.",
+        "task": "Distingue información que identifica a una persona de un detalle adicional."
+      },
+      {
+        "en": "This is the room where we held the interview.",
+        "es": "Esta es la sala donde hicimos la entrevista.",
+        "task": "Describe un lugar relacionándolo con una experiencia y una referencia clara."
+      },
+      {
+        "en": "The documents submitted yesterday are being reviewed.",
+        "es": "Los documentos entregados ayer se están revisando.",
+        "task": "Describe documentos o personas con una relativa reducida sin perder claridad."
+      }
+    ],
+    [
+      {
+        "en": "We are looking forward to meeting the new group.",
+        "es": "Tenemos muchas ganas de conocer al nuevo grupo.",
+        "task": "Expresa una expectativa usando la estructura completa de la expresión."
+      },
+      {
+        "en": "Remember to lock the door when you leave.",
+        "es": "Recuerda cerrar la puerta con llave cuando salgas.",
+        "task": "Contrasta recordar hacer algo con recordar haberlo hecho."
+      },
+      {
+        "en": "They allowed us to use the room.",
+        "es": "Nos permitieron usar la sala.",
+        "task": "Explica quién permitió una acción y quién la realizó."
+      }
+    ],
+    [
+      {
+        "en": "She gave me some useful advice.",
+        "es": "Ella me dio unos consejos útiles.",
+        "task": "Da información nueva y después refiérete a ella sin errores de artículo o cantidad."
+      },
+      {
+        "en": "We have a little time, so we can check one more example.",
+        "es": "Tenemos un poco de tiempo, así que podemos revisar un ejemplo más.",
+        "task": "Describe un recurso limitado e indica si alcanza para un propósito."
+      },
+      {
+        "en": "The number of applications has increased.",
+        "es": "El número de solicitudes ha aumentado.",
+        "task": "Comunica un cambio numérico con una referencia y concordancia claras."
+      }
+    ],
+    [
+      {
+        "en": "This option is considerably cheaper than the original.",
+        "es": "Esta opción es considerablemente más barata que la original.",
+        "task": "Compara alternativas indicando la magnitud de las diferencias."
+      },
+      {
+        "en": "The instructions were clear enough for everyone to follow.",
+        "es": "Las instrucciones eran lo bastante claras para que todos pudieran seguirlas.",
+        "task": "Explica si una condición es suficiente para conseguir un resultado."
+      },
+      {
+        "en": "I have hardly had any time to revise this week.",
+        "es": "Apenas he tenido tiempo para repasar esta semana.",
+        "task": "Describe un límite usando un adverbio cuyo alcance quede claro."
+      }
+    ],
+    [
+      {
+        "en": "Despite the delay, the session was useful.",
+        "es": "A pesar del retraso, la sesión fue útil.",
+        "task": "Concede una dificultad y explica por qué no invalida tu conclusión."
+      },
+      {
+        "en": "We left early so that we could check the equipment.",
+        "es": "Salimos temprano para poder comprobar el equipo.",
+        "task": "Relaciona una decisión con su propósito y distingue propósito de resultado."
+      },
+      {
+        "en": "The plan saves time. In addition, it reduces printing costs.",
+        "es": "El plan ahorra tiempo. Además, reduce los gastos de impresión.",
+        "task": "Construye un párrafo en el que cada frase añada algo al argumento."
+      }
+    ],
+    [
+      {
+        "en": "The new arrangement offers greater flexibility.",
+        "es": "La nueva organización ofrece mayor flexibilidad.",
+        "task": "Reformula una idea cambiando la familia de una palabra y su función."
+      },
+      {
+        "en": "We need to make a decision today.",
+        "es": "Tenemos que tomar una decisión hoy.",
+        "task": "Usa una colocación completa para explicar una decisión o responsabilidad."
+      },
+      {
+        "en": "The music is loud. Please turn it down.",
+        "es": "La música está alta. Por favor, bájala.",
+        "task": "Da una instrucción con un phrasal verb y un pronombre en el lugar adecuado."
+      }
+    ],
+    [
+      {
+        "en": "The results suggest that the method may help some learners.",
+        "es": "Los resultados sugieren que el método puede ayudar a algunos estudiantes.",
+        "task": "Formula una conclusión cuya fuerza corresponda a la evidencia disponible."
+      },
+      {
+        "en": "It is true that the plan costs more, but it offers wider access.",
+        "es": "Es cierto que el plan cuesta más, pero facilita el acceso a más personas.",
+        "task": "Reconoce una objeción y responde con una ventaja justificada."
+      },
+      {
+        "en": "What we need is a clearer explanation.",
+        "es": "Lo que necesitamos es una explicación más clara.",
+        "task": "Destaca el punto central de una propuesta sin exagerarlo."
+      }
+    ],
+    [
+      {
+        "en": "The author suggests that the findings need further investigation.",
+        "es": "El autor sugiere que los resultados necesitan más investigación.",
+        "task": "Distingue lo que un texto demuestra de lo que propone investigar."
+      },
+      {
+        "en": "According to the report, the sample was small.",
+        "es": "Según el informe, la muestra era pequeña.",
+        "task": "Resume una fuente conservando una limitación importante."
+      },
+      {
+        "en": "Could you explain what the term means?",
+        "es": "¿Podrías explicar qué significa el término?",
+        "task": "Pide aclaración de un concepto y después explícalo con palabras sencillas."
+      }
+    ],
+    [
+      {
+        "en": "How about moving the meeting to Tuesday?",
+        "es": "¿Qué tal si pasamos la reunión al martes?",
+        "task": "Propón un cambio y deja espacio para que otras personas respondan."
+      },
+      {
+        "en": "I can finish by Friday provided that you send the data today.",
+        "es": "Puedo terminar para el viernes si me envías los datos hoy.",
+        "task": "Negocia una entrega indicando compromiso, condición y plazo."
+      },
+      {
+        "en": "I was responsible for coordinating the volunteers.",
+        "es": "Yo era responsable de coordinar al voluntariado.",
+        "task": "Demuestra una habilidad con situación, acción propia y resultado."
+      }
+    ],
+    [
+      {
+        "en": "The headline claims that the service is completely reliable.",
+        "es": "El titular afirma que el servicio es completamente fiable.",
+        "task": "Distingue una afirmación del titular de una conclusión comprobada."
+      },
+      {
+        "en": "The feature enables users to compare different versions.",
+        "es": "La función permite a los usuarios comparar distintas versiones.",
+        "task": "Explica una función tecnológica y una consecuencia o limitación concreta."
+      },
+      {
+        "en": "Could you tell me where the figure comes from?",
+        "es": "¿Podrías decirme de dónde sale esa cifra?",
+        "task": "Cuestiona una afirmación pidiendo la fuente de forma cortés."
+      }
+    ],
+    [
+      {
+        "en": "Attendance rose from forty to sixty.",
+        "es": "La asistencia subió de cuarenta a sesenta personas.",
+        "task": "Describe un cambio numérico sin inventar la causa."
+      },
+      {
+        "en": "Creating a shaded waiting area would improve comfort during hot weather.",
+        "es": "Crear una zona de espera con sombra mejoraría el confort cuando haga calor.",
+        "task": "Propón una mejora urbana y evalúa un beneficio y un posible coste."
+      },
+      {
+        "en": "The aim of this report is to assess the available options.",
+        "es": "El objetivo de este informe es evaluar las opciones disponibles.",
+        "task": "Abre un informe indicando propósito, alcance y criterios."
+      }
+    ],
+    [
+      {
+        "en": "Could you tell me where the bus stops?",
+        "es": "¿Podría decirme dónde para el autobús?",
+        "task": "Pide una información precisa y verifica que entendiste la respuesta."
+      },
+      {
+        "en": "In my experience, arrangements tend to be more flexible in informal settings.",
+        "es": "Por mi experiencia, los acuerdos tienden a ser más flexibles en contextos informales.",
+        "task": "Compara experiencias culturales sin generalizar a todo un grupo."
+      },
+      {
+        "en": "What I meant was that we needed a quieter room.",
+        "es": "Lo que quise decir es que necesitábamos una sala más tranquila.",
+        "task": "Repara un malentendido reformulando tu intención."
+      }
+    ],
+    [
+      {
+        "en": "I am getting used to taking short breaks between tasks.",
+        "es": "Me estoy acostumbrando a hacer pausas cortas entre tareas.",
+        "task": "Describe una adaptación en marcha y un hábito que la facilita."
+      },
+      {
+        "en": "You could try planning one manageable task for each session.",
+        "es": "Podrías probar a planificar una tarea manejable para cada sesión.",
+        "task": "Da una sugerencia condicionada a la situación de la persona."
+      },
+      {
+        "en": "I would prefer to finish one task before starting another.",
+        "es": "Preferiría terminar una tarea antes de empezar otra.",
+        "task": "Expresa una preferencia y negocia un límite de tiempo o de carga."
+      }
+    ],
+    [
+      {
+        "en": "The story follows a family who return to their village.",
+        "es": "La historia sigue a una familia que vuelve a su pueblo.",
+        "task": "Resume una trama sin revelar su desenlace ni perder el hilo."
+      },
+      {
+        "en": "I found the ending disappointing.",
+        "es": "El final me resultó decepcionante.",
+        "task": "Evalúa una obra con un criterio y un ejemplo concreto."
+      },
+      {
+        "en": "The exhibition is worth visiting.",
+        "es": "Vale la pena visitar la exposición.",
+        "task": "Recomienda una experiencia para un público específico e indica una limitación."
+      }
+    ],
+    [
+      {
+        "en": "I am writing to enquire about the available dates.",
+        "es": "Escribo para consultar las fechas disponibles.",
+        "task": "Empieza un correo formal dejando claro por qué escribes."
+      },
+      {
+        "en": "The confirmation stated that delivery was included.",
+        "es": "La confirmación indicaba que la entrega estaba incluida.",
+        "task": "Presenta una reclamación con evidencia y pide una solución concreta."
+      },
+      {
+        "en": "My experience has helped me develop strong organisational skills.",
+        "es": "Mi experiencia me ha ayudado a desarrollar buenas habilidades de organización.",
+        "task": "Relaciona una experiencia con los requisitos de una solicitud."
+      }
+    ],
+    [
+      {
+        "en": "I see what you mean, but I have a concern about timing.",
+        "es": "Entiendo lo que quieres decir, pero me preocupa el calendario.",
+        "task": "Discrepa manteniendo el turno y señalando una preocupación concreta."
+      },
+      {
+        "en": "I have never tried it. — Neither have I.",
+        "es": "Nunca lo he probado. — Yo tampoco.",
+        "task": "Reacciona a una afirmación y comprueba el auxiliar de tu respuesta breve."
+      },
+      {
+        "en": "If I cannot remember a word, I can describe what it means.",
+        "es": "Si no recuerdo una palabra, puedo describir lo que significa.",
+        "task": "Explica una palabra sin decirla y comprueba si otra persona puede entenderte."
+      }
+    ],
+    [
+      {
+        "en": "If we had checked the figures earlier, we would have noticed the error.",
+        "es": "Si hubiéramos comprobado antes las cifras, habríamos detectado el error.",
+        "task": "Revisa una decisión pasada y convierte lo aprendido en una propuesta futura."
+      },
+      {
+        "en": "The revised report includes the condition that was missing from the first version.",
+        "es": "El informe revisado incluye la condición que faltaba en la primera versión.",
+        "task": "Compara dos versiones de un mensaje y explica qué mejora de significado aporta la revisión."
+      },
+      {
+        "en": "I look forward to using these skills in a new project.",
+        "es": "Tengo ganas de usar estas habilidades en un nuevo proyecto.",
+        "task": "Elige una habilidad, un uso real y una evidencia observable para tu próxima semana."
+      }
+    ]
+  ]
+}

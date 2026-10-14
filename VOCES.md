@@ -1,62 +1,49 @@
-# Voces predeterminadas · edición 6.2
+# Voces predeterminadas · edición 7
 
-Entra a una escena y pulsa **Escuchar conversación**. Cada personaje ya tiene una voz distinta. Se mantiene al cambiar de escena, nivel o dispositivo. El alumno puede repetir o cambiar la velocidad; no elige las voces.
+Esta edición cambia el motor anterior por **Supertonic 3** y amplía el reparto a diez voces diferentes. Cada personaje conserva una voz fija; el alumno solo controla la reproducción y la velocidad. Los archivos tienen identificadores nuevos para evitar reutilizar los audios anteriores desde la caché.
 
-## Audios que vienen incluidos
+| Personaje | Voz |
+|---|---|
+| Leo | M1 |
+| Mia | F1 |
+| Nora | F2 |
+| Sam | M2 |
+| Ella | F3 |
+| Oliver | M3 |
+| Zoe | F4 |
+| Max | M4 |
+| Ava | F5 |
+| Noah | M5 |
 
-El paquete contiene **1.191 archivos MP3**, reutilizados cuando coinciden el texto y el personaje:
+La narración de ejemplos utiliza F5. Las parejas cambian entre historias y unidades. No se intenta convertir una voz en otra alterando el tono.
 
-- Los 384 turnos de las 48 escenas de A1 a B2.
-- Los 144 ejemplos de expresiones de esas escenas.
-- Las 96 respuestas alternativas de los personajes.
-- Las 576 intervenciones de los diálogos de las unidades anteriores.
+## Audios incluidos
 
-Son 1.200 usos de audio, con nueve coincidencias reutilizadas. Los turnos del paso «Habla» utilizan la misma grabación que la escena, de modo que el personaje conserva su voz. Los audios se cargan al escucharlos; no se descarga el catálogo completo al abrir la portada.
+1.274 MP3: intervenciones, ejemplos y respuestas alternativas de las 48 escenas; los diálogos de las 96 unidades; las historias cortas del laboratorio; los cuatro mensajes de las nuevas evaluaciones integradas. Se cargan al reproducirlos, sin descargar el catálogo completo al abrir la portada.
 
-La velocidad inicial es natural. Las opciones tranquila y lenta conservan el tono. Cambiar de pantalla, detener o iniciar otra intervención cancela la anterior. Una descarga fallida muestra un aviso para reintentar y no cuenta como diálogo escuchado.
+Son voces sintéticas generadas previamente, no grabaciones de actores. El navegador reproduce MP3 mono a 44,1 kHz y 80 kbit/s, con volumen normalizado. La naturalidad es subjetiva y puede haber pronunciaciones mejorables. No hay una API de pago ni un modelo de voz ejecutándose en el navegador.
 
-## Procedencia y reparto
+Los textos libres, las palabras del diccionario y otras lecturas que no están en este catálogo utilizan las voces inglesas disponibles en el navegador. La calidad y disponibilidad de esa lectura dependen del dispositivo. El idioma del dictado no cambia los MP3.
 
-Los audios son **síntesis neural generada previamente**, no grabaciones humanas. Se generaron localmente con Kokoro-82M v1.0, exportación ONNX q8, y se incluyen como MP3 mono a 24 kHz y 64 kbit/s. El navegador del estudiante solo reproduce archivos: no descarga el modelo ni necesita una clave o cuenta de un proveedor de voz. Escucharlos no genera cargos de una API; sí utiliza la transferencia de datos de tu alojamiento.
+## Procedencia
 
-| Papel | Voz fija del modelo | Idioma |
-|---|---|---|
-| Leo | am_michael | Inglés estadounidense |
-| Mia | af_heart | Inglés estadounidense |
-| Nora | af_bella | Inglés estadounidense |
-| Sam | am_fenrir | Inglés estadounidense |
-| Ejemplos / narración | af_sarah | Inglés estadounidense |
+- Código: https://github.com/supertone-oss-archive/supertonic — MIT; copia en SUPERTONIC_CODE_LICENSE.txt.
+- Modelo: https://huggingface.co/supertone-oss-archive/supertonic-3 — revisión aafc6e32416a594460b32413efc49d7fe4ce6d46; OpenRAIL-M, copia en SUPERTONIC_MODEL_LICENSE.txt.
+- No se incluyen los pesos del modelo en el ZIP. La inferencia utilizada para preparar los archivos desactiva la telemetría de ONNX Runtime.
 
-Se ajustó el volumen de los archivos para reducir saltos entre intervenciones. La naturalidad es subjetiva y una voz sintetizada puede pronunciar algún nombre o frase de forma imperfecta. El reparto usa voces diferentes; no convierte una sola voz en varias cambiándole el tono.
+## Publicación
 
-Referencias del modelo y sus autores:
+Sube también `public/assets/voices`. No necesitas generar nada para publicar este paquete. Conserva `public/firebase-config.js` si ya tienes configurado Google.
 
-- https://huggingface.co/hexgrad/Kokoro-82M
-- https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md
-- https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX
-- https://github.com/hexgrad/kokoro/tree/main/kokoro.js
-- `KOKORO_LICENSE.txt`: licencia Apache 2.0 del proyecto utilizado para generar los audios. Los pesos del modelo no se distribuyen en este ZIP.
+## Solo al editar el contenido
 
-## Otros textos y laboratorio
+Cambiar una frase exige generar su audio nuevo. Los archivos se identifican por motor, voz y texto, para no leer una frase antigua cuando el texto cambia.
 
-Las lecturas completas, palabras de diccionario y textos libres que no pertenecen a las grabaciones utilizan una voz inglesa elegida automáticamente entre las del navegador. Su disponibilidad y calidad dependen del equipo. El ajuste de idioma del dictado sigue controlando el reconocimiento; no cambia el acento de los MP3 incluidos. Las antiguas preferencias manuales de voces se ignoran.
+1. Edita los JSON de `src`. El generador de conversaciones también aplica el reparto de `scripts/recast.py`.
+2. Ejecuta `node scripts/audio-plan.mjs`.
+3. En un entorno de desarrollo con Python y FFmpeg, instala `onnxruntime==1.31.0`, `numpy` y `soundfile`.
+4. Descarga `onnx/` y `voice_styles/` de la revisión oficial indicada, conservando su estructura.
+5. Ejecuta `python scripts/generate_audio.py --model RUTA_DEL_MODELO --workers 3`.
+6. Ejecuta `npm test` y `npm run build`; sube los nuevos MP3 y el código. No subas los pesos ni dependencias locales.
 
-El laboratorio de los 44 sonidos conserva sus muestras, su diagrama y sus referencias de pronunciación. El reconocimiento de voz y el micrófono siguen dependiendo del navegador. El porcentaje de palabras entendidas no es una evaluación fonética.
-
-## Para actualizar la web
-
-Este ZIP contiene el proyecto entero. Sigue `PUBLICAR_PASO_A_PASO.md` y conserva `public/firebase-config.js` si ya configuraste Google. Copia también **public/assets/voices**; subir solo el JavaScript dejaría los audios sin publicar. La compilación habitual no genera audios: usa los que ya están incluidos.
-
-Si ya publicaste las reglas de la edición 6, este cambio no requiere modificar Firebase. El progreso conserva el mismo formato.
-
-## Solo si después editas los diálogos
-
-Cambiar un texto requiere generar su nueva grabación. El archivo se identifica por personaje y texto; la página evita reproducir una grabación antigua para una frase modificada.
-
-1. Edita las conversaciones o los diálogos en los JSON de `src`.
-2. Ejecuta `node scripts/audio-plan.mjs` para actualizar el catálogo.
-3. En tu equipo de desarrollo, instala FFmpeg y después `npm install --no-save --package-lock=false kokoro-js@1.2.1`.
-4. Ejecuta `node scripts/generate-audio.mjs`. Descarga el modelo abierto una vez y genera localmente los MP3 que falten. Puede tardar según el procesador. No subas `.audio-cache` ni `node_modules`.
-5. Ejecuta `npm test` y `npm run build`. Sube los archivos del proyecto, incluidos los MP3 nuevos.
-
-Estos pasos de generación son opcionales para quien modifica el contenido. No son necesarios para publicar o escuchar el paquete entregado.
+La compilación normal de Netlify no genera audios ni descarga estos modelos.

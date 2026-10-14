@@ -245,7 +245,11 @@
         ]
       ],
       "writing": "Escribe un saludo, tu nombre y una petición para que hablen despacio. Usa 3 frases.",
-      "model": "Hello! My name is Luis. Please speak slowly."
+      "model": "Hello! My name is Luis. Please speak slowly.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 2,
@@ -482,7 +486,11 @@
         ]
       ],
       "writing": "Escribe 4 frases: quién eres, cómo estás, quién es un amigo y una negación.",
-      "model": "I am a student. I am happy. My friend is Rosa. She is not a teacher."
+      "model": "I am a student. I am happy. My friend is Rosa. She is not a teacher.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 3,
@@ -729,7 +737,11 @@
         ]
       ],
       "writing": "Crea una ficha ficticia: nombre, país, nacionalidad y edad. No escribas datos privados.",
-      "model": "My name is Ana. I am from Peru. I am Peruvian. I am twenty years old."
+      "model": "My name is Ana. I am from Peru. I am Peruvian. I am twenty years old.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 4,
@@ -976,7 +988,11 @@
         ]
       ],
       "writing": "Describe 4 objetos: usa a, an, this y these al menos una vez.",
-      "model": "This is a book. It is a red book. That is an umbrella. These are my pens."
+      "model": "This is a book. It is a red book. That is an umbrella. These are my pens.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 5,
@@ -1213,7 +1229,11 @@
         ]
       ],
       "writing": "Presenta una familia real o imaginaria en 4 frases. Usa my, his o her y una posesión con ’s.",
-      "model": "My mother is Rosa. Her job is interesting. My brother’s name is Leo. His bag is blue."
+      "model": "My mother is Rosa. Her job is interesting. My brother’s name is Leo. His bag is blue.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 6,
@@ -1460,7 +1480,11 @@
         ]
       ],
       "writing": "Describe a una persona imaginaria con be y have. Añade dos colores y una cualidad.",
-      "model": "Mia is friendly. She has brown hair. She has a blue bag. Her bike is red."
+      "model": "Mia is friendly. She has brown hair. She has a blue bag. Her bike is red.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 7,
@@ -1702,7 +1726,11 @@
         ]
       ],
       "writing": "Describe una habitación con 2 frases de there is/are y 2 de ubicación.",
-      "model": "There is a bed. There are two windows. The lamp is on the desk. My bag is under the chair."
+      "model": "There is a bed. There are two windows. The lamp is on the desk. My bag is under the chair.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 8,
@@ -1949,7 +1977,11 @@
         ]
       ],
       "writing": "Escribe 5 acciones de tu día y una sobre otra persona. Usa then y una hora.",
-      "model": "I get up at seven. I have breakfast. Then I go to school. I study English. I go home at four. My sister works in a shop."
+      "model": "I get up at seven. I have breakfast. Then I go to school. I study English. I go home at four. My sister works in a shop.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 9,
@@ -2196,7 +2228,11 @@
         ]
       ],
       "writing": "Escribe 3 preguntas sobre hábitos y sus respuestas. Añade una negación.",
-      "model": "Where do you live? I live in Lima. Do you work? No, I do not. What do you study? I study English."
+      "model": "Where do you live? I live in Lima. Do you work? No, I do not. What do you study? I study English.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 10,
@@ -2443,7 +2479,11 @@
         ]
       ],
       "writing": "Escribe tu horario de una semana con on, in, at y dos adverbios de frecuencia.",
-      "model": "I study on Monday. My class is at six. I usually read in the evening. I sometimes study on Sunday."
+      "model": "I study on Monday. My class is at six. I usually read in the evening. I sometimes study on Sunday.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 11,
@@ -2685,7 +2725,11 @@
         ]
       ],
       "writing": "Escribe 2 gustos, 2 habilidades y una cosa que no puedes hacer todavía.",
-      "model": "I like music. I love reading. I can swim. I can cook. I cannot play the guitar yet."
+      "model": "I like music. I love reading. I can swim. I can cook. I cannot play the guitar yet.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 12,
@@ -2927,7 +2971,11 @@
         ]
       ],
       "writing": "Escribe una lista de compras en frases: dos cantidades contables y dos incontables.",
-      "model": "We need three eggs and two tomatoes. We need some rice and a bottle of water."
+      "model": "We need three eggs and two tomatoes. We need some rice and a bottle of water.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 13,
@@ -3164,7 +3212,11 @@
         ]
       ],
       "writing": "Escribe un pedido con dos productos, una pregunta de precio y una despedida.",
-      "model": "I would like a sandwich and a tea, please. How much is it? Thank you. Goodbye!"
+      "model": "I would like a sandwich and a tea, please. How much is it? Thank you. Goodbye!",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 14,
@@ -3406,7 +3458,11 @@
         ]
       ],
       "writing": "Escribe un diálogo corto para comprar una camiseta. Incluye precio, talla y color.",
-      "model": "How much is this shirt? It is ten pounds. I need a medium. Do you have it in blue?"
+      "model": "How much is this shirt? It is ten pounds. I need a medium. Do you have it in blue?",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 15,
@@ -3653,7 +3709,11 @@
         ]
       ],
       "writing": "Escribe 3 indicaciones y la ubicación de un lugar imaginario.",
-      "model": "Go straight. Turn left at the bank. Cross the street. The café is on your right."
+      "model": "Go straight. Turn left at the bank. Cross the street. The café is on your right.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 16,
@@ -3900,7 +3960,11 @@
         ]
       ],
       "writing": "Escribe un pedido de billete, una pregunta de horario y cómo llegas a la estación.",
-      "model": "A return ticket to Oxford, please. What time does the train leave? I go to the station by bus."
+      "model": "A return ticket to Oxford, please. What time does the train leave? I go to the station by bus.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 17,
@@ -4147,7 +4211,11 @@
         ]
       ],
       "writing": "Escribe 3 cosas que ocurren ahora y 2 hábitos. Usa now y every day.",
-      "model": "I am reading now. My sister is cooking. My brother is sleeping. I study every day. We usually eat at seven."
+      "model": "I am reading now. My sister is cooking. My brother is sleeping. I study every day. We usually eat at seven.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 18,
@@ -4389,7 +4457,11 @@
         ]
       ],
       "writing": "Describe el clima y la ropa de dos lugares imaginarios. Usa because o but.",
-      "model": "It is cold in London. I am wearing a coat because it is windy. It is hot in Lima. My friend is wearing a T-shirt."
+      "model": "It is cold in London. I am wearing a coat because it is windy. It is hot in Lima. My friend is wearing a T-shirt.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 19,
@@ -4636,7 +4708,11 @@
         ]
       ],
       "writing": "Escribe una molestia, cómo te sientes y una petición de ayuda. Usa un ejemplo ficticio.",
-      "model": "I have a headache. I am tired. Can you help me, please?"
+      "model": "I have a headache. I am tired. Can you help me, please?",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 20,
@@ -4883,7 +4959,11 @@
         ]
       ],
       "writing": "Escribe 4 frases sobre un día pasado. Usa was, were y una negación.",
-      "model": "I was at home yesterday. My friends were at the park. I was tired. I was not at school."
+      "model": "I was at home yesterday. My friends were at the park. I was tired. I was not at school.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 21,
@@ -5125,7 +5205,11 @@
         ]
       ],
       "writing": "Cuenta 4 acciones de ayer. Usa un verbo regular, uno irregular y una negación.",
-      "model": "I visited my friend. We went to the park. We had lunch. I did not buy anything."
+      "model": "I visited my friend. We went to the park. We had lunch. I did not buy anything.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 22,
@@ -5372,7 +5456,11 @@
         ]
       ],
       "writing": "Escribe 3 planes para el fin de semana y una invitación con lugar y hora.",
-      "model": "I am going to study. I am going to visit my friend. We are going to cook. Would you like to come on Sunday at six?"
+      "model": "I am going to study. I am going to visit my friend. We are going to cook. Would you like to come on Sunday at six?",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 23,
@@ -5619,7 +5707,11 @@
         ]
       ],
       "writing": "Escribe un mensaje de 35–50 palabras invitando a un amigo. Incluye actividad, día, hora y lugar.",
-      "model": "Hi Ana! Would you like to study with me on Saturday? We can meet at the library at ten. Please bring your English book. After that, we can have lunch in the café. See you soon! Leo"
+      "model": "Hi Ana! Would you like to study with me on Saturday? We can meet at the library at ten. Please bring your English book. After that, we can have lunch in the café. See you soon! Leo",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 24,
@@ -5866,7 +5958,11 @@
         ]
       ],
       "writing": "Escribe una presentación de 50–70 palabras con origen, familia, rutina, gustos y un plan. Después léela en voz alta.",
-      "model": "Hello! My name is Ana and I am from Peru. I live with my family in Lima. I study every morning and I like listening to music. I can swim, but I cannot play the guitar. On Saturday, I am going to visit my friend. We are going to cook together. I am happy to learn English."
+      "model": "Hello! My name is Ana and I am from Peru. I live with my family in Lima. I study every morning and I like listening to music. I can swim, but I cannot play the guitar. On Saturday, I am going to visit my friend. We are going to cook together. I am happy to learn English.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     }
   ],
   "extra": {

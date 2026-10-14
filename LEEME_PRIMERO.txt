@@ -1,23 +1,9 @@
-HELLO ENGLISH COMPLETO: A1 + A2 + B1 + B2 · EDICIÓN 6.2
+HELLO ENGLISH · EDICIÓN 8 · A1, A2, B1 Y B2
 
-Ahora la página empieza con historias y conversaciones.
-Incluye 48 escenas, personajes, práctica de tu papel y repaso.
-Cada personaje tiene una voz fija: no necesitas elegirla.
-Se incluyen 1.191 audios; copia también public/assets/voices.
+Abre EMPIEZA_AQUI.html para las instrucciones. Este paquete contiene el proyecto completo, la web compilada y los audios. Extrae el ZIP antes de copiar su contenido al repositorio.
 
-1. Extrae todo el ZIP.
-2. Abre EMPIEZA_AQUI.html haciendo doble clic.
-3. Para actualizar tu página, sigue PUBLICAR_PASO_A_PASO.md.
+Conserva public/firebase-config.js si ya tienes Google configurado. En GitHub Desktop, copia el contenido de esta carpeta sobre el repositorio, combina carpetas y reemplaza archivos; después haz Commit y Push origin. Netlify publicará la rama conectada si los despliegues automáticos están activados.
 
-Puedes copiar todo el contenido de esta carpeta a la carpeta de tu repositorio.
-Incluye el proyecto entero. No necesitas ningún ZIP anterior.
+NOVEDADES_V8.md explica los cambios. VOCES.md indica el alcance de los audios y su procedencia. PRUEBAS.md resume la validación.
 
-SI YA FUNCIONA GOOGLE EN TU PÁGINA:
-Guarda tu public/firebase-config.js actual antes de copiar.
-Después vuelve a poner ese archivo en la misma ubicación.
-La configuración incluida aquí es una plantilla vacía.
-Publica también las nuevas reglas de Firebase siguiendo la guía.
-
-No subas solo el ZIP: primero descomprímelo.
-En GitHub Desktop: copiar archivos -> Commit -> Push origin.
-Netlify: comando npm run build; carpeta public.
+La enseñanza ahora tiene cinco pasos por lección y comprensión con evidencia en las 48 escenas. Abre APRENDER_PASO_A_PASO.md para empezar. Si usas Google, publica también las reglas firestore.rules actualizadas en Firebase; GitHub no las publica por sí solo.

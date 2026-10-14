@@ -26,7 +26,7 @@ La página no bloquea el avance por un calendario artificial. La profundidad vie
 - **Historial:** acciones y fechas registradas, no tiempo real de estudio ni una predicción del nivel MCER.
 - **Voz:** comparación de transcripción, autoescucha y referencia articulatoria aproximada. Un porcentaje alto no prueba que se produzcan correctamente todos los fonemas.
 
-Los 44 sonidos representan una selección pedagógica tradicional de pronunciación británica. El inventario y la realización varían con el acento; se conservan variantes estadounidenses en el laboratorio. Las palabras se escuchan con voces del dispositivo, y los sonidos aislados con muestras sintéticas incluidas. Para distinguir sonidos parecidos, escucha primero, compara palabras completas y usa un espejo o tu grabación como apoyo.
+Los 44 sonidos representan una selección pedagógica tradicional de pronunciación británica. El inventario y la realización varían con el acento; las voces de palabras pueden realizar variantes estadounidenses. Los diálogos e historias incluidos tienen voces predeterminadas; los textos fuera del catálogo usan voces del dispositivo, y los sonidos aislados con muestras sintéticas incluidas. Para distinguir sonidos parecidos, escucha primero, compara palabras completas y usa un espejo o tu grabación como apoyo.
 
 ## Fuentes para ampliar
 

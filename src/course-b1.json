@@ -281,7 +281,11 @@
           }
         ]
       },
-      "mission": "Habla 60–90 segundos sobre tu aprendizaje. Da una dificultad, un ejemplo y dos estrategias; responde a una pregunta de seguimiento."
+      "mission": "Habla 60–90 segundos sobre tu aprendizaje. Da una dificultad, un ejemplo y dos estrategias; responde a una pregunta de seguimiento.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 2,
@@ -564,7 +568,11 @@
           }
         ]
       },
-      "mission": "Cuenta una experiencia inesperada durante 90 segundos. Tu interlocutor pregunta qué había ocurrido antes del problema."
+      "mission": "Cuenta una experiencia inesperada durante 90 segundos. Tu interlocutor pregunta qué había ocurrido antes del problema.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 3,
@@ -847,7 +855,11 @@
           }
         ]
       },
-      "mission": "Explica dos experiencias y responde cuándo, dónde y qué aprendiste en una de ellas."
+      "mission": "Explica dos experiencias y responde cuándo, dónde y qué aprendiste en una de ellas.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 4,
@@ -1130,7 +1142,11 @@
           }
         ]
       },
-      "mission": "Da una actualización oral de un proyecto real o imaginario: cuánto tiempo, qué has terminado y qué falta."
+      "mission": "Da una actualización oral de un proyecto real o imaginario: cuánto tiempo, qué has terminado y qué falta.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 5,
@@ -1413,7 +1429,11 @@
           }
         ]
       },
-      "mission": "Compara dos etapas de tu vida. Explica qué era diferente y a qué te estás acostumbrando."
+      "mission": "Compara dos etapas de tu vida. Explica qué era diferente y a qué te estás acostumbrando.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 6,
@@ -1696,7 +1716,11 @@
           }
         ]
       },
-      "mission": "Organiza una salida con otra persona. Propón dos opciones, acuerda una y explica un plan alternativo."
+      "mission": "Organiza una salida con otra persona. Propón dos opciones, acuerda una y explica un plan alternativo.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 7,
@@ -1969,7 +1993,11 @@
           }
         ]
       },
-      "mission": "Negocia un plan y responde a tres preguntas que empiecen con What will you do if…?"
+      "mission": "Negocia un plan y responde a tres preguntas que empiecen con What will you do if…?",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 8,
@@ -2252,7 +2280,11 @@
           }
         ]
       },
-      "mission": "Responde qué harías con un espacio o presupuesto limitado. Compara dos alternativas y justifica tu elección."
+      "mission": "Responde qué harías con un espacio o presupuesto limitado. Compara dos alternativas y justifica tu elección.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 9,
@@ -2530,7 +2562,11 @@
           }
         ]
       },
-      "mission": "Explica normas a una persona nueva y responde qué es obligatorio, opcional y prohibido."
+      "mission": "Explica normas a una persona nueva y responde qué es obligatorio, opcional y prohibido.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 10,
@@ -2813,7 +2849,11 @@
           }
         ]
       },
-      "mission": "Observa una escena y plantea dos hipótesis con might/could y una deducción con must o cannot. Explica los indicios."
+      "mission": "Observa una escena y plantea dos hipótesis con might/could y una deducción con must o cannot. Explica los indicios.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 11,
@@ -3096,7 +3136,11 @@
           }
         ]
       },
-      "mission": "Explica cómo se fabrica o reutiliza un producto. Incluye cuatro pasos claros y quién participa cuando sea relevante."
+      "mission": "Explica cómo se fabrica o reutiliza un producto. Incluye cuatro pasos claros y quién participa cuando sea relevante.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 12,
@@ -3379,7 +3423,11 @@
           }
         ]
       },
-      "mission": "Transmite un aviso de otra persona sin leerlo literalmente. Comprueba con tu interlocutor que entiende las indicaciones."
+      "mission": "Transmite un aviso de otra persona sin leerlo literalmente. Comprueba con tu interlocutor que entiende las indicaciones.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 13,
@@ -3662,7 +3710,11 @@
           }
         ]
       },
-      "mission": "Describe un lugar sin decir su nombre para que otra persona lo identifique. Incluye personas y funciones."
+      "mission": "Describe un lugar sin decir su nombre para que otra persona lo identifique. Incluye personas y funciones.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 14,
@@ -3940,7 +3992,11 @@
           }
         ]
       },
-      "mission": "Explica una decisión y una preferencia usando sus patrones verbales; después pregunta por las de otra persona."
+      "mission": "Explica una decisión y una preferencia usando sus patrones verbales; después pregunta por las de otra persona.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 15,
@@ -4223,7 +4279,11 @@
           }
         ]
       },
-      "mission": "Compara dos opciones durante un minuto. Pregunta la prioridad de tu interlocutor antes de recomendar."
+      "mission": "Compara dos opciones durante un minuto. Pregunta la prioridad de tu interlocutor antes de recomendar.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 16,
@@ -4506,7 +4566,11 @@
           }
         ]
       },
-      "mission": "Planifica materiales para un grupo. Aclara qué sobra, qué falta y cómo repartirás los recursos."
+      "mission": "Planifica materiales para un grupo. Aclara qué sobra, qué falta y cómo repartirás los recursos.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 17,
@@ -4789,7 +4853,11 @@
           }
         ]
       },
-      "mission": "Defiende una propuesta con dos razones y reconoce una dificultad sin perder tu idea principal."
+      "mission": "Defiende una propuesta con dos razones y reconoce una dificultad sin perder tu idea principal.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 18,
@@ -5067,7 +5135,11 @@
           }
         ]
       },
-      "mission": "Simula una conversación con un servicio de atención: explica el problema, pide dos opciones y confirma la elegida."
+      "mission": "Simula una conversación con un servicio de atención: explica el problema, pide dos opciones y confirma la elegida.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 19,
@@ -5345,7 +5417,11 @@
           }
         ]
       },
-      "mission": "Practica los dos papeles: cliente que describe un fallo y agente que propone un siguiente paso."
+      "mission": "Practica los dos papeles: cliente que describe un fallo y agente que propone un siguiente paso.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 20,
@@ -5623,7 +5699,11 @@
           }
         ]
       },
-      "mission": "Contesta una entrevista breve con ejemplos verificables y una pregunta sobre el puesto o curso."
+      "mission": "Contesta una entrevista breve con ejemplos verificables y una pregunta sobre el puesto o curso.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 21,
@@ -5896,7 +5976,11 @@
           }
         ]
       },
-      "mission": "Resume una noticia y di qué está confirmado, cuál es la fuente y qué no sabes todavía."
+      "mission": "Resume una noticia y di qué está confirmado, cuál es la fuente y qué no sabes todavía.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 22,
@@ -6179,7 +6263,11 @@
           }
         ]
       },
-      "mission": "Negocia una decisión con otra persona: escucha, discrepa si hace falta y termina con un acuerdo verificable."
+      "mission": "Negocia una decisión con otra persona: escucha, discrepa si hace falta y termina con un acuerdo verificable.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 23,
@@ -6462,7 +6550,11 @@
           }
         ]
       },
-      "mission": "Recomienda una película, libro o lugar. Explica a quién podría gustarle y una limitación sin revelar todo."
+      "mission": "Recomienda una película, libro o lugar. Explica a quién podría gustarle y una limitación sin revelar todo.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 24,
@@ -6735,7 +6827,11 @@
           }
         ]
       },
-      "mission": "Presenta tu proyecto durante dos minutos y responde dos preguntas. Repite después de revisar claridad, ejemplos y pausas."
+      "mission": "Presenta tu proyecto durante dos minutos y responde dos preguntas. Repite después de revisar claridad, ejemplos y pausas.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     }
   ],
   "extra": {

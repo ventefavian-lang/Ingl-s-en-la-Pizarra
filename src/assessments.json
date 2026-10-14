@@ -1,0 +1,710 @@
+[
+  {
+    "id": "a1-1",
+    "level": "a1",
+    "block": "all",
+    "title": "El primer sábado de Alex",
+    "reading": "Alex is new in town. On Saturday, he meets Mia at the library. The library opens at nine, but they meet at ten. Alex wants a book about animals. Mia wants a book for her little brother. After the library, they walk to a small café next to the park. Alex has tea and a sandwich. Mia has water because she does not like tea. The café is quiet in the morning. At twelve, Mia goes home. Alex stays in the park and reads his new book.",
+    "translation": "Alex es nuevo en la ciudad. El sábado se reúne con Mia en la biblioteca. La biblioteca abre a las nueve, pero ellos quedan a las diez. Alex quiere un libro sobre animales. Mia quiere uno para su hermano pequeño. Después caminan a un café junto al parque. Alex toma té y un sándwich. Mia toma agua porque no le gusta el té. El café es tranquilo por la mañana. A las doce Mia vuelve a casa. Alex se queda en el parque y lee su nuevo libro.",
+    "listening": {
+      "text": "Hi Alex, it's Mia. The library is next to the school, not next to the station. Bring your library card. We can have lunch in the park if the weather is good. I have some apples. Can you bring two sandwiches? See you at ten!",
+      "translation": "Hola Alex, soy Mia. La biblioteca está junto a la escuela, no junto a la estación. Trae tu carné. Podemos almorzar en el parque si hace buen tiempo. Tengo unas manzanas. ¿Puedes traer dos sándwiches? ¡Nos vemos a las diez!",
+      "role": "Mia"
+    },
+    "questions": [
+      {
+        "id": "u1-as10",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué describe el texto?",
+        "answer": "A morning with a new friend",
+        "options": [
+          "A morning with a new friend",
+          "A day at school",
+          "A family holiday"
+        ],
+        "why": "Los dos visitan la biblioteca y un café durante la mañana.",
+        "passage": "Alex is new in town. On Saturday, he meets Mia at the library. The library opens at nine, but they meet at ten. Alex wants a book about animals. Mia wants a book for her little brother. After the library, they walk to a small café next to the park. Alex has tea and a sandwich. Mia has water because she does not like tea. The café is quiet in the morning. At twelve, Mia goes home. Alex stays in the park and reads his new book.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as11",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿A qué hora se encuentran?",
+        "answer": "At ten",
+        "options": [
+          "At ten",
+          "At nine",
+          "At twelve"
+        ],
+        "why": "La apertura es a las nueve, pero «they meet at ten» indica la cita.",
+        "passage": "Alex is new in town. On Saturday, he meets Mia at the library. The library opens at nine, but they meet at ten. Alex wants a book about animals. Mia wants a book for her little brother. After the library, they walk to a small café next to the park. Alex has tea and a sandwich. Mia has water because she does not like tea. The café is quiet in the morning. At twelve, Mia goes home. Alex stays in the park and reads his new book.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as12",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Para quién busca Mia un libro?",
+        "answer": "For her brother",
+        "options": [
+          "For her brother",
+          "For Alex",
+          "For her teacher"
+        ],
+        "why": "«for her little brother» identifica a la persona destinataria.",
+        "passage": "Alex is new in town. On Saturday, he meets Mia at the library. The library opens at nine, but they meet at ten. Alex wants a book about animals. Mia wants a book for her little brother. After the library, they walk to a small café next to the park. Alex has tea and a sandwich. Mia has water because she does not like tea. The café is quiet in the morning. At twelve, Mia goes home. Alex stays in the park and reads his new book.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as13",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Por qué toma agua Mia?",
+        "answer": "She does not like tea",
+        "options": [
+          "She does not like tea",
+          "The café has no tea",
+          "She has no money"
+        ],
+        "why": "La razón aparece con because: no le gusta el té.",
+        "passage": "Alex is new in town. On Saturday, he meets Mia at the library. The library opens at nine, but they meet at ten. Alex wants a book about animals. Mia wants a book for her little brother. After the library, they walk to a small café next to the park. Alex has tea and a sandwich. Mia has water because she does not like tea. The café is quiet in the morning. At twelve, Mia goes home. Alex stays in the park and reads his new book.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as14",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "Según el mensaje, ¿dónde está la biblioteca?",
+        "answer": "Next to the school",
+        "options": [
+          "Next to the school",
+          "Next to the station",
+          "In the park"
+        ],
+        "why": "Mia corrige la confusión: está junto a la escuela.",
+        "passage": "",
+        "audio": "Hi Alex, it's Mia. The library is next to the school, not next to the station. Bring your library card. We can have lunch in the park if the weather is good. I have some apples. Can you bring two sandwiches? See you at ten!"
+      },
+      {
+        "id": "u1-as15",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué comida debe llevar Alex?",
+        "answer": "Two sandwiches",
+        "options": [
+          "Two sandwiches",
+          "Some apples",
+          "A cake"
+        ],
+        "why": "Mia tiene las manzanas y pide a Alex dos sándwiches.",
+        "passage": "",
+        "audio": "Hi Alex, it's Mia. The library is next to the school, not next to the station. Bring your library card. We can have lunch in the park if the weather is good. I have some apples. Can you bring two sandwiches? See you at ten!"
+      },
+      {
+        "id": "u1-as16",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿De qué depende almorzar en el parque?",
+        "answer": "The weather",
+        "options": [
+          "The weather",
+          "The library card",
+          "The price of tea"
+        ],
+        "why": "La condición es «if the weather is good»: si hace buen tiempo.",
+        "passage": "",
+        "audio": "Hi Alex, it's Mia. The library is next to the school, not next to the station. Bring your library card. We can have lunch in the park if the weather is good. I have some apples. Can you bring two sandwiches? See you at ten!"
+      },
+      {
+        "id": "u1-as17",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: Mia ___ water at the café.",
+        "answer": "has",
+        "options": [
+          "has",
+          "have",
+          "having"
+        ],
+        "why": "Con Mia (she) usamos has en presente simple.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as18",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Quieres pedir un sándwich amablemente.",
+        "answer": "Can I have a sandwich, please?",
+        "options": [
+          "Can I have a sandwich, please?",
+          "I am a sandwich.",
+          "Where sandwich yesterday?"
+        ],
+        "why": "Can I have…? sirve para pedir algo; please aporta cortesía.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as19",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: They meet ___ ten.",
+        "answer": "at",
+        "options": [
+          "at",
+          "on",
+          "in"
+        ],
+        "why": "Usamos at para una hora concreta: at ten.",
+        "passage": "",
+        "audio": ""
+      }
+    ],
+    "writing": "Escribe 30–45 palabras para invitar a alguien a una biblioteca o un café. Incluye lugar, día, hora y una pregunta.",
+    "speaking": "En 20–30 segundos, preséntate y propón algo para el sábado. Di dónde y a qué hora."
+  },
+  {
+    "id": "a2-1",
+    "level": "a2",
+    "block": "all",
+    "title": "La maleta que llegó después",
+    "reading": "When Ella arrived in Bristol on Friday, her suitcase was missing. She went to the airline desk and filled in a form. The assistant said the suitcase was still in Paris and would arrive the next morning. Ella was staying with her cousin, Oliver, for the weekend. She only had her phone, a book and a light jacket in her small bag. Oliver lent her a clean shirt and took her to a shop for a toothbrush. On Saturday morning, the airline called. They offered to send the suitcase to Oliver's flat between two and four. Ella and Oliver had planned to visit a museum, but they changed their plans. They visited a nearby market in the morning and went to the museum on Sunday. The suitcase arrived at half past three, with everything inside.",
+    "translation": "Ella llegó a Bristol el viernes, pero faltaba su maleta. Rellenó un formulario en el mostrador. Le dijeron que la maleta seguía en París y llegaría al día siguiente. Se quedaba el fin de semana con su primo Oliver. En el bolso tenía el móvil, un libro y una chaqueta. Oliver le prestó una camisa y la llevó a comprar un cepillo. El sábado la aerolínea ofreció llevar la maleta al piso entre las dos y las cuatro. Cambiaron su plan de ir al museo: fueron al mercado por la mañana y al museo el domingo. La maleta llegó a las tres y media con todo dentro.",
+    "listening": {
+      "text": "Hello, this is the airline delivery team. We are calling about Ella's suitcase. Our driver is running late and will arrive at about five, not before four as we said earlier. If nobody can be at the flat, we can leave the suitcase with the building manager. Please call us before three to tell us what you prefer.",
+      "translation": "Hola, somos el equipo de entregas. Llamamos por la maleta de Ella. El conductor va con retraso y llegará sobre las cinco, no antes de las cuatro como dijimos. Si no puede haber nadie en el piso, podemos dejarla con el encargado. Llámenos antes de las tres para decirnos qué prefiere.",
+      "role": "Oliver"
+    },
+    "questions": [
+      {
+        "id": "u1-as10",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué problema tuvo Ella?",
+        "answer": "Her suitcase did not arrive with her",
+        "options": [
+          "Her suitcase did not arrive with her",
+          "She lost her phone",
+          "Her cousin was away"
+        ],
+        "why": "La maleta seguía en París cuando Ella ya estaba en Bristol.",
+        "passage": "When Ella arrived in Bristol on Friday, her suitcase was missing. She went to the airline desk and filled in a form. The assistant said the suitcase was still in Paris and would arrive the next morning. Ella was staying with her cousin, Oliver, for the weekend. She only had her phone, a book and a light jacket in her small bag. Oliver lent her a clean shirt and took her to a shop for a toothbrush. On Saturday morning, the airline called. They offered to send the suitcase to Oliver's flat between two and four. Ella and Oliver had planned to visit a museum, but they changed their plans. They visited a nearby market in the morning and went to the museum on Sunday. The suitcase arrived at half past three, with everything inside.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as11",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Cómo la ayudó Oliver al principio?",
+        "answer": "He lent her a shirt",
+        "options": [
+          "He lent her a shirt",
+          "He bought her a suitcase",
+          "He flew to Paris"
+        ],
+        "why": "Lent significa prestó; también la acompañó a comprar un cepillo.",
+        "passage": "When Ella arrived in Bristol on Friday, her suitcase was missing. She went to the airline desk and filled in a form. The assistant said the suitcase was still in Paris and would arrive the next morning. Ella was staying with her cousin, Oliver, for the weekend. She only had her phone, a book and a light jacket in her small bag. Oliver lent her a clean shirt and took her to a shop for a toothbrush. On Saturday morning, the airline called. They offered to send the suitcase to Oliver's flat between two and four. Ella and Oliver had planned to visit a museum, but they changed their plans. They visited a nearby market in the morning and went to the museum on Sunday. The suitcase arrived at half past three, with everything inside.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as12",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Por qué cambiaron la visita al museo?",
+        "answer": "They needed to wait for the delivery",
+        "options": [
+          "They needed to wait for the delivery",
+          "The museum was closed",
+          "Tickets were too expensive"
+        ],
+        "why": "La entrega entre las dos y las cuatro condicionó sus planes.",
+        "passage": "When Ella arrived in Bristol on Friday, her suitcase was missing. She went to the airline desk and filled in a form. The assistant said the suitcase was still in Paris and would arrive the next morning. Ella was staying with her cousin, Oliver, for the weekend. She only had her phone, a book and a light jacket in her small bag. Oliver lent her a clean shirt and took her to a shop for a toothbrush. On Saturday morning, the airline called. They offered to send the suitcase to Oliver's flat between two and four. Ella and Oliver had planned to visit a museum, but they changed their plans. They visited a nearby market in the morning and went to the museum on Sunday. The suitcase arrived at half past three, with everything inside.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as13",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Cuál es el orden de los hechos del texto?",
+        "answer": "Market, suitcase delivery, museum",
+        "options": [
+          "Market, suitcase delivery, museum",
+          "Museum, market, suitcase delivery",
+          "Suitcase delivery, museum, market"
+        ],
+        "why": "Mercado el sábado por la mañana, entrega por la tarde y museo el domingo.",
+        "passage": "When Ella arrived in Bristol on Friday, her suitcase was missing. She went to the airline desk and filled in a form. The assistant said the suitcase was still in Paris and would arrive the next morning. Ella was staying with her cousin, Oliver, for the weekend. She only had her phone, a book and a light jacket in her small bag. Oliver lent her a clean shirt and took her to a shop for a toothbrush. On Saturday morning, the airline called. They offered to send the suitcase to Oliver's flat between two and four. Ella and Oliver had planned to visit a museum, but they changed their plans. They visited a nearby market in the morning and went to the museum on Sunday. The suitcase arrived at half past three, with everything inside.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as14",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Para qué llama el equipo de entregas?",
+        "answer": "To change the delivery arrangements",
+        "options": [
+          "To change the delivery arrangements",
+          "To sell Ella another ticket",
+          "To say the suitcase is lost forever"
+        ],
+        "why": "El nuevo mensaje actualiza el horario y ofrece una alternativa.",
+        "passage": "",
+        "audio": "Hello, this is the airline delivery team. We are calling about Ella's suitcase. Our driver is running late and will arrive at about five, not before four as we said earlier. If nobody can be at the flat, we can leave the suitcase with the building manager. Please call us before three to tell us what you prefer."
+      },
+      {
+        "id": "u1-as15",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Cuál es la nueva hora aproximada?",
+        "answer": "Five o’clock",
+        "options": [
+          "Five o’clock",
+          "Three o’clock",
+          "Two o’clock"
+        ],
+        "why": "Five es la nueva hora; three es el límite para responder.",
+        "passage": "",
+        "audio": "Hello, this is the airline delivery team. We are calling about Ella's suitcase. Our driver is running late and will arrive at about five, not before four as we said earlier. If nobody can be at the flat, we can leave the suitcase with the building manager. Please call us before three to tell us what you prefer."
+      },
+      {
+        "id": "u1-as16",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué debe hacer Ella antes de las tres?",
+        "answer": "Call with her preference",
+        "options": [
+          "Call with her preference",
+          "Visit the museum",
+          "Go to the airport"
+        ],
+        "why": "Debe comunicar si prefiere la entrega personal o al encargado.",
+        "passage": "",
+        "audio": "Hello, this is the airline delivery team. We are calling about Ella's suitcase. Our driver is running late and will arrive at about five, not before four as we said earlier. If nobody can be at the flat, we can leave the suitcase with the building manager. Please call us before three to tell us what you prefer."
+      },
+      {
+        "id": "u1-as17",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: Oliver ___ her a shirt yesterday.",
+        "answer": "lent",
+        "options": [
+          "lent",
+          "lends",
+          "lending"
+        ],
+        "why": "Yesterday sitúa la acción en pasado. Lend cambia a lent.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as18",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: They changed their plans ___ the delivery.",
+        "answer": "because of",
+        "options": [
+          "because of",
+          "because",
+          "so that"
+        ],
+        "why": "Because of va con un nombre; because requiere una oración.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as19",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Necesitas que repitan la hora de entrega.",
+        "answer": "Could you repeat the time, please?",
+        "options": [
+          "Could you repeat the time, please?",
+          "You must have a time.",
+          "I repeat yesterday."
+        ],
+        "why": "Could you repeat…? permite pedir aclaración con cortesía.",
+        "passage": "",
+        "audio": ""
+      }
+    ],
+    "writing": "Escribe 60–80 palabras a la aerolínea: resume el problema, indica cuándo estarás en casa y pide confirmar la entrega.",
+    "speaking": "En 45 segundos, explica un problema de viaje y cómo cambiaste tus planes."
+  },
+  {
+    "id": "b1-1",
+    "level": "b1",
+    "block": "all",
+    "title": "Una manera de colaborar",
+    "reading": "Mia joined a volunteer group that repaired old computers for local families. The group met every Thursday evening. Although members were friendly, new volunteers often left after a few weeks. Mia noticed that experienced members used technical terms without explaining them. Beginners spent much of the evening watching because they were afraid of damaging something. She suggested pairing each beginner with an experienced volunteer for the first three sessions. Some members worried that this would slow down repairs. The coordinator agreed to try the idea for a month rather than change the whole system immediately. Mia prepared a short checklist with pictures, but she deliberately left space for questions instead of writing a long manual. At the end of the month, the group had repaired slightly fewer computers, yet more beginners were able to complete simple tasks on their own. The coordinator decided to keep the pairs and review repair numbers after three months. Mia learned that a useful change can have a short-term cost, and that explaining the purpose of a change helps other people support it.",
+    "translation": "Mia entró en un grupo que reparaba ordenadores para familias. Muchos principiantes se iban pronto. Observó términos técnicos sin explicar y miedo a estropear algo. Propuso acompañar a cada nuevo voluntario durante tres sesiones. Algunos temían ralentizar las reparaciones. La coordinadora aceptó probarlo un mes. Mia preparó una lista breve con imágenes y espacio para preguntas. Repararon algo menos, pero más principiantes pudieron hacer tareas solos. Mantuvieron las parejas y acordaron revisar las cifras a los tres meses. Mia aprendió que una mejora puede tener un coste inicial y que explicar su propósito facilita el apoyo.",
+    "listening": {
+      "text": "Hi Mia, I've read the feedback. The beginners liked working in pairs, but two said they never knew what to practise next. Could you add a small section to the checklist where partners agree on one goal for the following week? Please keep the existing pictures. We can discuss your draft on Thursday; there is no need to print copies yet.",
+      "translation": "Hola Mia, he leído los comentarios. A los principiantes les gustó trabajar en parejas, pero dos no sabían qué practicar después. Añade una sección para acordar un objetivo de la semana siguiente. Conserva las imágenes. Veremos el borrador el jueves; aún no hace falta imprimir.",
+      "role": "Nora"
+    },
+    "questions": [
+      {
+        "id": "u1-as10",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué problema intenta resolver la propuesta?",
+        "answer": "Beginners do not become confident participants",
+        "options": [
+          "Beginners do not become confident participants",
+          "There are too many donated computers",
+          "Experienced volunteers cannot use computers"
+        ],
+        "why": "La falta de explicaciones y el miedo impedían a los principiantes participar.",
+        "passage": "Mia joined a volunteer group that repaired old computers for local families. The group met every Thursday evening. Although members were friendly, new volunteers often left after a few weeks. Mia noticed that experienced members used technical terms without explaining them. Beginners spent much of the evening watching because they were afraid of damaging something. She suggested pairing each beginner with an experienced volunteer for the first three sessions. Some members worried that this would slow down repairs. The coordinator agreed to try the idea for a month rather than change the whole system immediately. Mia prepared a short checklist with pictures, but she deliberately left space for questions instead of writing a long manual. At the end of the month, the group had repaired slightly fewer computers, yet more beginners were able to complete simple tasks on their own. The coordinator decided to keep the pairs and review repair numbers after three months. Mia learned that a useful change can have a short-term cost, and that explaining the purpose of a change helps other people support it.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as11",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Por qué algunos miembros dudaban?",
+        "answer": "Repairs might become slower",
+        "options": [
+          "Repairs might become slower",
+          "The room was too small",
+          "Beginners would have to pay"
+        ],
+        "why": "La preocupación explícita era ralentizar las reparaciones.",
+        "passage": "Mia joined a volunteer group that repaired old computers for local families. The group met every Thursday evening. Although members were friendly, new volunteers often left after a few weeks. Mia noticed that experienced members used technical terms without explaining them. Beginners spent much of the evening watching because they were afraid of damaging something. She suggested pairing each beginner with an experienced volunteer for the first three sessions. Some members worried that this would slow down repairs. The coordinator agreed to try the idea for a month rather than change the whole system immediately. Mia prepared a short checklist with pictures, but she deliberately left space for questions instead of writing a long manual. At the end of the month, the group had repaired slightly fewer computers, yet more beginners were able to complete simple tasks on their own. The coordinator decided to keep the pairs and review repair numbers after three months. Mia learned that a useful change can have a short-term cost, and that explaining the purpose of a change helps other people support it.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as12",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué resultado positivo apareció?",
+        "answer": "More beginners could work independently",
+        "options": [
+          "More beginners could work independently",
+          "Every repair became faster",
+          "Nobody had questions"
+        ],
+        "why": "Aumentó la autonomía para tareas simples, aunque se repararon menos equipos.",
+        "passage": "Mia joined a volunteer group that repaired old computers for local families. The group met every Thursday evening. Although members were friendly, new volunteers often left after a few weeks. Mia noticed that experienced members used technical terms without explaining them. Beginners spent much of the evening watching because they were afraid of damaging something. She suggested pairing each beginner with an experienced volunteer for the first three sessions. Some members worried that this would slow down repairs. The coordinator agreed to try the idea for a month rather than change the whole system immediately. Mia prepared a short checklist with pictures, but she deliberately left space for questions instead of writing a long manual. At the end of the month, the group had repaired slightly fewer computers, yet more beginners were able to complete simple tasks on their own. The coordinator decided to keep the pairs and review repair numbers after three months. Mia learned that a useful change can have a short-term cost, and that explaining the purpose of a change helps other people support it.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as13",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Por qué se mantiene la propuesta?",
+        "answer": "Its learning benefit justifies further evaluation",
+        "options": [
+          "Its learning benefit justifies further evaluation",
+          "It already solved every problem",
+          "The original concern was dishonest"
+        ],
+        "why": "El resultado mixto lleva a mantenerla y observar durante más tiempo.",
+        "passage": "Mia joined a volunteer group that repaired old computers for local families. The group met every Thursday evening. Although members were friendly, new volunteers often left after a few weeks. Mia noticed that experienced members used technical terms without explaining them. Beginners spent much of the evening watching because they were afraid of damaging something. She suggested pairing each beginner with an experienced volunteer for the first three sessions. Some members worried that this would slow down repairs. The coordinator agreed to try the idea for a month rather than change the whole system immediately. Mia prepared a short checklist with pictures, but she deliberately left space for questions instead of writing a long manual. At the end of the month, the group had repaired slightly fewer computers, yet more beginners were able to complete simple tasks on their own. The coordinator decided to keep the pairs and review repair numbers after three months. Mia learned that a useful change can have a short-term cost, and that explaining the purpose of a change helps other people support it.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as14",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué falta según los comentarios?",
+        "answer": "A goal for the following week",
+        "options": [
+          "A goal for the following week",
+          "A longer technical manual",
+          "A price for every repair"
+        ],
+        "why": "Algunos no sabían qué practicar después: hace falta acordar un objetivo.",
+        "passage": "",
+        "audio": "Hi Mia, I've read the feedback. The beginners liked working in pairs, but two said they never knew what to practise next. Could you add a small section to the checklist where partners agree on one goal for the following week? Please keep the existing pictures. We can discuss your draft on Thursday; there is no need to print copies yet."
+      },
+      {
+        "id": "u1-as15",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué debe conservar Mia?",
+        "answer": "The pictures",
+        "options": [
+          "The pictures",
+          "Printed copies of every draft",
+          "All the technical terms"
+        ],
+        "why": "El mensaje pide expresamente mantener las imágenes.",
+        "passage": "",
+        "audio": "Hi Mia, I've read the feedback. The beginners liked working in pairs, but two said they never knew what to practise next. Could you add a small section to the checklist where partners agree on one goal for the following week? Please keep the existing pictures. We can discuss your draft on Thursday; there is no need to print copies yet."
+      },
+      {
+        "id": "u1-as16",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué debe hacer ahora?",
+        "answer": "Prepare a draft for Thursday",
+        "options": [
+          "Prepare a draft for Thursday",
+          "Print copies immediately",
+          "Cancel the paired sessions"
+        ],
+        "why": "Debe preparar un borrador para hablar el jueves. No hace falta imprimir aún.",
+        "passage": "",
+        "audio": "Hi Mia, I've read the feedback. The beginners liked working in pairs, but two said they never knew what to practise next. Could you add a small section to the checklist where partners agree on one goal for the following week? Please keep the existing pictures. We can discuss your draft on Thursday; there is no need to print copies yet."
+      },
+      {
+        "id": "u1-as17",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: Although repairs were slower, beginners ___ more confident.",
+        "answer": "became",
+        "options": [
+          "became",
+          "becoming",
+          "have become yesterday"
+        ],
+        "why": "Became es el pasado de become y expresa el cambio durante ese periodo.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as18",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: The checklist helps them decide what ___ next.",
+        "answer": "to practise",
+        "options": [
+          "to practise",
+          "practising",
+          "practised"
+        ],
+        "why": "What + infinitivo expresa una decisión pendiente: qué practicar.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as19",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Acepta una sugerencia con una condición razonable.",
+        "answer": "That could work, as long as we review the results.",
+        "options": [
+          "That could work, as long as we review the results.",
+          "You are wrong and I will not listen.",
+          "We repaired computers last year."
+        ],
+        "why": "La frase acepta la posibilidad y propone evaluar los resultados.",
+        "passage": "",
+        "audio": ""
+      }
+    ],
+    "writing": "Escribe 100–130 palabras a la coordinadora: resume los resultados, explica una dificultad y propone el siguiente paso.",
+    "speaking": "En un minuto, propone una mejora para un grupo, anticipa una objeción y responde constructivamente."
+  },
+  {
+    "id": "b2-1",
+    "level": "b2",
+    "block": "all",
+    "title": "Lo que una encuesta no demuestra",
+    "reading": "A transport company surveyed passengers after introducing a quieter carriage on one of its commuter routes. Of the people who responded, 82 per cent said their journeys had improved. The company described this as strong evidence that quiet carriages should be introduced across the network. However, the survey link had been displayed mainly inside the new carriage, and responses were voluntary. Passengers who avoided the carriage were unlikely to see it. A local researcher welcomed the company's willingness to collect feedback but questioned whether the sample represented all passengers. She also pointed out that the trial had taken place during school holidays, when trains were less crowded. This did not mean the reported improvements were imaginary; it meant that the size and cause of the improvement remained uncertain. The company initially defended its conclusion, arguing that customers' experiences mattered more than technical criticism. After a public discussion, it agreed to run a second trial on three routes during term time. This time, staff would invite a selection of passengers from different carriages to respond, while recording crowding levels. The researcher supported the revised approach, although she warned that the results would still need careful interpretation. The disagreement shifted from whether quiet carriages were a good idea to what evidence would justify expanding them.",
+    "translation": "Una empresa encuestó a pasajeros tras introducir un vagón silencioso. El 82 % de quienes respondieron notó una mejora. La empresa lo tomó como evidencia para extenderlo, pero el enlace estaba sobre todo dentro de ese vagón y responder era voluntario. Otros pasajeros probablemente no lo vieron. Una investigadora valoró recoger opiniones, pero cuestionó la representatividad y recordó que la prueba se hizo en vacaciones, con menos aglomeración. No negaba las mejoras: señalaba incertidumbre sobre su tamaño y causa. Tras una discusión, acordaron otra prueba en tres rutas durante el periodo lectivo, con pasajeros de varios vagones y datos de ocupación. La investigadora apoyó el diseño con cautela. La discusión pasó de la conveniencia de la idea a la evidencia necesaria para ampliarla.",
+    "listening": {
+      "text": "We are not postponing the second trial, but we are changing how we invite participants. Staff should approach every fifth passenger entering each selected carriage, rather than choosing people who seem willing to talk. If someone declines, record that and move on; do not replace them with a friend travelling beside them. This will not remove every source of bias, but it should make the selection more consistent.",
+      "translation": "No aplazamos la prueba; cambiamos cómo invitamos a participar. El personal debe acercarse a cada quinto pasajero que entre en cada vagón seleccionado, sin elegir a quienes parezcan dispuestos. Si alguien rechaza, anótenlo y continúen, sin sustituirlo por un amigo. No eliminará todos los sesgos, pero hará más consistente la selección.",
+      "role": "Max"
+    },
+    "questions": [
+      {
+        "id": "u1-as10",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué objeta principalmente la investigadora?",
+        "answer": "The evidence does not yet support such a broad conclusion",
+        "options": [
+          "The evidence does not yet support such a broad conclusion",
+          "Passengers cannot judge their own journeys",
+          "Quiet carriages necessarily make journeys worse"
+        ],
+        "why": "Cuestiona generalizar a toda la red desde una muestra selectiva y condiciones particulares.",
+        "passage": "A transport company surveyed passengers after introducing a quieter carriage on one of its commuter routes. Of the people who responded, 82 per cent said their journeys had improved. The company described this as strong evidence that quiet carriages should be introduced across the network. However, the survey link had been displayed mainly inside the new carriage, and responses were voluntary. Passengers who avoided the carriage were unlikely to see it. A local researcher welcomed the company's willingness to collect feedback but questioned whether the sample represented all passengers. She also pointed out that the trial had taken place during school holidays, when trains were less crowded. This did not mean the reported improvements were imaginary; it meant that the size and cause of the improvement remained uncertain. The company initially defended its conclusion, arguing that customers' experiences mattered more than technical criticism. After a public discussion, it agreed to run a second trial on three routes during term time. This time, staff would invite a selection of passengers from different carriages to respond, while recording crowding levels. The researcher supported the revised approach, although she warned that the results would still need careful interpretation. The disagreement shifted from whether quiet carriages were a good idea to what evidence would justify expanding them.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as11",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Por qué importa dónde estaba el enlace?",
+        "answer": "It affected who was likely to respond",
+        "options": [
+          "It affected who was likely to respond",
+          "It changed ticket prices",
+          "It prevented all positive responses"
+        ],
+        "why": "La ubicación favorecía a quienes usaban el nuevo vagón: posible sesgo de selección.",
+        "passage": "A transport company surveyed passengers after introducing a quieter carriage on one of its commuter routes. Of the people who responded, 82 per cent said their journeys had improved. The company described this as strong evidence that quiet carriages should be introduced across the network. However, the survey link had been displayed mainly inside the new carriage, and responses were voluntary. Passengers who avoided the carriage were unlikely to see it. A local researcher welcomed the company's willingness to collect feedback but questioned whether the sample represented all passengers. She also pointed out that the trial had taken place during school holidays, when trains were less crowded. This did not mean the reported improvements were imaginary; it meant that the size and cause of the improvement remained uncertain. The company initially defended its conclusion, arguing that customers' experiences mattered more than technical criticism. After a public discussion, it agreed to run a second trial on three routes during term time. This time, staff would invite a selection of passengers from different carriages to respond, while recording crowding levels. The researcher supported the revised approach, although she warned that the results would still need careful interpretation. The disagreement shifted from whether quiet carriages were a good idea to what evidence would justify expanding them.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as12",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Qué función cumple mencionar las vacaciones?",
+        "answer": "It identifies another possible explanation for improvement",
+        "options": [
+          "It identifies another possible explanation for improvement",
+          "It proves the survey was fabricated",
+          "It establishes the best time to expand the scheme"
+        ],
+        "why": "Una ocupación menor podría influir en la experiencia; no prueba que los datos fueran inventados.",
+        "passage": "A transport company surveyed passengers after introducing a quieter carriage on one of its commuter routes. Of the people who responded, 82 per cent said their journeys had improved. The company described this as strong evidence that quiet carriages should be introduced across the network. However, the survey link had been displayed mainly inside the new carriage, and responses were voluntary. Passengers who avoided the carriage were unlikely to see it. A local researcher welcomed the company's willingness to collect feedback but questioned whether the sample represented all passengers. She also pointed out that the trial had taken place during school holidays, when trains were less crowded. This did not mean the reported improvements were imaginary; it meant that the size and cause of the improvement remained uncertain. The company initially defended its conclusion, arguing that customers' experiences mattered more than technical criticism. After a public discussion, it agreed to run a second trial on three routes during term time. This time, staff would invite a selection of passengers from different carriages to respond, while recording crowding levels. The researcher supported the revised approach, although she warned that the results would still need careful interpretation. The disagreement shifted from whether quiet carriages were a good idea to what evidence would justify expanding them.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as13",
+        "unit": 1,
+        "skill": "reading",
+        "type": "choice",
+        "prompt": "¿Cómo termina el desacuerdo?",
+        "answer": "With a revised investigation and a more specific question",
+        "options": [
+          "With a revised investigation and a more specific question",
+          "With agreement that expansion is already justified",
+          "With a decision never to use surveys"
+        ],
+        "why": "Se mejora el estudio y se precisa qué evidencia justificaría ampliarlo.",
+        "passage": "A transport company surveyed passengers after introducing a quieter carriage on one of its commuter routes. Of the people who responded, 82 per cent said their journeys had improved. The company described this as strong evidence that quiet carriages should be introduced across the network. However, the survey link had been displayed mainly inside the new carriage, and responses were voluntary. Passengers who avoided the carriage were unlikely to see it. A local researcher welcomed the company's willingness to collect feedback but questioned whether the sample represented all passengers. She also pointed out that the trial had taken place during school holidays, when trains were less crowded. This did not mean the reported improvements were imaginary; it meant that the size and cause of the improvement remained uncertain. The company initially defended its conclusion, arguing that customers' experiences mattered more than technical criticism. After a public discussion, it agreed to run a second trial on three routes during term time. This time, staff would invite a selection of passengers from different carriages to respond, while recording crowding levels. The researcher supported the revised approach, although she warned that the results would still need careful interpretation. The disagreement shifted from whether quiet carriages were a good idea to what evidence would justify expanding them.",
+        "audio": ""
+      },
+      {
+        "id": "u1-as14",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué instrucción cambia en el mensaje?",
+        "answer": "How passengers are selected",
+        "options": [
+          "How passengers are selected",
+          "The starting date of the trial",
+          "The number of routes"
+        ],
+        "why": "No se aplaza el inicio; cambia el método de selección.",
+        "passage": "",
+        "audio": "We are not postponing the second trial, but we are changing how we invite participants. Staff should approach every fifth passenger entering each selected carriage, rather than choosing people who seem willing to talk. If someone declines, record that and move on; do not replace them with a friend travelling beside them. This will not remove every source of bias, but it should make the selection more consistent."
+      },
+      {
+        "id": "u1-as15",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Qué hacer ante una negativa?",
+        "answer": "Record it without substituting a nearby friend",
+        "options": [
+          "Record it without substituting a nearby friend",
+          "Automatically choose the person’s friend",
+          "Delete the invitation from the records"
+        ],
+        "why": "Registrar el rechazo conserva información sobre la participación.",
+        "passage": "",
+        "audio": "We are not postponing the second trial, but we are changing how we invite participants. Staff should approach every fifth passenger entering each selected carriage, rather than choosing people who seem willing to talk. If someone declines, record that and move on; do not replace them with a friend travelling beside them. This will not remove every source of bias, but it should make the selection more consistent."
+      },
+      {
+        "id": "u1-as16",
+        "unit": 1,
+        "skill": "listening",
+        "type": "choice",
+        "prompt": "¿Cómo se presenta el nuevo método?",
+        "answer": "As an improvement with remaining limitations",
+        "options": [
+          "As an improvement with remaining limitations",
+          "As a guarantee of perfect representation",
+          "As unnecessary bureaucracy"
+        ],
+        "why": "«will not remove every source of bias» limita explícitamente el alcance.",
+        "passage": "",
+        "audio": "We are not postponing the second trial, but we are changing how we invite participants. Staff should approach every fifth passenger entering each selected carriage, rather than choosing people who seem willing to talk. If someone declines, record that and move on; do not replace them with a friend travelling beside them. This will not remove every source of bias, but it should make the selection more consistent."
+      },
+      {
+        "id": "u1-as17",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: Had the sample been broader, the conclusion ___ more convincing.",
+        "answer": "might have been",
+        "options": [
+          "might have been",
+          "might be being yesterday",
+          "will have"
+        ],
+        "why": "Had + sujeto + participio equivale a una condición pasada irreal. Might have been plantea un resultado posible.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as18",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Resume el 82 % sin generalizar indebidamente.",
+        "answer": "Eighty-two per cent of respondents reported an improvement.",
+        "options": [
+          "Eighty-two per cent of respondents reported an improvement.",
+          "Eighty-two per cent of all passengers definitely benefited.",
+          "Every journey improved by eighty-two per cent."
+        ],
+        "why": "Respondents conserva el denominador: quienes respondieron, no todos los pasajeros.",
+        "passage": "",
+        "audio": ""
+      },
+      {
+        "id": "u1-as19",
+        "unit": 1,
+        "skill": "use",
+        "type": "choice",
+        "prompt": "Completa: The findings are promising; ___, they require further investigation.",
+        "answer": "nevertheless",
+        "options": [
+          "nevertheless",
+          "therefore because",
+          "in order to"
+        ],
+        "why": "Nevertheless introduce contraste entre los resultados prometedores y la necesidad de investigar.",
+        "passage": "",
+        "audio": ""
+      }
+    ],
+    "writing": "Escribe 160–200 palabras para un boletín. Explica qué muestra la encuesta, qué no permite concluir y qué cambiarías en una segunda prueba.",
+    "speaking": "En 90 segundos, defiende una prueba adicional. Reconoce los posibles beneficios y explica dos límites de la evidencia."
+  }
+]

@@ -7,7 +7,7 @@ const catalog=JSON.parse(readFileSync(new URL('src/recorded-voices.json',root)))
 const stories=JSON.parse(readFileSync(new URL('src/conversations.json',root)));
 
 test('every dialogue, example and branch has a recording with its fixed speaker',()=>{
- assert.equal(new Set(['Leo','Mia','Nora','Sam'].map(role=>catalog.cast[role])).size,4);
+ assert.equal(new Set(Object.entries(catalog.cast).filter(([r])=>r!=='Narrador').map(([,v])=>v)).size,10);
  const check=(text,role)=>assert(catalog.entries[role+'\n'+text.trim()],role+': '+text);
  for(const list of Object.values(stories))for(const story of list)for(const e of story.episodes){
   e.lines.forEach(l=>check(l.en,story.people[l.speaker]));
@@ -16,7 +16,7 @@ test('every dialogue, example and branch has a recording with its fixed speaker'
  }
  for(const name of ['course','course-a2','course-b1','course-b2']){
   const course=JSON.parse(readFileSync(new URL(`src/${name}.json`,root)));
-  for(const u of course.units)u.dialogue.forEach(([,text],i)=>check(text,i%2?'Mia':'Leo'));
+  for(const u of course.units)u.dialogue.forEach(([,text],i)=>check(text,u.voices[i%2]));
  }
  for(const file of new Set(Object.values(catalog.entries))){
   assert.match(file,/^[a-f0-9]{20}\.mp3$/);

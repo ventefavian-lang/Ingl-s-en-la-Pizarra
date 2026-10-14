@@ -194,8 +194,8 @@
       "title": "En casa de una amiga",
       "theme": "home",
       "people": [
-        "Mia",
-        "Leo"
+        "Ella",
+        "Oliver"
       ],
       "units": [
         5,
@@ -206,7 +206,7 @@
       "episodes": [
         {
           "title": "Dónde dejamos la mochila",
-          "context": "Mia te recibe en su casa. Quieres dejar la mochila y conocer a su familia.",
+          "context": "Ella te recibe en su casa. Quieres dejar la mochila y conocer a su familia.",
           "lines": [
             {
               "speaker": 0,
@@ -225,8 +225,8 @@
             },
             {
               "speaker": 1,
-              "en": "Hi, Ben! Mia, is that his guitar?",
-              "es": "¡Hola, Ben! Mia, ¿esa es su guitarra?"
+              "en": "Hi, Ben! Ella, is that his guitar?",
+              "es": "¡Hola, Ben! Ella, ¿esa es su guitarra?"
             },
             {
               "speaker": 0,
@@ -292,7 +292,7 @@
         },
         {
           "title": "Un plan después de clase",
-          "context": "Mia y tú quieren tocar música otro día. Comparen sus rutinas para encontrar un momento.",
+          "context": "Ella y tú quieren tocar música otro día. Comparen sus rutinas para encontrar un momento.",
           "lines": [
             {
               "speaker": 0,
@@ -384,7 +384,7 @@
       "theme": "cafe",
       "people": [
         "Nora",
-        "Leo"
+        "Max"
       ],
       "units": [
         9,
@@ -573,7 +573,7 @@
       "theme": "shop",
       "people": [
         "Sam",
-        "Mia"
+        "Zoe"
       ],
       "units": [
         10,
@@ -761,8 +761,8 @@
       "title": "Llegar al museo",
       "theme": "station",
       "people": [
-        "Nora",
-        "Leo"
+        "Ava",
+        "Noah"
       ],
       "units": [
         15,
@@ -951,7 +951,7 @@
       "theme": "park",
       "people": [
         "Mia",
-        "Leo"
+        "Oliver"
       ],
       "units": [
         20,
@@ -1141,8 +1141,8 @@
       "title": "Compartir piso sin malentendidos",
       "theme": "home",
       "people": [
-        "Nora",
-        "Leo"
+        "Ella",
+        "Oliver"
       ],
       "units": [
         1,
@@ -1153,7 +1153,7 @@
       "episodes": [
         {
           "title": "La primera tarde",
-          "context": "Acabas de mudarte. Nora te enseña el piso y ambos comparan horarios para convivir mejor.",
+          "context": "Acabas de mudarte. Ella te enseña el piso y ambos comparan horarios para convivir mejor.",
           "lines": [
             {
               "speaker": 0,
@@ -1330,8 +1330,8 @@
       "title": "Un cumpleaños y un cambio de plan",
       "theme": "park",
       "people": [
-        "Mia",
-        "Sam"
+        "Nora",
+        "Max"
       ],
       "units": [
         7,
@@ -1428,7 +1428,7 @@
         },
         {
           "title": "Avisar y negociar otra hora",
-          "context": "El sábado tienes un retraso. Debes avisar a Mia y preguntar qué cambió con la lluvia.",
+          "context": "El sábado tienes un retraso. Debes avisar a Nora y preguntar qué cambió con la lluvia.",
           "lines": [
             {
               "speaker": 0,
@@ -1519,8 +1519,8 @@
       "title": "Un viaje con una sorpresa",
       "theme": "station",
       "people": [
-        "Nora",
-        "Leo"
+        "Zoe",
+        "Sam"
       ],
       "units": [
         9,
@@ -1626,8 +1626,8 @@
             },
             {
               "speaker": 1,
-              "en": "Yes, under Leo Torres. For two nights.",
-              "es": "Sí, a nombre de Leo Torres. Para dos noches."
+              "en": "Yes, under Sam Torres. For two nights.",
+              "es": "Sí, a nombre de Sam Torres. Para dos noches."
             },
             {
               "speaker": 0,
@@ -1662,8 +1662,8 @@
           ],
           "chunks": [
             {
-              "en": "under Leo Torres",
-              "es": "a nombre de Leo Torres",
+              "en": "under Sam Torres",
+              "es": "a nombre de Sam Torres",
               "use": "Under + nombre identifica una reserva.",
               "example": "The booking is under Mia Cruz.",
               "translation": "La reserva está a nombre de Mia Cruz."
@@ -1708,8 +1708,8 @@
       "title": "El auricular que dejó de funcionar",
       "theme": "shop",
       "people": [
-        "Sam",
-        "Mia"
+        "Noah",
+        "Ava"
       ],
       "units": [
         11,
@@ -1806,7 +1806,7 @@
         },
         {
           "title": "Seguir instrucciones",
-          "context": "El nuevo par funciona, pero no sabes conectarlo. Sam te guía y tú confirmas cada paso.",
+          "context": "El nuevo par funciona, pero no sabes conectarlo. Noah te guía y tú confirmas cada paso.",
           "lines": [
             {
               "speaker": 0,
@@ -1897,8 +1897,8 @@
       "title": "Un sábado de voluntariado",
       "theme": "work",
       "people": [
-        "Nora",
-        "Leo"
+        "Mia",
+        "Oliver"
       ],
       "units": [
         15,
@@ -1909,7 +1909,7 @@
       "episodes": [
         {
           "title": "Saber qué tienes que hacer",
-          "context": "Es tu primer día ayudando en un centro comunitario. Nora explica las tareas y tú preguntas por las normas.",
+          "context": "Es tu primer día ayudando en un centro comunitario. Mia explica las tareas y tú preguntas por las normas.",
           "lines": [
             {
               "speaker": 0,
@@ -1999,8 +1999,8 @@
           "lines": [
             {
               "speaker": 0,
-              "en": "Hi, Leo. How is it going at the entrance?",
-              "es": "Hola, Leo. ¿Qué tal va en la entrada?"
+              "en": "Hi, Oliver. How is it going at the entrance?",
+              "es": "Hola, Oliver. ¿Qué tal va en la entrada?"
             },
             {
               "speaker": 1,
@@ -2087,7 +2087,7 @@
       "theme": "park",
       "people": [
         "Mia",
-        "Sam"
+        "Leo"
       ],
       "units": [
         3,
@@ -2278,7 +2278,7 @@
       "theme": "work",
       "people": [
         "Nora",
-        "Leo"
+        "Max"
       ],
       "units": [
         1,
@@ -2466,7 +2466,7 @@
       "title": "El día que perdimos el tren",
       "theme": "station",
       "people": [
-        "Mia",
+        "Zoe",
         "Sam"
       ],
       "units": [
@@ -2655,8 +2655,8 @@
       "title": "Una biblioteca hecha entre todos",
       "theme": "work",
       "people": [
-        "Nora",
-        "Leo"
+        "Ava",
+        "Noah"
       ],
       "units": [
         9,
@@ -2844,7 +2844,7 @@
       "title": "Un pedido que necesita solución",
       "theme": "shop",
       "people": [
-        "Sam",
+        "Oliver",
         "Mia"
       ],
       "units": [
@@ -3033,7 +3033,7 @@
       "title": "Lo que decía el mensaje",
       "theme": "cafe",
       "people": [
-        "Nora",
+        "Mia",
         "Leo"
       ],
       "units": [
@@ -3222,8 +3222,8 @@
       "title": "Una noche de cine que sí funciona",
       "theme": "park",
       "people": [
-        "Mia",
-        "Sam"
+        "Ella",
+        "Oliver"
       ],
       "units": [
         8,
@@ -3413,8 +3413,8 @@
       "title": "Un plazo que hay que negociar",
       "theme": "work",
       "people": [
-        "Nora",
-        "Leo"
+        "Zoe",
+        "Sam"
       ],
       "units": [
         2,
@@ -3602,8 +3602,8 @@
       "title": "Lo que haríamos de otra manera",
       "theme": "station",
       "people": [
-        "Mia",
-        "Sam"
+        "Ava",
+        "Noah"
       ],
       "units": [
         1,
@@ -3791,8 +3791,8 @@
       "title": "¿Qué demuestra ese gráfico?",
       "theme": "cafe",
       "people": [
-        "Nora",
-        "Leo"
+        "Mia",
+        "Oliver"
       ],
       "units": [
         10,
@@ -3981,7 +3981,7 @@
       "theme": "park",
       "people": [
         "Mia",
-        "Sam"
+        "Leo"
       ],
       "units": [
         6,
@@ -4169,8 +4169,8 @@
       "title": "Una reseña útil, una queja justa",
       "theme": "shop",
       "people": [
-        "Sam",
-        "Mia"
+        "Oliver",
+        "Ella"
       ],
       "units": [
         7,
@@ -4358,8 +4358,8 @@
       "title": "Conversar con matices",
       "theme": "cafe",
       "people": [
-        "Mia",
-        "Sam"
+        "Nora",
+        "Max"
       ],
       "units": [
         14,

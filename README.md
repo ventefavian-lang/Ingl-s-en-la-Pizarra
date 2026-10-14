@@ -1,6 +1,14 @@
-# Hello English — A1, A2, B1 y B2 · Edición 6.2
+# Hello English — A1, A2, B1 y B2 · Edición 8
 
 **Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
+
+## Enseñanza paso a paso · edición 8
+
+Las **288 lecciones** enseñan una idea antes de evaluarla: entiende un modelo traducido, observa cómo funciona, construye con pistas, decide en dos casos y crea tu mensaje. Hay **288 traducciones principales revisadas y 288 tareas específicas**. Las explicaciones ampliadas se integran en la lección y los términos gramaticales tienen ayuda sencilla.
+
+Las **48 escenas** comprueban ahora el mensaje con evidencia del diálogo y añaden 144 actividades para recuperar expresiones según su intención. La práctica permite corregir un error sin inflar la nota del primer intento. Se conservan los borradores, avances y errores pendientes anteriores.
+
+Abre **[NOVEDADES_V8.md](NOVEDADES_V8.md)** para conocer los cambios y **[APRENDER_PASO_A_PASO.md](APRENDER_PASO_A_PASO.md)** para empezar a estudiar.
 
 ## La página empieza con historias
 
@@ -8,9 +16,9 @@ La pantalla inicial muestra **24 historias y 48 escenas de A1 a B2**, con person
 
 Escucha con traducción, sin traducción o sin texto. Practica tu papel, graba tu voz, guarda borradores y vuelve a recuperar las expresiones con repasos espaciados. El historial registra esta práctica por separado de los ejercicios de gramática. Consulta **[CONVERSACIONES.md](CONVERSACIONES.md)**.
 
-## Voces predeterminadas · edición 6.2
+## Voces predeterminadas · edición 7
 
-Leo, Mia, Nora y Sam tienen cuatro voces sintéticas distintas, ya asignadas. **1.191 archivos MP3 incluidos** cubren todos los turnos, ejemplos y respuestas de las 48 escenas, además de las intervenciones de los 96 diálogos de las unidades. La reproducción empieza a velocidad natural y permite repetir o reducir la velocidad conservando el tono. No hay selector de voces ni se necesita una API para escuchar estos audios. Consulta **[VOCES.md](VOCES.md)** para conocer su alcance y procedencia.
+Diez personajes tienen voces distintas y fijas, generadas con un motor nuevo. **1.274 MP3 incluidos** cubren las conversaciones, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
 
 ## Contenido
 
@@ -23,11 +31,13 @@ Leo, Mia, Nora y Sam tienen cuatro voces sintéticas distintas, ya asignadas. **
 
 El banco ofrece modalidades distintas sobre vocabulario y estructuras del curso; su tamaño no cuenta conceptos nuevos ni repeticiones realizadas. Consulta el alcance y los temas B2 en **[TEMARIO_B2.md](TEMARIO_B2.md)**.
 
-Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las lecciones incorporan contexto antes de la explicación y tareas de transferencia después.
+Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las lecciones siguen cinco pasos con apoyo gradual y una tarea propia antes de la práctica evaluada.
 
-Al pasar el cursor, enfocar o tocar palabras de los textos aparece ayuda de traducción. El vocabulario aún no marcado como recordado aparece en violeta. Las pruebas mantienen ocultas las ayudas que revelarían respuestas.
+Al pasar el cursor, enfocar o tocar palabras de los textos aparece ayuda de traducción. Todas las palabras todavía sin marcar como recordadas aparecen en violeta. La ayuda incluye palabra, expresión, frase completa y notas de uso. Las traducciones automáticas adicionales se señalan como orientativas. Las pruebas mantienen ocultas las ayudas que revelarían respuestas.
 
-El laboratorio conserva el mapa articulatorio, las vistas frontal y lateral, el diccionario de pronunciación y la comparación de transcripción. Añade muestras sintéticas incluidas para las 44 fichas, recorridos automáticos animados y un botón para ocultar el diagrama. El porcentaje compara palabras reconocidas, no precisión fonética. Las posiciones del dibujo son aproximadas.
+El laboratorio ofrece 44 sonidos, contrastes, repetición, grabación temporal y dictado. Se retiró el diagrama de la boca. El porcentaje del dictado compara palabras reconocidas, no precisión fonética.
+
+Las nuevas evaluaciones integran lectura, escucha y uso en contexto, con corrección por habilidad, evidencia y tareas libres de escritura y habla.
 
 ## Guardado y publicación
 

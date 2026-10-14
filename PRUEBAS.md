@@ -1,25 +1,22 @@
-# Verificación de la edición 4
+# Verificación de la edición 8
 
-- Compilación de producción correcta.
-- 24 pruebas portátiles incluidas en `npm test`: progreso, cuentas, migraciones, trabajo sin conexión, separación de niveles, borradores de talleres, fusiones entre dispositivos, límites de importación y calendario de repasos.
-- 432 vistas de talleres ejecutadas: seis etapas de las 24 unidades de cada nivel. Sin contenido `undefined` ni errores de ejecución en esa comprobación.
-- Doce rondas completas de talleres comprobadas con respuestas correctas: las cuatro modalidades en cada nivel. Se verificaron puntuación, borradores, autoevaluación y persistencia.
-- Lecciones anteriores comprobadas en A1, A2 y B1: vistas, finalización de una lección, escritura, vocabulario y exámenes.
-- Laboratorio comprobado en los tres niveles: 44 sonidos, secuencias, variantes, palabras desconocidas, controles, historias y comparación de transcripción simulada.
-- Mapa, selector de referencia, vistas de boca, capas, detalles y cambios de posición comprobados. Se corrigió el redondeamiento final de /ɔɪ/ y la liberación de oclusivas.
-- Revisión visual en Chromium de escritorio y móvil; once rutas móviles sin desbordamiento horizontal. Se ajustó el menú inferior para evitar superposición de sus opciones.
-- 28 comprobaciones de acceso y estructura ejecutadas con el emulador real de Firestore: propietario, otras cuentas, anónimos, niveles, revisiones, límites de talleres y borradores. Después se añadió una protección revisada en código para impedir que un cliente anterior elimine los campos nuevos; ese caso adicional no se volvió a ejecutar en el emulador.
-- Integridad del ZIP y presencia de archivos de publicación comprobadas.
+- Los 1.274 MP3 del catálogo se decodificaron completamente con FFmpeg, sin errores.
+- 57 comprobaciones automáticas: contenido, respuestas, repaso, guardado, separación de cuentas, mezcla del progreso, vocabulario por cuenta, expresiones y evaluaciones integradas.
+- Reproducción de audio real en Chromium sin depender del selector de voces del navegador; cambio de escena cancela la reproducción.
+- Se comprobó que una palabra marcada como recordada cambia de color y conserva ese estado después de recargar.
+- La prueba sin pistas conserva el morado y bloquea la ayuda; al entregar, muestra soluciones y explicaciones. Un intento con una respuesta incorrecta dio 90 %, con 3/4 en lectura.
+- El resultado, el texto escrito y la autoevaluación se recuperaron después de recargar.
+- Se verificaron las 44 fichas y la reproducción de una muestra, la ausencia del diagrama y la navegación al historial.
+- Interfaz revisada en Chromium a 1.440 y 390 píxeles; sin desbordamiento horizontal en la evaluación móvil ni errores de ejecución en ese recorrido.
 
-Las pruebas de interfaz y emulador se ejecutaron durante el desarrollo. El ZIP incluye las pruebas portátiles; no necesitas las herramientas de QA para publicar.
+Comprobaciones añadidas en esta edición:
 
-## Alcance de lo verificado
+- Las 288 guías están alineadas con un ejemplo real de su lección; cada una tiene traducción y tarea propia. Las respuestas de sus pruebas tienen claves únicas.
+- Se recorrieron en Chromium los cinco pasos, una reconstrucción incorrecta, una pista, una corrección correcta, dos decisiones y un borrador que sobrevivió a la recarga.
+- Un fallo inicial corregido con apoyo conservó su nota: 4 de 5 primeras respuestas correctas produjo 80 %, manteniendo el error para otro repaso.
+- Las 48 escenas tienen pregunta y evidencia vinculada a una intervención existente. Se comprobó un intento incorrecto, la explicación, la respuesta correcta y las tres prácticas de expresiones antes de continuar.
+- Se verificó la guía en los cuatro niveles a 390 píxeles, incluida la alternativa de respuesta oral, sin desbordamiento horizontal.
+- Los registros y borradores completos de talleres y guías sobreviven a limpieza y combinación del progreso. La práctica guiada no concede dominio ni XP por abrir pasos.
+- El repaso sigue admitiendo errores de actividades anteriores a esta edición.
 
-No se ha iniciado sesión con tu Google porque la configuración de tu Firebase no está disponible. No se ha probado un micrófono físico ni se han escuchado todas las voces de los dispositivos. Después de publicar, comprueba acceso, permiso de micrófono, reproducción y sincronización desde otro dispositivo.
-
-La puntuación de voz mide coincidencia de palabras transcritas, no precisión fonética. Las respuestas libres utilizan autoevaluación y modelos; no reciben una nota automática de gramática. El dibujo es didáctico y aproximado, sin alineación exacta con el audio sintético.
-
-
-## Edición 6: recorrido por conversaciones
-
-Consulta `VERIFICACION_CONVERSACIONES.md` para las comprobaciones de las historias, grabación y persistencia nuevas. Los informes de versiones anteriores describen su validación en aquel momento.
+No se probó un inicio real de Google porque el paquete no incluye la configuración del proyecto Firebase del usuario. Tampoco se evaluó la precisión del dictado ni la calidad subjetiva de todas las voces en todos los dispositivos. Las traducciones automáticas son apoyo orientativo, no traducciones profesionales revisadas una a una.

@@ -1,10 +1,11 @@
+import {assessmentQuestions} from './assessments.js';
 import {playLessonAudio,stopLessonAudio} from './recorded-audio.js';
 import conversationStories from './conversations.json';
 import {buildPracticeBank,makeCloze,isAnswer,normaliseAnswer,answerMemory,addLearningEvent} from './practice-memory.js';
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $=q=>document.querySelector(q);
 const shuffle=values=>{const a=[...values];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
-const skillNames={grammar:'Estructuras y significado',vocabulary:'Expresiones en contexto',reading:'Comprensión lectora',listening:'Comprensión auditiva'};
+const skillNames={use:'Uso en contexto',grammar:'Estructuras y significado',vocabulary:'Expresiones en contexto',reading:'Comprensión lectora',listening:'Comprensión auditiva'};
 const types={conversation:'Conversación guiada',lesson:'Lección base',workshop:'Taller',project:'Proyecto revisado',exam:'Prueba base',voice:'Comparación de palabras reconocidas',practice:'Práctica guiada',reading:'Prueba de lectura',cloze:'Texto con huecos',writing:'Escritura revisada',speaking:'Práctica oral registrada',mediation:'Resumen para otra persona'};
 let store,course,bank=[],tab='practice',quiz=null,cloze=null,unitID=1,timer=null,seconds=0,recording=null,stream=null,recordURL=null,stopRecordTimer=null,recordPending=false,generation=0;
 const today=()=>new Date().toLocaleDateString('en-CA');
@@ -12,7 +13,7 @@ const unitSelect=(id='hub-unit',all=true)=>`<label for="${id}">Unidad<select id=
 const say=(text,rate=1)=>{void playLessonAudio(text,{rate,accent:store.getState().accent,onerror:message});};
 function message(t){const el=$('#hub-message');if(el)el.textContent=t;}
 export function stopPractice(){generation++;recordPending=false;clearInterval(timer);timer=null;clearTimeout(stopRecordTimer);if(recording?.state==='recording'){recording.onstop=null;recording.stop();}stream?.getTracks().forEach(t=>t.stop());stream=null;recording=null;if(recordURL)URL.revokeObjectURL(recordURL);recordURL=null;stopLessonAudio();quiz=null;cloze=null;}
-export function renderPractice(s,c,section='practice'){store=s;course=c;bank=buildPracticeBank(c,s.courseId);tab=['practice','reading','cloze','portfolio','history'].includes(section)?section:'practice';unitID=1;return frame();}
+export function renderPractice(s,c,section='practice'){store=s;course=c;bank=[...buildPracticeBank(c,s.courseId),...assessmentQuestions(s.courseId)];tab=['practice','reading','cloze','portfolio','history'].includes(section)?section:'practice';unitID=1;return frame();}
 function frame(){return `<div id="practice-hub"><nav class="hub-tabs" aria-label="Herramientas para usar el inglés">${[['practice','Entrenar'],['reading','Reading'],['cloze','Completar textos'],['portfolio','Crear y hablar'],['history','Historial y gráficas']].map(([slug,label])=>`<a href="#skills/${slug}" ${tab===slug?'aria-current="page"':''}>${label}</a>`).join('')}</nav><div id="hub-message" role="status"></div>${({practice:practiceHome,reading:readingHome,cloze:clozeHome,portfolio:portfolio,history:history})[tab]()}</div>`;}
 function replace(){const root=$('#practice-hub');if(root)root.outerHTML=frame();}
 function summary(){const memory=store.getState().workbook,entries=bank.filter(q=>memory[q.id]);return{seen:entries.length,due:entries.filter(q=>memory[q.id][3]<=Date.now()).length,weak:entries.filter(q=>memory[q.id][2]===0).length,secure:entries.filter(q=>memory[q.id][2]>=3).length};}

@@ -38,7 +38,7 @@ Si antes configuraste un directorio base distinto, comprueba que apunte a la car
 
 Puedes usar toda la página como invitado: se guarda en ese navegador. Para guardar con una cuenta Google, conserva tu configuración real o sigue **CONFIGURAR_GOOGLE.md** si es la primera vez.
 
-Aunque ya funcionara Google, para esta versión publica el contenido completo de **firestore.rules** en **Firebase → Firestore Database → Rules → Publish**. Realiza también el apartado **4.1** de CONFIGURAR_GOOGLE.md sobre índices. Así se admite el nuevo campo conversations con los pasos, borradores y repasos de las historias. Subir esos archivos a GitHub no los publica en Firebase.
+Aunque ya funcionara Google, para esta versión publica el contenido completo de **firestore.rules** en **Firebase → Firestore Database → Rules → Publish**. Realiza también el apartado **4.1** de CONFIGURAR_GOOGLE.md sobre índices. Así se admiten las conversaciones y los límites ampliados de la edición 8 para las guías y sus borradores (study: hasta 360 entradas; studyDrafts: hasta 192). Subir esos archivos a GitHub no los publica en Firebase.
 
 No tienes que crear otro proyecto Firebase para B2. Usa el mismo que tenías. El progreso se separa por nivel y por cuenta. Si deseas una copia adicional de tus avances, usa **Mi progreso → Exportar** antes de actualizar.
 
@@ -60,4 +60,4 @@ Después abre `http://localhost:8085`. La compilación de `public/build` ya vien
 
 48 escenas de conversación con personajes, 144 expresiones explicadas y 96 variantes con respuesta; 96 unidades entre A1, A2, B1 y B2; lecciones y talleres; vocabulario; imágenes; sonidos; traducción al pasar el cursor; pruebas de lectura; textos con huecos; escritura, conversación y grabación; repaso; historial y gráficas. Se conserva el código editable y las pruebas.
 
-La pronunciación utiliza las voces del navegador y muestras sintéticas incluidas. El porcentaje de voz compara palabras transcritas, no exactitud fonética. El diagrama es una guía aproximada. Los modelos de escritura permiten autoevaluarse, sin una corrección de IA de pago.
+La pronunciación utiliza las voces del navegador y muestras sintéticas incluidas. El porcentaje de voz compara palabras transcritas, no exactitud fonética. La edición 7 retira el diagrama y conserva la práctica de escucha y grabación. Los modelos de escritura permiten autoevaluarse, sin una corrección de IA de pago.

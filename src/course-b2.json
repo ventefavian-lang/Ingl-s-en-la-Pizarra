@@ -423,6 +423,10 @@
           "Sam",
           "So did I. Now I check whether people understood my point."
         ]
+      ],
+      "voices": [
+        "Leo",
+        "Mia"
       ]
     },
     {
@@ -848,6 +852,10 @@
           "Sam",
           "I would wait until the bookings are confirmed."
         ]
+      ],
+      "voices": [
+        "Sam",
+        "Nora"
       ]
     },
     {
@@ -1273,6 +1281,10 @@
           "Sam",
           "Then let us assign that responsibility before the next delivery."
         ]
+      ],
+      "voices": [
+        "Oliver",
+        "Ella"
       ]
     },
     {
@@ -1698,6 +1710,10 @@
           "Sam",
           "That sounds sensible. We can still change the plan."
         ]
+      ],
+      "voices": [
+        "Max",
+        "Zoe"
       ]
     },
     {
@@ -2123,6 +2139,10 @@
           "Sam",
           "Possibly. I will check before contacting them again."
         ]
+      ],
+      "voices": [
+        "Noah",
+        "Ava"
       ]
     },
     {
@@ -2548,6 +2568,10 @@
           "Sam",
           "Yes. Let us arrange that while the technician is here."
         ]
+      ],
+      "voices": [
+        "Leo",
+        "Mia"
       ]
     },
     {
@@ -2973,6 +2997,10 @@
           "Sam",
           "Exactly. I will pass on the suggestion without adding a promise."
         ]
+      ],
+      "voices": [
+        "Sam",
+        "Nora"
       ]
     },
     {
@@ -3398,6 +3426,10 @@
           "Sam",
           "Could you explain the example you found most convincing?"
         ]
+      ],
+      "voices": [
+        "Oliver",
+        "Ella"
       ]
     },
     {
@@ -3823,6 +3855,10 @@
           "Sam",
           "I will send a plain-text version so we can carry on."
         ]
+      ],
+      "voices": [
+        "Max",
+        "Zoe"
       ]
     },
     {
@@ -4248,6 +4284,10 @@
           "Sam",
           "Yes. A larger number would help, provided that the group is more varied."
         ]
+      ],
+      "voices": [
+        "Noah",
+        "Ava"
       ]
     },
     {
@@ -4674,6 +4714,10 @@
           "Sam",
           "They may find the more expensive option better value over time."
         ]
+      ],
+      "voices": [
+        "Leo",
+        "Mia"
       ]
     },
     {
@@ -5099,6 +5143,10 @@
           "Sam",
           "That might help, provided that we can find enough volunteers."
         ]
+      ],
+      "voices": [
+        "Sam",
+        "Nora"
       ]
     },
     {
@@ -5524,6 +5572,10 @@
           "Sam",
           "Exactly. Check the whole phrase in a sentence before using it."
         ]
+      ],
+      "voices": [
+        "Oliver",
+        "Ella"
       ]
     },
     {
@@ -5949,6 +6001,10 @@
           "Sam",
           "I agree. One average figure does not explain everyone's experience."
         ]
+      ],
+      "voices": [
+        "Max",
+        "Zoe"
       ]
     },
     {
@@ -6374,6 +6430,10 @@
           "Sam",
           "Then our summary should keep that uncertainty."
         ]
+      ],
+      "voices": [
+        "Noah",
+        "Ava"
       ]
     },
     {
@@ -6799,6 +6859,10 @@
           "Sam",
           "I think so, but let us confirm that before we commit."
         ]
+      ],
+      "voices": [
+        "Leo",
+        "Mia"
       ]
     },
     {
@@ -7224,6 +7288,10 @@
           "Sam",
           "Good idea. A confident headline is not the same as current evidence."
         ]
+      ],
+      "voices": [
+        "Sam",
+        "Nora"
       ]
     },
     {
@@ -7649,6 +7717,10 @@
           "Sam",
           "Then a short trial with clear measures seems a reasonable next step."
         ]
+      ],
+      "voices": [
+        "Oliver",
+        "Ella"
       ]
     },
     {
@@ -8074,6 +8146,10 @@
           "Sam",
           "I can write a short message and ask them to correct any misunderstanding."
         ]
+      ],
+      "voices": [
+        "Max",
+        "Zoe"
       ]
     },
     {
@@ -8499,6 +8575,10 @@
           "Sam",
           "And leave some time to use it in conversation, too."
         ]
+      ],
+      "voices": [
+        "Noah",
+        "Ava"
       ]
     },
     {
@@ -8924,6 +9004,10 @@
           "Sam",
           "Not entirely. The interviews were memorable enough to justify a visit."
         ]
+      ],
+      "voices": [
+        "Leo",
+        "Mia"
       ]
     },
     {
@@ -9349,6 +9433,10 @@
           "Sam",
           "I will request a replacement and ask when I can expect an update."
         ]
+      ],
+      "voices": [
+        "Sam",
+        "Nora"
       ]
     },
     {
@@ -9774,6 +9862,10 @@
           "Sam",
           "Of course. Then perhaps we can agree on the next step."
         ]
+      ],
+      "voices": [
+        "Oliver",
+        "Ella"
       ]
     },
     {
@@ -10199,6 +10291,10 @@
           "Sam",
           "I would offer an alternative time and report whether it reaches different users."
         ]
+      ],
+      "voices": [
+        "Max",
+        "Zoe"
       ]
     }
   ],

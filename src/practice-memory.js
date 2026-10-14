@@ -14,7 +14,7 @@ export function addLearningEvent(p,kind,unit,right,total,now=Date.now()){
 }
 export function recordAutomaticEvents(old,p){
  for(const [key,v]of Object.entries(p.completed))if(!old.completed[key]||v.score!==old.completed[key].score)addLearningEvent(p,'lesson',key.split('_')[0],v.score,100);
- for(const [key,v]of Object.entries(p.study))if(v.attempts>(old.study?.[key]?.attempts||0))addLearningEvent(p,v.self?'project':'workshop',Number(key.match(/^u(\d+)/)?.[1]),v.self?0:v.score,v.self?0:100);
+ for(const [key,v]of Object.entries(p.study))if(v.attempts>(old.study?.[key]?.attempts||0))addLearningEvent(p,/_g[0-2]$/.test(key)?'lesson':v.self?'project':'workshop',Number(key.match(/^u(\d+)/)?.[1]),v.self?0:v.score,v.self?0:100);
  for(const type of ['exam','speech'])for(const v of p[type])if(!old[type].some(x=>x.id===v.id&&x.date===v.date&&x.score===v.score))addLearningEvent(p,type==='speech'?'voice':'exam',v.unit||0,v.score,100);
  return p;
 }

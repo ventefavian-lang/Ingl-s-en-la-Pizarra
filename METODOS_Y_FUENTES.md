@@ -12,14 +12,14 @@ La página incorpora las actividades útiles con explicaciones, historias y dibu
 4. Imitación por frases con pausas; vuelta posterior a velocidad normal.
 5. Recuperación de memoria y producción propia.
 6. Tarjetas espaciadas y repaso de errores ya incluidos en el curso.
-7. Sonidos individuales, contrastes, ritmo y enlaces; posición de labios y lengua mediante esquema.
+7. Sonidos individuales, contrastes, ritmo y enlaces; práctica de escucha y comparación.
 8. Autoescucha de una grabación y contraste de palabras reconocidas, sin confundirlo con evaluación fonética.
 
-La práctica receptiva y la productiva se complementan. Aprender sonidos aislados ayuda, pero las palabras incluyen acento, sílabas, variaciones y formas conectadas. El esquema de 44 es una convención británica habitual, no un inventario idéntico para todos los hablantes. El diccionario de secuencias es norteamericano y se identifica como tal en la interfaz.
+La práctica receptiva y la productiva se complementan. Aprender sonidos aislados ayuda, pero las palabras incluyen acento, sílabas, variaciones y formas conectadas. El esquema de 44 es una convención británica habitual, no un inventario idéntico para todos los hablantes. Las muestras del panel siguen una referencia británica; las voces de palabras pueden realizar otras variantes.
 
-## Alcance de la boca animada
+## Laboratorio de escucha
 
-Es una ilustración 2D aproximada con pasos articulatorios. No usa cámara, no observa tu lengua y no reconstruye tu tracto vocal. La animación de una frase muestra una secuencia de pronunciaciones de diccionario; no modela todas las asimilaciones, reducciones ni diferencias personales. La voz sintética puede realizar variantes diferentes y sus tiempos no coinciden exactamente con cada dibujo. Las palabras sin entrada no reciben una pronunciación inventada.
+La edición 7 retira el diagrama articulatorio. Conserva muestras de sonidos, contrastes, grabación temporal y comparación de palabras transcritas. El porcentaje no mide la precisión fonética.
 
 ## Referencias
 

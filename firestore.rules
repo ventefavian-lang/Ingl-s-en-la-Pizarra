@@ -12,8 +12,8 @@ service cloud.firestore {
     && p.errors is map && p.errors.size() <= 600
     && p.vocab is map && p.vocab.size() <= 1000
     && p.writing is map && p.writing.size() <= 24
-    && (!('study' in p) || (p.study is map && p.study.size() <= 288))
-    && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 120))
+    && (!('study' in p) || (p.study is map && p.study.size() <= 360))
+    && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 192))
     && (!('workbook' in p) || (p.workbook is map && p.workbook.size() <= 6500))
     && (!('portfolio' in p) || (p.portfolio is map && p.portfolio.size() <= 72))
     && (!('conversations' in p) || (p.conversations is map && p.conversations.size() <= 12))

@@ -1,0 +1,530 @@
+{
+  "a1-1-0": {
+    "question": "¿Adónde tiene que ir Mia para encontrar el aula tres?",
+    "answer": "Al aula de al lado.",
+    "options": [
+      "Al aula de al lado.",
+      "Al colegio de Sara.",
+      "A la cafetería."
+    ],
+    "evidence": 6,
+    "why": "Leo corrige la confusión: están en el aula dos y el aula tres está al lado."
+  },
+  "a1-1-1": {
+    "question": "¿Qué le piden a Mia que escriba en la tarjeta?",
+    "answer": "Su nombre.",
+    "options": [
+      "Su nombre.",
+      "Su dirección.",
+      "El nombre de un país."
+    ],
+    "evidence": 6,
+    "why": "Después de deletrear Reed, Leo pide que Mia ponga su propio nombre en la tarjeta."
+  },
+  "a1-2-0": {
+    "question": "¿Por qué la hermana de Ella no está en casa?",
+    "answer": "Porque está en el colegio.",
+    "options": [
+      "Porque está en el colegio.",
+      "Porque está tocando en un concierto.",
+      "Porque vive en Canadá."
+    ],
+    "evidence": 6,
+    "why": "Ella dice que su hermana Sara está en el colegio. No dice que se haya mudado."
+  },
+  "a1-2-1": {
+    "question": "¿Cuándo van a tocar música juntos?",
+    "answer": "El sábado a las diez.",
+    "options": [
+      "El sábado a las diez.",
+      "El viernes después de cenar.",
+      "Todos los días a las siete."
+    ],
+    "evidence": 7,
+    "why": "Ella está libre el sábado por la mañana y acuerdan quedar a las diez."
+  },
+  "a1-3-0": {
+    "question": "¿Qué tipo de agua pide el cliente?",
+    "answer": "Sin gas.",
+    "options": [
+      "Sin gas.",
+      "Con gas.",
+      "No pide agua."
+    ],
+    "evidence": 7,
+    "why": "Después de rechazar la leche, pide agua y elige still: sin gas."
+  },
+  "a1-3-1": {
+    "question": "¿Cuánto cuesta el pedido?",
+    "answer": "Seis libras.",
+    "options": [
+      "Seis libras.",
+      "Doce libras.",
+      "Dos libras."
+    ],
+    "evidence": 4,
+    "why": "Nora indica el total antes de hablar de dónde puede sentarse el cliente."
+  },
+  "a1-4-0": {
+    "question": "¿Dónde están los probadores?",
+    "answer": "Allí, a la izquierda.",
+    "options": [
+      "Allí, a la izquierda.",
+      "Junto a la parada del autobús.",
+      "Al fondo a la derecha."
+    ],
+    "evidence": 6,
+    "why": "La indicación sirve para que el cliente vaya a probarse la chaqueta."
+  },
+  "a1-4-1": {
+    "question": "¿Qué decide comprar el cliente?",
+    "answer": "La chaqueta, sin paraguas.",
+    "options": [
+      "La chaqueta, sin paraguas.",
+      "Solo el paraguas.",
+      "La chaqueta y dos paraguas."
+    ],
+    "evidence": 7,
+    "why": "Rechaza el paraguas porque ya tiene uno y confirma que se lleva la chaqueta."
+  },
+  "a1-5-0": {
+    "question": "¿Qué autobús lleva al museo?",
+    "answer": "El doce.",
+    "options": [
+      "El doce.",
+      "El diez.",
+      "El cinco."
+    ],
+    "evidence": 4,
+    "why": "El número doce es la línea. Diez se refiere a los minutos aproximados del viaje."
+  },
+  "a1-5-1": {
+    "question": "¿Qué ayuda pide el pasajero después de comprar el billete?",
+    "answer": "Que le avisen al llegar al museo.",
+    "options": [
+      "Que le avisen al llegar al museo.",
+      "Que le reserven una habitación.",
+      "Que cambien la ruta al parque."
+    ],
+    "evidence": 5,
+    "why": "Pide que le indiquen cuándo llegan; el conductor le sugiere sentarse cerca de la parte delantera."
+  },
+  "a1-6-0": {
+    "question": "¿Dónde han quedado para el paseo?",
+    "answer": "En la entrada junto al café.",
+    "options": [
+      "En la entrada junto al café.",
+      "Dentro del autobús.",
+      "En el colegio."
+    ],
+    "evidence": 6,
+    "why": "Confirman una entrada concreta para poder encontrarse."
+  },
+  "a1-6-1": {
+    "question": "¿Por qué estaba cansado el personaje después de la película?",
+    "answer": "Porque la película fue muy larga.",
+    "options": [
+      "Porque la película fue muy larga.",
+      "Porque llegó a casa después de medianoche.",
+      "Porque perdió el autobús."
+    ],
+    "evidence": 5,
+    "why": "Dice que la película estuvo bien, pero fue muy larga. Después aclara que llegó a casa a las siete."
+  },
+  "a2-1-0": {
+    "question": "¿Qué es diferente en la rutina de esta semana?",
+    "answer": "Trabaja desde casa.",
+    "options": [
+      "Trabaja desde casa.",
+      "Sale a las cinco para trabajar.",
+      "No puede compartir la cocina."
+    ],
+    "evidence": 5,
+    "why": "La persona normalmente sale a las siete, pero esta semana trabaja desde casa: hábito frente a situación temporal."
+  },
+  "a2-1-1": {
+    "question": "¿Qué acuerdo ayuda a resolver el problema de la música?",
+    "answer": "Usar auriculares por la noche.",
+    "options": [
+      "Usar auriculares por la noche.",
+      "Dejar de hablar durante toda la semana.",
+      "Mudarse ese mismo día."
+    ],
+    "evidence": 4,
+    "why": "El acuerdo cambia cómo se escucha la música; no prohíbe toda actividad compartida."
+  },
+  "a2-2-0": {
+    "question": "¿Cuál es el plan si llueve el día del picnic?",
+    "answer": "Ir al piso de Nora.",
+    "options": [
+      "Ir al piso de Nora.",
+      "Cancelar sin avisar.",
+      "Quedarse junto al lago de todas formas."
+    ],
+    "evidence": 6,
+    "why": "Nora propone su piso porque hay espacio para todos y acuerdan avisar si cambia el lugar."
+  },
+  "a2-2-1": {
+    "question": "¿Qué responde Nora al retraso hasta las doce y media?",
+    "answer": "Que no es demasiado tarde y guardarán comida.",
+    "options": [
+      "Que no es demasiado tarde y guardarán comida.",
+      "Que ya no puede entrar.",
+      "Que debe llevar una tienda de campaña."
+    ],
+    "evidence": 6,
+    "why": "La respuesta tranquiliza a la persona retrasada y mantiene el plan."
+  },
+  "a2-3-0": {
+    "question": "¿Qué debe recordar el viajero sobre la alternativa de tren?",
+    "answer": "Andén cinco y cambio en Reading.",
+    "options": [
+      "Andén cinco y cambio en Reading.",
+      "Andén doce y sin cambios.",
+      "Devolver el billete y caminar al hotel."
+    ],
+    "evidence": 7,
+    "why": "La persona repite los datos al final para comprobar que entendió la alternativa."
+  },
+  "a2-3-1": {
+    "question": "¿Qué solución pide el huésped para el ruido?",
+    "answer": "Una habitación más tranquila en la parte de atrás.",
+    "options": [
+      "Una habitación más tranquila en la parte de atrás.",
+      "Una habitación junto al ascensor, obligatoriamente.",
+      "Cancelar el desayuno."
+    ],
+    "evidence": 5,
+    "why": "El personal ofrece una habitación atrás y el huésped pide quedarse con esa."
+  },
+  "a2-4-0": {
+    "question": "¿Qué solución solicita el cliente para los auriculares?",
+    "answer": "Cambiarlos por el mismo modelo si es posible.",
+    "options": [
+      "Cambiarlos por el mismo modelo si es posible.",
+      "Comprar un teléfono nuevo.",
+      "Pedir una devolución sin mostrar el recibo."
+    ],
+    "evidence": 7,
+    "why": "Tiene el recibo, pide un cambio y precisa que prefiere el mismo modelo."
+  },
+  "a2-4-1": {
+    "question": "¿Qué nombre debe seleccionar al conectar los auriculares?",
+    "answer": "El que termina en 24.",
+    "options": [
+      "El que termina en 24.",
+      "Siempre el primer nombre de la lista.",
+      "El que no tiene números."
+    ],
+    "evidence": 6,
+    "why": "Noah da un detalle concreto para distinguir dos nombres que aparecen en pantalla."
+  },
+  "a2-5-0": {
+    "question": "¿Qué debe hacer si alguien necesita ayuda en la entrada?",
+    "answer": "Llamar por la radio sin dejar la entrada sola.",
+    "options": [
+      "Llamar por la radio sin dejar la entrada sola.",
+      "Salir a buscar a la persona y abandonar la entrada.",
+      "Cobrar dinero antes de responder."
+    ],
+    "evidence": 6,
+    "why": "Mia da un canal para pedir ayuda y aclara la norma de no dejar la entrada desatendida."
+  },
+  "a2-5-1": {
+    "question": "¿Dónde debe esperar la visitante?",
+    "answer": "Junto a las sillas azules.",
+    "options": [
+      "Junto a las sillas azules.",
+      "Dentro del museo.",
+      "En la calle, lejos de la entrada."
+    ],
+    "evidence": 5,
+    "why": "La ubicación permite a Sam encontrarla cuando llegue a ayudar."
+  },
+  "a2-6-0": {
+    "question": "¿Por qué la excursión no fue del todo decepcionante?",
+    "answer": "Conocieron a otros excursionistas y compartieron comida.",
+    "options": [
+      "Conocieron a otros excursionistas y compartieron comida.",
+      "Porque no llegó a llover.",
+      "Porque habían reservado un hotel de lujo."
+    ],
+    "evidence": 7,
+    "why": "El mal tiempo cambió el plan, pero la conversación rescata una experiencia positiva."
+  },
+  "a2-6-1": {
+    "question": "¿Qué deciden para su primera experiencia de acampada?",
+    "answer": "Empezar con una noche y preparar una lista.",
+    "options": [
+      "Empezar con una noche y preparar una lista.",
+      "Ir una semana sin preparar nada.",
+      "Comprar una tienda antes de hablar con el primo."
+    ],
+    "evidence": 6,
+    "why": "Proponen una duración manejable, pueden pedir prestada la tienda y harán una lista antes de reservar."
+  },
+  "b1-1-0": {
+    "question": "¿Qué hará primero la nueva persona del proyecto?",
+    "answer": "Preparar las preguntas y enviarlas para revisión.",
+    "options": [
+      "Preparar las preguntas y enviarlas para revisión.",
+      "Hacer veinte entrevistas esa misma mañana.",
+      "Publicar un informe sin consultar a nadie."
+    ],
+    "evidence": 7,
+    "why": "La respuesta final convierte el encargo en un siguiente paso concreto antes del viernes."
+  },
+  "b1-1-1": {
+    "question": "¿Cómo van a mejorar las preguntas del cuestionario?",
+    "answer": "Pedir que prueben la tarea y describan qué ocurre.",
+    "options": [
+      "Pedir que prueben la tarea y describan qué ocurre.",
+      "Preguntar solo si les gusta la tecnología.",
+      "Añadir preguntas más largas sin probarlas."
+    ],
+    "evidence": 4,
+    "why": "La sugerencia busca información de una experiencia concreta, y después probarán las preguntas con dos personas."
+  },
+  "b1-2-0": {
+    "question": "¿Qué ocurrió antes de llegar al lugar correcto?",
+    "answer": "El tren ya se había ido.",
+    "options": [
+      "El tren ya se había ido.",
+      "La amiga ya había comido con el empleado.",
+      "El viajero había terminado la excursión."
+    ],
+    "evidence": 4,
+    "why": "La pregunta de la amiga confirma el orden: primero salió el tren y después llegó el viajero."
+  },
+  "b1-2-1": {
+    "question": "¿Qué harán antes de empezar el nuevo plan de la tarde?",
+    "answer": "Comprobar el horario del último autobús.",
+    "options": [
+      "Comprobar el horario del último autobús.",
+      "Comprar un billete sin mirar la hora.",
+      "Descartar cualquier alternativa si llueve."
+    ],
+    "evidence": 7,
+    "why": "El acuerdo incluye una alternativa si llueve y una comprobación que evita quedarse sin transporte de vuelta."
+  },
+  "b1-3-0": {
+    "question": "¿Quién se ocupa de contactar con quien tomó prestado un libro dañado?",
+    "answer": "La bibliotecaria.",
+    "options": [
+      "La bibliotecaria.",
+      "La nueva persona voluntaria, sin consultar.",
+      "La persona que espera en la puerta."
+    ],
+    "evidence": 6,
+    "why": "La instrucción distingue revisar y separar el libro de contactar al usuario."
+  },
+  "b1-3-1": {
+    "question": "¿Qué pueden afirmar con seguridad sobre el libro mojado?",
+    "answer": "Que está mojado, pero no cómo ocurrió.",
+    "options": [
+      "Que está mojado, pero no cómo ocurrió.",
+      "Que una persona concreta lo dañó intencionalmente.",
+      "Que la ventana siempre está rota."
+    ],
+    "evidence": 7,
+    "why": "Separan el hecho observado de las posibles explicaciones y evitan culpar sin evidencia."
+  },
+  "b1-4-0": {
+    "question": "¿Qué pide confirmar el cliente por correo?",
+    "answer": "Las fechas de recogida y entrega.",
+    "options": [
+      "Las fechas de recogida y entrega.",
+      "El nombre de todos los empleados.",
+      "Que nunca necesitará enviar fotos."
+    ],
+    "evidence": 7,
+    "why": "Pide fechas por escrito para organizarse y estar en casa."
+  },
+  "b1-4-1": {
+    "question": "¿Qué se acuerda finalmente para la lámpara?",
+    "answer": "Recogida y entrega el jueves.",
+    "options": [
+      "Recogida y entrega el jueves.",
+      "Entrega garantizada a una hora exacta el miércoles.",
+      "Solo una devolución del dinero."
+    ],
+    "evidence": 7,
+    "why": "La persona confirma ambos servicios para el jueves; la tienda no garantiza una hora exacta."
+  },
+  "b1-5-0": {
+    "question": "¿Qué aclara el aviso oficial del centro cultural?",
+    "answer": "El edificio cierra un día y las clases pasan a ser virtuales.",
+    "options": [
+      "El edificio cierra un día y las clases pasan a ser virtuales.",
+      "Que todas las clases terminan para siempre.",
+      "Que las reparaciones ya acabaron hace un mes."
+    ],
+    "evidence": 7,
+    "why": "Revisar la fuente evita convertir un cierre temporal del edificio en una cancelación general de clases."
+  },
+  "b1-5-1": {
+    "question": "¿Qué incluirá el mensaje corto para el amigo?",
+    "answer": "Hora, enlace y dónde pedir ayuda.",
+    "options": [
+      "Hora, enlace y dónde pedir ayuda.",
+      "Una traducción de toda la web.",
+      "Solo una opinión sobre las clases virtuales."
+    ],
+    "evidence": 7,
+    "why": "La mediación selecciona los datos que la otra persona necesita para actuar."
+  },
+  "b1-6-0": {
+    "question": "¿Para qué proponen enviar primero el tráiler?",
+    "answer": "Para que el grupo pueda valorar la película.",
+    "options": [
+      "Para que el grupo pueda valorar la película.",
+      "Para demostrar que nadie puede discrepar.",
+      "Para sustituir la película por una charla."
+    ],
+    "evidence": 7,
+    "why": "La recomendación tiene en cuenta gustos y duración, y el tráiler ayuda al grupo a decidir."
+  },
+  "b1-6-1": {
+    "question": "¿Con qué condición ofrece la persona volver a poner su casa?",
+    "answer": "Que otra persona se ocupe de la comida.",
+    "options": [
+      "Que otra persona se ocupe de la comida.",
+      "Que una sola persona haga todas las tareas.",
+      "Que nadie pueda elegir la película."
+    ],
+    "evidence": 7,
+    "why": "El acuerdo distribuye trabajo: casa por una parte y comida por otra."
+  },
+  "b2-1-0": {
+    "question": "¿Qué entrega se compromete a tener lista en la fecha adelantada?",
+    "answer": "Páginas informativas y formulario; los pagos irán después.",
+    "options": [
+      "Páginas informativas y formulario; los pagos irán después.",
+      "Toda la plataforma con pagos sin limitaciones.",
+      "Solo un informe sobre contratar más personas."
+    ],
+    "evidence": 7,
+    "why": "La propuesta delimita el alcance y separa lo que puede entregarse con calidad de lo que requiere otra semana."
+  },
+  "b2-1-1": {
+    "question": "¿Qué limitación deben comunicar a los usuarios en el lanzamiento?",
+    "answer": "Las reservas se confirmarán manualmente la primera semana.",
+    "options": [
+      "Las reservas se confirmarán manualmente la primera semana.",
+      "No será posible consultar ninguna información.",
+      "Todos los pagos estarán automatizados desde el primer día."
+    ],
+    "evidence": 5,
+    "why": "Aclaran el malentendido explicando el funcionamiento temporal y lo dejan escrito en las notas del lanzamiento."
+  },
+  "b2-2-0": {
+    "question": "¿Qué reconocen ambas personas sobre la reserva equivocada?",
+    "answer": "Que deberían haber revisado los detalles.",
+    "options": [
+      "Que deberían haber revisado los detalles.",
+      "Que la recepcionista eligió mal el destino.",
+      "Que conocen con certeza la causa exacta de todo."
+    ],
+    "evidence": 4,
+    "why": "Revisan su actuación sin confundir las deducciones sobre el error con hechos ya comprobados."
+  },
+  "b2-2-1": {
+    "question": "¿Cómo deciden resolver el gasto extra?",
+    "answer": "Repartirlo por mitades y dar el asunto por cerrado.",
+    "options": [
+      "Repartirlo por mitades y dar el asunto por cerrado.",
+      "Dejarlo sin hablar hasta que genere más tensión.",
+      "Exigir que lo pague íntegramente el hotel."
+    ],
+    "evidence": 6,
+    "why": "La transferencia de la mitad concreta un acuerdo que pretende cerrar el conflicto."
+  },
+  "b2-3-0": {
+    "question": "¿Por qué no recomiendan el curso de productividad todavía?",
+    "answer": "Faltan detalles del método y de los participantes.",
+    "options": [
+      "Faltan detalles del método y de los participantes.",
+      "Porque un resumen demuestra que todos los cursos son inútiles.",
+      "Porque el equipo ya hizo un experimento controlado."
+    ],
+    "evidence": 4,
+    "why": "No conocer el tamaño de la muestra y otros detalles impide extender la conclusión con confianza a todo el equipo."
+  },
+  "b2-3-1": {
+    "question": "¿Qué siguiente paso propone la persona antes de comprar la formación?",
+    "answer": "Pedir detalles y valorar un piloto pequeño con criterios claros.",
+    "options": [
+      "Pedir detalles y valorar un piloto pequeño con criterios claros.",
+      "Comprar para toda la empresa porque hubo una mejora.",
+      "Rechazar para siempre cualquier formación."
+    ],
+    "evidence": 7,
+    "why": "La recomendación conserva la incertidumbre y propone una forma proporcionada de obtener más información."
+  },
+  "b2-4-0": {
+    "question": "¿Qué necesita ver la vecina en la propuesta del jardín?",
+    "answer": "Compromisos escritos sobre responsabilidad y quejas.",
+    "options": [
+      "Compromisos escritos sobre responsabilidad y quejas.",
+      "Una promesa de que nunca habrá ningún desacuerdo.",
+      "Solo fotografías del terreno."
+    ],
+    "evidence": 6,
+    "why": "Pide que la gestión de problemas quede incorporada a la propuesta, no solo comentada en la charla."
+  },
+  "b2-4-1": {
+    "question": "¿Qué alternativa combina los intereses de ambos grupos?",
+    "answer": "Uso tranquilo habitual y talleres programados con límites.",
+    "options": [
+      "Uso tranquilo habitual y talleres programados con límites.",
+      "Actividades ilimitadas todos los días.",
+      "Prohibir cualquier reserva sin revisarlo después."
+    ],
+    "evidence": 4,
+    "why": "El compromiso combina tipos de uso, avisos y límites, con una revisión tras probar el calendario."
+  },
+  "b2-5-0": {
+    "question": "¿Qué pide el cliente tras explicar la falta de accesibilidad?",
+    "answer": "Una respuesta escrita con la solución que puedan ofrecer.",
+    "options": [
+      "Una respuesta escrita con la solución que puedan ofrecer.",
+      "Que exageren los hechos en la web.",
+      "Que se ignore la información de la reserva."
+    ],
+    "evidence": 7,
+    "why": "La reclamación señala el impacto, pide corregir la información y solicita una solución documentada."
+  },
+  "b2-5-1": {
+    "question": "¿Por qué la reseña recomendará la visita con reservas?",
+    "answer": "Distingue la calidad del guía de los problemas de información.",
+    "options": [
+      "Distingue la calidad del guía de los problemas de información.",
+      "Porque todo fue perfecto desde el principio.",
+      "Porque la empresa se negó a corregir cualquier cosa."
+    ],
+    "evidence": 7,
+    "why": "Una reseña equilibrada reconoce la respuesta de la empresa y explica para quién resulta adecuada la experiencia."
+  },
+  "b2-6-0": {
+    "question": "¿Qué propone para complementar las series?",
+    "answer": "Conversaciones cortas que exijan recordar y recibir comentarios.",
+    "options": [
+      "Conversaciones cortas que exijan recordar y recibir comentarios.",
+      "Abandonar toda escucha de inglés.",
+      "Elegir un único método para todas las personas."
+    ],
+    "evidence": 7,
+    "why": "Reconoce la utilidad de escuchar y añade producción y revisión de errores para practicar otra parte de la habilidad."
+  },
+  "b2-6-1": {
+    "question": "¿Cuándo acuerdan corregirse mientras hablan?",
+    "answer": "En el momento si se pierde el sentido; lo demás, después.",
+    "options": [
+      "En el momento si se pierde el sentido; lo demás, después.",
+      "Después de cada palabra aunque se entienda todo.",
+      "Nunca, aunque dejen de entenderse."
+    ],
+    "evidence": 5,
+    "why": "El acuerdo protege el intercambio y reserva una o dos mejoras para comentarlas al terminar."
+  }
+}

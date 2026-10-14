@@ -10,3 +10,6 @@ for level, chapters in STORIES.items():
 root=Path(__file__).resolve().parents[2]
 (root/'src/conversations.json').write_text(json.dumps(STORIES,ensure_ascii=False,indent=2)+'\n')
 print('24 historias · 48 escenas · 384 intervenciones · 144 expresiones · 96 decisiones')
+
+import subprocess,sys
+subprocess.run([sys.executable,str(root/'scripts/recast.py')],check=True)

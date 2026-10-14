@@ -281,7 +281,11 @@
           }
         ]
       },
-      "mission": "Habla 45 segundos: cuenta cómo es tu semana normal y qué haces diferente esta semana. Pregunta a otra persona How often…? y responde con un detalle."
+      "mission": "Habla 45 segundos: cuenta cómo es tu semana normal y qué haces diferente esta semana. Pregunta a otra persona How often…? y responde con un detalle.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 2,
@@ -559,7 +563,11 @@
           }
         ]
       },
-      "mission": "Describe a alguien durante un minuto sin decir su nombre. Otra persona debe identificarlo. Pregunta Whose…? usando tres objetos reales."
+      "mission": "Describe a alguien durante un minuto sin decir su nombre. Otra persona debe identificarlo. Pregunta Whose…? usando tres objetos reales.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 3,
@@ -842,7 +850,11 @@
           }
         ]
       },
-      "mission": "Cuenta una historia de un minuto siguiendo First, then y finally. Tu compañero hace dos preguntas con did."
+      "mission": "Cuenta una historia de un minuto siguiendo First, then y finally. Tu compañero hace dos preguntas con did.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 4,
@@ -1125,7 +1137,11 @@
           }
         ]
       },
-      "mission": "Mira por una ventana e imagina la escena ayer: di tres acciones en curso. Añade un acontecimiento con when y cuenta cómo terminó."
+      "mission": "Mira por una ventana e imagina la escena ayer: di tres acciones en curso. Añade un acontecimiento con when y cuenta cómo terminó.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 5,
@@ -1408,7 +1424,11 @@
           }
         ]
       },
-      "mission": "Haz tres preguntas con Have you ever…? Después de cada sí, pide detalles con When, Where o Who en pasado."
+      "mission": "Haz tres preguntas con Have you ever…? Después de cada sí, pide detalles con When, Where o Who en pasado.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 6,
@@ -1686,7 +1706,11 @@
           }
         ]
       },
-      "mission": "Cuenta tres novedades con just, already y yet. Pregunta How long have you…? y responde con for o since."
+      "mission": "Cuenta tres novedades con just, already y yet. Pregunta How long have you…? y responde con for o since.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 7,
@@ -1969,7 +1993,11 @@
           }
         ]
       },
-      "mission": "Explica tres planes usando going to, un encuentro con present continuous y una predicción con will. Pide a alguien una sugerencia."
+      "mission": "Explica tres planes usando going to, un encuentro con present continuous y una predicción con will. Pide a alguien una sugerencia.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 8,
@@ -2247,7 +2275,11 @@
           }
         ]
       },
-      "mission": "Con otra persona organiza una salida: invitación, primer horario no disponible, alternativa y confirmación de hora y lugar."
+      "mission": "Con otra persona organiza una salida: invitación, primer horario no disponible, alternativa y confirmación de hora y lugar.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 9,
@@ -2530,7 +2562,11 @@
           }
         ]
       },
-      "mission": "Elige entre dos medios de transporte usando tres criterios. Tu compañero propone otra opción y tú explicas cuál prefieres."
+      "mission": "Elige entre dos medios de transporte usando tres criterios. Tu compañero propone otra opción y tú explicas cuál prefieres.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 10,
@@ -2813,7 +2849,11 @@
           }
         ]
       },
-      "mission": "Planea comida para cuatro personas. Pregunta qué hay, identifica dos ingredientes que faltan y explica una receta en cuatro pasos."
+      "mission": "Planea comida para cuatro personas. Pregunta qué hay, identifica dos ingredientes que faltan y explica una receta en cuatro pasos.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 11,
@@ -3086,7 +3126,11 @@
           }
         ]
       },
-      "mission": "Representa una compra: pide otro color, prueba una talla, explica por qué no sirve y solicita una alternativa."
+      "mission": "Representa una compra: pide otro color, prueba una talla, explica por qué no sirve y solicita una alternativa.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 12,
@@ -3369,7 +3413,11 @@
           }
         ]
       },
-      "mission": "Dibuja un mapa sencillo con cinco lugares. Da indicaciones sin señalar el destino y comprueba si otra persona llega al lugar correcto."
+      "mission": "Dibuja un mapa sencillo con cinco lugares. Da indicaciones sin señalar el destino y comprueba si otra persona llega al lugar correcto.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 13,
@@ -3647,7 +3695,11 @@
           }
         ]
       },
-      "mission": "Representa la compra de dos billetes. Confirma precio, horario, andén y si hay transbordo. Después explica un retraso a quien te espera."
+      "mission": "Representa la compra de dos billetes. Confirma precio, horario, andén y si hay transbordo. Después explica un retraso a quien te espera.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 14,
@@ -3925,7 +3977,11 @@
           }
         ]
       },
-      "mission": "Explica en recepción que la tarjeta no funciona y falta una toalla. Formula dos peticiones corteses y confirma cuándo recibirás ayuda."
+      "mission": "Explica en recepción que la tarjeta no funciona y falta una toalla. Formula dos peticiones corteses y confirma cuándo recibirás ayuda.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 15,
@@ -4208,7 +4264,11 @@
           }
         ]
       },
-      "mission": "Practica una llamada ficticia para pedir una cita: motivo breve, duración, horario y confirmación. No compartas datos sensibles."
+      "mission": "Practica una llamada ficticia para pedir una cita: motivo breve, duración, horario y confirmación. No compartas datos sensibles.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 16,
@@ -4491,7 +4551,11 @@
           }
         ]
       },
-      "mission": "Explica a alguien las reglas de una biblioteca o club. Incluye must, mustn’t y don’t have to; pídele que repita la diferencia."
+      "mission": "Explica a alguien las reglas de una biblioteca o club. Incluye must, mustn’t y don’t have to; pídele que repita la diferencia.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 17,
@@ -4769,7 +4833,11 @@
           }
         ]
       },
-      "mission": "Enseña verbalmente una habilidad en cuatro pasos. Pide un objeto prestado y acuerda cuándo devolverlo."
+      "mission": "Enseña verbalmente una habilidad en cuatro pasos. Pide un objeto prestado y acuerda cuándo devolverlo.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 18,
@@ -5052,7 +5120,11 @@
           }
         ]
       },
-      "mission": "Elijan una actividad para el fin de semana: cada persona propone dos, explica sus gustos y acuerda una opción común."
+      "mission": "Elijan una actividad para el fin de semana: cada persona propone dos, explica sus gustos y acuerda una opción común.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 19,
@@ -5335,7 +5407,11 @@
           }
         ]
       },
-      "mission": "Organiza dos planes para una salida: uno con buen tiempo y otro con lluvia. Explica cuándo confirmarás y qué podría cambiar."
+      "mission": "Organiza dos planes para una salida: uno con buen tiempo y otro con lluvia. Explica cuándo confirmarás y qué podría cambiar.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     },
     {
       "id": 20,
@@ -5618,7 +5694,11 @@
           }
         ]
       },
-      "mission": "Pide información sobre enviar un paquete o apuntarte a una clase. Confirma precio, plazo y un dato del formulario con una pregunta indirecta."
+      "mission": "Pide información sobre enviar un paquete o apuntarte a una clase. Confirma precio, plazo y un dato del formulario con una pregunta indirecta.",
+      "voices": [
+        "Noah",
+        "Ava"
+      ]
     },
     {
       "id": 21,
@@ -5901,7 +5981,11 @@
           }
         ]
       },
-      "mission": "Explica a otra persona cómo guardar y enviar un archivo en cinco pasos. Después describe un fallo ficticio y pide que repita una instrucción."
+      "mission": "Explica a otra persona cómo guardar y enviar un archivo en cinco pasos. Después describe un fallo ficticio y pide que repita una instrucción.",
+      "voices": [
+        "Leo",
+        "Mia"
+      ]
     },
     {
       "id": 22,
@@ -6184,7 +6268,11 @@
           }
         ]
       },
-      "mission": "Compara una etapa anterior con la actual durante un minuto. Habla de un cambio, una emoción y algo que sigues haciendo."
+      "mission": "Compara una etapa anterior con la actual durante un minuto. Habla de un cambio, una emoción y algo que sigues haciendo.",
+      "voices": [
+        "Sam",
+        "Nora"
+      ]
     },
     {
       "id": 23,
@@ -6467,7 +6555,11 @@
           }
         ]
       },
-      "mission": "Dicta a un compañero un mensaje breve con día, hora, lugar y motivo. Comprueba juntos si todos los datos quedaron claros."
+      "mission": "Dicta a un compañero un mensaje breve con día, hora, lugar y motivo. Comprueba juntos si todos los datos quedaron claros.",
+      "voices": [
+        "Oliver",
+        "Ella"
+      ]
     },
     {
       "id": 24,
@@ -6750,7 +6842,11 @@
           }
         ]
       },
-      "mission": "Proyecto oral final: conversa 3 minutos. Habla de tu rutina, narra un hecho pasado, compara dos opciones y acuerda un plan. Incluye una pregunta de seguimiento y una aclaración."
+      "mission": "Proyecto oral final: conversa 3 minutos. Habla de tu rutina, narra un hecho pasado, compara dos opciones y acuerda un plan. Incluye una pregunta de seguimiento y una aclaración.",
+      "voices": [
+        "Max",
+        "Zoe"
+      ]
     }
   ],
   "extra": {

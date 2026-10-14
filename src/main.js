@@ -5,6 +5,8 @@ import b1 from './course-b1.json';
 import b2 from './course-b2.json';
 import {bootCourse as bootB2} from './course-engine-b2.js';
 import './practice.css';
+import './context-help.css';
+import './teaching.css';
 import {initWordHelp} from './word-links.js';
 import {bootCourse as bootB1} from './course-engine-b1.js';
 import {bootCourse as bootA2} from './course-engine-a2.js';
