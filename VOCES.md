@@ -1,3 +1,7 @@
+# Audios de la edición 10
+
+El paquete contiene **1.822 MP3**. Se añaden **305 audios** para las escenas iniciales y las preguntas de escucha de las nuevas misiones. Los personajes conservan sus voces sintéticas fijas. Las demás palabras, los ejemplos sin grabación y los textos libres usan las voces disponibles en el navegador; no se presentan como voces humanas.
+
 # Voces predeterminadas · edición 9
 
 El catálogo utiliza **Supertonic 3** con un reparto de diez voces diferentes. Cada personaje conserva una voz fija; el alumno solo controla la reproducción y la velocidad. Los archivos tienen identificadores nuevos para evitar reutilizar los audios anteriores desde la caché.

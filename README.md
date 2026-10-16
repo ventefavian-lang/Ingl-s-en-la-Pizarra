@@ -1,6 +1,16 @@
-# Hello English — A1, A2, B1 y B2 · Edición 9
+# Hello English — A1, A2, B1 y B2 · Edición 10
 
 **Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
+
+## Una ruta nueva · edición 10
+
+La portada es ahora un camino de **8 capítulos, 24 temas y 72 misiones por nivel**. Tiene una interfaz nueva, ilustraciones originales, una navegación más sencilla y una pantalla de carga real. Conserva los cuatro niveles y sus materiales anteriores.
+
+Cada misión presenta una situación, vocabulario y ejemplos antes de pedir una respuesta. Las actividades aparecen de una en una: elegir, escuchar, construir frases, comprender un texto y crear un mensaje propio. A1 empieza con saludos y nombres antes de desarrollar el verbo *be*. Los errores vuelven durante la sesión y quedan programados para otro día.
+
+Completar una misión con al menos 70% en las primeras respuestas abre la siguiente y da 30 XP solo la primera vez. Los reintentos no inflan esa precisión. Los niveles se pueden elegir libremente; el recorrido dentro de cada nivel es progresivo. Tus lecciones ya completadas siguen reconocidas.
+
+Consulta **[NOVEDADES_V10.md](NOVEDADES_V10.md)**. Todas las historias, el manual, los talleres, las evaluaciones, los sonidos, las tarjetas y las gráficas siguen accesibles desde la navegación y **Explorar**.
 
 ## Entender el inglés · edición 9
 
@@ -10,15 +20,15 @@ Hay **61 conversaciones nuevas con 244 intervenciones**, preguntas de comprensi�
 
 Consulta **[NOVEDADES_V9.md](NOVEDADES_V9.md)** y **[APRENDER_PASO_A_PASO.md](APRENDER_PASO_A_PASO.md)**. La copia para leer e imprimir es **[MANUAL_INGLES_A1_B2.html](MANUAL_INGLES_A1_B2.html)**.
 
-## La página empieza con historias
+## Historias para practicar
 
-La pantalla inicial muestra **24 historias y 48 escenas de A1 a B2**, con personajes e ilustraciones originales. Cada escena sigue seis pasos: comprender el diálogo, explorar expresiones, responder en contexto, hablar, ensayar decisiones y crear una versión propia. Incluye 384 intervenciones bilingües, 144 expresiones explicadas y 96 opciones con respuesta del personaje.
+La sección Historias reúne **24 historias y 48 escenas de A1 a B2**, con personajes e ilustraciones originales. Cada escena sigue seis pasos: comprender el diálogo, explorar expresiones, responder en contexto, hablar, ensayar decisiones y crear una versión propia. Incluye 384 intervenciones bilingües, 144 expresiones explicadas y 96 opciones con respuesta del personaje.
 
 Escucha con traducción, sin traducción o sin texto. Practica tu papel, graba tu voz, guarda borradores y vuelve a recuperar las expresiones con repasos espaciados. El historial registra esta práctica por separado de los ejercicios de gramática. Consulta **[CONVERSACIONES.md](CONVERSACIONES.md)**.
 
-## Voces predeterminadas · edición 9
+## Voces predeterminadas
 
-Diez personajes tienen voces sintéticas distintas y fijas, preparadas previamente. **1.517 MP3 incluidos** cubren las conversaciones, las nuevas conversaciones de apoyo, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
+Diez personajes tienen voces sintéticas distintas y fijas, preparadas previamente. **1.822 MP3 incluidos** cubren las conversaciones, las nuevas conversaciones de apoyo, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
 
 ## Contenido
 
@@ -31,7 +41,7 @@ Diez personajes tienen voces sintéticas distintas y fijas, preparadas previamen
 
 El banco ofrece modalidades distintas sobre vocabulario y estructuras del curso; su tamaño no cuenta conceptos nuevos ni repeticiones realizadas. Consulta el alcance y los temas B2 en **[TEMARIO_B2.md](TEMARIO_B2.md)**.
 
-Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las lecciones siguen cinco pasos con apoyo gradual y una tarea propia antes de la práctica evaluada.
+Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las nuevas misiones presentan una actividad por pantalla; las guías anteriores se conservan como apoyo.
 
 Al pasar el cursor, enfocar o tocar palabras de los textos aparece ayuda de traducción. Todas las palabras todavía sin marcar como recordadas aparecen en violeta. La ayuda incluye palabra, expresión, frase completa y notas de uso. Las traducciones automáticas adicionales se señalan como orientativas. Las pruebas mantienen ocultas las ayudas que revelarían respuestas.
 

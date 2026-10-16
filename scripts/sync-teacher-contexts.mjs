@@ -15,4 +15,6 @@ for(const topic of handbook.topics){
  for(const section of topic.sections)for(const example of section.examples){const key=normaliseText(example.en);contexts[key]={...contexts[key],en:example.en,es:example.es,use:example.why,source:'authored'};}
  const g=topic.gist,key=normaliseText(g.prompt);contexts[key]={...contexts[key],en:g.prompt,es:g.es,source:'authored'};
 }
+const starters=JSON.parse(fs.readFileSync(new URL('../src/journey-start.json',import.meta.url)));
+for(const m of Object.values(starters))for(const [en,es]of [...m.examples,...m.lines.map(x=>x.slice(1))]){const key=normaliseText(en);contexts[key]={...contexts[key],en,es,use:m.notice,source:'authored'};}
 fs.writeFileSync(contextPath,'window.HELLO_CONTEXTS='+JSON.stringify(contexts)+';\n');

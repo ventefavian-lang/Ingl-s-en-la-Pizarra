@@ -1,32 +1,22 @@
-# Verificación de la edición 9
+# Verificación de la edición 10
 
-Comprobado el 15 de octubre de 2026 sobre este paquete:
+Comprobaciones del 16 de octubre de 2026:
 
-- `npm run build` genera correctamente la web publicada en `public/`.
-- **63 pruebas automáticas pasan**: contenido y claves de respuestas; relaciones entre lecciones y explicaciones; búsqueda; protección frente a HTML inyectado; audios; repaso; progreso, importación y sincronización; separación de cuentas; expresiones y evaluaciones.
-- Los **61 temas** tienen escenas completas, traducciones, evidencia de comprensión, dos comprobaciones y ejemplos explicados. Los **288 enlaces de lección** apuntan a apartados existentes con ejemplos o tablas.
-- Las **244 intervenciones** de las nuevas conversaciones tienen un MP3 del personaje correspondiente. Los 244 archivos usados por estas escenas se decodificaron con FFmpeg sin errores. El catálogo completo contiene 1.517 MP3.
-- En pruebas de interfaz con **JSDOM** se generaron los 61 temas y las 288 guías. Se comprobaron búsqueda y filtros, traducción opcional, modo sin texto, respuestas con evidencia, borradores, autoevaluación y acceso a la práctica.
-- Se comprobó la secuencia de audio y el ciclo de grabación con sustitutos de las API de audio y micrófono. Una autorización de micrófono que llega después de cambiar de página libera el dispositivo; escuchar un modelo cancela una grabación activa y restaura el botón.
-- El paquete compilado se ejecutó en JSDOM para A1, A2, B1 y B2. Se recorrieron portada, manual, unidad, guía, progreso y laboratorio. La ayuda contextual mostró la traducción de una frase nueva, y las palabras desconocidas aparecieron con la clase de color correspondiente. No hubo errores de ejecución en ese recorrido.
-- El ZIP se revisó mediante CRC y comprobación de presencia del catálogo de audio, la web compilada, el código y el manual.
+- Construcción con `npm run build` y 68 pruebas automatizadas: contenido, claves de respuesta, audio, cuentas, separación de usuarios, importación, sincronización, memoria y la nueva ruta.
+- Las 288 misiones tienen modelos antes de la evaluación, respuestas válidas, una tarea propia al final y recuperación de una idea anterior desde la segunda misión.
+- La ruta abre el primer paso pendiente y conserva misiones completadas en versiones anteriores. Las pruebas verifican el umbral del 70%, la concesión de XP una sola vez y que un intento fallido no abra la siguiente misión.
+- Los datos nuevos se guardan en los campos existentes de progreso. Las respuestas programan repaso sin marcar automáticamente una lección como completada.
+- Pruebas DOM con JSDOM en A1, A2, B1 y B2: 148 comprobaciones de navegación, bloqueos, actividad por pantalla, una misión completa, resultado, borrador, puntos y desbloqueo. Recorrido de 12 apartados en cada nivel.
+- Una prueba adicional completa una misión con un error, lo recupera al final, comprueba que la nota siga siendo 83% y que la memoria guarde ambos intentos. También abre y cierra la ayuda con Escape.
+- El catálogo completo contiene 1.822 archivos MP3 presentes. Se comprueba la decodificación de los 305 nuevos audios con FFmpeg.
+- El ZIP se valida con CRC y presencia de código, compilación, ilustraciones, manual, sonidos, configuración y audios.
 
-## Qué falta verificar en un dispositivo real
+## Límites de estas comprobaciones
 
-JSDOM no es un navegador con renderizado visual. **Esta edición no se ha revisado visualmente en un navegador real en esta sesión**: quedan por comprobar el ajuste final en pantallas reales, la reproducción con los controles del navegador y el permiso de un micrófono real. Las pruebas de audio y micrófono simuladas no sustituyen esas comprobaciones.
+JSDOM verifica estructura y comportamiento; no dibuja la página. **No se ha hecho una revisión visual en navegador real en esta sesión**. Quedan por comprobar el ajuste visual final, la reproducción y los permisos de micrófono en dispositivos reales. Los sustitutos de las API de audio utilizados en las pruebas no prueban un micrófono físico.
 
-No se probó un acceso real con Google porque falta la configuración Firebase del propietario. La estructura y las pruebas del guardado se conservan, pero para usar tu cuenta en la web debes configurar tu proyecto.
+Google requiere la configuración Firebase del propietario. No se inició sesión con una cuenta real; las pruebas de guardado y separación de cuentas se conservan. El ZIP deja la configuración pública vacía para que conserves la tuya.
 
-No se ha evaluado perceptualmente cada voz ni cada pronunciación. Las voces son sintéticas y las lecturas que no tienen MP3 utilizan las voces disponibles en el navegador. El dictado no proporciona una evaluación fonética. Las traducciones automáticas heredadas del diccionario siguen señaladas como orientativas.
+No se ha evaluado perceptualmente cada pronunciación. Las voces son sintéticas. El porcentaje de dictado compara palabras reconocidas, no precisión fonética. La escritura libre se guarda y ofrece un modelo; no recibe una calificación gramatical automática. Las traducciones heredadas que son orientativas mantienen esa indicación.
 
-## Reproducir las pruebas incluidas
-
-Con Node 22 o posterior, desde la raíz del proyecto:
-
-```sh
-npm ci
-npm run build
-npm test
-```
-
-Para comprobar manualmente la web: `npm run serve`, abrir `http://localhost:8085`, recorrer **Entender el inglés**, una lección de cada nivel, las historias y el laboratorio. En la web publicada con HTTPS, probar micrófono y la cuenta de Google configurada. Los modelos de voz no se necesitan para publicar o ejecutar el curso.
+Para ejecutar las pruebas: `npm ci`, `npm run build`, `npm test`, usando Node 22 o posterior.

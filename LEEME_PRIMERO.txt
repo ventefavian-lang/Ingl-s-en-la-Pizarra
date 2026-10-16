@@ -1,9 +1,15 @@
-HELLO ENGLISH · EDICIÓN 9 · A1, A2, B1 Y B2
+HELLO ENGLISH · EDICIÓN 10 · A1, A2, B1 Y B2
 
-Abre EMPIEZA_AQUI.html para las instrucciones. Este paquete contiene el proyecto completo, la web compilada y los audios. Extrae el ZIP antes de copiar su contenido al repositorio.
+Este ZIP incluye todo: código, web compilada, ilustraciones y audios. No necesitas otro ZIP.
 
-Conserva public/firebase-config.js si ya tienes Google configurado. En GitHub Desktop, copia el contenido de esta carpeta sobre el repositorio, combina carpetas y reemplaza archivos; después haz Commit y Push origin. Netlify publicará la rama conectada si los despliegues automáticos están activados.
+1. Extrae el ZIP y abre EMPIEZA_AQUI.html para ver las instrucciones.
+2. Si Google ya funciona, guarda una copia de public/firebase-config.js.
+3. En GitHub Desktop abre la carpeta de tu repositorio. Copia dentro TODO el contenido extraído, combina carpetas y reemplaza los archivos.
+4. Restaura tu public/firebase-config.js. No hace falta reiniciar el progreso.
+5. Haz Commit y Push origin. Netlify desplegará la rama conectada si los despliegues automáticos están activados.
 
-NOVEDADES_V9.md explica los cambios. VOCES.md indica el alcance de los audios y su procedencia. PRUEBAS.md resume la validación.
+package.json y netlify.toml deben quedar en la raíz del repositorio. No subas el ZIP sin extraer ni pongas todo en un único archivo.
 
-La nueva sección Entender el inglés tiene 61 temas, 190 apartados, 376 ejemplos explicados y 61 conversaciones con audio. Las traducciones y explicaciones aparecen al abrirlas. Está integrada en las 288 lecciones. MANUAL_INGLES_A1_B2.html contiene la copia de consulta. Abre APRENDER_PASO_A_PASO.md para empezar. Si usas Google, publica también las reglas firestore.rules actualizadas en Firebase; GitHub no las publica por sí solo.
+La portada ahora muestra una ruta progresiva: 8 capítulos por nivel, 24 temas y 72 misiones. Las lecciones tienen una actividad por pantalla, modelos, escucha, errores que vuelven y tareas propias. Consulta NOVEDADES_V10.md.
+
+Las cuentas requieren tu configuración Firebase. Si aún no la has hecho, consulta CONFIGURAR_GOOGLE.md y PUBLICAR_PASO_A_PASO.md. El modo invitado funciona sin cuenta.
