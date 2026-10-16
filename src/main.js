@@ -1,3 +1,4 @@
+import './handbook.css';
 import {initVoiceCatalog} from './voice-cast.js';
 import a1 from './course.json';
 import a2 from './course-a2.json';

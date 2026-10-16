@@ -1,9 +1,9 @@
-HELLO ENGLISH · EDICIÓN 8 · A1, A2, B1 Y B2
+HELLO ENGLISH · EDICIÓN 9 · A1, A2, B1 Y B2
 
 Abre EMPIEZA_AQUI.html para las instrucciones. Este paquete contiene el proyecto completo, la web compilada y los audios. Extrae el ZIP antes de copiar su contenido al repositorio.
 
 Conserva public/firebase-config.js si ya tienes Google configurado. En GitHub Desktop, copia el contenido de esta carpeta sobre el repositorio, combina carpetas y reemplaza archivos; después haz Commit y Push origin. Netlify publicará la rama conectada si los despliegues automáticos están activados.
 
-NOVEDADES_V8.md explica los cambios. VOCES.md indica el alcance de los audios y su procedencia. PRUEBAS.md resume la validación.
+NOVEDADES_V9.md explica los cambios. VOCES.md indica el alcance de los audios y su procedencia. PRUEBAS.md resume la validación.
 
-La enseñanza ahora tiene cinco pasos por lección y comprensión con evidencia en las 48 escenas. Abre APRENDER_PASO_A_PASO.md para empezar. Si usas Google, publica también las reglas firestore.rules actualizadas en Firebase; GitHub no las publica por sí solo.
+La nueva sección Entender el inglés tiene 61 temas, 190 apartados, 376 ejemplos explicados y 61 conversaciones con audio. Las traducciones y explicaciones aparecen al abrirlas. Está integrada en las 288 lecciones. MANUAL_INGLES_A1_B2.html contiene la copia de consulta. Abre APRENDER_PASO_A_PASO.md para empezar. Si usas Google, publica también las reglas firestore.rules actualizadas en Firebase; GitHub no las publica por sí solo.

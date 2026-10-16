@@ -1,14 +1,14 @@
-# Hello English — A1, A2, B1 y B2 · Edición 8
+# Hello English — A1, A2, B1 y B2 · Edición 9
 
 **Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
 
-## Enseñanza paso a paso · edición 8
+## Entender el inglés · edición 9
 
-Las **288 lecciones** enseñan una idea antes de evaluarla: entiende un modelo traducido, observa cómo funciona, construye con pistas, decide en dos casos y crea tu mensaje. Hay **288 traducciones principales revisadas y 288 tareas específicas**. Las explicaciones ampliadas se integran en la lección y los términos gramaticales tienen ayuda sencilla.
+**61 temas, 190 apartados y 376 ejemplos explicados**, conectados con las 288 lecciones. La enseñanza empieza con conversaciones en inglés; traducciones, explicaciones y contrastes se abren cuando hacen falta. Las instrucciones genéricas se han reducido.
 
-Las **48 escenas** comprueban ahora el mensaje con evidencia del diálogo y añaden 144 actividades para recuperar expresiones según su intención. La práctica permite corregir un error sin inflar la nota del primer intento. Se conservan los borradores, avances y errores pendientes anteriores.
+Hay **61 conversaciones nuevas con 244 intervenciones**, preguntas de comprensión con evidencia, modo de solo audio y práctica del papel del segundo personaje. Los ejemplos abren su significado y uso. La sección **Entender el inglés** permite buscar por tema o ejemplo y filtrar por punto de entrada.
 
-Abre **[NOVEDADES_V8.md](NOVEDADES_V8.md)** para conocer los cambios y **[APRENDER_PASO_A_PASO.md](APRENDER_PASO_A_PASO.md)** para empezar a estudiar.
+Consulta **[NOVEDADES_V9.md](NOVEDADES_V9.md)** y **[APRENDER_PASO_A_PASO.md](APRENDER_PASO_A_PASO.md)**. La copia para leer e imprimir es **[MANUAL_INGLES_A1_B2.html](MANUAL_INGLES_A1_B2.html)**.
 
 ## La página empieza con historias
 
@@ -16,9 +16,9 @@ La pantalla inicial muestra **24 historias y 48 escenas de A1 a B2**, con person
 
 Escucha con traducción, sin traducción o sin texto. Practica tu papel, graba tu voz, guarda borradores y vuelve a recuperar las expresiones con repasos espaciados. El historial registra esta práctica por separado de los ejercicios de gramática. Consulta **[CONVERSACIONES.md](CONVERSACIONES.md)**.
 
-## Voces predeterminadas · edición 7
+## Voces predeterminadas · edición 9
 
-Diez personajes tienen voces distintas y fijas, generadas con un motor nuevo. **1.274 MP3 incluidos** cubren las conversaciones, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
+Diez personajes tienen voces sintéticas distintas y fijas, preparadas previamente. **1.517 MP3 incluidos** cubren las conversaciones, las nuevas conversaciones de apoyo, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
 
 ## Contenido
 
@@ -68,3 +68,5 @@ Abre `http://localhost:8085`. Netlify usa `npm run build` y publica `public`, se
 - [VERIFICACION_B2.md](VERIFICACION_B2.md): comprobaciones y límites de la validación.
 
 El contenido B2 original se puede editar en los JSON de `src` o regenerar desde los ocho archivos Python de `scripts/b2`, usando `python3 scripts/b2/build_content.py`. El generador solo utiliza la biblioteca estándar de Python.
+
+Los nuevos temas originales se editan en `scripts/handbook/`. Ejecuta `python3 scripts/handbook/build.py` para regenerar el manual, los enlaces y el plan de audio. Si cambias una conversación, genera su MP3 antes de publicar; consulta **VOCES.md**.

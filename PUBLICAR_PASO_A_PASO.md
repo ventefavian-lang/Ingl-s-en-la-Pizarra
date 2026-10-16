@@ -58,6 +58,8 @@ Después abre `http://localhost:8085`. La compilación de `public/build` ya vien
 
 ## Qué contiene
 
+Edición 9: nueva sección **Entender el inglés**, con 61 temas, 190 apartados, 376 ejemplos explicados y 61 conversaciones adicionales con audio. Las explicaciones y traducciones se abren cuando se necesitan. Manual de consulta en `MANUAL_INGLES_A1_B2.html`.
+
 48 escenas de conversación con personajes, 144 expresiones explicadas y 96 variantes con respuesta; 96 unidades entre A1, A2, B1 y B2; lecciones y talleres; vocabulario; imágenes; sonidos; traducción al pasar el cursor; pruebas de lectura; textos con huecos; escritura, conversación y grabación; repaso; historial y gráficas. Se conserva el código editable y las pruebas.
 
 La pronunciación utiliza las voces del navegador y muestras sintéticas incluidas. El porcentaje de voz compara palabras transcritas, no exactitud fonética. La edición 7 retira el diagrama y conserva la práctica de escucha y grabación. Los modelos de escritura permiten autoevaluarse, sin una corrección de IA de pago.

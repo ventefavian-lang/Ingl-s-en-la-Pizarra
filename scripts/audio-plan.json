@@ -7642,5 +7642,1463 @@
     "role": "Max",
     "voice": "M4",
     "file": "2bccb4e873a657bea0a0.mp3"
+  },
+  {
+    "text": "Is Leo with you?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "42fe60baade5e4dfbfea.mp3"
+  },
+  {
+    "text": "Yes, he is. This is his bag.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "eb43be36663c03b0dbcd.mp3"
+  },
+  {
+    "text": "Can you give it to him?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "f4b6415f55ee9f28bfad.mp3"
+  },
+  {
+    "text": "Of course. I will give it to him now.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "e9ce64b34429abc32bd5.mp3"
+  },
+  {
+    "text": "Hi, I am Mia. Are you new here?",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "c7aa0d194a7f4e6abc86.mp3"
+  },
+  {
+    "text": "Yes, I am. My name is Leo.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "ffab09fee698cb3ed46b.mp3"
+  },
+  {
+    "text": "Are you a student?",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "ec270a7b84e3854f1253.mp3"
+  },
+  {
+    "text": "Yes. I am eighteen, and I am in your class.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "ac54afb55fc0a1a74999.mp3"
+  },
+  {
+    "text": "Do you work here?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "c81910bdced652998bb9.mp3"
+  },
+  {
+    "text": "Where do you study?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "567e6df4135938d8430a.mp3"
+  },
+  {
+    "text": "At the college next door.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "8ae35cfdd849053625ca.mp3"
+  },
+  {
+    "text": "I found a key outside.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "4f466055fafe06ecb273.mp3"
+  },
+  {
+    "text": "Is the key small?",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "14ebd2bb248e7fbb3714.mp3"
+  },
+  {
+    "text": "Yes. It is a small silver key.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "7e6be00ec76b77bedb46.mp3"
+  },
+  {
+    "text": "Then it is probably the key to my desk.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "87718c037af6dab62be6.mp3"
+  },
+  {
+    "text": "How many boxes do we need?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "ccb509103770e2ca99ce.mp3"
+  },
+  {
+    "text": "Two boxes for the books and one for the toys.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "03f0dcfdaebc0d043600.mp3"
+  },
+  {
+    "text": "Are the children helping?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "52d1a90cc486f78bde42.mp3"
+  },
+  {
+    "text": "Yes, they are carrying the books.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "5eba402099ab419af533.mp3"
+  },
+  {
+    "text": "Is this your bag?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "dcfdccbf972b558a5fd1.mp3"
+  },
+  {
+    "text": "No, mine is blue.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "d827f920a94fb64f79f3.mp3"
+  },
+  {
+    "text": "Then whose bag is it?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "8df15abdabfdb4c15b6b.mp3"
+  },
+  {
+    "text": "It is Mia’s. Those shoes are hers too.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "cd802cb4d47bcd6c8fbd.mp3"
+  },
+  {
+    "text": "What is your neighbour like?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "2a0c9d0eb4345c50a3fc.mp3"
+  },
+  {
+    "text": "He is friendly, but quite quiet.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "4b841fb98b96e49b424f.mp3"
+  },
+  {
+    "text": "Is he interested in music?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "87e286de51ab9d7b6bdf.mp3"
+  },
+  {
+    "text": "Yes. He has an amazing collection.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "b389d796f310906f3828.mp3"
+  },
+  {
+    "text": "Do you have a charger?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "aca6d4272aea5e75325b.mp3"
+  },
+  {
+    "text": "Yes, I have got one in my bag.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "bdb98037fe2d3b4b40a1.mp3"
+  },
+  {
+    "text": "Have you got a minute?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "a785ea8f5a9109620500.mp3"
+  },
+  {
+    "text": "Sorry, I am having lunch. Can I help you later?",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "06f2cf885666f6084297.mp3"
+  },
+  {
+    "text": "Is there a café near here?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "6bad257613a19159f0c9.mp3"
+  },
+  {
+    "text": "Yes, there is one next to the bank.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "a8e104454c55cbd3dcf0.mp3"
+  },
+  {
+    "text": "Are there any tables outside?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "494490c3f0cf1d253cba.mp3"
+  },
+  {
+    "text": "Yes, but they are wet.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "7598978babf51a65949f.mp3"
+  },
+  {
+    "text": "I am at the station. Where are you?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "21c982efa43ed254443b.mp3"
+  },
+  {
+    "text": "I am in the café opposite the station.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "720a4412b3bfcd23cb3c.mp3"
+  },
+  {
+    "text": "How do I get there?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "ab86d07ad1f78ffe58d4.mp3"
+  },
+  {
+    "text": "Cross the road and turn right.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "b206e6cef4219b97341a.mp3"
+  },
+  {
+    "text": "When is your appointment?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "b2df0f4bdd182c803488.mp3"
+  },
+  {
+    "text": "On Friday, at half past nine.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "d55012eda95b890e504d.mp3"
+  },
+  {
+    "text": "How long does it take?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "f716ea21fad1490e672a.mp3"
+  },
+  {
+    "text": "About twenty minutes.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "9551b2433f9fb84830c2.mp3"
+  },
+  {
+    "text": "Do we have enough food?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "b9596952ab38518026d6.mp3"
+  },
+  {
+    "text": "We have some rice, but only a few eggs.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "199df13ad8823ec12ca2.mp3"
+  },
+  {
+    "text": "How much rice is there?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "384827cb3d7d8668b965.mp3"
+  },
+  {
+    "text": "A little. We need another bag.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "cc5169740d571a040401.mp3"
+  },
+  {
+    "text": "Which room should we book?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "9eb21ea4af4e22ea4f78.mp3"
+  },
+  {
+    "text": "This one is cheaper, but that one is much quieter.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "1c67c8d8e2f01a6ca561.mp3"
+  },
+  {
+    "text": "Is the cheaper one as big?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "52848e34ea268c94ac77.mp3"
+  },
+  {
+    "text": "Almost. The cheaper room is the best option for our budget.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "a96316505574d3a84595.mp3"
+  },
+  {
+    "text": "Do you want the red cups or the blue ones?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "6de800401f43325bae7a.mp3"
+  },
+  {
+    "text": "The blue ones. Is there anything else to carry?",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "e508afd8d40fd39b6543.mp3"
+  },
+  {
+    "text": "No, I can carry the box myself.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "a6c4d5de8b365168b8bb.mp3"
+  },
+  {
+    "text": "Let us help each other with the chairs.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "47221f339df8f27ae972.mp3"
+  },
+  {
+    "text": "How often do you cook?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "3cbd96d67afdd7b9bbbe.mp3"
+  },
+  {
+    "text": "Usually three times a week.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "451dcfcca3e6c4af7bfb.mp3"
+  },
+  {
+    "text": "Are you always busy on Mondays?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "0b24576cfc195b6696c0.mp3"
+  },
+  {
+    "text": "Not always. Sometimes I am free after six.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "66aa0184c6aaacfcacd9.mp3"
+  },
+  {
+    "text": "What do you do?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "9999a3ea2b27cf834eb1.mp3"
+  },
+  {
+    "text": "I work in a bookshop.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "24ab8004162738170b0a.mp3"
+  },
+  {
+    "text": "Does it open on Sundays?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "169d514264313371b6f1.mp3"
+  },
+  {
+    "text": "No, it does not. We close on Sundays.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "3c035dd62d90aafc4030.mp3"
+  },
+  {
+    "text": "Do you work from home?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "1e4f61c5cfe3b033d866.mp3"
+  },
+  {
+    "text": "Usually, yes. But this week I am working at the office.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "a52a713ef9842503fe67.mp3"
+  },
+  {
+    "text": "What are you doing now?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "51add73b4e66abaf45ac.mp3"
+  },
+  {
+    "text": "I am waiting for a meeting to start.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "459a38020e4bab4c1727.mp3"
+  },
+  {
+    "text": "How was your weekend?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "b1e33a8e3db6d190ae33.mp3"
+  },
+  {
+    "text": "It was great. I visited my cousins.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "ca064924429b3f7cce4a.mp3"
+  },
+  {
+    "text": "Did you stay overnight?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "ea61c883b4dacc96a0ef.mp3"
+  },
+  {
+    "text": "No, I came home on Saturday evening.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "0189d7de11edfadf3837.mp3"
+  },
+  {
+    "text": "Why did you miss my call?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "90345c13e38e2b4ccc4c.mp3"
+  },
+  {
+    "text": "I was cycling home when you called.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "3d2f2cad2b34c6b1475b.mp3"
+  },
+  {
+    "text": "Was it raining?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "75dd029492bb2025ef31.mp3"
+  },
+  {
+    "text": "Yes, and the road was getting slippery.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "e9ff6538097a0180546e.mp3"
+  },
+  {
+    "text": "Why did you walk home?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "942bf62b6b6cf4652f12.mp3"
+  },
+  {
+    "text": "The last bus had already left when I arrived.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "447eef79f3ecf8accfc2.mp3"
+  },
+  {
+    "text": "Had you checked the timetable?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "7189c17d4f6767477579.mp3"
+  },
+  {
+    "text": "Yes, but the timetable had changed.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "1b531367641ef4868ff4.mp3"
+  },
+  {
+    "text": "Have you ever been to Arequipa?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "023f6f32df73360ee32b.mp3"
+  },
+  {
+    "text": "Yes, I have. I went there last year.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "b78fe18e313791fb74de.mp3"
+  },
+  {
+    "text": "Have you booked another trip yet?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "8a2ce6968f44cf944bc8.mp3"
+  },
+  {
+    "text": "Not yet. I have been busy since Monday.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "0f3a0d6fe49eb9e3e783.mp3"
+  },
+  {
+    "text": "Your shoes are muddy. What have you been doing?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "3b7b6d8c465a6813fdee.mp3"
+  },
+  {
+    "text": "I have been working in the garden.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "9efa8ff091853079a4f5.mp3"
+  },
+  {
+    "text": "Have you planted the flowers?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "de7464cfd2f99d20d9ff.mp3"
+  },
+  {
+    "text": "Yes, I have planted ten. I have two left.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "75def11c2a40bf13d244.mp3"
+  },
+  {
+    "text": "What are you doing on Saturday?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "42b05e587b71633d23c5.mp3"
+  },
+  {
+    "text": "I am meeting Eva at ten. We are going to visit the museum.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "f387b4445b92e2aca07d.mp3"
+  },
+  {
+    "text": "The tickets are cheaper online.",
+    "role": "Max",
+    "voice": "M4",
+    "file": "40651786b5e7c74e0626.mp3"
+  },
+  {
+    "text": "Really? I will book them now.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "ed0fc9e23465732191f1.mp3"
+  },
+  {
+    "text": "Can we call you at eight?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "e67ed4f5af15ac9be596.mp3"
+  },
+  {
+    "text": "I will be travelling then. Could you call at ten?",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "85528c398edc0a0e8441.mp3"
+  },
+  {
+    "text": "Will you have arrived by then?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "8273f91d6dbb89ce9d07.mp3"
+  },
+  {
+    "text": "Yes, unless the train is delayed.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "c3624c24d1eb8001d52a.mp3"
+  },
+  {
+    "text": "Do you like working at night?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "476c2bfb644b9f185f69.mp3"
+  },
+  {
+    "text": "I am used to it now, but it was hard at first.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "3724d22b45905b7baabf.mp3"
+  },
+  {
+    "text": "Did you use to work during the day?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "f6867725a42b5167a25b.mp3"
+  },
+  {
+    "text": "Yes. I used to start at eight.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "a6fa6a176353d4db5fec.mp3"
+  },
+  {
+    "text": "Can I use your phone?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "ce86cf2869bc832ba307.mp3"
+  },
+  {
+    "text": "Of course. Can you unlock it?",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "68a31ec5026fd91a0021.mp3"
+  },
+  {
+    "text": "No. Could you help me?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "68632026bf8abdbaff41.mp3"
+  },
+  {
+    "text": "Sure. Here you are.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "ab459a6a6ebcc2677b82.mp3"
+  },
+  {
+    "text": "Do I have to print the ticket?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "e94aedfa083779f4f8be.mp3"
+  },
+  {
+    "text": "No, you can show it on your phone.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "68c736fb6573fcbcf0a9.mp3"
+  },
+  {
+    "text": "Can I bring my bike?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "df20ca770452e454c319.mp3"
+  },
+  {
+    "text": "Yes, but you must not block the doors.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "ac39a33db71e44681c08.mp3"
+  },
+  {
+    "text": "Is Nora at home?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "ba8d535d2795cdebdc7b.mp3"
+  },
+  {
+    "text": "She might be. Her bike is outside.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "520a2bf1f7b5a5e47a70.mp3"
+  },
+  {
+    "text": "But her lights are off.",
+    "role": "Max",
+    "voice": "M4",
+    "file": "d346732e8997d386bd9c.mp3"
+  },
+  {
+    "text": "She could be sleeping. Let us call later.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "a9e386fa654720da29ff.mp3"
+  },
+  {
+    "text": "The café is closed. Did we get the time wrong?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "b72c1f31e8bb0ce5427c.mp3"
+  },
+  {
+    "text": "They might have closed early today.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "d132920ea8063653e89d.mp3"
+  },
+  {
+    "text": "We should have checked before leaving.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "799b36d1e0ec4b7ff48a.mp3"
+  },
+  {
+    "text": "Never mind. We could try the place next door.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "dd328f58e4abcc0a2447.mp3"
+  },
+  {
+    "text": "What would you like to do this weekend?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "8bdd7cdc044d6cea2841.mp3"
+  },
+  {
+    "text": "I enjoy cooking. Shall we make dinner together?",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "4af12f87d2f9892b78c9.mp3"
+  },
+  {
+    "text": "Great. I need to buy a few things first.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "05fc2ecf3f9c63861e8b.mp3"
+  },
+  {
+    "text": "I can help you carry the bags.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "c1078564481043ef360f.mp3"
+  },
+  {
+    "text": "Did you remember to send the file?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "d3f093bf503d7e2f7f8c.mp3"
+  },
+  {
+    "text": "Yes. I remember attaching it, too.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "074eb9474808757efe94.mp3"
+  },
+  {
+    "text": "I cannot open it.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "f28570740cbc5ac4cfe0.mp3"
+  },
+  {
+    "text": "Try downloading it first.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "b7325d0475702757b845.mp3"
+  },
+  {
+    "text": "Could you turn the music down?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "da55720e37f4a43996c5.mp3"
+  },
+  {
+    "text": "Sure. Is that better?",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "1f5e3bfdc5a1f2afab90.mp3"
+  },
+  {
+    "text": "Yes, thanks. I am looking after my little cousin.",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "171c3cd759611db4d395.mp3"
+  },
+  {
+    "text": "No problem. I can turn it off if he needs to sleep.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "49fe083f9e9652e4158e.mp3"
+  },
+  {
+    "text": "Have you made a decision about the course?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "80279ac79dc55e8739a7.mp3"
+  },
+  {
+    "text": "Not yet. It depends on the timetable.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "dec81a839691dc2620a7.mp3"
+  },
+  {
+    "text": "Let us take a break and look at it later.",
+    "role": "Max",
+    "voice": "M4",
+    "file": "897f4a78a41f0488d7c1.mp3"
+  },
+  {
+    "text": "Good idea. I need to pay more attention to the details.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "8dde9d3cee047d41eaa2.mp3"
+  },
+  {
+    "text": "Was the presentation successful?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "339532300ac21f78f5fb.mp3"
+  },
+  {
+    "text": "Yes, but I was nervous at the beginning.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "31e23a85c405dd75ade2.mp3"
+  },
+  {
+    "text": "You explained the idea clearly.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "2835027246528464fabd.mp3"
+  },
+  {
+    "text": "Thanks. Your encouragement really helped.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "02b958e9ddd00dde4286.mp3"
+  },
+  {
+    "text": "Have they finished the repairs yet?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "2ec15289dc47b14f0063.mp3"
+  },
+  {
+    "text": "Not yet. They are still working on the roof.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "e57d4d2b25a9b781a632.mp3"
+  },
+  {
+    "text": "Apparently, they will finish tomorrow.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "7fd60d8ea9a0093eea09.mp3"
+  },
+  {
+    "text": "That would be great. The noise is rather distracting.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "57baf193073b4cf8e5b6.mp3"
+  },
+  {
+    "text": "You did not answer my message.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "9ef1ae6293e9d330bb2e.mp3"
+  },
+  {
+    "text": "I did answer. I sent it to your old number.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "e71aaf07276ef3095632.mp3"
+  },
+  {
+    "text": "Oh, that explains it.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "272787ad2ccc5ae7762d.mp3"
+  },
+  {
+    "text": "What I need is your new number.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "a3f5f921944d3d415985.mp3"
+  },
+  {
+    "text": "What will we do if it rains?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "3da2fbda764b61ace454.mp3"
+  },
+  {
+    "text": "We will eat inside.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "647a0cb4c7dcd38987a9.mp3"
+  },
+  {
+    "text": "And if the weather is good?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "8b9160f96fe9ead8ee4d.mp3"
+  },
+  {
+    "text": "Then we can use the garden.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "4550e7c808d8ea69953f.mp3"
+  },
+  {
+    "text": "Would you move abroad if you had the chance?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "4b8cd3bdd5bf7e3cf5a9.mp3"
+  },
+  {
+    "text": "Maybe. I would need to find a job first.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "562af3df9fd21d4e48ad.mp3"
+  },
+  {
+    "text": "What would you do?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "dd7c3fdd9d4654b87ab5.mp3"
+  },
+  {
+    "text": "If I spoke better English, I could teach art.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "ff9758c2658933943a20.mp3"
+  },
+  {
+    "text": "Why did we miss the train?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "d55933df9da3776ae38a.mp3"
+  },
+  {
+    "text": "We left home too late.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "bec531b756b9bde6e76c.mp3"
+  },
+  {
+    "text": "If we had left earlier, we would have caught it.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "47ad3625c291bbe6fdc4.mp3"
+  },
+  {
+    "text": "And we would be at the beach now.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "0b884710f0086f9db2db.mp3"
+  },
+  {
+    "text": "I wish I lived closer to work.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "82cc27d2e6ce3d4ea6c0.mp3"
+  },
+  {
+    "text": "Is the journey that long?",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "1a7b4c147e9b3e00950b.mp3"
+  },
+  {
+    "text": "Yes. I wish I had checked the route before moving.",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "1a29b9d3c985fbbf6a47.mp3"
+  },
+  {
+    "text": "I hope the new bus service helps.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "c89019ca5f686b5c1d99.mp3"
+  },
+  {
+    "text": "Can I use the lift?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "10849e8338f99041cb02.mp3"
+  },
+  {
+    "text": "Not today. It is being repaired.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "9b63d8fbf64a75d00f4e.mp3"
+  },
+  {
+    "text": "When will it be ready?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "7ec9f75e9f4227866b5e.mp3"
+  },
+  {
+    "text": "The work should be finished by Friday.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "b7da4534d3b26023e640.mp3"
+  },
+  {
+    "text": "Did you fix the laptop yourself?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "d36c2ef01074f4fd4ad5.mp3"
+  },
+  {
+    "text": "No, I had it repaired at the shop.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "0061f958cc2ac7881478.mp3"
+  },
+  {
+    "text": "Was it expensive?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "7349bcfd30457738267f.mp3"
+  },
+  {
+    "text": "Less than I expected. They only replaced the battery.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "a36ea11305328e6c08e5.mp3"
+  },
+  {
+    "text": "What did Mia say about the meeting?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "32e33003de5f9477a6c6.mp3"
+  },
+  {
+    "text": "She said it had been moved to Thursday.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "a5343ff802ca755cf006.mp3"
+  },
+  {
+    "text": "Did she ask us to bring anything?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "f71311a6acc5cb51b17e.mp3"
+  },
+  {
+    "text": "Yes. She asked us to bring our notes.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "0c628b8f874ceb935734.mp3"
+  },
+  {
+    "text": "Excuse me. Could you tell me where the station is?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "aa19b7f1e0d18e0f2de3.mp3"
+  },
+  {
+    "text": "It is just past the library.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "529f30379f0379ef16b4.mp3"
+  },
+  {
+    "text": "Do you know if the ticket office is open?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "376dde5818ca634214aa.mp3"
+  },
+  {
+    "text": "Yes, it closes at six.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "5146dd1e5f5b9a800086.mp3"
+  },
+  {
+    "text": "Who is the woman talking to Sam?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "c0d139c6758a6f0afa6b.mp3"
+  },
+  {
+    "text": "She is the architect who designed this building.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "dd82e147ce0216f9f39b.mp3"
+  },
+  {
+    "text": "And is this the room that you booked?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "13132e5297c6e001c79b.mp3"
+  },
+  {
+    "text": "Yes. It has the screen we need.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "e48e8f96ce0e80b3a581.mp3"
+  },
+  {
+    "text": "Would you like to walk home?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "dfa3e0e1ccda30ab0589.mp3"
+  },
+  {
+    "text": "Yes, but it is getting dark.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "b0c9301de43dda6a7d45.mp3"
+  },
+  {
+    "text": "We can take the main road because it has lights.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "78fd260663a25c58c47f.mp3"
+  },
+  {
+    "text": "Good idea. It is safer, so let us go that way.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "b3d491d9b30b4a710934.mp3"
+  },
+  {
+    "text": "Hi, I am Leo. Is this your first class?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "2f4aabdeab392be81dce.mp3"
+  },
+  {
+    "text": "Yes. I am Mia. Nice to meet you.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "a250d5760b1511f708e4.mp3"
+  },
+  {
+    "text": "Nice to meet you too. Where are you from?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "0900457d77310231ba32.mp3"
+  },
+  {
+    "text": "I am from Lima, but I live here now. What about you?",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "54182995802671d2e030.mp3"
+  },
+  {
+    "text": "Hi. Could I have a tea, please?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "02a57ee4e83ba9258045.mp3"
+  },
+  {
+    "text": "Of course. For here or to take away?",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "d4ab32e6dbdabf198136.mp3"
+  },
+  {
+    "text": "For here. And a small sandwich, please.",
+    "role": "Max",
+    "voice": "M4",
+    "file": "bc049b3061f59a7e29ca.mp3"
+  },
+  {
+    "text": "Certainly. That is six pounds altogether.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "33ecf1760ff80ec292dd.mp3"
+  },
+  {
+    "text": "Who do you live with?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "6b6d147ca36960ebc301.mp3"
+  },
+  {
+    "text": "I live with my sister. She works at a hospital.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "c8c9eba0e2d62d0c2d80.mp3"
+  },
+  {
+    "text": "Do you see each other every day?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "2b134815182fc772e7de.mp3"
+  },
+  {
+    "text": "Usually. We have dinner together after work.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "a4c3f623c3b6655daa5f.mp3"
+  },
+  {
+    "text": "How was your first day at work?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "8ab4f5ef8b3b36db3754.mp3"
+  },
+  {
+    "text": "At first, I was nervous. I could not find the office.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "6c944499b37b30a29d31.mp3"
+  },
+  {
+    "text": "What happened?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "256094814ce29ce86771.mp3"
+  },
+  {
+    "text": "A colleague saw me outside and showed me the way.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "8c5b1d3f787153dc8998.mp3"
+  },
+  {
+    "text": "Should the library stay open later?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "af93090783fdf90174f7.mp3"
+  },
+  {
+    "text": "I think so. People who work late could use it.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "c9d1153dc87e7c3ae466.mp3"
+  },
+  {
+    "text": "That would help, although staffing it would cost more.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "da64133dcb0d95debebb.mp3"
+  },
+  {
+    "text": "Perhaps we could try one evening a week and review the demand.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "c82bea74d14757a17638.mp3"
+  },
+  {
+    "text": "Shall we meet at six?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "136bf73d47118d6ade37.mp3"
+  },
+  {
+    "text": "I finish work at six. Could we make it half past?",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "dafebcff598aab761d2e.mp3"
+  },
+  {
+    "text": "That works for me. At the café near the station?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "a948d141cc6057c55bd6.mp3"
+  },
+  {
+    "text": "Perfect. I will see you there at six thirty.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "81ac8c062392c49db3da.mp3"
+  },
+  {
+    "text": "Hi Mia, I am running ten minutes late.",
+    "role": "Max",
+    "voice": "M4",
+    "file": "b2350494289f4fd43ebf.mp3"
+  },
+  {
+    "text": "No problem. I am still on the bus.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "2fabda134a072aa2f7aa.mp3"
+  },
+  {
+    "text": "Shall we meet outside the cinema?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "34eb2dd64b216de43ec0.mp3"
+  },
+  {
+    "text": "Yes. Send me a message when you arrive.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "1547ddfe0ded84f0464f.mp3"
+  },
+  {
+    "text": "Who is this report for?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "934d40b7d5fe6fccea29.mp3"
+  },
+  {
+    "text": "The manager. She needs to decide whether to extend the opening hours.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "cf38bc5d79228fc84c47.mp3"
+  },
+  {
+    "text": "Then the survey results should come before the recommendation.",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "1807de3ef9f399c2c5ea.mp3"
+  },
+  {
+    "text": "Agreed. I will also explain the limits of the sample.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "0c927d6a417115f254d7.mp3"
+  },
+  {
+    "text": "I do not understand this notice. Is the entrance closed?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "f47c65dcde8c870ce5a9.mp3"
+  },
+  {
+    "text": "The main entrance is closed, but the side door is open.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "911b8390c7ed2d1e419f.mp3"
+  },
+  {
+    "text": "So we can still go in?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "917ae4a8e043c1f934b6.mp3"
+  },
+  {
+    "text": "Yes, until five. After that, the whole building closes.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "524b3a065821d9820474.mp3"
+  },
+  {
+    "text": "Shall I book the table for Tuesday?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "7fee10fd74b1b908381c.mp3"
+  },
+  {
+    "text": "Actually, Thursday would be better.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "e85c2c4593f0a67e94cc.mp3"
+  },
+  {
+    "text": "At seven, as usual?",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "73f7f3bfdc9e078f486b.mp3"
+  },
+  {
+    "text": "Could we make it seven thirty? My train arrives at seven.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "5f1e7d9e8c74b571e4ca.mp3"
+  },
+  {
+    "text": "Did you say ship or sheep?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "ed60654fb9dc058600cf.mp3"
+  },
+  {
+    "text": "Sheep. The animal.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "c940c89ed19db0c7ddc6.mp3"
+  },
+  {
+    "text": "Oh, I see. And where is the stress in hotel?",
+    "role": "Oliver",
+    "voice": "M3",
+    "file": "e5b640117ac976d9d778.mp3"
+  },
+  {
+    "text": "On the second syllable: hotel.",
+    "role": "Ella",
+    "voice": "F3",
+    "file": "42d824be821eafd65af0.mp3"
+  },
+  {
+    "text": "Could you spell your surname, please?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "0c64a18bf28ab9185886.mp3"
+  },
+  {
+    "text": "Of course. It is Green: G, R, E, E, N.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "82dca7af8981ce5a6565.mp3"
+  },
+  {
+    "text": "Thank you. Is your appointment on Monday?",
+    "role": "Max",
+    "voice": "M4",
+    "file": "59dc68d474c8038b51c5.mp3"
+  },
+  {
+    "text": "Yes, at ten.",
+    "role": "Zoe",
+    "voice": "F4",
+    "file": "e197b4e449ecaf2d9700.mp3"
+  },
+  {
+    "text": "How is the report going?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "0dae50e46e14f4dfec57.mp3"
+  },
+  {
+    "text": "I have finished the first section, but I am waiting for the figures.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "b1657cab2ebcdcd24c4d.mp3"
+  },
+  {
+    "text": "Can you send me what you have by three?",
+    "role": "Noah",
+    "voice": "M5",
+    "file": "3b3167cbbd6f0220daab.mp3"
+  },
+  {
+    "text": "Yes. I will mark the parts that still need checking.",
+    "role": "Ava",
+    "voice": "F5",
+    "file": "aa23e32f70b3b84c0572.mp3"
+  },
+  {
+    "text": "Would you recommend the hotel?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "cb9ab0c6af001ed8b9ec.mp3"
+  },
+  {
+    "text": "For a short stay, yes. The room was small but very clean.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "e23885c4bc75cf603294.mp3"
+  },
+  {
+    "text": "Was it noisy?",
+    "role": "Leo",
+    "voice": "M1",
+    "file": "cbdf5baf5fc0911c28be.mp3"
+  },
+  {
+    "text": "A little. I would ask for a room away from the road.",
+    "role": "Mia",
+    "voice": "F1",
+    "file": "e0d75fac3ddfeb7f7dd5.mp3"
+  },
+  {
+    "text": "Mia helps Leo.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "f95f40acd98a6d444fc8.mp3"
+  },
+  {
+    "text": "Does Leo help Mia too?",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "f7553a3c4bc31a019358.mp3"
+  },
+  {
+    "text": "Yes. He carries her bag.",
+    "role": "Sam",
+    "voice": "M2",
+    "file": "10f5227ed1d24bed7470.mp3"
+  },
+  {
+    "text": "They help each other.",
+    "role": "Nora",
+    "voice": "F2",
+    "file": "f3973f4e060b131ffe3d.mp3"
   }
 ]
