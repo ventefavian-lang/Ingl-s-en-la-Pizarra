@@ -1,3 +1,11 @@
+# Voces de la edición 11
+
+Se conservan los **1.822 MP3** del catálogo anterior. Las nuevas prácticas reutilizan una grabación cuando existe una coincidencia. Las demás palabras y frases usan la voz disponible del navegador. No se ha generado un audio nuevo para cada entrada de Recursos; la disponibilidad de lectura de esos textos depende del dispositivo.
+
+Las voces por personaje siguen predeterminadas. No se presentan como voces humanas ni como una función de IA conversacional.
+
+## Historial del catálogo conservado
+
 # Audios de la edición 10
 
 El paquete contiene **1.822 MP3**. Se añaden **305 audios** para las escenas iniciales y las preguntas de escucha de las nuevas misiones. Los personajes conservan sus voces sintéticas fijas. Las demás palabras, los ejemplos sin grabación y los textos libres usan las voces disponibles en el navegador; no se presentan como voces humanas.

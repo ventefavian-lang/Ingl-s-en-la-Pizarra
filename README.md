@@ -1,82 +1,73 @@
-# Hello English — A1, A2, B1 y B2 · Edición 10
+# Hello English · Edición 11
 
-**Proyecto completo y unificado.** Incluye A1, A2, B1, B2, imágenes, sonidos, ejercicios, código y la web ya compilada. No necesitas ningún ZIP anterior. Abre **EMPIEZA_AQUI.html** o sigue **[PUBLICAR_PASO_A_PASO.md](PUBLICAR_PASO_A_PASO.md)**.
+Curso interactivo para practicar inglés A1, A2, B1 y B2. Este ZIP contiene el proyecto completo para GitHub y Netlify, los archivos compilados y los audios. Empieza por **EMPIEZA_AQUI.html** o **LEEME_PRIMERO.txt**.
 
-## Una ruta nueva · edición 10
+## Qué cambia
 
-La portada es ahora un camino de **8 capítulos, 24 temas y 72 misiones por nivel**. Tiene una interfaz nueva, ilustraciones originales, una navegación más sencilla y una pantalla de carga real. Conserva los cuatro niveles y sus materiales anteriores.
+- Nueva interfaz violeta: menú lateral, capítulos y tarjetas de misiones; navegación inferior en móvil.
+- 96 unidades y 288 misiones progresivas. La ruta incluye 5.747 actividades corregibles: 2.647 elecciones, 1.142 frases para ordenar, 1.006 respuestas escritas, 576 dictados, 282 ejercicios de parejas y 94 textos con huecos. Son actividades de práctica, no 5.747 temas diferentes.
+- Una misión alterna escena, palabras, modelos, comprensión, recuperación y uso propio. No se puede comprobar una respuesta vacía. La última tarea necesita un mínimo de palabras.
+- Recursos reúne el vocabulario por unidad, las 288 explicaciones del curso, una tabla de 99 verbos y 25 guías de auxiliares y estructuras. Las guías tienen ejemplos, contrastes y seis actividades cada una; los verbos tienen cuatro.
+- Palabras nuevas en morado, ayuda al pasar el cursor o tocar, traducción de la frase cuando está incluida y explicación de uso. Los nuevos ejemplos de Recursos tienen traducciones originales incorporadas.
+- Las respuestas correctas registran palabras practicadas. También puedes marcar una palabra como conocida o volver a repasarla. Esa marca no equivale por sí sola a dominarla.
+- Panel con actividad de 14 días, memoria, errores y sesiones recientes. Usa tus datos reales.
 
-Cada misión presenta una situación, vocabulario y ejemplos antes de pedir una respuesta. Las actividades aparecen de una en una: elegir, escuchar, construir frases, comprender un texto y crear un mensaje propio. A1 empieza con saludos y nombres antes de desarrollar el verbo *be*. Los errores vuelven durante la sesión y quedan programados para otro día.
+Se conservan las historias, talleres, evaluaciones, sonidos, biblioteca y progreso compatible de las versiones anteriores. La boca animada sigue retirada.
 
-Completar una misión con al menos 70% en las primeras respuestas abre la siguiente y da 30 XP solo la primera vez. Los reintentos no inflan esa precisión. Los niveles se pueden elegir libremente; el recorrido dentro de cada nivel es progresivo. Tus lecciones ya completadas siguen reconocidas.
+## Publicar o actualizar
 
-Consulta **[NOVEDADES_V10.md](NOVEDADES_V10.md)**. Todas las historias, el manual, los talleres, las evaluaciones, los sonidos, las tarjetas y las gráficas siguen accesibles desde la navegación y **Explorar**.
+1. Extrae el ZIP.
+2. Abre la carpeta de tu repositorio con GitHub Desktop.
+3. Conserva **tu `public/firebase-config.js`** si Google ya estaba configurado.
+4. Copia el contenido extraído en la raíz del repositorio. Deben quedar allí `package.json`, `netlify.toml`, `src/` y `public/`.
+5. Restaura tu configuración pública Firebase. Revisa los cambios, haz Commit y Push origin.
+6. Netlify debe usar `npm run build` y publicar `public`. `netlify.toml` ya lo declara, con Node 22.
+7. Espera un despliegue correcto y comprueba **EDICIÓN 11** al pie de la página.
 
-## Entender el inglés · edición 9
+Un repositorio conectado despliega los cambios enviados a la rama configurada mientras la construcción y publicación automáticas estén activas. No subas el ZIP sin extraer como sustituto del código. La versión compilada en `public/` también permite un despliegue manual de esa carpeta.
 
-**61 temas, 190 apartados y 376 ejemplos explicados**, conectados con las 288 lecciones. La enseñanza empieza con conversaciones en inglés; traducciones, explicaciones y contrastes se abren cuando hacen falta. Las instrucciones genéricas se han reducido.
+Guía detallada: **PUBLICAR_PASO_A_PASO.md**. Google y sincronización: **CONFIGURAR_GOOGLE.md**. Un push a GitHub no publica las reglas de Firestore: sigue esa guía si las necesitas actualizar.
 
-Hay **61 conversaciones nuevas con 244 intervenciones**, preguntas de comprensión con evidencia, modo de solo audio y práctica del papel del segundo personaje. Los ejemplos abren su significado y uso. La sección **Entender el inglés** permite buscar por tema o ejemplo y filtrar por punto de entrada.
+## Trabajar en tu equipo
 
-Consulta **[NOVEDADES_V9.md](NOVEDADES_V9.md)** y **[APRENDER_PASO_A_PASO.md](APRENDER_PASO_A_PASO.md)**. La copia para leer e imprimir es **[MANUAL_INGLES_A1_B2.html](MANUAL_INGLES_A1_B2.html)**.
-
-## Historias para practicar
-
-La sección Historias reúne **24 historias y 48 escenas de A1 a B2**, con personajes e ilustraciones originales. Cada escena sigue seis pasos: comprender el diálogo, explorar expresiones, responder en contexto, hablar, ensayar decisiones y crear una versión propia. Incluye 384 intervenciones bilingües, 144 expresiones explicadas y 96 opciones con respuesta del personaje.
-
-Escucha con traducción, sin traducción o sin texto. Practica tu papel, graba tu voz, guarda borradores y vuelve a recuperar las expresiones con repasos espaciados. El historial registra esta práctica por separado de los ejercicios de gramática. Consulta **[CONVERSACIONES.md](CONVERSACIONES.md)**.
-
-## Voces predeterminadas
-
-Diez personajes tienen voces sintéticas distintas y fijas, preparadas previamente. **1.822 MP3 incluidos** cubren las conversaciones, las nuevas conversaciones de apoyo, los diálogos de las unidades, las historias cortas y la escucha de las nuevas evaluaciones. No hay selector de voces ni API de pago. Consulta **[VOCES.md](VOCES.md)** y **[NOVEDADES_V7.md](NOVEDADES_V7.md)**.
-
-## Contenido
-
-| Nivel | Unidades | Lecciones base | Talleres de seis etapas | Actividades del nuevo banco |
-|---|---:|---:|---:|---:|
-| A1 | 24 | 72 | 24 | 2.567 |
-| A2 | 24 | 72 | 24 | 2.753 |
-| B1 | 24 | 72 | 24 | 2.731 |
-| B2 | 24 | 72 | 24 | 4.019 |
-
-El banco ofrece modalidades distintas sobre vocabulario y estructuras del curso; su tamaño no cuenta conceptos nuevos ni repeticiones realizadas. Consulta el alcance y los temas B2 en **[TEMARIO_B2.md](TEMARIO_B2.md)**.
-
-Las herramientas comunes incluyen rondas por habilidad, repaso espaciado y de errores, pruebas de comprensión lectora, textos completos con huecos, escritura y mediación con borradores, grabación local, historial y gráficas de actividad. Las nuevas misiones presentan una actividad por pantalla; las guías anteriores se conservan como apoyo.
-
-Al pasar el cursor, enfocar o tocar palabras de los textos aparece ayuda de traducción. Todas las palabras todavía sin marcar como recordadas aparecen en violeta. La ayuda incluye palabra, expresión, frase completa y notas de uso. Las traducciones automáticas adicionales se señalan como orientativas. Las pruebas mantienen ocultas las ayudas que revelarían respuestas.
-
-El laboratorio ofrece 44 sonidos, contrastes, repetición, grabación temporal y dictado. Se retiró el diagrama de la boca. El porcentaje del dictado compara palabras reconocidas, no precisión fonética.
-
-Las nuevas evaluaciones integran lectura, escucha y uso en contexto, con corrección por habilidad, evidencia y tareas libres de escritura y habla.
-
-## Guardado y publicación
-
-Se puede estudiar como invitado. Para cuentas, conserva tu Firebase y publica las reglas actualizadas. Configura también la exención de índices indicada en **PUBLICAR_PASO_A_PASO.md**. Si Google no estaba configurado, la guía original **CONFIGURAR_GOOGLE.md** explica su activación.
-
-Los avances y borradores se guardan por nivel. El reconocimiento de voz depende del navegador y puede enviar audio a su proveedor; la grabación de autoescucha permanece en la pestaña y se puede descargar. No se guardan grabaciones en Firebase.
-
-El proyecto no necesita una API de IA de pago. Las redacciones tienen modelos y autoevaluación, sin inventar una calificación automática. Los servicios de alojamiento y cuentas tienen sus propios límites; el código no activa facturación.
-
-Con Node 22:
+Con Node 22 o superior:
 
 ```sh
 npm ci
-npm test
 npm run build
+npm test
 npm run serve
 ```
 
-Abre `http://localhost:8085`. Netlify usa `npm run build` y publica `public`, según el archivo `netlify.toml` que ya existe en tu proyecto.
+El último comando usa Python y sirve `public/` en `http://localhost:8085`. El código está en `src/`; el proceso de construcción genera `public/build/app.js` y `app.css`. No edites solo esos archivos compilados: una construcción los reemplaza.
 
-## Material y atribución
+La configuración Firebase de esta entrega está vacía. El modo invitado guarda en el navegador. El inicio de sesión Google y la sincronización requieren configurar el proyecto del propietario; no se han probado contra una cuenta real en esta entrega.
 
-- [METODO_B2.md](METODO_B2.md): cómo trabajar el material y qué miden las actividades.
-- [TEMARIO_B2.md](TEMARIO_B2.md): contenido detallado y alcance.
-- [DICCIONARIO_LICENCIA.md](DICCIONARIO_LICENCIA.md): FreeDict/WikDict y la licencia CC BY-SA 3.0 de la adaptación del diccionario.
-- `CMUDICT_LICENSE.txt`: licencia del diccionario de pronunciación ya incluido.
-- `public/assets/phonemes/README.md`: origen de las muestras sintéticas.
-- [VERIFICACION_B2.md](VERIFICACION_B2.md): comprobaciones y límites de la validación.
+## Progreso, corrección y memoria
 
-El contenido B2 original se puede editar en los JSON de `src` o regenerar desde los ocho archivos Python de `scripts/b2`, usando `python3 scripts/b2/build_content.py`. El generador solo utiliza la biblioteca estándar de Python.
+Una misión aprobada con al menos 70 % de las primeras respuestas abre el siguiente paso. Los errores vuelven a practicarse sin inflar esa primera nota. Una misión concede 30 XP una sola vez. Recursos practica y registra respuestas sin desbloquear misiones ni conceder XP extra.
 
-Los nuevos temas originales se editan en `scripts/handbook/`. Ejecuta `python3 scripts/handbook/build.py` para regenerar el manual, los enlaces y el plan de audio. Si cambias una conversación, genera su MP3 antes de publicar; consulta **VOCES.md**.
+La memoria programa revisiones a 1, 3, 7, 14 y 30 días según los aciertos cuando ya toca repasar. Los errores se programan antes; repetir pronto no avanza artificialmente el intervalo. Se conservan los campos de progreso y las claves de lecciones de versiones anteriores. Las nuevas preguntas usan identificadores distintos para no heredar una respuesta de otra pregunta.
+
+El mensaje personal se guarda y se puede comparar con un modelo. No hay un corrector de gramática de texto libre ni un tutor de IA. Las respuestas cerradas usan claves y variantes explícitas; no interpretan todas las paráfrasis posibles. Una nota de reconocimiento de voz mide coincidencia del texto reconocido, no precisión fonética.
+
+## Voz y límites
+
+Hay 1.822 MP3 incluidos, con diez voces sintéticas fijas de personajes. Son voces generadas previamente, no actores humanos. No requieren una API de pago en el sitio. Los textos sin grabación, incluidas algunas palabras y ejemplos, usan las voces instaladas en el navegador. La calidad y disponibilidad de esas voces dependen del dispositivo. El texto sigue accesible si la voz falla.
+
+Completar las actividades no certifica un nivel del MCER. La práctica real, la comprensión de material nuevo y la retroalimentación externa siguen siendo importantes.
+
+## Comprobaciones de esta edición
+
+Consulta **PRUEBAS.md**. Se verificaron construcción, contenido, progreso, memoria, variantes de respuestas, navegación y flujos de las cuatro rutas. No hubo revisión visual en navegador real, pruebas de micrófono físico ni acceso real con Google en esta sesión.
+
+## Archivos útiles
+
+- `NOVEDADES_V11.md`: cambios de esta entrega.
+- `METODOS_Y_FUENTES.md`: diseño de aprendizaje y referencias.
+- `VOCES.md`: reparto, generación y licencias de audio.
+- `TEMARIO_A2.md`, `TEMARIO_B1.md`, `TEMARIO_B2.md`: contenido por nivel.
+- `MANUAL_INGLES_A1_B2.html`: copia de consulta del manual.
+- `tests/`: pruebas automatizadas reproducibles con `npm test`.
+
+Las notas `NOVEDADES_V7.md` a `NOVEDADES_V10.md` se conservan como historial.

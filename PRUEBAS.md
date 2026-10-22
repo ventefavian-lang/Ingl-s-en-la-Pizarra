@@ -1,22 +1,24 @@
-# Verificación de la edición 10
+# Verificación · Edición 11
 
-Comprobaciones del 16 de octubre de 2026:
+Fecha: 20 de octubre de 2026.
 
-- Construcción con `npm run build` y 68 pruebas automatizadas: contenido, claves de respuesta, audio, cuentas, separación de usuarios, importación, sincronización, memoria y la nueva ruta.
-- Las 288 misiones tienen modelos antes de la evaluación, respuestas válidas, una tarea propia al final y recuperación de una idea anterior desde la segunda misión.
-- La ruta abre el primer paso pendiente y conserva misiones completadas en versiones anteriores. Las pruebas verifican el umbral del 70%, la concesión de XP una sola vez y que un intento fallido no abra la siguiente misión.
-- Los datos nuevos se guardan en los campos existentes de progreso. Las respuestas programan repaso sin marcar automáticamente una lección como completada.
-- Pruebas DOM con JSDOM en A1, A2, B1 y B2: 148 comprobaciones de navegación, bloqueos, actividad por pantalla, una misión completa, resultado, borrador, puntos y desbloqueo. Recorrido de 12 apartados en cada nivel.
-- Una prueba adicional completa una misión con un error, lo recupera al final, comprueba que la nota siga siendo 83% y que la memoria guarde ambos intentos. También abre y cierra la ayuda con Escape.
-- El catálogo completo contiene 1.822 archivos MP3 presentes. Se comprueba la decodificación de los 305 nuevos audios con FFmpeg.
-- El ZIP se valida con CRC y presencia de código, compilación, ilustraciones, manual, sonidos, configuración y audios.
+- `npm run build`: construcción correcta con el código final y actualización de traducciones contextuales.
+- `npm test`: 73 pruebas superadas. Incluyen contenido, respuestas y variantes, datos de progreso, separación de cuentas, sincronización simulada, memoria espaciada, audios, conversaciones y rutas progresivas.
+- Auditoría de las 288 misiones: 5.747 actividades corregibles. Todas tienen recuperación escrita, dictado, ayuda de vocabulario, modelos y una tarea personal con mínimo de palabras. Los textos con huecos conservan las posiciones y soluciones del original.
+- Las opciones incorrectas no se aceptan por una normalización demasiado permisiva. Por ejemplo, «Yes, I'm.» no equivale a «Yes, I am.» en una respuesta breve final.
+- Los 99 verbos y 25 guías generan 546 actividades de Recursos, con identificadores distintos y compatibles con el progreso existente. Las variantes británicas y americanas indicadas se aceptan.
+- Pruebas DOM con JSDOM (1413 comprobaciones): navegación de 13 apartados en cada nivel, tabla y búsqueda de verbos, inicio y salida de práctica en la misma ruta, ejercicios de guía y una misión completa por nivel. También se verifican respuestas vacías, dictado, parejas, huecos, borrador propio, nota, guardado y gráfica de 14 días.
+- Una respuesta incorrecta seguida de un reintento correcto mantiene el resultado inicial de 5/6 (83 %) en la guía probada. No se convierte en 100 %.
+- Una misma misión no se duplica en el historial por escribir simultáneamente su resultado y su registro de estudio.
+- Los 1.822 MP3 declarados existen. Se conservan las pruebas de reproducción, cancelación, velocidad y reparto fijo mediante sustitutos de la API de audio.
+- ZIP completo comprobado con CRC y presencia de audios declarados, código fuente, compilación, configuración, imágenes y documentación.
 
-## Límites de estas comprobaciones
+## Límites de verificación
 
-JSDOM verifica estructura y comportamiento; no dibuja la página. **No se ha hecho una revisión visual en navegador real en esta sesión**. Quedan por comprobar el ajuste visual final, la reproducción y los permisos de micrófono en dispositivos reales. Los sustitutos de las API de audio utilizados en las pruebas no prueban un micrófono físico.
+JSDOM comprueba estructura y comportamiento, pero no dibuja la página. **No se ha hecho revisión visual en un navegador real en esta sesión.** Los estilos incluyen puntos de adaptación para móvil y escritorio, pero requieren una comprobación visual final en dispositivos reales.
 
-Google requiere la configuración Firebase del propietario. No se inició sesión con una cuenta real; las pruebas de guardado y separación de cuentas se conservan. El ZIP deja la configuración pública vacía para que conserves la tuya.
+No se probó un micrófono físico ni un acceso real con Google. Firebase requiere la configuración del propietario; el ZIP deja esa plantilla vacía. Las pruebas de cuentas usan adaptadores de prueba.
 
-No se ha evaluado perceptualmente cada pronunciación. Las voces son sintéticas. El porcentaje de dictado compara palabras reconocidas, no precisión fonética. La escritura libre se guarda y ofrece un modelo; no recibe una calificación gramatical automática. Las traducciones heredadas que son orientativas mantienen esa indicación.
+No se evaluó perceptualmente cada audio. Las voces son sintéticas y las frases sin archivo incluido dependen del navegador. La nota de reconocimiento de voz compara palabras reconocidas, no precisión fonética. La escritura personal se guarda sin calificación automática.
 
-Para ejecutar las pruebas: `npm ci`, `npm run build`, `npm test`, usando Node 22 o posterior.
+Las actividades practicadas, el porcentaje de aciertos y los XP no certifican por sí solos un nivel del MCER. Las claves de respuestas cerradas no abarcan todas las paráfrasis posibles.

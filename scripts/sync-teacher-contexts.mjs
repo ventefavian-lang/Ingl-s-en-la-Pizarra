@@ -1,3 +1,4 @@
+import {verbs,guides} from '../src/resource-data.js';
 import fs from 'node:fs';
 import {normaliseText} from '../src/word-context.js';
 const contextPath=new URL('../public/assets/context-help.js',import.meta.url);
@@ -17,4 +18,6 @@ for(const topic of handbook.topics){
 }
 const starters=JSON.parse(fs.readFileSync(new URL('../src/journey-start.json',import.meta.url)));
 for(const m of Object.values(starters))for(const [en,es]of [...m.examples,...m.lines.map(x=>x.slice(1))]){const key=normaliseText(en);contexts[key]={...contexts[key],en,es,use:m.notice,source:'authored'};}
+for(const g of guides)for(const f of g.forms){const key=normaliseText(f.en);contexts[key]={...contexts[key],en:f.en,es:f.es,use:g.rule,source:'authored'};}
+for(const v of verbs){const key=normaliseText(v.example);contexts[key]={...contexts[key],en:v.example,es:v.es,use:v.note||`${v.base} → ${v.past} → ${v.participle}. La frase muestra un uso del pasado.`,source:'authored'};}
 fs.writeFileSync(contextPath,'window.HELLO_CONTEXTS='+JSON.stringify(contexts)+';\n');

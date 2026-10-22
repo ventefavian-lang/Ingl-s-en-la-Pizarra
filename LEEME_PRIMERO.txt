@@ -1,15 +1,18 @@
-HELLO ENGLISH · EDICIÓN 10 · A1, A2, B1 Y B2
+HELLO ENGLISH · EDICIÓN 11
 
-Este ZIP incluye todo: código, web compilada, ilustraciones y audios. No necesitas otro ZIP.
+1. Extrae este ZIP completo.
+2. En tu repositorio de GitHub, reemplaza el proyecto por el contenido extraído.
+   En la raíz deben quedar package.json, package-lock.json, netlify.toml, src y public.
+3. Si ya configuraste Google/Firebase, CONSERVA tu public/firebase-config.js.
+   El archivo de esta entrega es una plantilla sin tus credenciales.
+4. Netlify: comando de construcción npm run build; carpeta publicada public.
+   Con un repositorio conectado y los despliegues automáticos activos, un commit
+   en la rama configurada inicia un nuevo despliegue.
+5. Espera a que el despliegue termine. Recarga la web y busca EDICIÓN 11 al pie.
 
-1. Extrae el ZIP y abre EMPIEZA_AQUI.html para ver las instrucciones.
-2. Si Google ya funciona, guarda una copia de public/firebase-config.js.
-3. En GitHub Desktop abre la carpeta de tu repositorio. Copia dentro TODO el contenido extraído, combina carpetas y reemplaza los archivos.
-4. Restaura tu public/firebase-config.js. No hace falta reiniciar el progreso.
-5. Haz Commit y Push origin. Netlify desplegará la rama conectada si los despliegues automáticos están activados.
+No subas el ZIP como si fuera el código: sube su contenido extraído.
+La carpeta public incluye también la versión compilada para despliegue manual.
+No hace falta pagar una API de IA para estas actividades.
 
-package.json y netlify.toml deben quedar en la raíz del repositorio. No subas el ZIP sin extraer ni pongas todo en un único archivo.
-
-La portada ahora muestra una ruta progresiva: 8 capítulos por nivel, 24 temas y 72 misiones. Las lecciones tienen una actividad por pantalla, modelos, escucha, errores que vuelven y tareas propias. Consulta NOVEDADES_V10.md.
-
-Las cuentas requieren tu configuración Firebase. Si aún no la has hecho, consulta CONFIGURAR_GOOGLE.md y PUBLICAR_PASO_A_PASO.md. El modo invitado funciona sin cuenta.
+Recursos incluye vocabulario por tema, 99 verbos, 25 guías y prácticas.
+Revisa NOVEDADES_V11.md y README.md para los detalles del proyecto.
