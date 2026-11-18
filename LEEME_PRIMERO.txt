@@ -1,3 +1,16 @@
+HELLO ENGLISH V12 — REDISEÑO Y CUENTAS
+
+Esta entrega es una actualización del ZIP original de V11, sin IA.
+
+1. Lee NOVEDADES_V12_DISENO_Y_CUENTAS.md para ver los cambios.
+2. Abre public/index.html mediante un servidor web o publica la carpeta public/.
+3. Para habilitar las cuentas y permitir el acceso a los cursos, lee CONFIGURAR_ACCESO_V12.md.
+4. Hasta que Firebase esté configurado, la pantalla de bienvenida se muestra pero los cursos permanecen cerrados.
+
+IMPORTANTE: los archivos originales public/build/app.js y app.css se conservan por compatibilidad, pero esta versión pública carga los módulos V12 desde public/v12mod/.
+
+---
+
 HELLO ENGLISH · EDICIÓN 11
 
 1. Extrae este ZIP completo.

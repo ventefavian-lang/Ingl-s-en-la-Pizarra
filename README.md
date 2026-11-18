@@ -1,3 +1,13 @@
+# Hello English V12: rediseño y acceso personal
+
+**Esta copia parte del proyecto original V11 y NO incluye todavía inteligencia artificial.**
+
+Para conocer los cambios visuales, de cuentas y enseñanza consulta [NOVEDADES_V12_DISENO_Y_CUENTAS.md](NOVEDADES_V12_DISENO_Y_CUENTAS.md). Para habilitar el registro antes de que entren estudiantes, sigue [CONFIGURAR_ACCESO_V12.md](CONFIGURAR_ACCESO_V12.md).
+
+La carpeta `public/` puede publicarse directamente usando la versión ES Modules incluida (`public/v12mod/`). El acceso a los cursos está bloqueado hasta configurar Firebase.
+
+---
+
 # Hello English · Edición 11
 
 Curso interactivo para practicar inglés A1, A2, B1 y B2. Este ZIP contiene el proyecto completo para GitHub y Netlify, los archivos compilados y los audios. Empieza por **EMPIEZA_AQUI.html** o **LEEME_PRIMERO.txt**.

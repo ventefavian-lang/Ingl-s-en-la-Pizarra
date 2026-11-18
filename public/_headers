@@ -9,3 +9,8 @@
   Cache-Control: no-cache
 /assets/context-help.js
   Cache-Control: no-cache
+
+/v12mod/*
+  Cache-Control: no-cache
+/v12.css
+  Cache-Control: no-cache

@@ -1,5 +1,5 @@
 import {initializeApp} from 'firebase/app';
-import {getAuth,GoogleAuthProvider,signInWithPopup,signOut,onAuthStateChanged,setPersistence,browserSessionPersistence} from 'firebase/auth';
+import {getAuth,GoogleAuthProvider,signInWithPopup,signOut,onAuthStateChanged,setPersistence,browserLocalPersistence,createUserWithEmailAndPassword,signInWithEmailAndPassword,sendPasswordResetEmail,updateProfile} from 'firebase/auth';
 import {getFirestore,doc,getDocFromServer,runTransaction,serverTimestamp} from 'firebase/firestore';
 import {cleanProgress,mergeProgress} from './progress.js';
 export function configured(c){return !!c&&['apiKey','authDomain','projectId','appId'].every(k=>typeof c[k]==='string'&&c[k].trim().length>0&&!c[k].includes('REEMPLAZAR'));}
@@ -7,14 +7,22 @@ export function createFirebaseAdapter(config,courseId='a1'){
  if(!configured(config))return null;
  const app=initializeApp(config),auth=getAuth(app),db=getFirestore(app),provider=new GoogleAuthProvider();
  provider.setCustomParameters({prompt:'select_account'});
- // La cuenta no queda iniciada indefinidamente al cerrar la pestaña.
- const ready=setPersistence(auth,browserSessionPersistence);ready.catch(()=>{});
+ // Mantener sesión entre visitas hasta que el estudiante cierre sesión explícitamente.
+ const ready=setPersistence(auth,browserLocalPersistence);ready.catch(()=>{});
  const ref=uid=>doc(db,'users',uid,'courses',courseId);
  const unpack=s=>s.exists()?{...s.data(),progress:cleanProgress(s.data().progress)}:{epoch:0,revision:0,progress:cleanProgress(null),appliedWrites:[]};
  const data=(remote,progress,id,epoch)=>({schemaVersion:1,courseId,epoch,revision:(remote.revision||0)+1,progress:cleanProgress(progress),appliedWrites:[...(remote.appliedWrites||[]),id].slice(-100),updatedAt:serverTimestamp()});
  return{
   watchAuth:(success,error)=>onAuthStateChanged(auth,success,error),
   signIn:async()=>{await ready;return signInWithPopup(auth,provider);},
+  signUp:async(email,password,name)=>{
+   await ready;
+   const created=await createUserWithEmailAndPassword(auth,email,password);
+   if(name){try{await updateProfile(created.user,{displayName:name.slice(0,40)});}catch{ /* La cuenta ya existe; el nombre se puede ajustar después. */ }}
+   return created;
+  },
+  signInWithPassword:async(email,password)=>{await ready;return signInWithEmailAndPassword(auth,email,password);},
+  resetPassword:async email=>{await ready;await sendPasswordResetEmail(auth,email);},
   signOut:()=>signOut(auth),
   read:async uid=>unpack(await getDocFromServer(ref(uid))),
   commit:(uid,pending)=>runTransaction(db,async tx=>{
