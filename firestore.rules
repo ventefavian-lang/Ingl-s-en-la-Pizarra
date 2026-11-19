@@ -1,0 +1,85 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  function owner(uid) { return request.auth != null && request.auth.uid == uid; }
+  function validProgress(p) {
+   return p is map
+    && p.keys().hasAll(['version','completed','activity','errors','vocab','writing','checks','speech','exam','xp','goal','accent','name'])
+    && p.keys().hasOnly(['version','completed','activity','errors','vocab','writing','readings','readingNotes','diagnostic','personalPhrases','branching','videoLessons','pronunciationDrills','capstones','mastery','masteryDrafts','study','studyDrafts','workbook','portfolio','conversations','lexicon','studyLog','checks','speech','exam','xp','goal','accent','name'])
+    && p.version == 1
+    && p.completed is map && p.completed.size() <= 72
+    && p.activity is map && p.activity.size() <= 3660
+    && p.errors is map && p.errors.size() <= 600
+    && p.vocab is map && p.vocab.size() <= 1000
+    && p.writing is map && p.writing.size() <= 24
+    && (!('readingNotes' in p) || (p.readingNotes is map && p.readingNotes.size() <= 48))
+    && (!('readings' in p) || (p.readings is map && p.readings.size() <= 48))
+    && (!('diagnostic' in p) || p.diagnostic == null || (p.diagnostic is map && p.diagnostic.score is number && p.diagnostic.score >= 0 && p.diagnostic.score <= 100))
+    && (!('personalPhrases' in p) || (p.personalPhrases is map && p.personalPhrases.size() <= 180))
+    && (!('branching' in p) || (p.branching is map && p.branching.size() <= 32))
+    && (!('videoLessons' in p) || (p.videoLessons is map && p.videoLessons.size() <= 16))
+    && (!('pronunciationDrills' in p) || (p.pronunciationDrills is map && p.pronunciationDrills.size() <= 25))
+    && (!('capstones' in p) || (p.capstones is map && p.capstones.size() <= 24))
+    && (!('mastery' in p) || (p.mastery is map && p.mastery.size() <= 24))
+    && (!('masteryDrafts' in p) || (p.masteryDrafts is map && p.masteryDrafts.size() <= 24))
+    && (!('study' in p) || (p.study is map && p.study.size() <= 360))
+    && (!('studyDrafts' in p) || (p.studyDrafts is map && p.studyDrafts.size() <= 192))
+    && (!('workbook' in p) || (p.workbook is map && p.workbook.size() <= 6500))
+    && (!('portfolio' in p) || (p.portfolio is map && p.portfolio.size() <= 72))
+    && (!('conversations' in p) || (p.conversations is map && p.conversations.size() <= 12))
+    && (!('lexicon' in p) || (p.lexicon is map && p.lexicon.size() <= 3000))
+    && (!('studyLog' in p) || (p.studyLog is list && p.studyLog.size() <= 200))
+    && p.checks is list && p.checks.size() <= 50
+    && p.speech is list && p.speech.size() <= 100
+    && p.exam is list && p.exam.size() <= 12
+    && p.xp is int && p.xp >= 0 && p.xp <= 1000000
+    && p.goal in [5,10,15,20]
+    && p.accent in ['en-US','en-GB']
+    && p.name is string && p.name.size() <= 30;
+  }
+  function validDocument(d, courseId) {
+   return d.keys().hasAll(['schemaVersion','courseId','epoch','revision','progress','appliedWrites','updatedAt'])
+    && d.keys().hasOnly(['schemaVersion','courseId','epoch','revision','progress','appliedWrites','updatedAt'])
+    && d.schemaVersion == 1 && d.courseId == courseId
+    && d.epoch is int && d.epoch >= 0
+    && d.revision is int && d.revision >= 1
+    && d.appliedWrites is list && d.appliedWrites.size() >= 1 && d.appliedWrites.size() <= 100
+    && d.updatedAt == request.time
+    && validProgress(d.progress);
+  }
+  match /users/{uid}/courses/{courseId} {
+   allow get: if owner(uid) && courseId in ['a1','a2','b1','b2'];
+   allow list: if false;
+   allow create: if owner(uid) && courseId in ['a1','a2','b1','b2']
+    && validDocument(request.resource.data, courseId)
+    && request.resource.data.revision == 1
+    && request.resource.data.epoch in [0,1];
+   allow update: if owner(uid) && courseId in ['a1','a2','b1','b2']
+    && validDocument(request.resource.data, courseId)
+    // Un cliente anterior no puede borrar campos de talleres que ya existen.
+    && (!('readingNotes' in resource.data.progress) || ('readingNotes' in request.resource.data.progress))
+    && (!('readings' in resource.data.progress) || ('readings' in request.resource.data.progress))
+    && (!('diagnostic' in resource.data.progress) || ('diagnostic' in request.resource.data.progress))
+    && (!('personalPhrases' in resource.data.progress) || ('personalPhrases' in request.resource.data.progress))
+    && (!('branching' in resource.data.progress) || ('branching' in request.resource.data.progress))
+    && (!('videoLessons' in resource.data.progress) || ('videoLessons' in request.resource.data.progress))
+    && (!('pronunciationDrills' in resource.data.progress) || ('pronunciationDrills' in request.resource.data.progress))
+    && (!('capstones' in resource.data.progress) || ('capstones' in request.resource.data.progress))
+    && (!('mastery' in resource.data.progress) || ('mastery' in request.resource.data.progress))
+    && (!('masteryDrafts' in resource.data.progress) || ('masteryDrafts' in request.resource.data.progress))
+    && (!('study' in resource.data.progress) || ('study' in request.resource.data.progress))
+    && (!('studyDrafts' in resource.data.progress) || ('studyDrafts' in request.resource.data.progress))
+    && (!('workbook' in resource.data.progress) || ('workbook' in request.resource.data.progress))
+    && (!('portfolio' in resource.data.progress) || ('portfolio' in request.resource.data.progress))
+    && (!('conversations' in resource.data.progress) || ('conversations' in request.resource.data.progress))
+    && (!('lexicon' in resource.data.progress) || ('lexicon' in request.resource.data.progress))
+    && (!('studyLog' in resource.data.progress) || ('studyLog' in request.resource.data.progress))
+    && request.resource.data.revision == resource.data.revision + 1
+    && request.resource.data.epoch in [resource.data.epoch,resource.data.epoch + 1];
+   // El borrado de progreso escribe un estado vacío y cambia epoch, para que
+   // otro dispositivo antiguo no vuelva a subir el avance borrado.
+   allow delete: if false;
+  }
+  match /{document=**} { allow read, write: if false; }
+ }
+}

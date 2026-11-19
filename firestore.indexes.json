@@ -1,0 +1,10 @@
+{
+  "indexes": [],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "courses",
+      "fieldPath": "progress",
+      "indexes": []
+    }
+  ]
+}

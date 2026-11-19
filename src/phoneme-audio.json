@@ -1,0 +1,237 @@
+{
+  "iy": {
+    "phoneme": "i:",
+    "duration": 407,
+    "peak": 13760
+  },
+  "ih": {
+    "phoneme": "I",
+    "duration": 312,
+    "peak": 16931
+  },
+  "eh": {
+    "phoneme": "E",
+    "duration": 333,
+    "peak": 21783
+  },
+  "ae": {
+    "phoneme": "a",
+    "duration": 386,
+    "peak": 19235
+  },
+  "aa": {
+    "phoneme": "A:",
+    "duration": 502,
+    "peak": 18779
+  },
+  "lot": {
+    "phoneme": "0",
+    "duration": 333,
+    "peak": 16531
+  },
+  "ao": {
+    "phoneme": "O:",
+    "duration": 503,
+    "peak": 21692
+  },
+  "uh": {
+    "phoneme": "U",
+    "duration": 365,
+    "peak": 19506
+  },
+  "uw": {
+    "phoneme": "u:",
+    "duration": 470,
+    "peak": 15216
+  },
+  "ah": {
+    "phoneme": "V",
+    "duration": 344,
+    "peak": 22880
+  },
+  "ergb": {
+    "phoneme": "3:",
+    "duration": 471,
+    "peak": 18083
+  },
+  "ax": {
+    "phoneme": "@",
+    "duration": 344,
+    "peak": 19918
+  },
+  "ey": {
+    "phoneme": "eI",
+    "duration": 449,
+    "peak": 19206
+  },
+  "ay": {
+    "phoneme": "aI",
+    "duration": 513,
+    "peak": 21487
+  },
+  "oy": {
+    "phoneme": "OI",
+    "duration": 492,
+    "peak": 27781
+  },
+  "owgb": {
+    "phoneme": "@U",
+    "duration": 470,
+    "peak": 20237
+  },
+  "aw": {
+    "phoneme": "aU",
+    "duration": 502,
+    "peak": 19252
+  },
+  "ia": {
+    "phoneme": "I@",
+    "duration": 428,
+    "peak": 20463
+  },
+  "ea": {
+    "phoneme": "E@",
+    "duration": 436,
+    "peak": 20667
+  },
+  "ua": {
+    "phoneme": "U@",
+    "duration": 450,
+    "peak": 18134
+  },
+  "p": {
+    "phoneme": "p",
+    "duration": 132,
+    "peak": 1720
+  },
+  "b": {
+    "phoneme": "b",
+    "duration": 56,
+    "peak": 798
+  },
+  "t": {
+    "phoneme": "t",
+    "duration": 94,
+    "peak": 2223
+  },
+  "d": {
+    "phoneme": "d",
+    "duration": 55,
+    "peak": 1782
+  },
+  "k": {
+    "phoneme": "k",
+    "duration": 93,
+    "peak": 3495
+  },
+  "g": {
+    "phoneme": "g",
+    "duration": 65,
+    "peak": 3018
+  },
+  "f": {
+    "phoneme": "f",
+    "duration": 189,
+    "peak": 911
+  },
+  "v": {
+    "phoneme": "v",
+    "duration": 113,
+    "peak": 1437
+  },
+  "th": {
+    "phoneme": "T",
+    "duration": 155,
+    "peak": 1205
+  },
+  "dh": {
+    "phoneme": "D",
+    "duration": 112,
+    "peak": 2402
+  },
+  "s": {
+    "phoneme": "s",
+    "duration": 187,
+    "peak": 3343
+  },
+  "z": {
+    "phoneme": "z",
+    "duration": 133,
+    "peak": 2982
+  },
+  "sh": {
+    "phoneme": "S",
+    "duration": 187,
+    "peak": 5560
+  },
+  "zh": {
+    "phoneme": "Z",
+    "duration": 122,
+    "peak": 3338
+  },
+  "ch": {
+    "phoneme": "tS",
+    "duration": 146,
+    "peak": 4254
+  },
+  "jh": {
+    "phoneme": "dZ",
+    "duration": 115,
+    "peak": 2705
+  },
+  "m": {
+    "phoneme": "mmmm",
+    "duration": 379,
+    "peak": 3885
+  },
+  "n": {
+    "phoneme": "nnnn",
+    "duration": 104,
+    "peak": 3673
+  },
+  "ng": {
+    "phoneme": "NNNN",
+    "duration": 380,
+    "peak": 5113
+  },
+  "h": {
+    "phoneme": "h",
+    "duration": 129,
+    "peak": 959
+  },
+  "l": {
+    "phoneme": "l",
+    "duration": 74,
+    "peak": 3450
+  },
+  "r": {
+    "phoneme": "r",
+    "duration": 88,
+    "peak": 6109
+  },
+  "w": {
+    "phoneme": "w",
+    "duration": 118,
+    "peak": 6602
+  },
+  "y": {
+    "phoneme": "j",
+    "duration": 88,
+    "peak": 4699
+  },
+  "er": {
+    "phoneme": "3:",
+    "duration": 503,
+    "peak": 13941
+  },
+  "axr": {
+    "phoneme": "@r",
+    "duration": 376,
+    "peak": 14094
+  },
+  "ow": {
+    "phoneme": "oU",
+    "duration": 544,
+    "peak": 15375
+  }
+}

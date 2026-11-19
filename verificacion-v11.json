@@ -1,0 +1,50 @@
+{
+  "content": {
+    "missions": 288,
+    "gradedActivities": 5747,
+    "types": {
+      "choice": 2647,
+      "order": 1142,
+      "typed": 1006,
+      "dictation": 576,
+      "match": 282,
+      "cloze": 94
+    }
+  },
+  "dom": {
+    "checks": 1413,
+    "report": [
+      {
+        "level": "a1",
+        "routes": 13,
+        "missionItems": 11,
+        "errors": []
+      },
+      {
+        "level": "a2",
+        "routes": 13,
+        "missionItems": 27,
+        "errors": []
+      },
+      {
+        "level": "b1",
+        "routes": 13,
+        "missionItems": 27,
+        "errors": []
+      },
+      {
+        "level": "b2",
+        "routes": 13,
+        "missionItems": 27,
+        "errors": []
+      }
+    ]
+  },
+  "unitTests": {
+    "passed": 73,
+    "failed": 0
+  },
+  "visualBrowserReview": false,
+  "realGoogleLoginTest": false,
+  "physicalMicrophoneTest": false
+}
