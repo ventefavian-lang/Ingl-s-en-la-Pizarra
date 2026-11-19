@@ -7,6 +7,7 @@ const isId = value => /^(c1|c2)-(0[1-9]|1[0-2])$/.test(value || '');
 const getLesson = id => isId(id) ? curriculum.find(l => l.id === id) : undefined;
 let currentStore = null;
 let quiz = null;
+let quizUser = null;
 const summary = (p,level) => {
  const data = curriculum.filter(x=>!level || x.level===level);
  return {total:data.length, attempted:data.filter(x=>p.mastery?.[x.id]?.attempts).length, passed:data.filter(x=>p.mastery?.[x.id]?.best>=70).length};
@@ -75,6 +76,9 @@ function resultView(l){
  <div class="mastery-review">${l.questions.map((q,i)=>`<article><span class="mastery-review-mark">${quiz.answers[i]===q.answer?'✓':'↻'}</span><div><b>${i+1}. ${esc(q.prompt)}</b><p>Tu respuesta: ${esc(q.options[quiz.answers[i]] || 'Sin respuesta')}</p><p>Respuesta correcta: <b>${esc(q.options[q.answer])}</b></p><small>${esc(q.why)}</small></div></article>`).join('')}</div>`);
 }
 export function renderMastery(store,id='',stage=''){
+ // Nunca conservar el examen anterior cuando cambia la identidad autenticada.
+ const activeUid=store.user?.uid ?? null;
+ if(activeUid!==quizUser){quiz=null;quizUser=activeUid;}
  currentStore=store;
  if(store.courseId!=='b2')return root(intro('NIVEL AVANZADO','Abre tu academia desde B2','Para guardar C1 y C2 en un solo lugar, esta extensión utiliza el espacio de progreso B2 de tu cuenta.')+btn('?level=b2#mastery'+(id?'/'+id:''),'Continuar en la academia C1–C2'));
  if(!id || id==='c1' || id==='c2')return library(id);

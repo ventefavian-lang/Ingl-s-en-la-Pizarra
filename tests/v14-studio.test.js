@@ -60,5 +60,5 @@ test('all engines expose V14 routes, rules and published module',()=>{
   const code=fs.readFileSync('src/'+name,'utf8');assert.match(code,/renderV14\(/);assert.match(code,/renderV14ProgressLink\(/);
  }
  const rules=fs.readFileSync('firestore.rules','utf8');for(const field of ['diagnostic','personalPhrases','branching','videoLessons','pronunciationDrills','capstones'])assert.ok(rules.includes(`'${field}'`));
- const html=fs.readFileSync('public/index.html','utf8');assert.match(html,/v12mod\/main\.js\?v=1[45]/);assert.ok(fs.existsSync('public/v12mod/v14-videos.json.js'));
+ const html=fs.readFileSync('public/index.html','utf8');assert.match(html,/v12mod\/main\.js\?v=1[456]/);assert.ok(fs.existsSync('public/v12mod/v14-videos.json.js'));
 });

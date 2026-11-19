@@ -80,6 +80,43 @@ service cloud.firestore {
    // otro dispositivo antiguo no vuelva a subir el avance borrado.
    allow delete: if false;
   }
+  // V16: only a signed-in student can opt in to the public leaderboard.
+  // A Firebase Admin SDK custom claim (not a password embedded in the site) grants admin rights.
+  function adminUser() { return request.auth != null && request.auth.token.admin == true; }
+  function courseXp(uid,level) {
+   return exists(/databases/$(database)/documents/users/$(uid)/courses/$(level))
+    ? get(/databases/$(database)/documents/users/$(uid)/courses/$(level)).data.progress.xp : 0;
+  }
+  function cloudXp(uid) { return courseXp(uid,'a1') + courseXp(uid,'a2') + courseXp(uid,'b1') + courseXp(uid,'b2'); }
+  function validRank(uid,d) {
+   return d.keys().hasAll(['alias','country','score','updatedAt'])
+    && d.keys().hasOnly(['alias','country','score','updatedAt'])
+    && d.alias is string && d.alias.size() >= 3 && d.alias.size() <= 20
+    && d.country is string && d.country.matches('^[A-Z]{2}$')
+    && d.score is int && d.score >= 0 && d.score <= 4000000
+    && d.score == cloudXp(uid)
+    && d.updatedAt == request.time;
+  }
+  match /leaderboard/{uid} {
+   allow get, list: if request.auth != null;
+   allow create, update: if owner(uid) && validRank(uid,request.resource.data);
+   allow delete: if owner(uid) || adminUser();
+  }
+  // Minimal private administrative overview; no email, messages, passwords or essays.
+  function validSummary(uid,d) {
+   return d.keys().hasAll(['score','level','updatedAt'])
+    && d.keys().hasOnly(['score','level','updatedAt'])
+    && d.score is int && d.score >= 0 && d.score <= 4000000
+    && d.score == cloudXp(uid)
+    && d.level in ['a1','a2','b1','b2']
+    && d.updatedAt == request.time;
+  }
+  match /studentSummaries/{uid} {
+   allow get: if owner(uid) || adminUser();
+   allow list: if adminUser();
+   allow create, update: if owner(uid) && validSummary(uid,request.resource.data);
+   allow delete: if owner(uid) || adminUser();
+  }
   match /{document=**} { allow read, write: if false; }
  }
 }

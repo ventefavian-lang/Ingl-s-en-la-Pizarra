@@ -2,20 +2,20 @@ import {recordAutomaticEvents} from './practice-memory.js';
 import {freshProgress,cleanProgress,clone,equal,mergeProgress,readRecord,hasLearning} from './progress.js';
 export class AccountStore {
  constructor({adapter=null,storage,courseId='a1',delay=1800,id=()=>globalThis.crypto.randomUUID()}) {
-  this.courseId=courseId;this.adapter=adapter;this.storage=storage;this.delay=delay;this.id=id;this.user=null;this.scope='guest';this.seq=0;this.listeners=new Set();this.status=adapter?'connecting':'not-configured';this.message='';this.localAvailable=true;this.record=readRecord(storage,this.key());this.running=null;this.timer=null;
+  this.courseId=courseId;this.adapter=adapter;this.storage=storage;this.delay=delay;this.id=id;this.user=null;this.admin=false;this.scope='guest';this.seq=0;this.listeners=new Set();this.status=adapter?'connecting':'not-configured';this.message='';this.localAvailable=true;this.record=readRecord(storage,this.key());this.running=null;this.timer=null;
   try{if(!storage.getItem(this.key())){const old=JSON.parse(storage.getItem('hello-'+this.courseId+'-v1')||'null');if(old && (this.courseId==='a1'?old.version===1:this.courseId==='a2'?old.version===2&&old.course==='A2':this.courseId==='b1'?old.version===3&&old.course==='B1':false))this.record.state=cleanProgress(old);}}catch{this.localAvailable=false;}
   this.persist();
  }
  key(scope=this.scope){return 'hello-english:'+this.courseId+':'+scope;}
  getState(){return clone(this.record.state);}
- snapshot(){return{user:this.user?{uid:this.user.uid,displayName:this.user.displayName||'',email:this.user.email||''}:null,scope:this.scope,status:this.status,message:this.message,configured:!!this.adapter,dirty:this.record.dirty,lastSynced:this.record.lastSynced,localAvailable:this.localAvailable,progress:this.getState(),guestAvailable:hasLearning(readRecord(this.storage,this.key('guest')).state)};}
+ snapshot(){return{user:this.user?{uid:this.user.uid,displayName:this.user.displayName||'',email:this.user.email||''}:null,scope:this.scope,status:this.status,message:this.message,admin:this.admin,configured:!!this.adapter,dirty:this.record.dirty,lastSynced:this.record.lastSynced,localAvailable:this.localAvailable,progress:this.getState(),guestAvailable:hasLearning(readRecord(this.storage,this.key('guest')).state)};}
  subscribe(fn){this.listeners.add(fn);fn(this.snapshot(),{kind:'initial'});return()=>this.listeners.delete(fn);}
  emit(kind='status'){const snapshot=this.snapshot();for(const fn of this.listeners)fn(snapshot,{kind});}
  persist(){try{this.storage.setItem(this.key(),JSON.stringify(this.record));}catch{this.localAvailable=false;}}
  start(){if(!this.adapter){this.emit();return;}this.stopAuth=this.adapter.watchAuth(user=>this.setUser(user),error=>{this.status='error';this.message=this.explain(error);this.emit();});}
  async setUser(user){
-  const token=++this.seq;clearTimeout(this.timer);this.running=null;this.user=user;this.scope=user?user.uid:'guest';this.record=readRecord(this.storage,this.key());this.message='';this.status=user?'loading':(this.adapter?'guest':'not-configured');this.emit('scope');
-  if(user)await this.sync(token);
+  const token=++this.seq;clearTimeout(this.timer);this.running=null;this.user=user;this.admin=false;this.lastRankSync=0;this.scope=user?user.uid:'guest';this.record=readRecord(this.storage,this.key());this.message='';this.status=user?'loading':(this.adapter?'guest':'not-configured');this.emit('scope');
+  if(user){try{this.admin=!!(await this.adapter?.getRole?.());if(token===this.seq)this.emit('role');}catch{this.admin=false;}await this.sync(token);}
  }
  save(progress){this.record.state=recordAutomaticEvents(this.record.state,cleanProgress(progress));this.record.dirty=this.user?!equal(this.record.state,this.record.base):false;this.persist();this.message='';this.status=this.user?(this.record.dirty?'pending':'saved'):(this.adapter?'guest':'not-configured');this.emit('local');if(this.user)this.schedule();}
  schedule(){clearTimeout(this.timer);if(this.user)this.timer=setTimeout(()=>this.sync(),this.delay);}
@@ -60,7 +60,11 @@ export class AccountStore {
     else this.record.state=mergeProgress(this.record.base,this.record.state,remote);
     this.record.base=remote;this.record.epoch=epoch;this.record.dirty=!equal(this.record.state,this.record.base);
    }
-   this.record.lastSynced=new Date().toISOString();this.status=this.record.dirty?'pending':'saved';this.persist();this.emit('remote');return true;
+   this.record.lastSynced=new Date().toISOString();this.status=this.record.dirty?'pending':'saved';this.persist();this.emit('remote');
+   // Summary only, with no essays or personal conversations; throttle Firestore reads.
+   if(!this.record.dirty&&this.adapter?.publishSummary&&Date.now()-(this.lastSummaryTime||0)>900000){this.lastSummaryTime=Date.now();void this.adapter.publishSummary(uid,this.courseId).catch(()=>{});}
+   if(!this.record.dirty&&this.adapter?.refreshRankIfOptedIn&&Date.now()-(this.lastRankSync||0)>60000){this.lastRankSync=Date.now();void this.adapter.refreshRankIfOptedIn(uid).catch(()=>{});}
+   return true;
   }catch(e){if(token!==this.seq)return false;this.status='error';this.message=this.explain(e);this.persist();this.emit();return false;}
  }
  async replace(progress){

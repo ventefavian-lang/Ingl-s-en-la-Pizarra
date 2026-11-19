@@ -38,44 +38,44 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Convenience is useful when its hidden costs are considered.",
           "All digital services should be prohibited.",
+          "Convenience is useful when its hidden costs are considered.",
           "Convenience always benefits every participant equally."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
+          "Customers alone are responsible for every working condition.",
           "Every courier prefers traditional employment.",
-          "Fairer rules could preserve useful services while reducing harm.",
-          "Customers alone are responsible for every working condition."
+          "Fairer rules could preserve useful services while reducing harm."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “overlook” most nearly mean?",
         "options": [
-          "equilibrio entre costes y beneficios",
           "repartidor",
-          "pasar por alto"
+          "pasar por alto",
+          "equilibrio entre costes y beneficios"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “overlook” se utiliza con el sentido de «pasar por alto»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The text mentions unpredictable schedules and platform visibility.",
+          "Customers never benefit from delivery.",
           "Delivery platforms are universally free.",
-          "Customers never benefit from delivery."
+          "The text mentions unpredictable schedules and platform visibility."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
@@ -83,10 +83,10 @@
         "prompt": "Choose the sentence that best illustrates “Concession: although / notwithstanding”.",
         "options": [
           "Despite delivery apps save time, workers pay more.",
-          "Although of the convenience, workers face costs.",
-          "Although delivery apps save time, they may shift costs onto workers."
+          "Although delivery apps save time, they may shift costs onto workers.",
+          "Although of the convenience, workers face costs."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Although introduce una concesión; notwithstanding puede ser más formal, y despite se construye con nombre o -ing."
       }
     ],
@@ -144,44 +144,44 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "The school manipulated every score intentionally.",
           "Changes in testing conditions could affect the reported improvement.",
+          "The school manipulated every score intentionally.",
           "The programme definitely reduced every student’s reading ability."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “apparent precision” most nearly mean?",
         "options": [
-          "equiparable",
           "suposición",
-          "precisión aparente"
+          "precisión aparente",
+          "equiparable"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “apparent precision” se utiliza con el sentido de «precisión aparente»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The report excludes students who did not complete both tests.",
           "The scores were collected in the same exact assessment.",
-          "All students took both assessments."
+          "All students took both assessments.",
+          "The report excludes students who did not complete both tests."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Hedging: may / appears to / is likely to”.",
         "options": [
+          "The survey appears to suggest a change in attitudes.",
           "The survey proves what everyone will think forever.",
-          "The results appears suggesting a universal truth.",
-          "The survey appears to suggest a change in attitudes."
+          "The results appears suggesting a universal truth."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En textos académicos, may, appears to y is likely to evitan convertir una correlación o muestra parcial en una afirmación absoluta."
       }
     ],
@@ -228,30 +228,30 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Transport efficiency should include accessibility as well as speed.",
+          "The fastest average route always serves everyone equally.",
           "Every rapid bus route excludes every passenger.",
-          "The fastest average route always serves everyone equally."
+          "Transport efficiency should include accessibility as well as speed."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
+          "Traffic models contain no useful information whatsoever.",
           "Consultation guarantees all conflicts will disappear.",
-          "Consultation is more effective when it happens before decisions are final.",
-          "Traffic models contain no useful information whatsoever."
+          "Consultation is more effective when it happens before decisions are final."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “barrier” most nearly mean?",
         "options": [
-          "planificación inclusiva",
           "persona que se desplaza a diario",
+          "planificación inclusiva",
           "obstáculo"
         ],
         "answer": 2,
@@ -261,22 +261,22 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
+          "The text recommends removing all stations.",
           "Steps, night schedules and unsafe walking access are named barriers.",
-          "The text argues that all buses are too expensive.",
-          "The text recommends removing all stations."
+          "The text argues that all buses are too expensive."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Negative inversion: rarely / not only”.",
         "options": [
-          "Rarely planners do ask who cannot use the route.",
           "Not only the buses are frequent, but are also cheap.",
-          "Rarely do planners ask who cannot use the new route."
+          "Rarely do planners ask who cannot use the new route.",
+          "Rarely planners do ask who cannot use the route."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Después de expresiones negativas al inicio, se invierte el auxiliar: Rarely do we...; Not only does... but it also..."
       }
     ],
@@ -323,52 +323,52 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Urban trees require long-term and equitable planning to provide benefits.",
+          "Tree survival is irrelevant once a planting event ends.",
           "Planting any tree solves every urban environmental problem.",
-          "Tree survival is irrelevant once a planting event ends."
+          "Urban trees require long-term and equitable planning to provide benefits."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
+          "All neighbourhoods receive identical maintenance.",
           "Roots always prevent every flood.",
-          "Survival and access to shade may be better measures than planting totals alone.",
-          "All neighbourhoods receive identical maintenance."
+          "Survival and access to shade may be better measures than planting totals alone."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “canopy” most nearly mean?",
         "options": [
-          "mantenimiento",
+          "copa de los árboles",
           "sobrevivir",
-          "copa de los árboles"
+          "mantenimiento"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “canopy” se utiliza con el sentido de «copa de los árboles»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The passage contrasts planting totals with survival and distribution.",
+          "The passage claims species never matter.",
           "The passage recommends planting only decorative plants.",
-          "The passage claims species never matter."
+          "The passage contrasts planting totals with survival and distribution."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Participle clauses”.",
         "options": [
-          "Providing shade, the pavement is improved by trees.",
           "Provided shading, trees makes pavements cooler.",
+          "Providing shade, the pavement is improved by trees.",
           "Providing shade, the trees make the pavement more comfortable."
         ],
         "answer": 2,
@@ -419,8 +419,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "A good translation preserves intentions and tone as well as facts.",
-          "Grammatical accuracy makes all translations socially identical.",
-          "Cultural context has no place in communication."
+          "Cultural context has no place in communication.",
+          "Grammatical accuracy makes all translations socially identical."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -440,11 +440,11 @@
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “abrupt” most nearly mean?",
         "options": [
-          "lugar del evento",
           "equivalente",
-          "brusco"
+          "brusco",
+          "lugar del evento"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “abrupt” se utiliza con el sentido de «brusco»."
       },
       {
@@ -463,10 +463,10 @@
         "prompt": "Choose the sentence that best illustrates “Register and audience”.",
         "options": [
           "Confirm accessible venue immediately, you people.",
-          "I hereby demand the place is good, yeah?",
-          "Would you mind confirming whether the venue is accessible?"
+          "Would you mind confirming whether the venue is accessible?",
+          "I hereby demand the place is good, yeah?"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Un mensaje eficaz ajusta cortesía, estructura y elección léxica al público sin modificar los hechos."
       }
     ],
@@ -513,11 +513,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Attention is influenced by both personal choices and design incentives.",
           "All digital tools necessarily damage concentration.",
+          "Attention is influenced by both personal choices and design incentives.",
           "Individual habits are the only possible influence on attention."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -525,10 +525,10 @@
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
           "Every user checks apps for exactly the same reason.",
-          "Metrics that reward time spent can favour prolonged engagement.",
-          "Turning off alerts completely guarantees perfect concentration."
+          "Turning off alerts completely guarantees perfect concentration.",
+          "Metrics that reward time spent can favour prolonged engagement."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -546,19 +546,19 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The text describes a sequence of prompts and engagement metrics.",
           "The author proposes banning all phones.",
+          "The text describes a sequence of prompts and engagement metrics.",
           "The passage says response delays always show laziness."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Nominalisation in formal writing”.",
         "options": [
-          "The reduce of notifications helped concentration.",
           "Notifications were reduction concentration.",
+          "The reduce of notifications helped concentration.",
           "The reduction of notifications improved concentration."
         ],
         "answer": 2,
@@ -620,18 +620,18 @@
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
           "Every disagreement is equally supported by evidence.",
-          "Explaining disputed interpretations can make an exhibition more informative.",
-          "More text automatically guarantees better exhibitions."
+          "More text automatically guarantees better exhibitions.",
+          "Explaining disputed interpretations can make an exhibition more informative."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “curator” most nearly mean?",
         "options": [
-          "disputado",
           "texto explicativo",
+          "disputado",
           "conservador de museo"
         ],
         "answer": 2,
@@ -641,22 +641,22 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The text proposes distinguishing documented facts from contested readings.",
           "The object’s physical size determines all interpretations.",
+          "The text proposes distinguishing documented facts from contested readings.",
           "The author says museums should have no captions."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Cleft sentences for emphasis”.",
         "options": [
-          "What visitors need are a clear account how the object arrived.",
           "It was the labels what explained its arrival.",
-          "What visitors need is a clear account of how the object arrived."
+          "What visitors need is a clear account of how the object arrived.",
+          "What visitors need are a clear account how the object arrived."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Las estructuras It is ... that y What ... is ... destacan la información decisiva; no deben confundirse con afirmaciones nuevas."
       }
     ],
@@ -704,8 +704,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "Open research should balance scrutiny with responsible privacy protections.",
-          "Researchers must publish every personal detail without exception.",
-          "Withholding methodology always makes a claim more credible."
+          "Withholding methodology always makes a claim more credible.",
+          "Researchers must publish every personal detail without exception."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -714,11 +714,11 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
+          "Privacy automatically makes independent evaluation impossible.",
           "All results become correct as soon as code is shared.",
-          "Documentation may support review even when raw data cannot be released.",
-          "Privacy automatically makes independent evaluation impossible."
+          "Documentation may support review even when raw data cannot be released."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -726,32 +726,32 @@
         "prompt": "In the text, what does “scrutiny” most nearly mean?",
         "options": [
           "salvaguardia",
-          "anonimizado",
-          "examen minucioso"
+          "examen minucioso",
+          "anonimizado"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “scrutiny” se utiliza con el sentido de «examen minucioso»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The passage mentions procedures, anonymised examples and documentation.",
           "The author recommends publishing names and addresses.",
-          "The article rejects peer scrutiny altogether."
+          "The article rejects peer scrutiny altogether.",
+          "The passage mentions procedures, anonymised examples and documentation."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Mixed and advanced conditionals”.",
         "options": [
-          "If the team would shared the data, reviewers now understood.",
+          "If the team had shared the data, reviewers would now understand the method better.",
           "Had the team share the data, reviewers will know yesterday.",
-          "If the team had shared the data, reviewers would now understand the method better."
+          "If the team would shared the data, reviewers now understood."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "Las condicionales mixtas relacionan un pasado hipotético con un resultado presente: If the team had shared..., reviewers would now..."
       }
     ],
@@ -798,11 +798,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Packaging images should not replace verifiable product information.",
           "Every natural-looking product is proven healthier.",
-          "Pictures on packaging have no possible effect on expectations."
+          "Pictures on packaging have no possible effect on expectations.",
+          "Packaging images should not replace verifiable product information."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -810,10 +810,10 @@
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
           "Every producer is intentionally dishonest.",
-          "Consumers may infer claims that the label never states explicitly.",
-          "The ingredient list always establishes where a product was made."
+          "The ingredient list always establishes where a product was made.",
+          "Consumers may infer claims that the label never states explicitly."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -831,22 +831,22 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
+          "The word natural provides a universal legal definition in the passage.",
           "The package offers imagery without confirming geographical origin.",
-          "The image identifies the exact production site.",
-          "The word natural provides a universal legal definition in the passage."
+          "The image identifies the exact production site."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Past modal deductions”.",
         "options": [
-          "The label must influenced every buyer expectations.",
+          "The label might have influenced buyers’ expectations.",
           "The label cannot have influenced anyone, therefore it did.",
-          "The label might have influenced buyers’ expectations."
+          "The label must influenced every buyer expectations."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "Must have indica una inferencia fuerte sobre el pasado; might have expresa posibilidad; cannot have expresa imposibilidad argumentada."
       }
     ],
@@ -893,55 +893,55 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Clear communication norms can support teams across time zones.",
           "The only effective team is one that meets every hour.",
-          "Documentation is irrelevant once a meeting has ended."
+          "Documentation is irrelevant once a meeting has ended.",
+          "Clear communication norms can support teams across time zones."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Silence always means agreement in remote teams.",
           "Written records can make participation easier for absent colleagues.",
+          "Silence always means agreement in remote teams.",
           "Remote work requires eliminating all live discussions."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “urgent” most nearly mean?",
         "options": [
+          "urgente",
           "norma compartida",
-          "documentación",
-          "urgente"
+          "documentación"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “urgent” se utiliza con el sentido de «urgente»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The group recorded decisions and defined what counted as urgent.",
           "The group demanded immediate answers at all hours.",
-          "The team abandoned every shared document."
+          "The team abandoned every shared document.",
+          "The group recorded decisions and defined what counted as urgent."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Discourse markers and cohesion”.",
         "options": [
-          "The meetings were shorter; consequently, the team lived in five cities yesterday.",
+          "The meetings were shorter; nevertheless, decisions were recorded clearly.",
           "The plan was late; in contrast, it was late because of the delay.",
-          "The meetings were shorter; nevertheless, decisions were recorded clearly."
+          "The meetings were shorter; consequently, the team lived in five cities yesterday."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En registros formales, nevertheless, consequently y in contrast marcan relaciones distintas; el conector debe reflejar la lógica real."
       }
     ],
@@ -988,11 +988,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Libraries create public value beyond the number of books lent.",
           "Libraries should stop lending books immediately.",
+          "Libraries create public value beyond the number of books lent.",
           "Borrowing statistics capture every social benefit without exception."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -1000,10 +1000,10 @@
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
           "All visitors prefer the same activities.",
-          "Evaluating a library may require more than one indicator of success.",
-          "A quiet desk always costs money in a public library."
+          "A quiet desk always costs money in a public library.",
+          "Evaluating a library may require more than one indicator of success."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -1011,21 +1011,21 @@
         "prompt": "In the text, what does “lending” most nearly mean?",
         "options": [
           "comprensión amplia",
-          "incompatible",
-          "préstamo"
+          "préstamo",
+          "incompatible"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “lending” se utiliza con el sentido de «préstamo»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The passage names study desks, conversation groups and digital guidance.",
+          "The text argues against any form of evaluation.",
           "The library is described as a shopping centre.",
-          "The text argues against any form of evaluation."
+          "The passage names study desks, conversation groups and digital guidance."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
@@ -1083,11 +1083,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Charts can shape perceptions even when their numbers are accurate.",
           "Every chart with a truncated axis is automatically a lie.",
+          "Charts can shape perceptions even when their numbers are accurate.",
           "Visual scale has no effect on interpretation."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -1095,43 +1095,43 @@
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
           "All differences are significant if coloured brightly.",
-          "Axis choices can alter the apparent magnitude of the same change.",
-          "Every reader automatically checks the axes."
+          "Every reader automatically checks the axes.",
+          "Axis choices can alter the apparent magnitude of the same change."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “axis” most nearly mean?",
         "options": [
-          "recortado",
+          "eje",
           "encuadre visual",
-          "eje"
+          "recortado"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “axis” se utiliza con el sentido de «eje»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The two charts use the same attendance data but different starting points.",
           "The text describes two unrelated datasets.",
-          "The charts report contradictory numerical values."
+          "The charts report contradictory numerical values.",
+          "The two charts use the same attendance data but different starting points."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Qualified comparison”.",
         "options": [
-          "Attendance rose slight, whereas participation stayed broad stable.",
           "Attendance raised slight whereas participants was totally exact.",
-          "Attendance rose slightly, whereas participation remained broadly stable."
+          "Attendance rose slightly, whereas participation remained broadly stable.",
+          "Attendance rose slight, whereas participation stayed broad stable."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "By contrast, roughly, marginally y substantially ayudan a comparar sin atribuir causalidad ni exagerar diferencias."
       }
     ],
@@ -1179,8 +1179,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "Fair disagreement represents opposing arguments accurately before criticising them.",
-          "The loudest speaker is necessarily correct.",
-          "A fair discussion must eliminate all criticism."
+          "A fair discussion must eliminate all criticism.",
+          "The loudest speaker is necessarily correct."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -1211,22 +1211,22 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The passage separates shared goals, assumptions and values.",
           "The article recommends misquoting opponents.",
-          "The authors agree that speed is the only relevant goal."
+          "The authors agree that speed is the only relevant goal.",
+          "The passage separates shared goals, assumptions and values."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Concessive subordination and nuance”.",
         "options": [
+          "Even granting that the proposal is efficient, it may still be unfair.",
           "Even grant the proposal efficient, it is still maybe unfair.",
-          "Granted the efficiency, therefore it is definitely always fair.",
-          "Even granting that the proposal is efficient, it may still be unfair."
+          "Granted the efficiency, therefore it is definitely always fair."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "Even granting that... concede parte de un argumento antes de cuestionar su alcance; no equivale a aceptar la conclusión final."
       }
     ],
@@ -1274,8 +1274,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "Algorithm-assisted decisions still require accountable explanations.",
-          "Every computer-generated outcome is necessarily fair.",
-          "Software involvement makes human oversight meaningless."
+          "Software involvement makes human oversight meaningless.",
+          "Every computer-generated outcome is necessarily fair."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -1284,11 +1284,11 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
+          "All applicants know the algorithm’s priorities automatically.",
           "A score always reveals every reason behind a decision.",
-          "An unexplained score can prevent people from challenging errors.",
-          "All applicants know the algorithm’s priorities automatically."
+          "An unexplained score can prevent people from challenging errors."
         ],
-        "answer": 1,
+        "answer": 2,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -1296,10 +1296,10 @@
         "prompt": "In the text, what does “oversight” most nearly mean?",
         "options": [
           "responsable",
-          "impugnar un resultado",
-          "supervisión"
+          "supervisión",
+          "impugnar un resultado"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “oversight” se utiliza con el sentido de «supervisión»."
       },
       {
@@ -1317,8 +1317,8 @@
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Epistemic stance and evidentials”.",
         "options": [
-          "According the audit, the system has impossible consistency.",
           "Apparently according by the proof, it must always be neutral.",
+          "According the audit, the system has impossible consistency.",
           "According to the audit, the system produced inconsistent recommendations."
         ],
         "answer": 2,
@@ -1368,30 +1368,30 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Historical archives are partial sources that require careful contextual interpretation.",
+          "Every historical silence can be filled with imagined quotations.",
           "Absence of documentation proves that no disagreement occurred.",
-          "Every historical silence can be filled with imagined quotations."
+          "Historical archives are partial sources that require careful contextual interpretation."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Every object provides a complete historical explanation.",
           "Power and record-keeping practices may shape what survives.",
+          "Every object provides a complete historical explanation.",
           "Records are entirely useless if some voices are missing."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “archive” most nearly mean?",
         "options": [
-          "disconformidad",
           "testimonio",
+          "disconformidad",
           "archivo histórico"
         ],
         "answer": 2,
@@ -1401,19 +1401,19 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
+          "The writer rejects comparing different sources.",
           "The text discusses administrators’ records and absent testimony.",
-          "The passage says all documents are fictional.",
-          "The writer rejects comparing different sources."
+          "The passage says all documents are fictional."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Metaphor with precise qualification”.",
         "options": [
-          "The archive is a literal window proving every past event.",
           "The archive windowed all facts, therefore silence proves absence.",
+          "The archive is a literal window proving every past event.",
           "The archive offers a window onto the past, though not an unobstructed one."
         ],
         "answer": 2,
@@ -1463,20 +1463,20 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Word choice must consider connotation and audience as well as denotation.",
           "A dictionary definition guarantees identical reactions everywhere.",
+          "Word choice must consider connotation and audience as well as denotation.",
           "Communicators should ignore meanings beyond literal definitions."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "All speakers share the same cultural experiences.",
+          "Changing a label necessarily changes the underlying facts.",
           "An expression may be heard differently from what its speaker intended.",
-          "Changing a label necessarily changes the underlying facts."
+          "All speakers share the same cultural experiences."
         ],
         "answer": 1,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
@@ -1496,11 +1496,11 @@
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
+          "The text claims no word can be accurate.",
           "The text contrasts a speaker’s intention with a listener’s interpretation.",
-          "The author argues against dictionaries.",
-          "The text claims no word can be accurate."
+          "The author argues against dictionaries."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
@@ -1559,8 +1559,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "Scientific communication should distinguish strong findings from limits of application.",
-          "Uncertainty means that science can never inform decisions.",
-          "A finding becomes invalid whenever any estimate changes."
+          "A finding becomes invalid whenever any estimate changes.",
+          "Uncertainty means that science can never inform decisions."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -1569,33 +1569,33 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "All disagreements concern whether researchers are honest.",
           "Two experts can agree on results while differing about generalisation.",
+          "All disagreements concern whether researchers are honest.",
           "Researchers must avoid revising any earlier estimates."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “estimate” most nearly mean?",
         "options": [
-          "límite",
+          "estimación",
           "cálculo exacto",
-          "estimación"
+          "límite"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “estimate” se utiliza con el sentido de «estimación»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The speakers accepted the result but disputed its wider application.",
+          "They agreed that every context was identical.",
           "They denied that any study had taken place.",
-          "They agreed that every context was identical."
+          "The speakers accepted the result but disputed its wider application."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
@@ -1664,9 +1664,9 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Wetlands are guaranteed to absorb every flood.",
+          "The council can avoid all trade-offs by using one metric.",
           "A protective structure could redirect harm to less visible areas.",
-          "The council can avoid all trade-offs by using one metric."
+          "Wetlands are guaranteed to absorb every flood."
         ],
         "answer": 1,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
@@ -1675,11 +1675,11 @@
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “risk” most nearly mean?",
         "options": [
+          "riesgo",
           "agravar",
-          "reforzar",
-          "riesgo"
+          "reforzar"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “risk” se utiliza con el sentido de «riesgo»."
       },
       {
@@ -1697,11 +1697,11 @@
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Complex causality and qualification”.",
         "options": [
-          "While the barrier reduce flooding, it unrestricted all access.",
+          "While the barrier reduces flooding, it may restrict access to the beach.",
           "Because the barrier helps, it cannot have any other effect.",
-          "While the barrier reduces flooding, it may restrict access to the beach."
+          "While the barrier reduce flooding, it unrestricted all access."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "A policy may alleviate one risk while exacerbating another. Usa estructuras para no presentar soluciones como si carecieran de costes."
       }
     ],
@@ -1748,11 +1748,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Effective translation may require choosing which aspects of meaning to preserve.",
           "Literal translation always preserves humour across languages.",
-          "Grammar errors are the only cause of lost meaning."
+          "Grammar errors are the only cause of lost meaning.",
+          "Effective translation may require choosing which aspects of meaning to preserve."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -1770,33 +1770,33 @@
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “wordplay” most nearly mean?",
         "options": [
+          "juego de palabras",
           "traducción literal",
-          "reflejar",
-          "juego de palabras"
+          "reflejar"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “wordplay” se utiliza con el sentido de «juego de palabras»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The literal version loses a second meaning despite being grammatical.",
           "The headline contains no ambiguity.",
-          "The translator deliberately removes all information."
+          "The translator deliberately removes all information.",
+          "The literal version loses a second meaning despite being grammatical."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Polysemy, implication and paraphrase”.",
         "options": [
-          "The translation preservating exact every word joke meaning.",
+          "The translation preserves the joke’s purpose rather than its exact wording.",
           "The best version always copies each word in the same order.",
-          "The translation preserves the joke’s purpose rather than its exact wording."
+          "The translation preservating exact every word joke meaning."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "Un término polisémico depende del contexto. En traducción experta, conservar la intención puede requerir reformular en lugar de emparejar palabras."
       }
     ],
@@ -1844,8 +1844,8 @@
         "prompt": "Which statement best represents the central argument?",
         "options": [
           "Headlines can influence interpretation through implied judgements.",
-          "Headlines always invent events that never happened.",
-          "Word choice has no role in how readers understand a report."
+          "Word choice has no role in how readers understand a report.",
+          "Headlines always invent events that never happened."
         ],
         "answer": 0,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
@@ -1854,44 +1854,44 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Every challenge to a proposal is an obstruction.",
           "Two factually compatible headlines may carry different value judgements.",
-          "Questions in headlines are always neutral."
+          "Questions in headlines are always neutral.",
+          "Every challenge to a proposal is an obstruction."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “framing” most nearly mean?",
         "options": [
-          "omisión",
           "escrutinio",
-          "encuadre"
+          "encuadre",
+          "omisión"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “framing” se utiliza con el sentido de «encuadre»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The same meeting is described as a challenge and an obstruction.",
           "The article claims the meeting never happened.",
+          "The same meeting is described as a challenge and an obstruction.",
           "Both headlines use identical verbs."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Presupposition and framing”.",
         "options": [
-          "The question presuppose a cause that no yet prove.",
           "Because the headline asks why, its assumption must be true.",
-          "The question presupposes a cause that has not yet been established."
+          "The question presupposes a cause that has not yet been established.",
+          "The question presuppose a cause that no yet prove."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Preguntas y titulares pueden presuponer hechos no demostrados; reformular sin aceptar esas premisas es una destreza crítica."
       }
     ],
@@ -1949,44 +1949,44 @@
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Every disagreement proves deliberate deception.",
           "Differing memories may reflect distinct experiences or periods.",
-          "Official records always include all residents’ experiences."
+          "Official records always include all residents’ experiences.",
+          "Every disagreement proves deliberate deception."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “oral history” most nearly mean?",
         "options": [
-          "cita textual",
+          "historia oral",
           "verificado",
-          "historia oral"
+          "cita textual"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “oral history” se utiliza con el sentido de «historia oral»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The residents lived in the place at different times.",
           "The article says all interviews were fabricated.",
+          "The residents lived in the place at different times.",
           "Both residents describe an identical market scene."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Reporting verbs and degrees of commitment”.",
         "options": [
-          "The witness remembered that had street change the time.",
           "The witness proved every detail simply by recalling it.",
-          "The witness recalled that the street had changed over time."
+          "The witness recalled that the street had changed over time.",
+          "The witness remembered that had street change the time."
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "Claimed, recalled, acknowledged y confirmed no son sinónimos. Escoge el verbo según evidencia, actitud y contexto."
       }
     ],
@@ -2055,30 +2055,30 @@
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “mediation” most nearly mean?",
         "options": [
-          "prioridad de reserva",
+          "mediación",
           "garantizar",
-          "mediación"
+          "prioridad de reserva"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “mediation” se utiliza con el sentido de «mediación»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "The text contrasts equal hours, funding and opportunities.",
           "The agreement contains no disputed definitions.",
+          "The text contrasts equal hours, funding and opportunities.",
           "Every town refused cooperation."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Diplomatic modality and scope”.",
         "options": [
-          "The parties may to reviewing the arrangement after six months.",
           "The parties could must guaranteed every possible future outcome.",
+          "The parties may to reviewing the arrangement after six months.",
           "The parties may review the arrangement after six months."
         ],
         "answer": 2,
@@ -2128,11 +2128,11 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "The evidence for a programme should be evaluated against alternative explanations.",
+          "Research cannot inform decisions until every uncertainty disappears.",
           "Volunteer participation automatically proves causation.",
-          "Research cannot inform decisions until every uncertainty disappears."
+          "The evidence for a programme should be evaluated against alternative explanations."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
@@ -2150,22 +2150,22 @@
         "skill": "Léxico contextual",
         "prompt": "In the text, what does “plausible” most nearly mean?",
         "options": [
+          "plausible",
           "demostrado",
-          "factor de confusión",
-          "plausible"
+          "factor de confusión"
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "En este contexto, “plausible” se utiliza con el sentido de «plausible»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
-          "Students chose whether to participate in the programme.",
           "The groups were assigned randomly by a lottery.",
-          "The report claimed that nothing had changed."
+          "The report claimed that nothing had changed.",
+          "Students chose whether to participate in the programme."
         ],
-        "answer": 0,
+        "answer": 2,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
@@ -2223,22 +2223,22 @@
         "skill": "Interpretación global",
         "prompt": "Which statement best represents the central argument?",
         "options": [
-          "Revising a public claim can reflect responsible reasoning when changes are explained.",
           "Changing an opinion always proves dishonesty.",
+          "Revising a public claim can reflect responsible reasoning when changes are explained.",
           "Once stated publicly, an opinion should never be reconsidered."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La postura central distingue entre una conclusión respaldada y afirmaciones demasiado absolutas o contrarias al texto."
       },
       {
         "skill": "Inferencia",
         "prompt": "Which inference is most strongly supported by the passage?",
         "options": [
-          "Any admission of uncertainty excuses poor preparation.",
           "Specific corrections can strengthen accountability rather than erase it.",
-          "Public debate is improved by ignoring new evidence."
+          "Public debate is improved by ignoring new evidence.",
+          "Any admission of uncertainty excuses poor preparation."
         ],
-        "answer": 1,
+        "answer": 0,
         "why": "Esta interpretación se desprende del razonamiento y sus matices, aunque no siempre aparece expresada literalmente."
       },
       {
@@ -2246,32 +2246,32 @@
         "prompt": "In the text, what does “intellectual humility” most nearly mean?",
         "options": [
           "revisión",
-          "provisionalmente",
-          "humildad intelectual"
+          "humildad intelectual",
+          "provisionalmente"
         ],
-        "answer": 2,
+        "answer": 1,
         "why": "En este contexto, “intellectual humility” se utiliza con el sentido de «humildad intelectual»."
       },
       {
         "skill": "Evidencia y estructura",
         "prompt": "Which detail most directly supports the writer’s reasoning?",
         "options": [
+          "Readers supplied no additional information.",
           "The columnist revised the argument after readers offered overlooked evidence.",
-          "The columnist deleted every earlier publication.",
-          "Readers supplied no additional information."
+          "The columnist deleted every earlier publication."
         ],
-        "answer": 0,
+        "answer": 1,
         "why": "La respuesta correcta señala un dato o contraste del artículo, no una generalización ajena a él."
       },
       {
         "skill": "Uso avanzado del inglés",
         "prompt": "Choose the sentence that best illustrates “Qualified synthesis and reframing”.",
         "options": [
-          "Granted that proposal have merits, its effects no require attention.",
+          "Granted that the proposal has merits, its unequal effects still require attention.",
           "The proposal has merits, therefore no criticisms can be valid.",
-          "Granted that the proposal has merits, its unequal effects still require attention."
+          "Granted that proposal have merits, its effects no require attention."
         ],
-        "answer": 2,
+        "answer": 0,
         "why": "Granted that... nevertheless... permite integrar objeciones sin borrarlas; una síntesis debe responder a la evidencia y no crear una falsa equivalencia."
       }
     ],

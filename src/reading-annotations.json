@@ -1,0 +1,49 @@
+{
+ "a1-01": {
+  "0": {"es":"Todos los martes, los alumnos de Green Hill School trabajan en un pequeño jardín detrás de la biblioteca.","use":"Every Tuesday indica una costumbre; work está en presente simple."},
+  "1": {"es":"Hay tomates, frijoles y flores.","use":"There are introduce la existencia de varios elementos, no indica un lugar."},
+  "2": {"es":"Los niños utilizan pequeñas regaderas.","use":"Watering can es una regadera; no se traduce can por separado."},
+  "3": {"es":"Su profesor, el señor Lee, les muestra cómo cuidar cada planta.","use":"Take care of es una expresión que significa cuidar."},
+  "4": {"es":"El jardín tiene un rincón tranquilo con un banco a la sombra."},
+  "5": {"es":"Los alumnos se sientan allí para leer después de almorzar."},
+  "6": {"es":"En junio, la clase comparte sus verduras con la cocina de la escuela."},
+  "7": {"es":"El jardín no es muy grande, pero todos lo disfrutan."}
+ },
+ "a1-02": {
+  "0": {"es":"Una abeja es un insecto pequeño."},
+  "1": {"es":"Tiene seis patas y dos pares de alas."},
+  "2": {"es":"Las abejas visitan las flores porque necesitan alimento."},
+  "3": {"es":"Recolectan néctar, un líquido dulce, y transportan polen en sus cuerpos."}
+ },
+ "a2-01": {
+  "0": {"es":"Cuando llueve mucho en una ciudad, el agua suele correr por las calles y aceras."},
+  "1": {"es":"Un jardín de lluvia es una zona con plantas que recoge parte de esa agua."},
+  "2": {"es":"Su suelo ayuda a que el agua se filtre lentamente en la tierra, en lugar de ir directamente a los desagües de la calle."}
+ },
+ "a2-02": {
+  "0": {"es":"Cada dos sábados, unos voluntarios abren un café de reparaciones en el antiguo ayuntamiento."},
+  "1": {"es":"Las personas llevan lámparas, bolsos y pequeños objetos domésticos averiados."},
+  "2": {"es":"Un voluntario examina cada objeto y explica si se puede reparar de manera segura."},
+  "3": {"es":"Los visitantes observan, hacen preguntas y a veces ayudan con tareas sencillas."}
+ },
+ "b1-01": {
+  "0": {"es":"Muchas ciudades se han convertido en lugares animados donde las cafeterías, el tráfico y las obras continúan casi todo el día.","use":"Have become es present perfect: describe un cambio ocurrido antes con un resultado actual."},
+  "1": {"es":"Esta actividad puede ser estimulante, pero el ruido constante puede dificultar la concentración o el descanso."},
+  "2": {"es":"Por eso, los urbanistas están prestando más atención a los espacios públicos tranquilos: pequeños parques, jardines y zonas peatonales alejadas de las vías concurridas."}
+ },
+ "b1-02": {
+  "0": {"es":"Los registros meteorológicos de las últimas décadas nos dicen mucho sobre las condiciones recientes."},
+  "1": {"es":"Pero ¿cómo pueden los investigadores conocer las temperaturas y las lluvias de cientos o incluso miles de años atrás?"},
+  "2": {"es":"A menudo estudian pruebas naturales que cambiaron a medida que cambiaba el entorno."}
+ },
+ "b2-01": {
+  "0": {"es":"Los compradores en línea se han acostumbrado a ver opciones de entrega medidas en horas y no en días.","use":"Have grown accustomed to significa se han acostumbrado a; to aquí es una preposición, no una marca de infinitivo."},
+  "1": {"es":"Una entrega más rápida puede ser conveniente, especialmente para compras urgentes o esenciales."},
+  "2": {"es":"Sin embargo, la promesa de rapidez puede influir en cómo se organizan los almacenes, se planifican las rutas de transporte y cuánta flexibilidad tienen los trabajadores y los clientes."}
+ },
+ "b2-02": {
+  "0": {"es":"Durante los periodos calurosos, los barrios densamente construidos pueden seguir siendo incómodos incluso después de la puesta del sol."},
+  "1": {"es":"Los edificios y las superficies pavimentadas absorben energía durante el día y la liberan más tarde."},
+  "2": {"es":"El aire acondicionado puede proteger a las personas del calor interior peligroso, pero la electricidad que consume y el calor que liberan algunos sistemas plantean nuevas preguntas de planificación."}
+ }
+}

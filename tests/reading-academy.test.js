@@ -68,6 +68,6 @@ test('all four engines link Reading Academy and Firestore rules allow the new pr
  assert.match(rules,/readings\.size\(\) <= 48/);
  assert.match(rules,/readingNotes\.size\(\) <= 48/);
  const html=fs.readFileSync('public/index.html','utf8');
- assert.match(html,/v12mod\/main\.js\?v=1[45]/);
+ assert.match(html,/v12mod\/main\.js\?v=1[456]/);
  assert.ok(fs.existsSync('public/v12mod/reading-library.json.js'));
 });

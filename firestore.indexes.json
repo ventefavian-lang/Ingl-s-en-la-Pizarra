@@ -1,10 +1,7 @@
 {
-  "indexes": [],
-  "fieldOverrides": [
-    {
-      "collectionGroup": "courses",
-      "fieldPath": "progress",
-      "indexes": []
-    }
-  ]
+ "indexes":[{
+   "collectionGroup":"leaderboard","queryScope":"COLLECTION",
+   "fields":[{"fieldPath":"country","order":"ASCENDING"},{"fieldPath":"score","order":"DESCENDING"}]
+ }],
+ "fieldOverrides":[{"collectionGroup":"courses","fieldPath":"progress","indexes":[]}]
 }

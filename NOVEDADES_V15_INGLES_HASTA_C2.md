@@ -27,7 +27,7 @@ Por compatibilidad con el almacenamiento original de progreso, los registros de 
 
 ## Pruebas
 
-El 18 de noviembre de 2026 se ejecutaron 81 comprobaciones: 77 pasaron. Cuatro archivos de pruebas no pudieron ejecutarse porque requieren el paquete `esbuild` no disponible en el entorno. Las pruebas específicas nuevas de C1–C2 pasaron las diez comprobaciones. No se ha verificado una sesión real de Firebase ni una revisión visual completa en navegador.
+El 18 de noviembre de 2026 se ejecutaron 81 comprobaciones: 77 pasaron. Cuatro archivos de pruebas no pudieron ejecutarse porque requieren el paquete `esbuild` no disponible en el entorno. Las seis pruebas específicas nuevas de C1–C2 pasaron. No se ha verificado una sesión real de Firebase ni una revisión visual completa en navegador.
 
 ## Instalación
 

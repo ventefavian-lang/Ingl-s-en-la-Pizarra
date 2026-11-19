@@ -26,6 +26,7 @@ import './v12.css';
 import './reading-academy.css';
 import './v14.css';
 import './mastery.css';
+import './competitive-learning.css';
 import {AccountStore} from './account-store.js';
 import {bootCourse} from './course-engine.js';
 window.COURSE=course;
