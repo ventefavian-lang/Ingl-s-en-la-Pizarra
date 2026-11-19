@@ -1,8 +1,0 @@
-node_modules/
-.firebase/
-*-debug.log
-.env
-.env.*
-!.env.example
-
-.audio-cache/
